@@ -42,6 +42,9 @@ export const metadata = {
     card: "summary",
     title: `${SITE.name} | 都道府県統計図鑑`,
     description: SITE.description
+  },
+  verification: {
+    google: "KYZp6leIoJkmXQipodIUtUhXTopgEfgqFiQ7eJZuRZA"
   }
 };
 
