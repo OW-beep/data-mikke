@@ -48,7 +48,7 @@ export const metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="ja" className={`${display.variable} ${body.variable} ${mono.variable}`}>
-      <head>
+      <body>
         {SITE.adsenseClientId && (
           <Script
             async
@@ -57,8 +57,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             strategy="afterInteractive"
           />
         )}
-      </head>
-      <body>
         <header className="dm-header">
           <div className="dm-header-inner">
             <Link href="/" className="dm-brand">

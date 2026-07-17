@@ -1,6 +1,8 @@
 import { Article } from "./types";
 import { populationRankingHowToRead } from "./population-ranking-how-to-read";
 import { howToComparePrefectureData } from "./how-to-compare-prefecture-data";
+import { incomeRankingCaution } from "./income-ranking-caution";
+import { hospitalCountReadingGuide } from "./hospital-count-reading-guide";
 
 /**
  * ★記事追加手順★
@@ -10,7 +12,9 @@ import { howToComparePrefectureData } from "./how-to-compare-prefecture-data";
  */
 export const ARTICLE_LIST: Article[] = [
   populationRankingHowToRead,
-  howToComparePrefectureData
+  howToComparePrefectureData,
+  incomeRankingCaution,
+  hospitalCountReadingGuide
 ].sort((a, b) => (a.publishedAt < b.publishedAt ? 1 : -1));
 
 export function getArticle(slug: string): Article | undefined {

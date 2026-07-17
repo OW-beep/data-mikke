@@ -14,5 +14,5 @@ export const SITE = {
   operatorName: process.env.NEXT_PUBLIC_OPERATOR_NAME ?? "サイト運営者",
   // Google AdSenseの発行者ID（例: "ca-pub-1234567890123456"）。
   // 審査申請前にVercelの環境変数に設定しておくと、全ページに確認用スクリプトが自動挿入される
-  adsenseClientId: process.env.NEXT_PUBLIC_ADSENSE_CLIENT ?? ""
+  adsenseClientId: process.env.NEXT_PUBLIC_ADSENSE_CLIENT ?? "ca-pub-4630812027939211"
 };
