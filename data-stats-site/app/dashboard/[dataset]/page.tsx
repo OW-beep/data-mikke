@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { getDataset, DATASET_LIST } from "@/datasets";
 import { loadDataset, latestByArea, rankDescending, seriesForArea } from "@/lib/loadData";
 import { TrendChart } from "@/components/TrendChart";
+import { RankingBarChart } from "@/components/RankingBarChart";
 import { findPrefectureByCode } from "@/lib/prefectures";
 
 export function generateStaticParams() {
@@ -56,8 +57,20 @@ export default async function DashboardPage({ params }: { params: { dataset: str
         </div>
       </div>
 
-      <h2>推移（{topArea?.areaName ?? "-"}）</h2>
-      <TrendChart data={trend} unit={dataset.unit} />
+      {dataset.chart === "line" ? (
+        <>
+          <h2>推移（{topArea?.areaName ?? "-"}）</h2>
+          <TrendChart data={trend} unit={dataset.unit} />
+        </>
+      ) : (
+        <>
+          <h2>上位10位（{dataset.frequency === "年1回" ? `${topArea?.year ?? "-"}年` : "最新"}）</h2>
+          <RankingBarChart
+            data={ranked.slice(0, 10).map((p) => ({ areaName: p.areaName, value: p.value }))}
+            unit={dataset.unit}
+          />
+        </>
+      )}
 
       <h2 style={{ marginTop: 40 }}>上位5位</h2>
       <table className="dm-table">

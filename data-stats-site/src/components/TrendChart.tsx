@@ -6,6 +6,14 @@ export function TrendChart({ data, unit }: { data: { year: number; value: number
   if (data.length === 0) {
     return <p style={{ color: "var(--dm-muted)" }}>データがありません。</p>;
   }
+  if (data.length === 1) {
+    return (
+      <p style={{ color: "var(--dm-muted)" }}>
+        現在 {data[0].year}年の1時点のデータのみのため、推移グラフは表示できません（
+        {data[0].value.toLocaleString()} {unit}）。
+      </p>
+    );
+  }
 
   return (
     <ResponsiveContainer width="100%" height={280}>
