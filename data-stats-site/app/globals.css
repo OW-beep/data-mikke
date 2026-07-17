@@ -1,0 +1,291 @@
+:root {
+  --dm-bg: #f4f6ee;
+  --dm-bg-card: #fffefa;
+  --dm-ink: #0b3b33;
+  --dm-ink-soft: #3f5750;
+  --dm-muted: #6f7669;
+  --dm-line: #d8dcc8;
+  --dm-teal: #0f8c6c;
+  --dm-teal-deep: #0b5c46;
+  --dm-teal-tint: #e3f0e6;
+  --dm-coral: #e4572e;
+  --dm-coral-deep: #a83c1c;
+  --dm-coral-tint: #fbe6dc;
+  --dm-shadow: 0 1px 2px rgba(11, 59, 51, 0.06);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background: var(--dm-bg);
+  color: var(--dm-ink);
+}
+
+body {
+  font-family: var(--font-body), "Hiragino Kaku Gothic ProN", sans-serif;
+  line-height: 1.75;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: var(--dm-teal-deep);
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-display), serif;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  margin: 0 0 0.5em;
+}
+h1 {
+  font-size: 34px;
+  line-height: 1.4;
+}
+h2 {
+  font-size: 22px;
+  line-height: 1.5;
+}
+h3 {
+  font-size: 17px;
+}
+
+.dm-mono {
+  font-family: var(--font-mono), monospace;
+  font-variant-numeric: tabular-nums;
+}
+
+/* ---------- header ---------- */
+.dm-header {
+  border-bottom: 1px solid var(--dm-line);
+  background: var(--dm-bg-card);
+}
+.dm-header-inner {
+  max-width: 1040px;
+  margin: 0 auto;
+  padding: 16px 24px;
+  display: flex;
+  align-items: center;
+  gap: 28px;
+  flex-wrap: wrap;
+}
+.dm-brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: var(--font-display), serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--dm-ink);
+}
+.dm-brand:hover {
+  text-decoration: none;
+}
+.dm-nav {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-left: auto;
+}
+.dm-nav a {
+  font-size: 14px;
+  color: var(--dm-ink-soft);
+  border-bottom: 1px solid transparent;
+  padding-bottom: 2px;
+}
+.dm-nav a:hover {
+  color: var(--dm-teal-deep);
+  border-color: var(--dm-teal);
+  text-decoration: none;
+}
+
+/* ---------- layout ---------- */
+.dm-main {
+  max-width: 1040px;
+  margin: 0 auto;
+  padding: 40px 24px 80px;
+}
+.dm-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  color: var(--dm-coral-deep);
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.dm-eyebrow::before {
+  content: "";
+  width: 14px;
+  height: 1px;
+  background: var(--dm-coral);
+  display: inline-block;
+}
+.dm-lede {
+  color: var(--dm-ink-soft);
+  font-size: 16px;
+  max-width: 640px;
+}
+
+/* ---------- specimen card ---------- */
+.dm-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 16px;
+  margin-top: 28px;
+}
+.dm-card {
+  position: relative;
+  background: var(--dm-bg-card);
+  border: 1px solid var(--dm-line);
+  border-top: 2px dotted var(--dm-teal);
+  border-radius: 4px;
+  padding: 18px 18px 16px;
+  box-shadow: var(--dm-shadow);
+}
+.dm-card-tag {
+  position: absolute;
+  top: -1px;
+  right: 14px;
+  background: var(--dm-coral);
+  color: #fffefa;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 3px 8px 4px;
+  border-radius: 0 0 4px 4px;
+  letter-spacing: 0.02em;
+}
+.dm-card-eyebrow {
+  font-size: 11px;
+  color: var(--dm-muted);
+  letter-spacing: 0.04em;
+}
+.dm-card h3 {
+  margin: 4px 0 10px;
+}
+.dm-card-meta {
+  font-size: 12px;
+  color: var(--dm-muted);
+  margin-bottom: 14px;
+}
+.dm-card-links {
+  display: flex;
+  gap: 14px;
+  font-size: 13px;
+}
+
+/* ---------- stat blocks ---------- */
+.dm-stat-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 12px;
+  margin: 20px 0 28px;
+}
+.dm-stat {
+  background: var(--dm-teal-tint);
+  border: 1px solid var(--dm-line);
+  border-radius: 4px;
+  padding: 14px 16px;
+}
+.dm-stat-label {
+  font-size: 12px;
+  color: var(--dm-teal-deep);
+  margin-bottom: 4px;
+}
+.dm-stat-value {
+  font-size: 26px;
+  font-weight: 600;
+  color: var(--dm-ink);
+}
+.dm-stat-unit {
+  font-size: 13px;
+  color: var(--dm-muted);
+  margin-left: 4px;
+}
+
+/* ---------- table (specimen list) ---------- */
+.dm-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+.dm-table th {
+  text-align: left;
+  font-family: var(--font-display), serif;
+  font-weight: 600;
+  font-size: 13px;
+  color: var(--dm-ink-soft);
+  border-bottom: 1px solid var(--dm-ink);
+  padding: 8px 6px;
+}
+.dm-table td {
+  padding: 10px 6px;
+  border-bottom: 1px dotted var(--dm-line);
+}
+.dm-table tr:last-child td {
+  border-bottom: none;
+}
+.dm-table td.dm-num {
+  text-align: right;
+}
+
+.dm-rank {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  font-size: 12px;
+  font-weight: 600;
+  background: var(--dm-teal-tint);
+  color: var(--dm-teal-deep);
+}
+.dm-rank.top {
+  background: var(--dm-coral);
+  color: #fffefa;
+}
+
+/* ---------- form controls ---------- */
+.dm-select {
+  font-family: var(--font-body), sans-serif;
+  font-size: 14px;
+  padding: 7px 10px;
+  border: 1px solid var(--dm-line);
+  border-radius: 4px;
+  background: var(--dm-bg-card);
+  color: var(--dm-ink);
+}
+.dm-field-label {
+  font-size: 12px;
+  color: var(--dm-muted);
+  display: block;
+  margin-bottom: 4px;
+}
+
+/* ---------- footer link ---------- */
+.dm-back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  color: var(--dm-teal-deep);
+  margin-top: 24px;
+}
+
+.dm-divider {
+  border: none;
+  border-top: 1px dotted var(--dm-line);
+  margin: 32px 0;
+}
