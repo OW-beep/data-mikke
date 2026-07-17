@@ -63,9 +63,26 @@ app/
   api/[dataset]/
 ```
 
+## アドセンス対応で追加したもの
+
+- `/privacy`（プライバシーポリシー） `/about`（運営者情報） `/contact`（お問い合わせ）+ 全ページ共通フッター
+- `app/robots.ts` `app/sitemap.ts`（クロール性）
+- 各ページの `generateMetadata`（dashboard/ranking/prefectureごとに個別のtitle/description）
+- `src/articles/`（解説記事。オリジナルの文章コンテンツ。`/articles` 一覧 `/articles/{slug}` 詳細）
+- `app/ads.txt/route.ts`（`NEXT_PUBLIC_ADSENSE_CLIENT` を設定すると自動生成）
+- `app/layout.tsx` にAdSense確認用スクリプトを条件付きで挿入（同上の環境変数が必要）
+
+### 申請前チェックリスト
+
+1. `.env.example` を参考に `NEXT_PUBLIC_CONTACT_EMAIL` / `NEXT_PUBLIC_OPERATOR_NAME` を実際の値に設定する
+2. `NEXT_PUBLIC_SITE_URL` を本番のVercelドメインに合わせる
+3. AdSenseに登録して `NEXT_PUBLIC_ADSENSE_CLIENT`（`ca-pub-...`）を取得したらVercelの環境変数に設定 → 再デプロイ
+4. `/ads.txt` が正しく表示されるか確認
+5. 記事はできれば5本前後まで増やしてから申請するとよい（`src/articles/` に追加するだけで一覧・sitemapに反映される）
+
 ## 今後の拡張（フェーズ2以降）
 
 - 地図表示（都道府県別コロプレス図）
-- 解説記事テンプレート（Markdown + frontmatterでdataset/areaを指定）
-- 内部リンク自動生成（記事 ⇔ dashboard ⇔ prefecture）
+- 内部リンク自動生成の強化（記事内で関連都道府県ページにもリンクする等）
 - CSVダウンロード機能
+- 記事をMarkdownファイル化（現在はTSオブジェクトで管理。本数が増えたら移行）

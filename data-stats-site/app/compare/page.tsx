@@ -2,6 +2,11 @@ import { DATASET_LIST } from "@/datasets";
 import { PREFECTURES } from "@/lib/prefectures";
 import { CompareClient } from "@/components/CompareClient";
 
+export const metadata = {
+  title: "都道府県を比べる",
+  description: "指標と2つの都道府県を選んで、人口・医療などの統計データを比較できます。"
+};
+
 export default function ComparePage() {
   const comparableDatasets = DATASET_LIST.filter((d) => d.compare);
 

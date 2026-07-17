@@ -9,6 +9,15 @@ export function generateStaticParams() {
   return DATASET_LIST.map((d) => ({ dataset: d.id }));
 }
 
+export function generateMetadata({ params }: { params: { dataset: string } }) {
+  const dataset = getDataset(params.dataset);
+  if (!dataset) return {};
+  return {
+    title: `${dataset.title}の統計データ・都道府県別ダッシュボード`,
+    description: `${dataset.description ?? dataset.title} 出典: ${dataset.source}（${dataset.frequency}）。都道府県別の推移・上位ランキングを掲載。`
+  };
+}
+
 export default async function DashboardPage({ params }: { params: { dataset: string } }) {
   const dataset = getDataset(params.dataset);
   if (!dataset) notFound();

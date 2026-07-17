@@ -8,6 +8,15 @@ export function generateStaticParams() {
   return PREFECTURES.map((p) => ({ pref: p.slug }));
 }
 
+export function generateMetadata({ params }: { params: { pref: string } }) {
+  const prefecture = findPrefectureBySlug(params.pref);
+  if (!prefecture) return {};
+  return {
+    title: `${prefecture.name}の統計データまとめ`,
+    description: `${prefecture.name}の人口・医療などの統計データを、出典・参照年つきで一覧できます。`
+  };
+}
+
 export default async function PrefecturePage({ params }: { params: { pref: string } }) {
   const prefecture = findPrefectureBySlug(params.pref);
   if (!prefecture) notFound();

@@ -8,6 +8,15 @@ export function generateStaticParams() {
   return DATASET_LIST.filter((d) => d.ranking).map((d) => ({ dataset: d.id }));
 }
 
+export function generateMetadata({ params }: { params: { dataset: string } }) {
+  const dataset = getDataset(params.dataset);
+  if (!dataset || !dataset.ranking) return {};
+  return {
+    title: `${dataset.title}の都道府県別ランキング（全47都道府県）`,
+    description: `${dataset.title}を都道府県別に多い順に並べたランキング。出典: ${dataset.source}。`
+  };
+}
+
 export default async function RankingPage({ params }: { params: { dataset: string } }) {
   const dataset = getDataset(params.dataset);
   if (!dataset || !dataset.ranking) notFound();
