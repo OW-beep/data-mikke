@@ -4,6 +4,7 @@ import { hospital } from "./hospital";
 import { income } from "./income";
 import { birthrate } from "./birthrate";
 import { area } from "./area";
+import { divorce } from "./divorce";
 
 /**
  * ★データ追加手順★
@@ -17,7 +18,8 @@ export const DATASETS: Record<string, DatasetConfig> = {
   hospital,
   income,
   birthrate,
-  area
+  area,
+  divorce
 };
 
 export const DATASET_LIST: DatasetConfig[] = Object.values(DATASETS);
