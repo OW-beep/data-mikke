@@ -3,6 +3,7 @@ import { estatPopulationProvider } from "./estat/population";
 import { estatBirthrateProvider } from "./estat/birthrate";
 import { estatDivorceProvider } from "./estat/divorce";
 import { estatChildrenRatioProvider } from "./estat/childrenRatio";
+import { estatAgingRatioProvider } from "./estat/agingRatio";
 import { manualHospitalProvider } from "./manual/hospital";
 import { manualIncomeProvider } from "./manual/income";
 import { manualAreaProvider } from "./manual/area";
@@ -15,6 +16,7 @@ export const PROVIDERS: Record<string, Provider> = {
   "estat-birthrate": estatBirthrateProvider,
   "estat-divorce": estatDivorceProvider,
   "estat-children-ratio": estatChildrenRatioProvider,
+  "estat-aging-ratio": estatAgingRatioProvider,
   "manual-hospital": manualHospitalProvider,
   "manual-income": manualIncomeProvider,
   "manual-area": manualAreaProvider,

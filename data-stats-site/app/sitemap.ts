@@ -7,6 +7,7 @@ import { ARTICLE_LIST } from "@/articles";
 export default function sitemap(): MetadataRoute.Sitemap {
   const staticPages: MetadataRoute.Sitemap = [
     { url: `${SITE.url}/`, changeFrequency: "weekly", priority: 1 },
+    { url: `${SITE.url}/datasets`, changeFrequency: "monthly", priority: 0.7 },
     { url: `${SITE.url}/compare`, changeFrequency: "monthly", priority: 0.6 },
     { url: `${SITE.url}/articles`, changeFrequency: "weekly", priority: 0.7 },
     { url: `${SITE.url}/about`, changeFrequency: "yearly", priority: 0.3 },

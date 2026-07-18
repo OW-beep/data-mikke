@@ -1,7 +1,6 @@
 import Link from "next/link";
 import Script from "next/script";
 import { Shippori_Mincho_B1, Zen_Kaku_Gothic_New, JetBrains_Mono } from "next/font/google";
-import { DATASET_LIST } from "@/datasets";
 import { LogoMark } from "@/components/LogoMark";
 import { SITE } from "@/lib/site";
 import "./globals.css";
@@ -67,11 +66,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               データみっけ
             </Link>
             <nav className="dm-nav">
-              {DATASET_LIST.map((d) => (
-                <Link key={d.id} href={`/dashboard/${d.id}`}>
-                  {d.title}
-                </Link>
-              ))}
+              <Link href="/datasets">データ一覧</Link>
               <Link href="/compare">比較</Link>
               <Link href="/articles">解説記事</Link>
             </nav>
