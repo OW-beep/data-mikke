@@ -9,9 +9,9 @@ export const SITE = {
   // Vercelにデプロイ後のドメインに差し替える（例: https://data-mikke-lab.vercel.app）
   url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://data-mikke-lab.vercel.app",
   // お問い合わせ用メールアドレス。取得したら書き換える
-  contactEmail: process.env.NEXT_PUBLIC_CONTACT_EMAIL ?? "contact@example.com",
+  contactEmail: process.env.NEXT_PUBLIC_CONTACT_EMAIL ?? "openwave25@gmail.com",
   // 運営者名（個人運営の場合は氏名 or 屋号）。プライバシーポリシー/運営者情報に表示
-  operatorName: process.env.NEXT_PUBLIC_OPERATOR_NAME ?? "サイト運営者",
+  operatorName: process.env.NEXT_PUBLIC_OPERATOR_NAME ?? "データみっけ運営者",
   // Google AdSenseの発行者ID（例: "ca-pub-1234567890123456"）。
   // 審査申請前にVercelの環境変数に設定しておくと、全ページに確認用スクリプトが自動挿入される
   adsenseClientId: process.env.NEXT_PUBLIC_ADSENSE_CLIENT ?? "ca-pub-4630812027939211"

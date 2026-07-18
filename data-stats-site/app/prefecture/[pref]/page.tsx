@@ -1,8 +1,9 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { DATASET_LIST } from "@/datasets";
-import { loadDataset, latestByArea } from "@/lib/loadData";
+import { loadDataset, latestByArea, seriesForArea, rankDescending } from "@/lib/loadData";
 import { PREFECTURES, findPrefectureBySlug } from "@/lib/prefectures";
+import { TrendChart } from "@/components/TrendChart";
 
 export function generateStaticParams() {
   return PREFECTURES.map((p) => ({ pref: p.slug }));
@@ -24,8 +25,15 @@ export default async function PrefecturePage({ params }: { params: { pref: strin
   const rows = await Promise.all(
     DATASET_LIST.map(async (dataset) => {
       const points = await loadDataset(dataset.id);
-      const latest = latestByArea(points).find((p) => p.areaCode === prefecture.code);
-      return { dataset, latest };
+      const latestAll = latestByArea(points);
+      const latest = latestAll.find((p) => p.areaCode === prefecture.code);
+      const ranked = rankDescending(latestAll);
+      const rank = ranked.findIndex((p) => p.areaCode === prefecture.code);
+      const series =
+        dataset.chart === "line"
+          ? seriesForArea(points, prefecture.code).map((p) => ({ year: p.year, value: p.value }))
+          : [];
+      return { dataset, latest, rank: rank === -1 ? null : rank + 1, series };
     })
   );
 
@@ -42,10 +50,13 @@ export default async function PrefecturePage({ params }: { params: { pref: strin
             <th className="dm-num" style={{ width: 70 }}>
               年
             </th>
+            <th className="dm-num" style={{ width: 90 }}>
+              全国順位
+            </th>
           </tr>
         </thead>
         <tbody>
-          {rows.map(({ dataset, latest }) => (
+          {rows.map(({ dataset, latest, rank }) => (
             <tr key={dataset.id}>
               <td>
                 <Link href={`/dashboard/${dataset.id}`}>{dataset.title}</Link>
@@ -56,10 +67,24 @@ export default async function PrefecturePage({ params }: { params: { pref: strin
               <td className="dm-num dm-mono" style={{ color: "var(--dm-muted)" }}>
                 {latest?.year ?? "-"}
               </td>
+              <td className="dm-num dm-mono" style={{ color: "var(--dm-muted)" }}>
+                {rank ? `${rank}位 / 47` : "-"}
+              </td>
             </tr>
           ))}
         </tbody>
       </table>
+
+      {rows
+        .filter((r) => r.dataset.chart === "line" && r.series.length > 0)
+        .map(({ dataset, series }) => (
+          <div key={dataset.id} style={{ marginTop: 40 }}>
+            <h2>
+              {prefecture.name}の{dataset.title}の推移
+            </h2>
+            <TrendChart data={series} unit={dataset.unit} />
+          </div>
+        ))}
     </div>
   );
 }

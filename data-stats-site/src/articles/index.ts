@@ -4,6 +4,9 @@ import { howToComparePrefectureData } from "./how-to-compare-prefecture-data";
 import { incomeRankingCaution } from "./income-ranking-caution";
 import { hospitalCountReadingGuide } from "./hospital-count-reading-guide";
 import { divorceRateRegionalGap } from "./divorce-rate-regional-gap";
+import { populationDensityMeaning } from "./population-density-meaning";
+import { densityIncomeRelation } from "./density-and-income-relation";
+import { hospitalPerCapitaRanking } from "./hospital-per-capita-ranking";
 
 /**
  * ★記事追加手順★
@@ -16,7 +19,10 @@ export const ARTICLE_LIST: Article[] = [
   howToComparePrefectureData,
   incomeRankingCaution,
   hospitalCountReadingGuide,
-  divorceRateRegionalGap
+  divorceRateRegionalGap,
+  populationDensityMeaning,
+  densityIncomeRelation,
+  hospitalPerCapitaRanking
 ].sort((a, b) => (a.publishedAt < b.publishedAt ? 1 : -1));
 
 export function getArticle(slug: string): Article | undefined {

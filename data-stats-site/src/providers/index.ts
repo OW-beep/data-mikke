@@ -5,6 +5,8 @@ import { estatDivorceProvider } from "./estat/divorce";
 import { manualHospitalProvider } from "./manual/hospital";
 import { manualIncomeProvider } from "./manual/income";
 import { manualAreaProvider } from "./manual/area";
+import { computedDensityProvider } from "./computed/density";
+import { computedHospitalPerCapitaProvider } from "./computed/hospitalPerCapita";
 
 export const PROVIDERS: Record<string, Provider> = {
   "estat-population": estatPopulationProvider,
@@ -12,5 +14,7 @@ export const PROVIDERS: Record<string, Provider> = {
   "estat-divorce": estatDivorceProvider,
   "manual-hospital": manualHospitalProvider,
   "manual-income": manualIncomeProvider,
-  "manual-area": manualAreaProvider
+  "manual-area": manualAreaProvider,
+  "computed-density": computedDensityProvider,
+  "computed-hospital-per-capita": computedHospitalPerCapitaProvider
 };
