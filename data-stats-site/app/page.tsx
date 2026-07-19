@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { DATASET_LIST } from "@/datasets";
+import { getCategoryColor } from "@/lib/categoryColors";
 
 export default function HomePage() {
   return (
@@ -19,19 +20,26 @@ export default function HomePage() {
 
       <h2>指標を探す</h2>
       <div className="dm-grid">
-        {DATASET_LIST.map((d, i) => (
-          <div key={d.id} className="dm-card">
-            <span className="dm-card-tag">No.{String(i + 1).padStart(2, "0")}</span>
-            <div className="dm-card-eyebrow">{d.category}</div>
-            <h3>{d.title}</h3>
-            <div className="dm-card-meta">
-              出典: {d.source} ／ {d.frequency}
+        {DATASET_LIST.map((d, i) => {
+          const color = getCategoryColor(d.category);
+          return (
+            <div key={d.id} className="dm-card" style={{ borderTopColor: color }}>
+              <span className="dm-card-tag" style={{ background: color }}>
+                No.{String(i + 1).padStart(2, "0")}
+              </span>
+              <div className="dm-card-eyebrow" style={{ color }}>
+                {d.category}
+              </div>
+              <h3>{d.title}</h3>
+              <div className="dm-card-meta">
+                出典: {d.source} ／ {d.frequency}
+              </div>
+              <div className="dm-card-links">
+                <Link href={`/dashboard/${d.id}`}>ダッシュボードを見る →</Link>
+              </div>
             </div>
-            <div className="dm-card-links">
-              <Link href={`/dashboard/${d.id}`}>ダッシュボードを見る →</Link>
-            </div>
-          </div>
-        ))}
+          );
+        })}
       </div>
     </div>
   );

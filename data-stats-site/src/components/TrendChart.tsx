@@ -2,7 +2,15 @@
 
 import { LineChart, Line, XAxis, YAxis, Tooltip, ResponsiveContainer, CartesianGrid } from "recharts";
 
-export function TrendChart({ data, unit }: { data: { year: number; value: number }[]; unit: string }) {
+export function TrendChart({
+  data,
+  unit,
+  height = 280
+}: {
+  data: { year: number; value: number }[];
+  unit: string;
+  height?: number;
+}) {
   if (data.length === 0) {
     return <p style={{ color: "var(--dm-muted)" }}>データがありません。</p>;
   }
@@ -16,14 +24,14 @@ export function TrendChart({ data, unit }: { data: { year: number; value: number
   }
 
   return (
-    <ResponsiveContainer width="100%" height={280}>
+    <ResponsiveContainer width="100%" height={height}>
       <LineChart data={data}>
         <CartesianGrid strokeDasharray="3 3" stroke="var(--dm-line)" />
         <XAxis dataKey="year" tick={{ fill: "var(--dm-muted)", fontSize: 12 }} />
         <YAxis
           tickFormatter={(v) => v.toLocaleString()}
-          width={80}
-          tick={{ fill: "var(--dm-muted)", fontSize: 12 }}
+          width={70}
+          tick={{ fill: "var(--dm-muted)", fontSize: 11 }}
         />
         <Tooltip formatter={(v: number) => [`${v.toLocaleString()} ${unit}`, "値"]} />
         <Line type="monotone" dataKey="value" stroke="var(--dm-teal)" strokeWidth={2} dot={{ r: 3, fill: "var(--dm-coral)" }} />

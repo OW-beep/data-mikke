@@ -10,6 +10,9 @@ import { hospitalPerCapita } from "./hospitalPerCapita";
 import { homeownership } from "./homeownership";
 import { childrenRatio } from "./childrenRatio";
 import { agingRatio } from "./agingRatio";
+import { milk } from "./milk";
+import { electricity } from "./electricity";
+import { manufacturing } from "./manufacturing";
 
 /**
  * ★データ追加手順★
@@ -29,7 +32,10 @@ export const DATASETS: Record<string, DatasetConfig> = {
   hospitalPerCapita,
   homeownership,
   childrenRatio,
-  agingRatio
+  agingRatio,
+  milk,
+  electricity,
+  manufacturing
 };
 
 export const DATASET_LIST: DatasetConfig[] = Object.values(DATASETS);

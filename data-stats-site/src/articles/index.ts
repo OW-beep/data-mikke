@@ -10,6 +10,7 @@ import { hospitalPerCapitaRanking } from "./hospital-per-capita-ranking";
 import { homeownershipRateGap } from "./homeownership-rate-gap";
 import { childrenRatioAndFuture } from "./children-ratio-and-regional-future";
 import { agingRatioTopPrefectures } from "./aging-ratio-top-prefectures";
+import { prefectureCompositeScoreExplained } from "./prefecture-composite-score-explained";
 
 /**
  * ★記事追加手順★
@@ -28,7 +29,8 @@ export const ARTICLE_LIST: Article[] = [
   hospitalPerCapitaRanking,
   homeownershipRateGap,
   childrenRatioAndFuture,
-  agingRatioTopPrefectures
+  agingRatioTopPrefectures,
+  prefectureCompositeScoreExplained
 ].sort((a, b) => (a.publishedAt < b.publishedAt ? 1 : -1));
 
 export function getArticle(slug: string): Article | undefined {
