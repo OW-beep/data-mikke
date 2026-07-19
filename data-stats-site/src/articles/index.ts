@@ -11,6 +11,9 @@ import { homeownershipRateGap } from "./homeownership-rate-gap";
 import { childrenRatioAndFuture } from "./children-ratio-and-regional-future";
 import { agingRatioTopPrefectures } from "./aging-ratio-top-prefectures";
 import { prefectureCompositeScoreExplained } from "./prefecture-composite-score-explained";
+import { crimeRateUrbanGap } from "./crime-rate-urban-rural-gap";
+import { culturalPropertyKansaiConcentration } from "./cultural-property-kansai-concentration";
+import { culturalPropertyPerCapitaSurprise } from "./cultural-property-per-capita-surprise";
 
 /**
  * ★記事追加手順★
@@ -30,7 +33,10 @@ export const ARTICLE_LIST: Article[] = [
   homeownershipRateGap,
   childrenRatioAndFuture,
   agingRatioTopPrefectures,
-  prefectureCompositeScoreExplained
+  prefectureCompositeScoreExplained,
+  crimeRateUrbanGap,
+  culturalPropertyKansaiConcentration,
+  culturalPropertyPerCapitaSurprise
 ].sort((a, b) => (a.publishedAt < b.publishedAt ? 1 : -1));
 
 export function getArticle(slug: string): Article | undefined {

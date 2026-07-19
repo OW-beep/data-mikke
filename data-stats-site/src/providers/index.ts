@@ -11,8 +11,11 @@ import { manualHomeownershipProvider } from "./manual/homeownership";
 import { manualMilkProvider } from "./manual/milk";
 import { manualElectricityProvider } from "./manual/electricity";
 import { manualManufacturingProvider } from "./manual/manufacturing";
+import { manualCrimeProvider } from "./manual/crime";
+import { manualCulturalPropertyProvider } from "./manual/culturalProperty";
 import { computedDensityProvider } from "./computed/density";
 import { computedHospitalPerCapitaProvider } from "./computed/hospitalPerCapita";
+import { computedCulturalPropertyPerCapitaProvider } from "./computed/culturalPropertyPerCapita";
 
 export const PROVIDERS: Record<string, Provider> = {
   "estat-population": estatPopulationProvider,
@@ -27,6 +30,9 @@ export const PROVIDERS: Record<string, Provider> = {
   "manual-milk": manualMilkProvider,
   "manual-electricity": manualElectricityProvider,
   "manual-manufacturing": manualManufacturingProvider,
+  "manual-crime": manualCrimeProvider,
+  "manual-cultural-property": manualCulturalPropertyProvider,
   "computed-density": computedDensityProvider,
-  "computed-hospital-per-capita": computedHospitalPerCapitaProvider
+  "computed-hospital-per-capita": computedHospitalPerCapitaProvider,
+  "computed-cultural-property-per-capita": computedCulturalPropertyPerCapitaProvider
 };

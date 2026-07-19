@@ -13,6 +13,9 @@ import { agingRatio } from "./agingRatio";
 import { milk } from "./milk";
 import { electricity } from "./electricity";
 import { manufacturing } from "./manufacturing";
+import { crime } from "./crime";
+import { culturalProperty } from "./culturalProperty";
+import { culturalPropertyPerCapita } from "./culturalPropertyPerCapita";
 
 /**
  * ★データ追加手順★
@@ -35,7 +38,10 @@ export const DATASETS: Record<string, DatasetConfig> = {
   agingRatio,
   milk,
   electricity,
-  manufacturing
+  manufacturing,
+  crime,
+  culturalProperty,
+  culturalPropertyPerCapita
 };
 
 export const DATASET_LIST: DatasetConfig[] = Object.values(DATASETS);
