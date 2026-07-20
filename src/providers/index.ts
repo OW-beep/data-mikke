@@ -14,6 +14,9 @@ import { manualManufacturingProvider } from "./manual/manufacturing";
 import { manualCrimeProvider } from "./manual/crime";
 import { manualCulturalPropertyProvider } from "./manual/culturalProperty";
 import { manualLibraryProvider } from "./manual/library";
+import { manualUniversityProvider } from "./manual/university";
+import { manualCulturalPropertyBuildingProvider } from "./manual/culturalPropertyBuilding";
+import { manualElectricityHouseholdProvider } from "./manual/electricityHousehold";
 import { computedDensityProvider } from "./computed/density";
 import { computedHospitalPerCapitaProvider } from "./computed/hospitalPerCapita";
 import { computedCulturalPropertyPerCapitaProvider } from "./computed/culturalPropertyPerCapita";
@@ -21,6 +24,7 @@ import { computedLivabilityProvider } from "./computed/livability";
 import { computedManufacturingPerCapitaProvider } from "./computed/manufacturingPerCapita";
 import { computedElectricityPerCapitaProvider } from "./computed/electricityPerCapita";
 import { computedCulturalPropertyPerAreaProvider } from "./computed/culturalPropertyPerArea";
+import { computedUniversityPerCapitaProvider } from "./computed/universityPerCapita";
 
 export const PROVIDERS: Record<string, Provider> = {
   "estat-population": estatPopulationProvider,
@@ -38,11 +42,15 @@ export const PROVIDERS: Record<string, Provider> = {
   "manual-crime": manualCrimeProvider,
   "manual-cultural-property": manualCulturalPropertyProvider,
   "manual-library": manualLibraryProvider,
+  "manual-university": manualUniversityProvider,
+  "manual-cultural-property-building": manualCulturalPropertyBuildingProvider,
+  "manual-electricity-household": manualElectricityHouseholdProvider,
   "computed-density": computedDensityProvider,
   "computed-hospital-per-capita": computedHospitalPerCapitaProvider,
   "computed-cultural-property-per-capita": computedCulturalPropertyPerCapitaProvider,
   "computed-livability": computedLivabilityProvider,
   "computed-manufacturing-per-capita": computedManufacturingPerCapitaProvider,
   "computed-electricity-per-capita": computedElectricityPerCapitaProvider,
-  "computed-cultural-property-per-area": computedCulturalPropertyPerAreaProvider
+  "computed-cultural-property-per-area": computedCulturalPropertyPerAreaProvider,
+  "computed-university-per-capita": computedUniversityPerCapitaProvider
 };

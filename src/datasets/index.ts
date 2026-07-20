@@ -21,6 +21,10 @@ import { manufacturingPerCapita } from "./manufacturingPerCapita";
 import { library } from "./library";
 import { electricityPerCapita } from "./electricityPerCapita";
 import { culturalPropertyPerArea } from "./culturalPropertyPerArea";
+import { university } from "./university";
+import { universityPerCapita } from "./universityPerCapita";
+import { culturalPropertyBuilding } from "./culturalPropertyBuilding";
+import { electricityHousehold } from "./electricityHousehold";
 
 /**
  * ★データ追加手順★
@@ -51,7 +55,11 @@ export const DATASETS: Record<string, DatasetConfig> = {
   manufacturingPerCapita,
   library,
   electricityPerCapita,
-  culturalPropertyPerArea
+  culturalPropertyPerArea,
+  university,
+  universityPerCapita,
+  culturalPropertyBuilding,
+  electricityHousehold
 };
 
 export const DATASET_LIST: DatasetConfig[] = Object.values(DATASETS);

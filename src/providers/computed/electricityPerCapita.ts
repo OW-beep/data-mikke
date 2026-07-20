@@ -1,12 +1,12 @@
 import { Provider } from "@/providers/types";
 import { DataPoint } from "@/types/data";
 import { estatPopulationProvider } from "@/providers/estat/population";
-import { manualElectricityProvider } from "@/providers/manual/electricity";
+import { manualElectricityHouseholdProvider } from "@/providers/manual/electricityHousehold";
 
 /**
- * 「1人あたり電灯使用電力量」は、電灯使用電力量（electricity）を人口（population）で
- * 調整した、当サイト独自の二次分析指標。地域の総消費量ではなく、1人あたりの生活水準・
- * 世帯の広さなどを反映しやすい指標になる。
+ * 「1人あたり電力消費量（家庭部門）」は、家庭部門電力消費量（electricityHousehold）を
+ * 人口（population）で調整した、当サイト独自の二次分析指標。
+ * 産業用途を含まない家庭部門だけのデータを使っているため、暮らしぶりの違いをより正確に反映する。
  */
 export const computedElectricityPerCapitaProvider: Provider = {
   id: "computed-electricity-per-capita",
@@ -14,7 +14,7 @@ export const computedElectricityPerCapitaProvider: Provider = {
 
   async fetch(): Promise<DataPoint[]> {
     const [electricityPoints, populationPoints] = await Promise.all([
-      manualElectricityProvider.fetch(),
+      manualElectricityHouseholdProvider.fetch(),
       estatPopulationProvider.fetch()
     ]);
 

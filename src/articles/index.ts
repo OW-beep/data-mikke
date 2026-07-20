@@ -19,6 +19,10 @@ import { manufacturingPerCapitaPowerhouse } from "./manufacturing-per-capita-pow
 import { libraryAccessGap } from "./library-count-access-and-per-capita-trap";
 import { electricityPerCapitaLifestyle } from "./electricity-per-capita-lifestyle-clues";
 import { culturalPropertyDensityByArea } from "./cultural-property-density-by-area";
+import { universityTokyoConcentration } from "./university-count-tokyo-concentration-history";
+import { universityPerCapitaKyotoTop } from "./university-per-capita-kyoto-student-city";
+import { culturalPropertyBuildingKyotoNara } from "./cultural-property-building-kyoto-nara-temples";
+import { electricityHouseholdSectorPrecision } from "./electricity-household-sector-more-precise-view";
 
 /**
  * ★記事追加手順★
@@ -46,7 +50,11 @@ export const ARTICLE_LIST: Article[] = [
   manufacturingPerCapitaPowerhouse,
   libraryAccessGap,
   electricityPerCapitaLifestyle,
-  culturalPropertyDensityByArea
+  culturalPropertyDensityByArea,
+  universityTokyoConcentration,
+  universityPerCapitaKyotoTop,
+  culturalPropertyBuildingKyotoNara,
+  electricityHouseholdSectorPrecision
 ].sort((a, b) => (a.publishedAt < b.publishedAt ? 1 : -1));
 
 export function getArticle(slug: string): Article | undefined {
