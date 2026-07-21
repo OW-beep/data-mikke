@@ -68,6 +68,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <nav className="dm-nav">
               <Link href="/datasets">データ一覧</Link>
               <Link href="/compare">比較</Link>
+              <Link href="/analysis">分析</Link>
               <Link href="/articles">解説記事</Link>
             </nav>
           </div>

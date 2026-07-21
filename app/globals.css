@@ -440,3 +440,9 @@ h3 {
   color: var(--dm-coral-deep);
   border-color: var(--dm-coral);
 }
+
+.dm-composite-tags-note {
+  font-size: 11px;
+  color: var(--dm-muted);
+  margin-top: 2px;
+}
