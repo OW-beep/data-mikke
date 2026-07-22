@@ -4,6 +4,7 @@ import { DATASET_LIST, getDataset } from "@/datasets";
 import { loadDataset, latestByArea, seriesForArea, rankDescending } from "@/lib/loadData";
 import { PREFECTURES, findPrefectureBySlug } from "@/lib/prefectures";
 import { COMPOSITE_METRICS, compositeComment } from "@/lib/composite";
+import { median } from "@/lib/stats";
 import { TrendChart } from "@/components/TrendChart";
 
 export function generateStaticParams() {
@@ -30,12 +31,12 @@ export default async function PrefecturePage({ params }: { params: { pref: strin
       const latest = latestAll.find((p) => p.areaCode === prefecture.code);
       const ranked = rankDescending(latestAll);
       const rank = ranked.findIndex((p) => p.areaCode === prefecture.code);
-      const average = latestAll.length > 0 ? latestAll.reduce((s, p) => s + p.value, 0) / latestAll.length : null;
+      const benchmark = median(latestAll.map((p) => p.value));
       const series =
         dataset.chart === "line"
           ? seriesForArea(points, prefecture.code).map((p) => ({ year: p.year, value: p.value }))
           : [];
-      return { dataset, latest, average, rank: rank === -1 ? null : rank + 1, series };
+      return { dataset, latest, benchmark, rank: rank === -1 ? null : rank + 1, series };
     })
   );
 
@@ -44,8 +45,8 @@ export default async function PrefecturePage({ params }: { params: { pref: strin
   const composite = COMPOSITE_METRICS.map((m) => {
     const row = rowByDatasetId.get(m.datasetId);
     const dataset = getDataset(m.datasetId);
-    if (!row?.latest || row.average === null || !dataset) return null;
-    const favorable = m.direction === "up" ? row.latest.value > row.average : row.latest.value < row.average;
+    if (!row?.latest || row.benchmark === null || !dataset) return null;
+    const favorable = m.direction === "up" ? row.latest.value > row.benchmark : row.latest.value < row.benchmark;
     return { title: dataset.title, favorable };
   }).filter((c): c is { title: string; favorable: boolean } => c !== null);
 
@@ -68,7 +69,7 @@ export default async function PrefecturePage({ params }: { params: { pref: strin
             </div>
             <div className="dm-composite-body">
               <p>
-                <strong>{prefecture.name}の総合力スコア</strong> — 県民所得・人口10万人あたり病院数・持ち家比率・年少人口割合・高齢化率の5指標のうち、全国平均より良い方向にある指標の数です。
+                <strong>{prefecture.name}の総合力スコア</strong> — 県民所得・人口10万人あたり病院数・持ち家比率・年少人口割合・高齢化率の5指標のうち、全国の中央値より良い方向にある指標の数です。
               </p>
               <p style={{ marginTop: 6 }}>{compositeComment(compositeScore, compositeTotal)}</p>
               <div className="dm-composite-tags">

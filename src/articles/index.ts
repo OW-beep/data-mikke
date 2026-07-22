@@ -26,6 +26,7 @@ import { electricityHouseholdSectorPrecision } from "./electricity-household-sec
 import { spuriousCorrelationLibraryUniversity } from "./spurious-correlation-library-university-population";
 import { densityCorrelatesEverything } from "./population-density-correlates-income-crime-homeownership";
 import { coefficientOfVariationDisparityRanking } from "./coefficient-of-variation-regional-disparity-ranking";
+import { cafeNaganoKingdom } from "./cafe-count-nagano-hidden-kingdom";
 
 /**
  * ★記事追加手順★
@@ -60,7 +61,8 @@ export const ARTICLE_LIST: Article[] = [
   electricityHouseholdSectorPrecision,
   spuriousCorrelationLibraryUniversity,
   densityCorrelatesEverything,
-  coefficientOfVariationDisparityRanking
+  coefficientOfVariationDisparityRanking,
+  cafeNaganoKingdom
 ].sort((a, b) => (a.publishedAt < b.publishedAt ? 1 : -1));
 
 export function getArticle(slug: string): Article | undefined {

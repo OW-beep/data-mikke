@@ -18,6 +18,7 @@ import { manualUniversityProvider } from "./manual/university";
 import { manualCulturalPropertyBuildingProvider } from "./manual/culturalPropertyBuilding";
 import { manualElectricityHouseholdProvider } from "./manual/electricityHousehold";
 import { manualSchoolLunchProvider } from "./manual/schoolLunch";
+import { manualCafeProvider } from "./manual/cafe";
 import { computedDensityProvider } from "./computed/density";
 import { computedHospitalPerCapitaProvider } from "./computed/hospitalPerCapita";
 import { computedCulturalPropertyPerCapitaProvider } from "./computed/culturalPropertyPerCapita";
@@ -26,6 +27,7 @@ import { computedManufacturingPerCapitaProvider } from "./computed/manufacturing
 import { computedElectricityPerCapitaProvider } from "./computed/electricityPerCapita";
 import { computedCulturalPropertyPerAreaProvider } from "./computed/culturalPropertyPerArea";
 import { computedUniversityPerCapitaProvider } from "./computed/universityPerCapita";
+import { computedCafePerCapitaProvider } from "./computed/cafePerCapita";
 
 export const PROVIDERS: Record<string, Provider> = {
   "estat-population": estatPopulationProvider,
@@ -47,6 +49,7 @@ export const PROVIDERS: Record<string, Provider> = {
   "manual-cultural-property-building": manualCulturalPropertyBuildingProvider,
   "manual-electricity-household": manualElectricityHouseholdProvider,
   "manual-school-lunch": manualSchoolLunchProvider,
+  "manual-cafe": manualCafeProvider,
   "computed-density": computedDensityProvider,
   "computed-hospital-per-capita": computedHospitalPerCapitaProvider,
   "computed-cultural-property-per-capita": computedCulturalPropertyPerCapitaProvider,
@@ -54,5 +57,6 @@ export const PROVIDERS: Record<string, Provider> = {
   "computed-manufacturing-per-capita": computedManufacturingPerCapitaProvider,
   "computed-electricity-per-capita": computedElectricityPerCapitaProvider,
   "computed-cultural-property-per-area": computedCulturalPropertyPerAreaProvider,
-  "computed-university-per-capita": computedUniversityPerCapitaProvider
+  "computed-university-per-capita": computedUniversityPerCapitaProvider,
+  "computed-cafe-per-capita": computedCafePerCapitaProvider
 };

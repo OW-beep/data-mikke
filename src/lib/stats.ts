@@ -21,6 +21,14 @@ export function pearsonCorrelation(a: Map<string, number>, b: Map<string, number
   return { r: cov / (sx * sy), n };
 }
 
+/** 中央値。平均値と違い、一部の突出した値（外れ値）に引っ張られにくい */
+export function median(values: number[]): number | null {
+  if (values.length === 0) return null;
+  const sorted = [...values].sort((a, b) => a - b);
+  const mid = Math.floor(sorted.length / 2);
+  return sorted.length % 2 === 0 ? (sorted[mid - 1] + sorted[mid]) / 2 : sorted[mid];
+}
+
 /** 変動係数（標準偏差 ÷ 平均）。単位や桁数が違う指標同士でも「相対的なばらつきの大きさ」を比較できる */
 export function coefficientOfVariation(values: number[]): number | null {
   const n = values.length;

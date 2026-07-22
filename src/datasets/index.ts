@@ -26,6 +26,8 @@ import { universityPerCapita } from "./universityPerCapita";
 import { culturalPropertyBuilding } from "./culturalPropertyBuilding";
 import { electricityHousehold } from "./electricityHousehold";
 import { schoolLunch } from "./schoolLunch";
+import { cafe } from "./cafe";
+import { cafePerCapita } from "./cafePerCapita";
 
 /**
  * ★データ追加手順★
@@ -61,7 +63,9 @@ export const DATASETS: Record<string, DatasetConfig> = {
   universityPerCapita,
   culturalPropertyBuilding,
   electricityHousehold,
-  schoolLunch
+  schoolLunch,
+  cafe,
+  cafePerCapita
 };
 
 export const DATASET_LIST: DatasetConfig[] = Object.values(DATASETS);
