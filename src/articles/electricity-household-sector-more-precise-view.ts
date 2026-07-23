@@ -7,6 +7,7 @@ export const electricityHouseholdSectorPrecision: Article = {
     "これまでの電灯使用電力量よりも、産業・家庭・業務他に分解されたデータの方が、暮らしの実態を正確に映し出します。",
   publishedAt: "2026-07-18",
   relatedDataset: "electricityHousehold",
+  relatedArticles: ["electricity-per-capita-lifestyle-clues", "manufacturing-per-capita-powerhouse"],
   body: [
     "以前、当サイトでは「電灯使用電力量」という指標をもとに、都道府県別の電力消費を紹介しました。これは契約種別（電灯契約）に基づく集計で、家庭や商店での電力使用の目安として使えるものでしたが、商業施設なども混在する区分でした。今回、資源エネルギー庁が公表する「都道府県別エネルギー消費統計」をもとに、電力消費を産業部門・家庭部門・業務他（オフィスや店舗など第三次産業）の3つに分解したデータを新たに反映しました。家庭部門だけに絞ることで、より純粋に「暮らしの中での電力消費」を見ることができます。",
 

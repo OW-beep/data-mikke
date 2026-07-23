@@ -7,6 +7,7 @@ export const manufacturingPerCapitaPowerhouse: Article = {
     "製造品出荷額の総額では愛知県が圧倒的1位ですが、人口で割ってもなお高い水準を保っているのは、単に工場が多いからではありません。",
   publishedAt: "2026-07-12",
   relatedDataset: "manufacturingPerCapita",
+  relatedArticles: ["income-ranking-caution"],
   body: [
     "製造品出荷額等の総額ランキングでは、愛知県が2位以下を大きく引き離してトップに立っています。自動車産業を中心とした巨大な製造業の集積があるためで、これ自体はよく知られた事実です。ここで気になるのは、この強さが単に「人口が多いから」なのか、それとも「人口あたりで見ても本当に強い」のかという点です。",
 

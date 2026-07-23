@@ -7,6 +7,7 @@ export const divorceRateRegionalGap: Article = {
     "離婚率が高い県・低い県には、実ははっきりした傾向があります。年推移データから見えてくる、地域差の背景を整理しました。",
   publishedAt: "2026-06-14",
   relatedDataset: "divorce",
+  relatedArticles: ["population-ranking-how-to-read", "children-ratio-and-regional-future"],
   body: [
     "都道府県別の離婚率（人口千人あたりの離婚件数）を並べてみると、毎年ほぼ同じような顔ぶりが上位・下位に並びます。沖縄県や北海道、大阪府といった地域は離婚率が高めに出やすく、逆に北陸地方（福井県・富山県・石川県）は全国的に低い水準で安定している傾向があります。この地域差はどこから来るのでしょうか。",
 

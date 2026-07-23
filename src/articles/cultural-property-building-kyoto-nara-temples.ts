@@ -7,6 +7,7 @@ export const culturalPropertyBuildingKyotoNara: Article = {
     "総数ランキングでは東京都が1位でしたが、建造物だけに絞ると話は変わります。寺社仏閣が多い地域の実力が見えてきます。",
   publishedAt: "2026-07-17",
   relatedDataset: "culturalPropertyBuilding",
+  relatedArticles: ["cultural-property-kansai-concentration", "cultural-property-density-by-area"],
   body: [
     "以前紹介した国宝・重要文化財の総数ランキングでは、東京都が2,729件で1位でした。しかし、文化庁はこの総数を「建造物」と「美術工芸品（絵画・彫刻・工芸品など）」の2種類に分けて公表しています。このうち建造物だけに絞ってランキングを作り直すと、まったく違う顔ぶれが上位に来ます。",
 

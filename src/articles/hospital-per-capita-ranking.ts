@@ -7,6 +7,7 @@ export const hospitalPerCapitaRanking: Article = {
     "単純な病院数では大都市が上位を占めますが、人口10万人あたりで見直すと、ランキングの顔ぶれはまったく違うものになります。",
   publishedAt: "2026-06-21",
   relatedDataset: "hospitalPerCapita",
+  relatedArticles: ["hospital-count-reading-guide"],
   body: [
     "以前の記事「病院数ランキングだけでは分からない、地域医療の実態」で、単純な病院数は人口規模に比例しやすく、地域医療の充実度を測るには人口で調整した指標を見る必要があると指摘しました。今回、その指摘を実際の指標として計算し、「人口10万人あたり病院数」というランキングを作りました。",
 

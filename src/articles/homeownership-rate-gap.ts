@@ -7,6 +7,7 @@ export const homeownershipRateGap: Article = {
     "持ち家比率が全国トップクラスの秋田県・富山県と、最下位クラスの東京都・沖縄県。この差は「豊かさ」の違いではありません。",
   publishedAt: "2026-06-24",
   relatedDataset: "homeownership",
+  relatedArticles: ["income-ranking-caution", "car-ownership-tokyo-lowest-rural-highest"],
   body: [
     "持ち家比率（住んでいる住宅のうち持ち家の割合）を都道府県別に見ると、秋田県・富山県・山形県・福井県といった地方の県が70%台後半で並ぶ一方、東京都は全国で最も低い水準、次いで沖縄県も低い水準にとどまっています。持ち家比率だけを見ると「地方は豊かで、都会は住宅を持てない人が多い」という印象を持ってしまいそうですが、実際にはもっと単純な理由が背景にあります。",
 

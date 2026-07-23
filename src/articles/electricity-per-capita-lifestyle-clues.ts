@@ -7,6 +7,7 @@ export const electricityPerCapitaLifestyle: Article = {
     "電力使用量の総量ランキングでは大都市が上位に来ますが、1人あたりに直すと、住宅事情や気候の違いが色濃く表れます。",
   publishedAt: "2026-07-17",
   relatedDataset: "electricityPerCapita",
+  relatedArticles: ["electricity-household-sector-more-precise-view", "homeownership-rate-gap"],
   body: [
     "電灯使用電力量（家庭・商店などで使われる電力）の総量ランキングでは、東京都・大阪府・神奈川県・愛知県といった人口の多い都市部が上位を占めます。これは当然の結果で、人が多く住む地域ほど、電気を使う世帯や店舗も多くなるためです。ここで1人あたりの電力使用量に換算すると、単純な人口の多寡では説明できない、地域ごとの暮らしぶりの違いが見えてきます。",
 

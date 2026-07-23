@@ -6,6 +6,12 @@ export const coefficientOfVariationDisparityRanking: Article = {
   excerpt:
     "単位も桁数もバラバラな指標同士で「どれが一番、都道府県間の差が大きいか」を比べるには、標準偏差ではなく変動係数を使います。",
   publishedAt: "2026-07-21",
+  embedRanking: "density",
+  relatedArticles: [
+    "population-density-meaning",
+    "population-density-correlates-income-crime-homeownership",
+    "spurious-correlation-library-university-population"
+  ],
   body: [
     "「都道府県ごとの差が一番大きい統計はどれか」という問いに答えるのは、意外と簡単ではありません。人口密度は人/km²、県民所得は千円、犯罪発生件数は件/千人と、指標ごとに単位も桁数もまったく異なるため、単純に標準偏差（ばらつきの大きさ）の数値だけを比べても意味がありません。標準偏差が大きいのは、単にその指標の平均値が大きいからかもしれないからです。",
 

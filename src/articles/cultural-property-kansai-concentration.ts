@@ -7,6 +7,7 @@ export const culturalPropertyKansaiConcentration: Article = {
     "全国の国宝・重要文化財のうち、上位4都府県だけで半数近くを占めています。この極端な偏りはなぜ起きるのかを整理しました。",
   publishedAt: "2026-07-05",
   relatedDataset: "culturalProperty",
+  relatedArticles: ["cultural-property-per-capita-surprise", "cultural-property-density-by-area", "cultural-property-building-kyoto-nara-temples"],
   body: [
     "都道府県別の国宝・重要文化財の総数を見ると、東京都・京都府・奈良県・滋賀県の上位4都府県だけで、全国の半数近くを占めています。特に東京都と京都府は2,000件を超え、3位の奈良県以下を大きく引き離しています。この極端な偏りには、日本の歴史そのものが関係しています。",
 

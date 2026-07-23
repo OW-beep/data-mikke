@@ -7,6 +7,7 @@ export const universityTokyoConcentration: Article = {
     "大学数ランキングは東京都が2位以下を大きく引き離す圧勝です。この集中は自然にできたものではなく、政策の歴史が関わっています。",
   publishedAt: "2026-07-15",
   relatedDataset: "university",
+  relatedArticles: ["university-per-capita-kyoto-student-city", "library-count-access-and-per-capita-trap"],
   body: [
     "都道府県別の大学数を見ると、東京都が139校と、2位の大阪府（57校）を2倍以上引き離してトップに立っています。3位の愛知県（51校）、4位の兵庫県（39校）と続き、上位はいずれも大都市圏に集中しています。逆に、鳥取県・島根県・佐賀県はそれぞれ2校しかなく、東京都との差は実に約70倍にもなります。",
 

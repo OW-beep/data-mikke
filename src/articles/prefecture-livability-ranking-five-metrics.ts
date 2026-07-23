@@ -6,8 +6,10 @@ export const livabilityRankingFiveMetrics: Article = {
   excerpt:
     "県民所得・医療アクセス・持ち家比率・子どもの割合・高齢化率という5つの指標から、当サイト独自の総合力スコアを算出しました。",
   publishedAt: "2026-07-10",
+  featured: true,
   relatedDataset: "livability",
   embedRanking: "livability",
+  relatedArticles: ["prefecture-composite-score-explained"],
   body: [
     "「住みやすい都道府県はどこか」という問いに、単一の正解はありません。気候、通勤時間、家賃、人間関係の距離感など、人によって重視するものはまったく違うからです。それでも、経済・生活基盤という限定された切り口からであれば、複数の指標を組み合わせて一定の傾向を示すことはできます。当サイトでは、県民所得・人口10万人あたり病院数・持ち家比率・年少人口割合・高齢化率という5つの指標について、全国の中央値より良い方向にある指標がいくつあるかを数えた「総合力スコア」を、都道府県ごとに算出しました。",
 

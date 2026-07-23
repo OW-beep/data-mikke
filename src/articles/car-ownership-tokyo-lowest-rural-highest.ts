@@ -7,6 +7,16 @@ export const carOwnershipTokyoLowest: Article = {
     "1千世帯あたりの自動車所有数量で見ると、山形県・福井県が2,000台超えなのに対し、東京都はわずか665台。この差は「豊かさ」の逆転ではありません。",
   publishedAt: "2026-07-24",
   relatedDataset: "car",
+  embedScatter: {
+    a: "density",
+    b: "car",
+    note: "右下の1点が東京都です。人口密度が上がるほど自動車所有率が下がる、はっきりした右肩下がりの関係が見えます。"
+  },
+  relatedArticles: [
+    "population-density-correlates-income-crime-homeownership",
+    "homeownership-rate-gap",
+    "population-density-meaning"
+  ],
   body: [
     "1千世帯あたりの自動車所有数量を都道府県別に見ると、山形県が2,111台でトップ、福井県・富山県と北陸・東北の県が上位を占めます。一方、最下位は東京都でわずか665台。山形県の3分の1以下という大きな開きです。大阪府・神奈川県・京都府といった大都市圏も軒並み下位に沈んでおり、車の所有率は明確に「都市か地方か」で分かれています。",
 

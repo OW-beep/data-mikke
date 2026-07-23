@@ -7,6 +7,7 @@ export const childrenRatioAndFuture: Article = {
     "年少人口割合（15歳未満人口の割合）が高い都道府県には、実は「合計特殊出生率が高い」以外にも共通点があります。",
   publishedAt: "2026-06-26",
   relatedDataset: "childrenRatio",
+  relatedArticles: ["aging-ratio-top-prefectures", "divorce-rate-regional-gap"],
   body: [
     "年少人口割合（総人口に占める15歳未満人口の割合）は、その地域に子育て世帯や子どもがどれだけ多いかを示す指標です。全国的には沖縄県が最も高い水準で安定しており、次いで滋賀県や佐賀県など、九州・中国地方の一部の県が上位に入る傾向があります。逆に、高齢化が進む秋田県や高知県などは、年少人口割合が全国で最も低い水準にとどまっています。",
 

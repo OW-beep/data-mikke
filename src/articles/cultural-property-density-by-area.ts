@@ -7,6 +7,7 @@ export const culturalPropertyDensityByArea: Article = {
     "人口10万人あたりでは奈良県が上位でしたが、面積で割ると京都府が圧倒的な密度を見せます。2つの調整方法で結果が変わる理由を解説します。",
   publishedAt: "2026-07-19",
   relatedDataset: "culturalPropertyPerArea",
+  relatedArticles: ["cultural-property-per-capita-surprise", "cultural-property-building-kyoto-nara-temples"],
   body: [
     "以前の記事で、国宝・重要文化財の総数を人口10万人あたりに調整すると、奈良県・滋賀県・和歌山県といった県が上位に浮上することを紹介しました。今回は同じ総数を、人口ではなく「面積」で割った指標を見てみます。すると、上位の顔ぶれがまた少し変わってきます。",
 

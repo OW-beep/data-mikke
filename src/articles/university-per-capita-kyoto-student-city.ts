@@ -7,6 +7,7 @@ export const universityPerCapitaKyotoTop: Article = {
     "総数では東京都の独走でしたが、人口10万人あたりに直すと京都府がトップに立ちます。「学生の街」としての実像が数字に表れています。",
   publishedAt: "2026-07-16",
   relatedDataset: "universityPerCapita",
+  relatedArticles: ["university-count-tokyo-concentration-history", "cafe-count-nagano-hidden-kingdom"],
   body: [
     "前回の記事で見たとおり、大学数の総数では東京都が139校と圧倒的な1位でした。しかし、これを人口10万人あたりに調整すると、順位は大きく入れ替わります。人口約880万人を抱える東京都は、大学数こそ多いものの、人口で割ると相対的に薄まり、代わって京都府が全国トップに立ちます。",
 

@@ -6,6 +6,16 @@ export const densityCorrelatesEverything: Article = {
   excerpt:
     "人口密度は、性質の異なる複数の指標と同時に相関します。これは人口密度に何か特別な力があるからではなく、「都市化」という1つの現象の裏表だからです。",
   publishedAt: "2026-07-20",
+  embedScatter: {
+    a: "density",
+    b: "income",
+    note: "右上に東京都・大阪府が突出しており、この2県が相関を強く引っ張っています。"
+  },
+  relatedArticles: [
+    "spurious-correlation-library-university-population",
+    "population-density-meaning",
+    "car-ownership-tokyo-lowest-rural-highest"
+  ],
   body: [
     "当サイトの人口密度データと、性質の異なる複数の指標との相関係数を計算してみると、いずれも無視できない大きさの相関が見つかります。人口密度と県民所得の相関係数は r = 0.654、人口密度と犯罪発生件数（人口千人あたり）は r = 0.528、人口密度と持ち家比率は r = -0.589 です。所得とはプラス、犯罪率ともプラス、持ち家比率とはマイナス。方向も強さもバラバラなこれらの相関が、すべて「人口密度」という1つの変数を軸に同時に成り立っています。",
 

@@ -7,6 +7,7 @@ export const crimeRateUrbanGap: Article = {
     "人口あたりの犯罪発生件数で上位に来るのは、必ずしも「治安が悪い」ことだけを意味しません。数字の裏側にある事情を整理しました。",
   publishedAt: "2026-07-03",
   relatedDataset: "crime",
+  relatedArticles: ["population-density-correlates-income-crime-homeownership"],
   body: [
     "人口1千人あたりの刑法犯認知件数を都道府県別に見ると、大阪府・愛知県・福岡県・京都府・東京都といった大都市圏が上位に並び、秋田県・岩手県・山形県といった地方の県は下位に位置する傾向があります。この結果だけを見ると「大都市は治安が悪い」という印象を持ちやすいですが、いくつか補って考えたい点があります。",
 

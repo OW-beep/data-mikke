@@ -7,6 +7,7 @@ export const hospitalCountReadingGuide: Article = {
     "病院数の多い・少ないだけで「医療が充実している県」と判断するのは早計です。統計を読むときに補って考えたい視点を紹介します。",
   publishedAt: "2026-06-12",
   relatedDataset: "hospital",
+  relatedArticles: ["hospital-per-capita-ranking"],
   body: [
     "都道府県別の病院数ランキングは、その地域の医療体制を知る手がかりのひとつですが、これだけで「医療が充実しているかどうか」を判断するのは危険です。統計の数字を実感に近づけるために、補って考えたい視点をいくつか紹介します。",
 

@@ -6,6 +6,7 @@ export const densityIncomeRelation: Article = {
   excerpt:
     "「都会は稼げる」という印象は、データで見るとどこまで本当なのでしょうか。人口密度ランキングと県民所得ランキングを重ねて確認してみました。",
   publishedAt: "2026-06-19",
+  relatedArticles: ["population-density-meaning", "income-ranking-caution"],
   body: [
     "「都会のほうが稼げる」というイメージは根強くありますが、実際に人口密度ランキングと県民所得ランキングを重ねてみると、その関係は多くの人が思っているほど単純ではありません。",
 

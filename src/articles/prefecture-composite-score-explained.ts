@@ -7,6 +7,7 @@ export const prefectureCompositeScoreExplained: Article = {
     "各都道府県ページに表示している総合力スコアの算出方法と、その限界について正直に説明します。",
   publishedAt: "2026-07-01",
   embedRanking: "livability",
+  relatedArticles: ["prefecture-livability-ranking-five-metrics"],
   body: [
     "各都道府県のページには「総合力スコア」という5点満点の指標を表示しています。これは学術的に確立された評価指標ではなく、当サイトが独自に定義した簡易的な集計です。何を根拠にしているのか、また何が測れていないのかを、ここで正直に説明しておきます。",
 

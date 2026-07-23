@@ -7,6 +7,7 @@ export const libraryAccessGap: Article = {
     "図書館数だけで文化的インフラの充実度を語るのは早計です。人口・面積との関係から、数字の裏側を丁寧に読み解きます。",
   publishedAt: "2026-07-15",
   relatedDataset: "library",
+  relatedArticles: ["spurious-correlation-library-university-population", "university-count-tokyo-concentration-history"],
   body: [
     "都道府県別の公共図書館数を見ると、東京都が394館で圧倒的なトップに立ち、次いで埼玉県・大阪府・北海道・千葉県と続きます。単純な数の比較であれば、東京都は文化的インフラが最も充実した都道府県だと言いたくなります。しかし、これまで当サイトが病院数や文化財数で繰り返し確認してきたのと同じ落とし穴が、ここにもあります。",
 
