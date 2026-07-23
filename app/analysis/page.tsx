@@ -34,7 +34,9 @@ const CORRELATION_PAIRS: { a: string; b: string; note?: string }[] = [
   { a: "density", b: "income" },
   { a: "density", b: "crime" },
   { a: "density", b: "homeownership" },
-  { a: "library", b: "university", note: "生の件数同士（人口規模に強く影響されやすい組み合わせ）" }
+  { a: "library", b: "university", note: "生の件数同士（人口規模に強く影響されやすい組み合わせ）" },
+  { a: "density", b: "car" },
+  { a: "homeownership", b: "car" }
 ];
 
 export default async function AnalysisPage() {
