@@ -14,7 +14,8 @@ export const densityCorrelatesEverything: Article = {
   relatedArticles: [
     "spurious-correlation-library-university-population",
     "population-density-meaning",
-    "car-ownership-tokyo-lowest-rural-highest"
+    "car-ownership-tokyo-lowest-rural-highest",
+    "park-area-tokyo-last-hokkaido-first"
   ],
   body: [
     "当サイトの人口密度データと、性質の異なる複数の指標との相関係数を計算してみると、いずれも無視できない大きさの相関が見つかります。人口密度と県民所得の相関係数は r = 0.654、人口密度と犯罪発生件数（人口千人あたり）は r = 0.528、人口密度と持ち家比率は r = -0.589 です。所得とはプラス、犯罪率ともプラス、持ち家比率とはマイナス。方向も強さもバラバラなこれらの相関が、すべて「人口密度」という1つの変数を軸に同時に成り立っています。",

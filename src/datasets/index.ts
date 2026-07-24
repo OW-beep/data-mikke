@@ -29,6 +29,9 @@ import { schoolLunch } from "./schoolLunch";
 import { cafe } from "./cafe";
 import { cafePerCapita } from "./cafePerCapita";
 import { car } from "./car";
+import { park } from "./park";
+import { doctor } from "./doctor";
+import { trafficAccident } from "./trafficAccident";
 
 /**
  * ★データ追加手順★
@@ -67,7 +70,10 @@ export const DATASETS: Record<string, DatasetConfig> = {
   schoolLunch,
   cafe,
   cafePerCapita,
-  car
+  car,
+  park,
+  doctor,
+  trafficAccident
 };
 
 export const DATASET_LIST: DatasetConfig[] = Object.values(DATASETS);

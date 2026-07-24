@@ -20,6 +20,9 @@ import { manualElectricityHouseholdProvider } from "./manual/electricityHousehol
 import { manualSchoolLunchProvider } from "./manual/schoolLunch";
 import { manualCafeProvider } from "./manual/cafe";
 import { manualCarProvider } from "./manual/car";
+import { manualParkProvider } from "./manual/park";
+import { manualDoctorProvider } from "./manual/doctor";
+import { manualTrafficAccidentProvider } from "./manual/trafficAccident";
 import { computedDensityProvider } from "./computed/density";
 import { computedHospitalPerCapitaProvider } from "./computed/hospitalPerCapita";
 import { computedCulturalPropertyPerCapitaProvider } from "./computed/culturalPropertyPerCapita";
@@ -52,6 +55,9 @@ export const PROVIDERS: Record<string, Provider> = {
   "manual-school-lunch": manualSchoolLunchProvider,
   "manual-cafe": manualCafeProvider,
   "manual-car": manualCarProvider,
+  "manual-park": manualParkProvider,
+  "manual-doctor": manualDoctorProvider,
+  "manual-traffic-accident": manualTrafficAccidentProvider,
   "computed-density": computedDensityProvider,
   "computed-hospital-per-capita": computedHospitalPerCapitaProvider,
   "computed-cultural-property-per-capita": computedCulturalPropertyPerCapitaProvider,

@@ -15,7 +15,8 @@ export const carOwnershipTokyoLowest: Article = {
   relatedArticles: [
     "population-density-correlates-income-crime-homeownership",
     "homeownership-rate-gap",
-    "population-density-meaning"
+    "population-density-meaning",
+    "park-area-tokyo-last-hokkaido-first"
   ],
   body: [
     "1千世帯あたりの自動車所有数量を都道府県別に見ると、山形県が2,111台でトップ、福井県・富山県と北陸・東北の県が上位を占めます。一方、最下位は東京都でわずか665台。山形県の3分の1以下という大きな開きです。大阪府・神奈川県・京都府といった大都市圏も軒並み下位に沈んでおり、車の所有率は明確に「都市か地方か」で分かれています。",

@@ -15,7 +15,8 @@ const CATEGORY_COLORS: Record<string, string> = {
   観光文化: "#b8860b", // dark goldenrod
   総合: "#c9302c", // strong red (総合力スコアを目立たせる)
   教育: "#3a7d7d", // teal-adjacent
-  交通: "#4a6fa5" // road blue
+  交通: "#4a6fa5", // road blue
+  環境: "#3f8f5f" // forest green
 };
 
 const FALLBACK_COLOR = "#0f8c6c";

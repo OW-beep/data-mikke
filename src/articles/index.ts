@@ -28,6 +28,9 @@ import { densityCorrelatesEverything } from "./population-density-correlates-inc
 import { coefficientOfVariationDisparityRanking } from "./coefficient-of-variation-regional-disparity-ranking";
 import { cafeNaganoKingdom } from "./cafe-count-nagano-hidden-kingdom";
 import { carOwnershipTokyoLowest } from "./car-ownership-tokyo-lowest-rural-highest";
+import { parkAreaTokyoLast } from "./park-area-tokyo-last-hokkaido-first";
+import { carTrafficAccidentCorrelation } from "./car-ownership-traffic-accident-correlation";
+import { doctorCountWestHighEastLow } from "./doctor-count-west-high-east-low-mystery";
 
 /**
  * ★記事追加手順★
@@ -64,7 +67,10 @@ export const ARTICLE_LIST: Article[] = [
   densityCorrelatesEverything,
   coefficientOfVariationDisparityRanking,
   cafeNaganoKingdom,
-  carOwnershipTokyoLowest
+  carOwnershipTokyoLowest,
+  parkAreaTokyoLast,
+  carTrafficAccidentCorrelation,
+  doctorCountWestHighEastLow
 ].sort((a, b) => (a.publishedAt < b.publishedAt ? 1 : -1));
 
 export function getArticle(slug: string): Article | undefined {
