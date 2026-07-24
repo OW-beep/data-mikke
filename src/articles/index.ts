@@ -33,6 +33,7 @@ import { carTrafficAccidentCorrelation } from "./car-ownership-traffic-accident-
 import { doctorCountWestHighEastLow } from "./doctor-count-west-high-east-low-mystery";
 import { riceAkitaHiddenNumberOne } from "./rice-per-capita-akita-hidden-number-one";
 import { shipmentPerFactoryScaleDifference } from "./shipment-per-factory-scale-yamaguchi-vs-tokyo";
+import { savingsIncomeGapAichiVsTokyo } from "./savings-income-gap-aichi-beats-tokyo";
 
 /**
  * ★記事追加手順★
@@ -74,7 +75,8 @@ export const ARTICLE_LIST: Article[] = [
   carTrafficAccidentCorrelation,
   doctorCountWestHighEastLow,
   riceAkitaHiddenNumberOne,
-  shipmentPerFactoryScaleDifference
+  shipmentPerFactoryScaleDifference,
+  savingsIncomeGapAichiVsTokyo
 ].sort((a, b) => (a.publishedAt < b.publishedAt ? 1 : -1));
 
 export function getArticle(slug: string): Article | undefined {

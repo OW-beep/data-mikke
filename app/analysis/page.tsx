@@ -42,7 +42,9 @@ const CORRELATION_PAIRS: { a: string; b: string; note?: string }[] = [
   { a: "car", b: "trafficAccident" },
   { a: "doctor", b: "hospital", note: "医師数は人口10万人あたり、病院数は生の件数（人口規模に影響されやすい組み合わせ）" },
   { a: "doctor", b: "income" },
-  { a: "manufacturing", b: "factory", note: "生の件数同士（人口・経済規模に強く影響されやすい組み合わせ）" }
+  { a: "manufacturing", b: "factory", note: "生の件数同士（人口・経済規模に強く影響されやすい組み合わせ）" },
+  { a: "savings", b: "income" },
+  { a: "savings", b: "homeownership" }
 ];
 
 export default async function AnalysisPage() {

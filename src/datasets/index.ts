@@ -35,6 +35,7 @@ import { trafficAccident } from "./trafficAccident";
 import { rice } from "./rice";
 import { ricePerCapita } from "./ricePerCapita";
 import { factory } from "./factory";
+import { savings } from "./savings";
 import { shipmentPerFactory } from "./shipmentPerFactory";
 
 /**
@@ -81,7 +82,8 @@ export const DATASETS: Record<string, DatasetConfig> = {
   rice,
   ricePerCapita,
   factory,
-  shipmentPerFactory
+  shipmentPerFactory,
+  savings
 };
 
 export const DATASET_LIST: DatasetConfig[] = Object.values(DATASETS);
