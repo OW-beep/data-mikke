@@ -32,6 +32,10 @@ import { car } from "./car";
 import { park } from "./park";
 import { doctor } from "./doctor";
 import { trafficAccident } from "./trafficAccident";
+import { rice } from "./rice";
+import { ricePerCapita } from "./ricePerCapita";
+import { factory } from "./factory";
+import { shipmentPerFactory } from "./shipmentPerFactory";
 
 /**
  * ★データ追加手順★
@@ -73,7 +77,11 @@ export const DATASETS: Record<string, DatasetConfig> = {
   car,
   park,
   doctor,
-  trafficAccident
+  trafficAccident,
+  rice,
+  ricePerCapita,
+  factory,
+  shipmentPerFactory
 };
 
 export const DATASET_LIST: DatasetConfig[] = Object.values(DATASETS);

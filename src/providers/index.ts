@@ -23,11 +23,15 @@ import { manualCarProvider } from "./manual/car";
 import { manualParkProvider } from "./manual/park";
 import { manualDoctorProvider } from "./manual/doctor";
 import { manualTrafficAccidentProvider } from "./manual/trafficAccident";
+import { manualRiceProvider } from "./manual/rice";
+import { manualFactoryProvider } from "./manual/factory";
 import { computedDensityProvider } from "./computed/density";
 import { computedHospitalPerCapitaProvider } from "./computed/hospitalPerCapita";
 import { computedCulturalPropertyPerCapitaProvider } from "./computed/culturalPropertyPerCapita";
 import { computedLivabilityProvider } from "./computed/livability";
 import { computedManufacturingPerCapitaProvider } from "./computed/manufacturingPerCapita";
+import { computedRicePerCapitaProvider } from "./computed/ricePerCapita";
+import { computedShipmentPerFactoryProvider } from "./computed/shipmentPerFactory";
 import { computedElectricityPerCapitaProvider } from "./computed/electricityPerCapita";
 import { computedCulturalPropertyPerAreaProvider } from "./computed/culturalPropertyPerArea";
 import { computedUniversityPerCapitaProvider } from "./computed/universityPerCapita";
@@ -58,11 +62,15 @@ export const PROVIDERS: Record<string, Provider> = {
   "manual-park": manualParkProvider,
   "manual-doctor": manualDoctorProvider,
   "manual-traffic-accident": manualTrafficAccidentProvider,
+  "manual-rice": manualRiceProvider,
+  "manual-factory": manualFactoryProvider,
   "computed-density": computedDensityProvider,
   "computed-hospital-per-capita": computedHospitalPerCapitaProvider,
   "computed-cultural-property-per-capita": computedCulturalPropertyPerCapitaProvider,
   "computed-livability": computedLivabilityProvider,
   "computed-manufacturing-per-capita": computedManufacturingPerCapitaProvider,
+  "computed-rice-per-capita": computedRicePerCapitaProvider,
+  "computed-shipment-per-factory": computedShipmentPerFactoryProvider,
   "computed-electricity-per-capita": computedElectricityPerCapitaProvider,
   "computed-cultural-property-per-area": computedCulturalPropertyPerAreaProvider,
   "computed-university-per-capita": computedUniversityPerCapitaProvider,

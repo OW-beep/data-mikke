@@ -31,6 +31,8 @@ import { carOwnershipTokyoLowest } from "./car-ownership-tokyo-lowest-rural-high
 import { parkAreaTokyoLast } from "./park-area-tokyo-last-hokkaido-first";
 import { carTrafficAccidentCorrelation } from "./car-ownership-traffic-accident-correlation";
 import { doctorCountWestHighEastLow } from "./doctor-count-west-high-east-low-mystery";
+import { riceAkitaHiddenNumberOne } from "./rice-per-capita-akita-hidden-number-one";
+import { shipmentPerFactoryScaleDifference } from "./shipment-per-factory-scale-yamaguchi-vs-tokyo";
 
 /**
  * ★記事追加手順★
@@ -70,7 +72,9 @@ export const ARTICLE_LIST: Article[] = [
   carOwnershipTokyoLowest,
   parkAreaTokyoLast,
   carTrafficAccidentCorrelation,
-  doctorCountWestHighEastLow
+  doctorCountWestHighEastLow,
+  riceAkitaHiddenNumberOne,
+  shipmentPerFactoryScaleDifference
 ].sort((a, b) => (a.publishedAt < b.publishedAt ? 1 : -1));
 
 export function getArticle(slug: string): Article | undefined {
