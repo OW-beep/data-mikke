@@ -36,6 +36,7 @@ import { shipmentPerFactoryScaleDifference } from "./shipment-per-factory-scale-
 import { savingsIncomeGapAichiVsTokyo } from "./savings-income-gap-aichi-beats-tokyo";
 import { nurseCountIncomeInverse } from "./nurse-count-income-inverse-relationship";
 import { fishRiceCoastalOverlap } from "./fish-catch-rice-harvest-coastal-overlap";
+import { lifeExpectancyDoctorMyth } from "./life-expectancy-more-doctors-does-not-mean-longer-life";
 
 /**
  * ★記事追加手順★
@@ -80,7 +81,8 @@ export const ARTICLE_LIST: Article[] = [
   shipmentPerFactoryScaleDifference,
   savingsIncomeGapAichiVsTokyo,
   nurseCountIncomeInverse,
-  fishRiceCoastalOverlap
+  fishRiceCoastalOverlap,
+  lifeExpectancyDoctorMyth
 ].sort((a, b) => (a.publishedAt < b.publishedAt ? 1 : -1));
 
 export function getArticle(slug: string): Article | undefined {

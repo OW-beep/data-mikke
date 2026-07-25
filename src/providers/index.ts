@@ -28,6 +28,8 @@ import { manualFactoryProvider } from "./manual/factory";
 import { manualSavingsProvider } from "./manual/savings";
 import { manualNurseProvider } from "./manual/nurse";
 import { manualFishProvider } from "./manual/fish";
+import { manualLifeExpectancyMaleProvider } from "./manual/lifeExpectancyMale";
+import { manualLifeExpectancyFemaleProvider } from "./manual/lifeExpectancyFemale";
 import { computedDensityProvider } from "./computed/density";
 import { computedHospitalPerCapitaProvider } from "./computed/hospitalPerCapita";
 import { computedCulturalPropertyPerCapitaProvider } from "./computed/culturalPropertyPerCapita";
@@ -70,6 +72,8 @@ export const PROVIDERS: Record<string, Provider> = {
   "manual-savings": manualSavingsProvider,
   "manual-nurse": manualNurseProvider,
   "manual-fish": manualFishProvider,
+  "manual-life-expectancy-male": manualLifeExpectancyMaleProvider,
+  "manual-life-expectancy-female": manualLifeExpectancyFemaleProvider,
   "computed-density": computedDensityProvider,
   "computed-hospital-per-capita": computedHospitalPerCapitaProvider,
   "computed-cultural-property-per-capita": computedCulturalPropertyPerCapitaProvider,

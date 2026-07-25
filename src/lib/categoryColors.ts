@@ -16,7 +16,8 @@ const CATEGORY_COLORS: Record<string, string> = {
   総合: "#c9302c", // strong red (総合力スコアを目立たせる)
   教育: "#3a7d7d", // teal-adjacent
   交通: "#4a6fa5", // road blue
-  環境: "#3f8f5f" // forest green
+  環境: "#3f8f5f", // forest green
+  健康: "#d6604d" // warm red
 };
 
 const FALLBACK_COLOR = "#0f8c6c";
