@@ -44,7 +44,10 @@ const CORRELATION_PAIRS: { a: string; b: string; note?: string }[] = [
   { a: "doctor", b: "income" },
   { a: "manufacturing", b: "factory", note: "生の件数同士（人口・経済規模に強く影響されやすい組み合わせ）" },
   { a: "savings", b: "income" },
-  { a: "savings", b: "homeownership" }
+  { a: "savings", b: "homeownership" },
+  { a: "nurse", b: "doctor" },
+  { a: "nurse", b: "income" },
+  { a: "fish", b: "rice" }
 ];
 
 export default async function AnalysisPage() {
