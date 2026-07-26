@@ -37,6 +37,7 @@ import { savingsIncomeGapAichiVsTokyo } from "./savings-income-gap-aichi-beats-t
 import { nurseCountIncomeInverse } from "./nurse-count-income-inverse-relationship";
 import { fishRiceCoastalOverlap } from "./fish-catch-rice-harvest-coastal-overlap";
 import { lifeExpectancyDoctorMyth } from "./life-expectancy-more-doctors-does-not-mean-longer-life";
+import { salaryVsIncomeNaraCommuter } from "./salary-vs-income-nara-commuter-effect";
 
 /**
  * ★記事追加手順★
@@ -82,7 +83,8 @@ export const ARTICLE_LIST: Article[] = [
   savingsIncomeGapAichiVsTokyo,
   nurseCountIncomeInverse,
   fishRiceCoastalOverlap,
-  lifeExpectancyDoctorMyth
+  lifeExpectancyDoctorMyth,
+  salaryVsIncomeNaraCommuter
 ].sort((a, b) => (a.publishedAt < b.publishedAt ? 1 : -1));
 
 export function getArticle(slug: string): Article | undefined {

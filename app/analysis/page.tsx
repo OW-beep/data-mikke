@@ -50,7 +50,9 @@ const CORRELATION_PAIRS: { a: string; b: string; note?: string }[] = [
   { a: "fish", b: "rice" },
   { a: "lifeExpectancyMale", b: "lifeExpectancyFemale" },
   { a: "lifeExpectancyMale", b: "doctor" },
-  { a: "lifeExpectancyMale", b: "income" }
+  { a: "lifeExpectancyMale", b: "income" },
+  { a: "salary", b: "income" },
+  { a: "salary", b: "savings" }
 ];
 
 export default async function AnalysisPage() {

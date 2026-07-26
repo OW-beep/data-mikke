@@ -11,7 +11,8 @@ export const incomeRankingCaution: Article = {
     "homeownership-rate-gap",
     "density-and-income-relation",
     "savings-income-gap-aichi-beats-tokyo",
-    "manufacturing-per-capita-powerhouse"
+    "manufacturing-per-capita-powerhouse",
+    "salary-vs-income-nara-commuter-effect"
   ],
   body: [
     "都道府県別の「1人当たり県民所得」を見ると、東京都が突出して高く、次いで自動車や電機などの製造業が集積する県が続く傾向があります。この数字だけを見て「この県で働けば給料が高い」と考えてしまいがちですが、実はこの指標は個人の給与水準を直接示すものではありません。",
