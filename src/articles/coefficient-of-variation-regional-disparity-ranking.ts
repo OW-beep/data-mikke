@@ -5,7 +5,7 @@ export const coefficientOfVariationDisparityRanking: Article = {
   title: "都道府県格差が最も大きい指標は？ 変動係数で全指標を横並びにしてみた",
   excerpt:
     "単位も桁数もバラバラな指標同士で「どれが一番、都道府県間の差が大きいか」を比べるには、標準偏差ではなく変動係数を使います。",
-  publishedAt: "2026-07-21",
+  publishedAt: "2026-07-14",
   embedRanking: "density",
   relatedArticles: [
     "population-density-meaning",

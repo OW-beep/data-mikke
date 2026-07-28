@@ -5,7 +5,7 @@ export const densityIncomeRelation: Article = {
   title: "人口密度が高い都道府県は本当に「所得も高い」のか",
   excerpt:
     "「都会は稼げる」という印象は、データで見るとどこまで本当なのでしょうか。人口密度ランキングと県民所得ランキングを重ねて確認してみました。",
-  publishedAt: "2026-06-19",
+  publishedAt: "2026-06-24",
   relatedArticles: [
     "population-density-meaning",
     "income-ranking-caution",

@@ -100,6 +100,9 @@ export default async function DashboardPage({ params }: { params: { dataset: str
           <Link href={`/ranking/${dataset.id}`}>全国ランキングを見る →</Link>
         </div>
       )}
+      <div className="dm-back-link">
+        <Link href={`/api/${dataset.id}/csv`}>CSV形式でダウンロード →</Link>
+      </div>
     </div>
   );
 }

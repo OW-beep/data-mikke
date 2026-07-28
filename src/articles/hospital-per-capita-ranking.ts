@@ -5,7 +5,7 @@ export const hospitalPerCapitaRanking: Article = {
   title: "「病院数ランキング」を人口で割り直すと、上位が総入れ替えになる",
   excerpt:
     "単純な病院数では大都市が上位を占めますが、人口10万人あたりで見直すと、ランキングの顔ぶれはまったく違うものになります。",
-  publishedAt: "2026-06-21",
+  publishedAt: "2026-06-25",
   relatedDataset: "hospitalPerCapita",
   relatedArticles: ["hospital-count-reading-guide", "doctor-count-west-high-east-low-mystery", "nurse-count-income-inverse-relationship"],
   body: [

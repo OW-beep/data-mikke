@@ -31,6 +31,7 @@ import { manualFishProvider } from "./manual/fish";
 import { manualLifeExpectancyMaleProvider } from "./manual/lifeExpectancyMale";
 import { manualLifeExpectancyFemaleProvider } from "./manual/lifeExpectancyFemale";
 import { manualSalaryProvider } from "./manual/salary";
+import { manualTemperatureProvider } from "./manual/temperature";
 import { computedDensityProvider } from "./computed/density";
 import { computedHospitalPerCapitaProvider } from "./computed/hospitalPerCapita";
 import { computedCulturalPropertyPerCapitaProvider } from "./computed/culturalPropertyPerCapita";
@@ -76,6 +77,7 @@ export const PROVIDERS: Record<string, Provider> = {
   "manual-life-expectancy-male": manualLifeExpectancyMaleProvider,
   "manual-life-expectancy-female": manualLifeExpectancyFemaleProvider,
   "manual-salary": manualSalaryProvider,
+  "manual-temperature": manualTemperatureProvider,
   "computed-density": computedDensityProvider,
   "computed-hospital-per-capita": computedHospitalPerCapitaProvider,
   "computed-cultural-property-per-capita": computedCulturalPropertyPerCapitaProvider,

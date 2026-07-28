@@ -5,7 +5,7 @@ export const carOwnershipTokyoLowest: Article = {
   title: "自動車の所有率、東京都は山形県の3分の1以下しかない",
   excerpt:
     "1千世帯あたりの自動車所有数量で見ると、山形県・福井県が2,000台超えなのに対し、東京都はわずか665台。この差は「豊かさ」の逆転ではありません。",
-  publishedAt: "2026-07-24",
+  publishedAt: "2026-07-16",
   relatedDataset: "car",
   embedScatter: {
     a: "density",

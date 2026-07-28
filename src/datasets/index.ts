@@ -41,6 +41,7 @@ import { fish } from "./fish";
 import { lifeExpectancyMale } from "./lifeExpectancyMale";
 import { lifeExpectancyFemale } from "./lifeExpectancyFemale";
 import { salary } from "./salary";
+import { temperature } from "./temperature";
 import { shipmentPerFactory } from "./shipmentPerFactory";
 
 /**
@@ -93,7 +94,8 @@ export const DATASETS: Record<string, DatasetConfig> = {
   fish,
   lifeExpectancyMale,
   lifeExpectancyFemale,
-  salary
+  salary,
+  temperature
 };
 
 export const DATASET_LIST: DatasetConfig[] = Object.values(DATASETS);

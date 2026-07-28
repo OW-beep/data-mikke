@@ -5,7 +5,7 @@ export const electricityHouseholdSectorPrecision: Article = {
   title: "電力消費データを『家庭部門』だけに絞り込んだら、見え方が変わった",
   excerpt:
     "これまでの電灯使用電力量よりも、産業・家庭・業務他に分解されたデータの方が、暮らしの実態を正確に映し出します。",
-  publishedAt: "2026-07-18",
+  publishedAt: "2026-07-10",
   relatedDataset: "electricityHousehold",
   relatedArticles: ["electricity-per-capita-lifestyle-clues", "manufacturing-per-capita-powerhouse"],
   body: [

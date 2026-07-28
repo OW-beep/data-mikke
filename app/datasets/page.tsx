@@ -19,7 +19,7 @@ export default function DatasetsIndexPage() {
       {categories.map((category) => {
         const color = getCategoryColor(category);
         return (
-          <div key={category} style={{ marginTop: 32 }}>
+          <div key={category} id={category} style={{ marginTop: 32, scrollMarginTop: 80 }}>
             <h2 style={{ color }}>{category}</h2>
             <div className="dm-grid">
               {DATASET_LIST.filter((d) => d.category === category).map((d) => (

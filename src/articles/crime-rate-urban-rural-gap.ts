@@ -5,7 +5,7 @@ export const crimeRateUrbanGap: Article = {
   title: "犯罪発生率、大阪府・愛知県が上位という結果をどう読むか",
   excerpt:
     "人口あたりの犯罪発生件数で上位に来るのは、必ずしも「治安が悪い」ことだけを意味しません。数字の裏側にある事情を整理しました。",
-  publishedAt: "2026-07-03",
+  publishedAt: "2026-06-30",
   relatedDataset: "crime",
   relatedArticles: [
     "population-density-correlates-income-crime-homeownership",

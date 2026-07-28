@@ -516,3 +516,40 @@ h3 {
   background: var(--dm-coral-tint);
   color: var(--dm-coral-deep);
 }
+
+/* ---------- homepage: category pills ---------- */
+.dm-category-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 16px;
+}
+.dm-category-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 14px;
+  border: 1.5px solid var(--dm-line);
+  border-radius: 999px;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--dm-ink);
+  text-decoration: none;
+  background: var(--dm-bg-card);
+  transition: transform 0.1s ease;
+}
+.dm-category-pill:hover {
+  text-decoration: none;
+  transform: translateY(-1px);
+}
+.dm-category-pill-emoji {
+  font-size: 15px;
+}
+.dm-category-pill-count {
+  font-family: var(--font-mono), monospace;
+  font-size: 11px;
+  color: var(--dm-muted);
+  background: var(--dm-teal-tint);
+  border-radius: 999px;
+  padding: 1px 7px;
+}

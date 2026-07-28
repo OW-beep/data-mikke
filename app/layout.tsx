@@ -78,6 +78,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <div className="dm-footer-inner">
             <nav className="dm-footer-nav">
               <Link href="/about">運営者情報</Link>
+              <Link href="/updates">更新履歴</Link>
               <Link href="/privacy">プライバシーポリシー</Link>
               <Link href="/contact">お問い合わせ</Link>
             </nav>

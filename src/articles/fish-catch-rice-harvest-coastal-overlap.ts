@@ -5,7 +5,7 @@ export const fishRiceCoastalOverlap: Article = {
   title: "漁獲量と米収穫量には、実はゆるやかな関係がある",
   excerpt:
     "海の幸と稲作、一見無関係に見える2つの一次産業データですが、相関係数を計算すると r=0.413 という無視できない関係が見えてきます。",
-  publishedAt: "2026-07-29",
+  publishedAt: "2026-07-23",
   relatedDataset: "fish",
   relatedArticles: ["rice-per-capita-akita-hidden-number-one"],
   body: [

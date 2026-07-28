@@ -5,7 +5,7 @@ export const populationDensityMeaning: Article = {
   title: "人口密度ランキング、実は「面積の小ささ」が決め手だった",
   excerpt:
     "人口密度が高い都道府県は、必ずしも人口が多い県ではありません。人口ランキングと人口密度ランキングを見比べると、順位が入れ替わる県がいくつもあります。",
-  publishedAt: "2026-06-17",
+  publishedAt: "2026-06-23",
   relatedDataset: "density",
   relatedArticles: [
     "coefficient-of-variation-regional-disparity-ranking",

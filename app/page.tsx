@@ -1,11 +1,16 @@
 import Link from "next/link";
 import { DATASET_LIST } from "@/datasets";
 import { ARTICLE_LIST } from "@/articles";
-import { getCategoryColor } from "@/lib/categoryColors";
+import { getCategoryColor, getCategoryEmoji } from "@/lib/categoryColors";
 
 export default function HomePage() {
-  const latestArticles = ARTICLE_LIST.slice(0, 4);
+  const latestArticles = ARTICLE_LIST.slice(0, 8);
   const featuredArticles = ARTICLE_LIST.filter((a) => a.featured).slice(0, 4);
+
+  const categories = Array.from(new Set(DATASET_LIST.map((d) => d.category))).map((category) => ({
+    category,
+    count: DATASET_LIST.filter((d) => d.category === category).length
+  }));
 
   return (
     <div>
@@ -32,6 +37,27 @@ export default function HomePage() {
 
       <hr className="dm-divider" />
 
+      <h2>カテゴリから探す</h2>
+      <div className="dm-category-grid">
+        {categories.map(({ category, count }) => {
+          const color = getCategoryColor(category);
+          return (
+            <Link
+              key={category}
+              href={`/datasets#${encodeURIComponent(category)}`}
+              className="dm-category-pill"
+              style={{ borderColor: color }}
+            >
+              <span className="dm-category-pill-emoji">{getCategoryEmoji(category)}</span>
+              <span className="dm-category-pill-name">{category}</span>
+              <span className="dm-category-pill-count">{count}</span>
+            </Link>
+          );
+        })}
+      </div>
+
+      <hr className="dm-divider" />
+
       <div className="dm-grid" style={{ gridTemplateColumns: "1fr 1fr", gap: 32 }}>
         <div>
           <h2>新着記事</h2>
@@ -49,7 +75,7 @@ export default function HomePage() {
         </div>
 
         <div>
-          <h2>人気記事</h2>
+          <h2>おすすめ記事</h2>
           <div className="dm-article-row-list">
             {featuredArticles.map((a) => (
               <div key={a.slug} className="dm-article-row">
@@ -62,32 +88,6 @@ export default function HomePage() {
             ※ アクセス解析データではなく、当サイトが選んだおすすめ記事です。
           </p>
         </div>
-      </div>
-
-      <hr className="dm-divider" />
-
-      <h2>指標を探す</h2>
-      <div className="dm-grid">
-        {DATASET_LIST.map((d, i) => {
-          const color = getCategoryColor(d.category);
-          return (
-            <div key={d.id} className="dm-card" style={{ borderTopColor: color }}>
-              <span className="dm-card-tag" style={{ background: color }}>
-                No.{String(i + 1).padStart(2, "0")}
-              </span>
-              <div className="dm-card-eyebrow" style={{ color }}>
-                {d.category}
-              </div>
-              <h3>{d.title}</h3>
-              <div className="dm-card-meta">
-                出典: {d.source} ／ {d.frequency}
-              </div>
-              <div className="dm-card-links">
-                <Link href={`/dashboard/${d.id}`}>ダッシュボードを見る →</Link>
-              </div>
-            </div>
-          );
-        })}
       </div>
     </div>
   );

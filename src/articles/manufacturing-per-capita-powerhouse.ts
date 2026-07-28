@@ -5,7 +5,7 @@ export const manufacturingPerCapitaPowerhouse: Article = {
   title: "『1人あたり製造品出荷額』で見ると、愛知県の強さが際立つ理由",
   excerpt:
     "製造品出荷額の総額では愛知県が圧倒的1位ですが、人口で割ってもなお高い水準を保っているのは、単に工場が多いからではありません。",
-  publishedAt: "2026-07-12",
+  publishedAt: "2026-07-04",
   relatedDataset: "manufacturingPerCapita",
   relatedArticles: ["income-ranking-caution", "shipment-per-factory-scale-yamaguchi-vs-tokyo", "savings-income-gap-aichi-beats-tokyo"],
   body: [

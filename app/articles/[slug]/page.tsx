@@ -6,6 +6,7 @@ import { loadDataset, latestByArea, rankDescending } from "@/lib/loadData";
 import { PREFECTURES } from "@/lib/prefectures";
 import { ScatterPlot } from "@/components/ScatterPlot";
 import { pearsonCorrelation, describeCorrelationStrength } from "@/lib/stats";
+import { linkifyPrefectures } from "@/lib/linkifyPrefectures";
 
 export function generateStaticParams() {
   return ARTICLE_LIST.map((a) => ({ slug: a.slug }));
@@ -77,8 +78,8 @@ export default async function ArticlePage({ params }: { params: { slug: string }
       <p className="dm-article-meta">公開日: {article.publishedAt}</p>
 
       <div className="dm-article-body" style={{ marginTop: 24 }}>
-        {article.body.map((paragraph, i) => (
-          <p key={i}>{paragraph}</p>
+        {linkifyPrefectures(article.body).map((nodes, i) => (
+          <p key={i}>{nodes}</p>
         ))}
       </div>
 
