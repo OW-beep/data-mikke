@@ -5,7 +5,7 @@ export const incomeRankingCaution: Article = {
   title: "「県民所得ランキング」は給料のランキングではない",
   excerpt:
     "1人当たり県民所得のランキングを見て「この県は給料が高い」と早合点する前に知っておきたい、指標の中身の話です。",
-  publishedAt: "2026-06-20",
+  publishedAt: "2026-06-18",
   relatedDataset: "income",
   relatedArticles: [
     "homeownership-rate-gap",

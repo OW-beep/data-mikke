@@ -553,3 +553,60 @@ h3 {
   border-radius: 999px;
   padding: 1px 7px;
 }
+
+/* ---------- compare page ---------- */
+.dm-compare-picker {
+  display: flex;
+  align-items: flex-end;
+  gap: 16px;
+  margin: 24px 0;
+}
+.dm-compare-vs {
+  font-family: var(--font-mono), monospace;
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--dm-coral-deep);
+  padding-bottom: 8px;
+}
+.dm-scoreboard {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--dm-bg-card);
+  border: 2px solid var(--dm-ink);
+  border-radius: 6px;
+  padding: 20px 28px;
+  margin-top: 8px;
+}
+.dm-scoreboard-side {
+  text-align: center;
+  min-width: 100px;
+}
+.dm-scoreboard-name {
+  font-size: 14px;
+  font-weight: 700;
+}
+.dm-scoreboard-count {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.1;
+  color: var(--dm-coral-deep);
+}
+.dm-scoreboard-mid {
+  text-align: center;
+  font-size: 12px;
+  color: var(--dm-muted);
+  max-width: 160px;
+}
+.dm-compare-bar {
+  width: 100%;
+  height: 5px;
+  background: transparent;
+  display: flex;
+  margin-top: 3px;
+}
+.dm-compare-bar-fill {
+  height: 5px;
+  border-radius: 3px;
+  min-width: 4px;
+}

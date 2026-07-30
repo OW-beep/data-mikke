@@ -5,7 +5,7 @@ export const doctorCountWestHighEastLow: Article = {
   title: "医師数「西高東低」の謎。所得が高い県ほど医師が多いわけではない",
   excerpt:
     "人口10万人あたりの医師数は徳島県・東京都・京都府が上位、埼玉県・茨城県・千葉県が下位という、はっきりした地域差があります。所得との相関はほぼゼロでした。",
-  publishedAt: "2026-07-19",
+  publishedAt: "2026-07-17",
   relatedDataset: "doctor",
   relatedArticles: ["hospital-per-capita-ranking", "hospital-count-reading-guide", "income-ranking-caution"],
   body: [

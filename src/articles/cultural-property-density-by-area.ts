@@ -5,7 +5,7 @@ export const culturalPropertyDensityByArea: Article = {
   title: "文化財を『人口』ではなく『面積』で割ると、京都府の異次元さが際立つ",
   excerpt:
     "人口10万人あたりでは奈良県が上位でしたが、面積で割ると京都府が圧倒的な密度を見せます。2つの調整方法で結果が変わる理由を解説します。",
-  publishedAt: "2026-07-11",
+  publishedAt: "2026-07-09",
   relatedDataset: "culturalPropertyPerArea",
   relatedArticles: ["cultural-property-per-capita-surprise", "cultural-property-building-kyoto-nara-temples"],
   body: [

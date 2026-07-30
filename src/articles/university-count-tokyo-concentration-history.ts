@@ -5,7 +5,7 @@ export const universityTokyoConcentration: Article = {
   title: "大学数、東京都139校の内実。なぜここまで一極集中したのか",
   excerpt:
     "大学数ランキングは東京都が2位以下を大きく引き離す圧勝です。この集中は自然にできたものではなく、政策の歴史が関わっています。",
-  publishedAt: "2026-07-06",
+  publishedAt: "2026-07-04",
   relatedDataset: "university",
   relatedArticles: ["university-per-capita-kyoto-student-city", "library-count-access-and-per-capita-trap"],
   body: [

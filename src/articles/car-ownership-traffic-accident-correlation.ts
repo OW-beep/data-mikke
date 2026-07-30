@@ -5,7 +5,7 @@ export const carTrafficAccidentCorrelation: Article = {
   title: "車を多く持つ県ほど、交通事故死者数も多い。相関係数0.61の意味",
   excerpt:
     "自動車所有率と交通事故死者数には、実データで確認できるはっきりした相関があります。ただし「運転が荒い」という話ではありません。",
-  publishedAt: "2026-07-18",
+  publishedAt: "2026-07-16",
   relatedDataset: "trafficAccident",
   embedScatter: {
     a: "car",

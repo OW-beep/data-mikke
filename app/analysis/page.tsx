@@ -54,7 +54,11 @@ const CORRELATION_PAIRS: { a: string; b: string; note?: string }[] = [
   { a: "salary", b: "income" },
   { a: "salary", b: "savings" },
   { a: "temperature", b: "lifeExpectancyMale" },
-  { a: "temperature", b: "income" }
+  { a: "temperature", b: "income" },
+  { a: "universityPerCapita", b: "income" },
+  { a: "rice", b: "income" },
+  { a: "fish", b: "income" },
+  { a: "electricityPerCapita", b: "income" }
 ];
 
 export default async function AnalysisPage() {

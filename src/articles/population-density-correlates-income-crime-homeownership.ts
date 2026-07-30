@@ -5,7 +5,7 @@ export const densityCorrelatesEverything: Article = {
   title: "人口密度は、所得とも、犯罪率とも、持ち家比率とも相関する『万能変数』だった",
   excerpt:
     "人口密度は、性質の異なる複数の指標と同時に相関します。これは人口密度に何か特別な力があるからではなく、「都市化」という1つの現象の裏表だからです。",
-  publishedAt: "2026-07-13",
+  publishedAt: "2026-07-11",
   embedScatter: {
     a: "density",
     b: "income",

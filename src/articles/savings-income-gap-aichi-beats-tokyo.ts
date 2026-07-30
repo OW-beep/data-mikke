@@ -5,7 +5,7 @@ export const savingsIncomeGapAichiVsTokyo: Article = {
   title: "貯蓄額1位は東京都ではなく愛知県。所得1位の東京都はまさかの8位",
   excerpt:
     "県民所得では東京都が全国トップですが、貯蓄額で見ると愛知県が1位、東京都は8位に後退します。稼ぐ地域と貯める地域は必ずしも一致しません。",
-  publishedAt: "2026-07-22",
+  publishedAt: "2026-07-20",
   relatedDataset: "savings",
   relatedArticles: ["income-ranking-caution", "homeownership-rate-gap"],
   body: [

@@ -4,7 +4,7 @@ import { CompareClient } from "@/components/CompareClient";
 
 export const metadata = {
   title: "都道府県を比べる",
-  description: "指標と2つの都道府県を選んで、人口・医療などの統計データを比較できます。"
+  description: "2つの都道府県を選ぶと、全指標を一括で比較できます。どちらが多くの指標で上回っているか、スコアボード形式で確認できます。"
 };
 
 export default function ComparePage() {
@@ -14,7 +14,10 @@ export default function ComparePage() {
     <div>
       <p className="dm-eyebrow">見比べる</p>
       <h1>都道府県を比べる</h1>
-      <p className="dm-lede">指標と2つの都道府県を選ぶと、標本を並べるように数字を比較できます。</p>
+      <p className="dm-lede">
+        2つの都道府県を選ぶと、{comparableDatasets.length}
+        個の指標を一括で比較できます。どちらの数値が多くの指標で上回っているか、スコアボード形式で確認できます。
+      </p>
       <CompareClient datasets={comparableDatasets} prefectures={PREFECTURES} />
     </div>
   );

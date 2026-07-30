@@ -5,7 +5,7 @@ export const homeownershipRateGap: Article = {
   title: "持ち家比率、東京都はなぜ全国最下位なのか",
   excerpt:
     "持ち家比率が全国トップクラスの秋田県・富山県と、最下位クラスの東京都・沖縄県。この差は「豊かさ」の違いではありません。",
-  publishedAt: "2026-06-26",
+  publishedAt: "2026-06-24",
   relatedDataset: "homeownership",
   relatedArticles: [
     "income-ranking-caution",

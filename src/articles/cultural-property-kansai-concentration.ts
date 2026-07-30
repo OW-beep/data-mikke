@@ -5,7 +5,7 @@ export const culturalPropertyKansaiConcentration: Article = {
   title: "国宝・重要文化財の半数近くが東京・京都・奈良・滋賀に集中する理由",
   excerpt:
     "全国の国宝・重要文化財のうち、上位4都府県だけで半数近くを占めています。この極端な偏りはなぜ起きるのかを整理しました。",
-  publishedAt: "2026-07-01",
+  publishedAt: "2026-06-29",
   relatedDataset: "culturalProperty",
   relatedArticles: ["cultural-property-per-capita-surprise", "cultural-property-density-by-area", "cultural-property-building-kyoto-nara-temples"],
   body: [

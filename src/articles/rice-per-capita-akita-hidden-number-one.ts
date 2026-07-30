@@ -5,7 +5,7 @@ export const riceAkitaHiddenNumberOne: Article = {
   title: "米の収穫量、総量では新潟県1位。でも人口で割ると秋田県が圧勝する",
   excerpt:
     "水稲収穫量の総量ランキングでは新潟県がトップですが、人口10万人あたりに直すと秋田県が2位以下を大きく引き離します。",
-  publishedAt: "2026-07-20",
+  publishedAt: "2026-07-18",
   relatedDataset: "ricePerCapita",
   relatedArticles: ["population-density-meaning"],
   body: [

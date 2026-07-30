@@ -5,7 +5,7 @@ export const spuriousCorrelationLibraryUniversity: Article = {
   title: "図書館数と大学数の相関係数は0.925。しかし人口を調整すると、ほぼゼロになる",
   excerpt:
     "一見すると強い相関に見える2つの指標が、実は「人口の大きさ」という共通の原因によって連動して見えているだけだった、という統計の基本的な罠を実データで確認します。",
-  publishedAt: "2026-07-12",
+  publishedAt: "2026-07-10",
   featured: true,
   embedScatter: {
     a: "library",

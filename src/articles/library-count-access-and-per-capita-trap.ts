@@ -5,7 +5,7 @@ export const libraryAccessGap: Article = {
   title: "図書館数ランキング、東京都1位は「アクセスの良さ」を意味しない",
   excerpt:
     "図書館数だけで文化的インフラの充実度を語るのは早計です。人口・面積との関係から、数字の裏側を丁寧に読み解きます。",
-  publishedAt: "2026-07-05",
+  publishedAt: "2026-07-03",
   relatedDataset: "library",
   relatedArticles: ["spurious-correlation-library-university-population", "university-count-tokyo-concentration-history"],
   body: [

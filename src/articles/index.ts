@@ -39,6 +39,8 @@ import { fishRiceCoastalOverlap } from "./fish-catch-rice-harvest-coastal-overla
 import { lifeExpectancyDoctorMyth } from "./life-expectancy-more-doctors-does-not-mean-longer-life";
 import { salaryVsIncomeNaraCommuter } from "./salary-vs-income-nara-commuter-effect";
 import { temperatureOkinawaHokkaidoGap } from "./temperature-okinawa-hokkaido-gap-13-degrees";
+import { universityDensityIncomeMyth } from "./university-density-income-myth";
+import { agricultureFisheriesIncomeStereotype } from "./agriculture-fisheries-income-stereotype-busted";
 
 /**
  * ★記事追加手順★
@@ -86,7 +88,9 @@ export const ARTICLE_LIST: Article[] = [
   fishRiceCoastalOverlap,
   lifeExpectancyDoctorMyth,
   salaryVsIncomeNaraCommuter,
-  temperatureOkinawaHokkaidoGap
+  temperatureOkinawaHokkaidoGap,
+  universityDensityIncomeMyth,
+  agricultureFisheriesIncomeStereotype
 ].sort((a, b) => (a.publishedAt < b.publishedAt ? 1 : -1));
 
 export function getArticle(slug: string): Article | undefined {

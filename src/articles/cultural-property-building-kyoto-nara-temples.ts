@@ -5,7 +5,7 @@ export const culturalPropertyBuildingKyotoNara: Article = {
   title: "国宝・重文の『建造物』だけに絞ると、京都・奈良の強さがさらに際立つ",
   excerpt:
     "総数ランキングでは東京都が1位でしたが、建造物だけに絞ると話は変わります。寺社仏閣が多い地域の実力が見えてきます。",
-  publishedAt: "2026-07-08",
+  publishedAt: "2026-07-06",
   relatedDataset: "culturalPropertyBuilding",
   relatedArticles: ["cultural-property-kansai-concentration", "cultural-property-density-by-area"],
   body: [

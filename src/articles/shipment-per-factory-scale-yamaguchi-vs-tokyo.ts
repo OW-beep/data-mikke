@@ -5,7 +5,7 @@ export const shipmentPerFactoryScaleDifference: Article = {
   title: "工場の平均規模、山口県は東京都の11倍。同じ『製造業』でも中身が違う",
   excerpt:
     "製造品出荷額を事業所数で割ると、山口県の1事業所あたりの規模は東京都の11倍以上。「工業県」の中身が県によってまったく違うことが分かります。",
-  publishedAt: "2026-07-21",
+  publishedAt: "2026-07-19",
   relatedDataset: "shipmentPerFactory",
   relatedArticles: ["manufacturing-per-capita-powerhouse"],
   body: [
