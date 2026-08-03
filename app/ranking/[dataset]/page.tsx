@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { getDataset, DATASET_LIST } from "@/datasets";
 import { loadDataset, latestByArea, rankDescending } from "@/lib/loadData";
 import { findPrefectureByCode } from "@/lib/prefectures";
+import { buildRankingInsight } from "@/lib/stats";
 
 export function generateStaticParams() {
   return DATASET_LIST.filter((d) => d.ranking).map((d) => ({ dataset: d.id }));
@@ -25,6 +26,7 @@ export default async function RankingPage({ params }: { params: { dataset: strin
 
   const points = await loadDataset(dataset.id);
   const ranked = rankDescending(latestByArea(points));
+  const insight = buildRankingInsight(ranked, dataset.unit);
 
   return (
     <div>
@@ -33,6 +35,7 @@ export default async function RankingPage({ params }: { params: { dataset: strin
       </p>
       <h1>{dataset.title}ランキング</h1>
       <p className="dm-lede">47都道府県を{dataset.title}の値が大きい順に並べています。</p>
+      {insight && <p className="dm-insight">{insight}</p>}
 
       <table className="dm-table" style={{ marginTop: 24 }}>
         <thead>

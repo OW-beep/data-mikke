@@ -61,7 +61,16 @@ const CORRELATION_PAIRS: { a: string; b: string; note?: string }[] = [
   { a: "electricityPerCapita", b: "income" },
   { a: "rent", b: "density" },
   { a: "rent", b: "salary" },
-  { a: "rent", b: "homeownership" }
+  { a: "rent", b: "homeownership" },
+  { a: "forest", b: "crime" },
+  { a: "forest", b: "homeownership" },
+  { a: "forest", b: "income" },
+  { a: "sunshine", b: "temperature" },
+  { a: "sunshine", b: "income" },
+  { a: "milk", b: "rice", note: "生の件数同士（人口・農地規模に強く影響されやすい組み合わせ）" },
+  { a: "lifeExpectancyFemale", b: "doctor" },
+  { a: "lifeExpectancyFemale", b: "income" },
+  { a: "schoolLunch", b: "income", note: "生の件数同士（人口規模に強く影響されやすい組み合わせ）" }
 ];
 
 export default async function AnalysisPage() {

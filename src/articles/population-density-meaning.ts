@@ -11,7 +11,8 @@ export const populationDensityMeaning: Article = {
     "coefficient-of-variation-regional-disparity-ranking",
     "population-density-correlates-income-crime-homeownership",
     "park-area-tokyo-last-hokkaido-first",
-    "car-ownership-tokyo-lowest-rural-highest"
+    "car-ownership-tokyo-lowest-rural-highest",
+    "area-hokkaido-44-times-kagawa"
   ],
   body: [
     "人口密度は「人口 ÷ 面積」で計算される指標で、1平方キロメートルあたりに何人が暮らしているかを表します。当サイトのこのランキングは、人口データと国土地理院の面積データを掛け合わせて独自に算出しています。単純な人口ランキングとは順位がかなり入れ替わるのが特徴です。",

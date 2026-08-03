@@ -10,7 +10,8 @@ export const temperatureOkinawaHokkaidoGap: Article = {
   relatedArticles: [
     "electricity-per-capita-lifestyle-clues",
     "life-expectancy-more-doctors-does-not-mean-longer-life",
-    "rice-per-capita-akita-hidden-number-one"
+    "rice-per-capita-akita-hidden-number-one",
+    "sunshine-hours-saitama-top-okinawa-low"
   ],
   body: [
     "都道府県庁所在地（一部市を含む）の年平均気温を見ると、沖縄県が23.7℃で最も高く、次いで鹿児島県（19.3℃）、宮崎県（18.2℃）と続きます。最も低いのは北海道の10.2℃で、次いで岩手県（11.2℃）、青森県（11.3℃）です。沖縄県と北海道の差は13.5℃にのぼり、これは緯度の違いだけでなく、海洋性気候と大陸性気候の違いも反映した、日本列島の気候の多様さを表す数字です。",

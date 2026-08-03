@@ -5,6 +5,7 @@ import { loadDataset, latestByArea, rankDescending, seriesForArea } from "@/lib/
 import { TrendChart } from "@/components/TrendChart";
 import { RankingBarChart } from "@/components/RankingBarChart";
 import { findPrefectureByCode } from "@/lib/prefectures";
+import { buildRankingInsight } from "@/lib/stats";
 
 export function generateStaticParams() {
   return DATASET_LIST.map((d) => ({ dataset: d.id }));
@@ -33,6 +34,7 @@ export default async function DashboardPage({ params }: { params: { dataset: str
   const total = latest.reduce((sum, p) => sum + p.value, 0);
   const topArea = ranked[0];
   const trend = topArea ? seriesForArea(points, topArea.areaCode) : [];
+  const insight = buildRankingInsight(ranked, dataset.unit);
 
   return (
     <div>
@@ -41,6 +43,7 @@ export default async function DashboardPage({ params }: { params: { dataset: str
       <p className="dm-lede">
         {dataset.description} 出典: {dataset.source}（{dataset.frequency}）
       </p>
+      {insight && <p className="dm-insight">{insight}</p>}
 
       <div className="dm-stat-row">
         <div className="dm-stat">

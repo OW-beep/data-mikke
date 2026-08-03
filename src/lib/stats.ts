@@ -47,3 +47,50 @@ export function describeCorrelationStrength(r: number): string {
   if (abs >= 0.2) return "弱い";
   return "ほとんど無い";
 }
+
+/** 表示用に数値を整形する。整数はカンマ区切り、小数は小数点以下2桁までに丸める */
+export function formatStatValue(value: number): string {
+  if (Number.isInteger(value)) return value.toLocaleString("ja-JP");
+  return value.toLocaleString("ja-JP", { maximumFractionDigits: 2 });
+}
+
+/**
+ * ランキングページ・ダッシュボードページ用に、テーブルだけでは伝わらない
+ * 「1位と最下位の差」「中央値との比較」を、実データから毎回計算して1〜2文の日本語にする。
+ * ハードコードされたコメントではなく、その時点のデータに応じて内容が変わる。
+ */
+export function buildRankingInsight(
+  ranked: { areaName: string; value: number }[],
+  unit: string
+): string {
+  if (ranked.length < 2) return "";
+
+  const top = ranked[0];
+  const bottom = ranked[ranked.length - 1];
+  const values = ranked.map((p) => p.value);
+  const med = median(values);
+
+  const sentences: string[] = [];
+
+  sentences.push(
+    `1位は${top.areaName}（${formatStatValue(top.value)}${unit}）、最下位は${bottom.areaName}（${formatStatValue(
+      bottom.value
+    )}${unit}）です。`
+  );
+
+  if (bottom.value > 0 && top.value !== bottom.value) {
+    const ratio = top.value / bottom.value;
+    const ratioText = ratio >= 10 ? ratio.toFixed(0) : ratio.toFixed(1);
+    const gapComment = ratio >= 3 ? "都道府県による差が大きい指標です。" : "都道府県による差は比較的小さい指標です。";
+    sentences.push(`1位と最下位の差は約${ratioText}倍で、${gapComment}`);
+  }
+
+  if (med !== null && med > 0 && top.value !== med) {
+    const ratioToMedian = top.value / med;
+    sentences.push(
+      `全国の中央値は${formatStatValue(med)}${unit}で、${top.areaName}はその約${ratioToMedian.toFixed(1)}倍にあたります。`
+    );
+  }
+
+  return sentences.join("");
+}
