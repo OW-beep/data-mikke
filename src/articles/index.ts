@@ -41,6 +41,7 @@ import { salaryVsIncomeNaraCommuter } from "./salary-vs-income-nara-commuter-eff
 import { temperatureOkinawaHokkaidoGap } from "./temperature-okinawa-hokkaido-gap-13-degrees";
 import { universityDensityIncomeMyth } from "./university-density-income-myth";
 import { agricultureFisheriesIncomeStereotype } from "./agriculture-fisheries-income-stereotype-busted";
+import { rentDensityIncomeTradeoff } from "./rent-density-income-tradeoff-tokyo-premium";
 
 /**
  * ★記事追加手順★
@@ -90,7 +91,8 @@ export const ARTICLE_LIST: Article[] = [
   salaryVsIncomeNaraCommuter,
   temperatureOkinawaHokkaidoGap,
   universityDensityIncomeMyth,
-  agricultureFisheriesIncomeStereotype
+  agricultureFisheriesIncomeStereotype,
+  rentDensityIncomeTradeoff
 ].sort((a, b) => (a.publishedAt < b.publishedAt ? 1 : -1));
 
 export function getArticle(slug: string): Article | undefined {

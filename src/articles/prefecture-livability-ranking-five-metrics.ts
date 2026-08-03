@@ -5,7 +5,7 @@ export const livabilityRankingFiveMetrics: Article = {
   title: "都道府県の『住みやすさ』を5つの指標で採点したら、どこが上位に来たか",
   excerpt:
     "県民所得・医療アクセス・持ち家比率・子どもの割合・高齢化率という5つの指標から、当サイト独自の総合力スコアを算出しました。",
-  publishedAt: "2026-07-01",
+  publishedAt: "2026-07-07",
   featured: true,
   relatedDataset: "livability",
   embedRanking: "livability",

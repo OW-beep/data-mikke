@@ -5,7 +5,7 @@ export const agricultureFisheriesIncomeStereotype: Article = {
   title: "『米どころ・漁業県は所得が低い』という思い込みは、データ上は成立しなかった",
   excerpt:
     "農業県・漁業県は経済的に厳しいというイメージがありますが、米収穫量・漁獲量と県民所得の相関係数はどちらもほぼゼロ。イメージと実データは違いました。",
-  publishedAt: "2026-07-26",
+  publishedAt: "2026-08-01",
   relatedDataset: "rice",
   relatedArticles: [
     "rice-per-capita-akita-hidden-number-one",

@@ -5,7 +5,7 @@ export const divorceRateRegionalGap: Article = {
   title: "都道府県別の離婚率、なぜこんなに差があるのか",
   excerpt:
     "離婚率が高い県・低い県には、実ははっきりした傾向があります。年推移データから見えてくる、地域差の背景を整理しました。",
-  publishedAt: "2026-06-20",
+  publishedAt: "2026-06-26",
   relatedDataset: "divorce",
   relatedArticles: ["population-ranking-how-to-read", "children-ratio-and-regional-future"],
   body: [

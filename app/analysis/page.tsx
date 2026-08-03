@@ -58,7 +58,10 @@ const CORRELATION_PAIRS: { a: string; b: string; note?: string }[] = [
   { a: "universityPerCapita", b: "income" },
   { a: "rice", b: "income" },
   { a: "fish", b: "income" },
-  { a: "electricityPerCapita", b: "income" }
+  { a: "electricityPerCapita", b: "income" },
+  { a: "rent", b: "density" },
+  { a: "rent", b: "salary" },
+  { a: "rent", b: "homeownership" }
 ];
 
 export default async function AnalysisPage() {

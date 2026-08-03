@@ -5,7 +5,7 @@ export const cafeNaganoKingdom: Article = {
   title: "喫茶店の軒数、総数は東京都1位。でも人口で割ると『長野県』が王者になる",
   excerpt:
     "喫茶店の軒数ランキングは東京都・愛知県・大阪府が上位の常連ですが、人口で調整すると、まったく違う「隠れた喫茶店王国」が姿を現します。",
-  publishedAt: "2026-07-13",
+  publishedAt: "2026-07-19",
   featured: true,
   relatedDataset: "cafe",
   body: [

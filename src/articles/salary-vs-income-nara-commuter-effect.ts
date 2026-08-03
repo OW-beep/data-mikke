@@ -5,7 +5,7 @@ export const salaryVsIncomeNaraCommuter: Article = {
   title: "なぜ奈良県は『給料が高い県』なのに県民所得は39位なのか？",
   excerpt:
     "「県民所得」と「平均年収」は別の統計です。奈良県はこの2つで順位が30も違います。答えは「どこで働き、どこで暮らすか」の違いにあります。",
-  publishedAt: "2026-07-24",
+  publishedAt: "2026-07-30",
   relatedDataset: "salary",
   relatedArticles: ["income-ranking-caution", "savings-income-gap-aichi-beats-tokyo", "population-density-meaning"],
   body: [

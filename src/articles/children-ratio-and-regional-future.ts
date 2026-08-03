@@ -5,7 +5,7 @@ export const childrenRatioAndFuture: Article = {
   title: "子どもの割合が高い都道府県ランキング、上位に共通する意外な特徴",
   excerpt:
     "年少人口割合（15歳未満人口の割合）が高い都道府県には、実は「合計特殊出生率が高い」以外にも共通点があります。",
-  publishedAt: "2026-06-25",
+  publishedAt: "2026-07-01",
   relatedDataset: "childrenRatio",
   relatedArticles: ["aging-ratio-top-prefectures", "divorce-rate-regional-gap", "homeownership-rate-gap", "car-ownership-tokyo-lowest-rural-highest"],
   body: [

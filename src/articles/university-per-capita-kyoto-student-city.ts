@@ -5,7 +5,7 @@ export const universityPerCapitaKyotoTop: Article = {
   title: "大学数を人口で割ると、東京都ではなく京都府が1位になる",
   excerpt:
     "総数では東京都の独走でしたが、人口10万人あたりに直すと京都府がトップに立ちます。「学生の街」としての実像が数字に表れています。",
-  publishedAt: "2026-07-05",
+  publishedAt: "2026-07-11",
   relatedDataset: "universityPerCapita",
   relatedArticles: ["university-count-tokyo-concentration-history", "cafe-count-nagano-hidden-kingdom"],
   body: [

@@ -5,7 +5,7 @@ export const universityDensityIncomeMyth: Article = {
   title: "大学が多い県は本当に稼げるのか？答えは『ほぼ無関係』だった",
   excerpt:
     "「大学が多い＝優秀な人材が集まる＝経済的に豊か」という連想は自然に思えます。しかし実際に相関係数を計算すると、答えはr=0.182。ほとんど関係がありませんでした。",
-  publishedAt: "2026-07-27",
+  publishedAt: "2026-08-02",
   relatedDataset: "universityPerCapita",
   relatedArticles: ["university-per-capita-kyoto-student-city", "income-ranking-caution", "manufacturing-per-capita-powerhouse"],
   body: [

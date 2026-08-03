@@ -5,7 +5,7 @@ export const nurseCountIncomeInverse: Article = {
   title: "看護師数は医師数と連動する一方、所得の高い県ほど少ない",
   excerpt:
     "人口10万人あたり看護師数は医師数との相関がr=0.684と強い一方、県民所得との相関はr=-0.461と、逆方向に働いていました。",
-  publishedAt: "2026-07-22",
+  publishedAt: "2026-07-28",
   relatedDataset: "nurse",
   relatedArticles: ["doctor-count-west-high-east-low-mystery", "hospital-per-capita-ranking"],
   body: [

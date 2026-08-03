@@ -5,7 +5,7 @@ export const parkAreaTokyoLast: Article = {
   title: "1人あたりの公園面積、東京都は全国最下位。北海道の6分の1以下",
   excerpt:
     "北海道は1人あたり27.22m²もの都市公園があるのに対し、東京都はわずか4.26m²。人口密度・所得との関係から、この差の背景を読み解きます。",
-  publishedAt: "2026-07-15",
+  publishedAt: "2026-07-21",
   relatedDataset: "park",
   embedScatter: {
     a: "density",

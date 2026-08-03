@@ -5,7 +5,7 @@ export const populationRankingHowToRead: Article = {
   title: "都道府県別人口ランキング、数字の裏側をどう読むか",
   excerpt:
     "東京都が1位なのは当たり前として、そこから何を読み取るべきか。人口ランキングを「順位」だけで終わらせない読み方を整理しました。",
-  publishedAt: "2026-06-16",
+  publishedAt: "2026-06-22",
   featured: true,
   relatedDataset: "population",
   relatedArticles: ["how-to-compare-prefecture-data", "population-density-meaning"],
