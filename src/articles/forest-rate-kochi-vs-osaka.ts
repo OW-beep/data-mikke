@@ -7,7 +7,8 @@ export const forestRateKochiVsOsaka: Article = {
     "国土に占める森林の割合を都道府県別に見ると、高知県83.8%から大阪府30.0%まで、50ポイント以上の開きがあります。所得との相関はゆるやかな負の関係でした。",
   publishedAt: "2026-08-04",
   relatedDataset: "forest",
-  relatedArticles: ["population-density-meaning", "agriculture-fisheries-income-stereotype-busted"],
+  embedRanking: "forest",
+  relatedArticles: ["population-density-meaning", "agriculture-fisheries-income-stereotype-busted", "forest-rate-crime-rate-correlation"],
   body: [
     "都道府県別の森林率（国土面積に占める森林面積の割合）を見ると、最も高いのは高知県の83.8%です。次いで岐阜県（81.2%）、長野県（78.8%）、島根県（78.2%）、山梨県（77.9%）と、四国山地や中部・中国地方の山がちな県が上位を占めます。逆に最も低いのは大阪府の30.0%で、千葉県（30.5%）、茨城県（30.6%）が続きます。同じ日本国内でも、県土の8割以上が森林の県から、3割程度しかない県まで、50ポイント以上の開きがあることになります。",
 

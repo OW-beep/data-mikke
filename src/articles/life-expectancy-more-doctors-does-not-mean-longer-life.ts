@@ -7,6 +7,11 @@ export const lifeExpectancyDoctorMyth: Article = {
     "平均寿命(男性)と医師数の相関係数はわずかr=0.130。「医療が充実している=長生きできる」という直感は、データの上では裏付けられませんでした。",
   publishedAt: "2026-07-29",
   relatedDataset: "lifeExpectancyMale",
+  embedScatter: {
+    a: "doctor",
+    b: "lifeExpectancyMale",
+    note: "点が横方向にばらばらに広がっており、右肩上がりの傾向がほとんど見られません。医師数の多さと平均寿命の長さは、視覚的にもリンクしていません。"
+  },
   relatedArticles: ["doctor-count-west-high-east-low-mystery", "prefecture-composite-score-explained", "life-expectancy-gender-gap-okinawa-vs-aichi"],
   body: [
     "都道府県別の平均寿命（男性）を見ると、滋賀県が82.73歳で全国トップ、次いで長野県・奈良県・京都府と続きます。最下位は青森県で79.27歳。トップの滋賀県との差は3.46歳にのぼります。当サイトの平均寿命(女性)ランキングでも、上位に岡山県・京都府・島根県、下位に青森県が来るという、男女である程度共通した地域差が見られます（男女の平均寿命の相関係数は r = 0.812 と非常に強い連動です）。",

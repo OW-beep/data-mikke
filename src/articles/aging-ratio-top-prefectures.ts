@@ -7,6 +7,7 @@ export const agingRatioTopPrefectures: Article = {
     "高齢化率が全国で最も高いのは秋田県。一方、東京都は現時点では低い水準にとどまっています。この差が意味するものを整理しました。",
   publishedAt: "2026-07-02",
   relatedDataset: "agingRatio",
+  embedRanking: "agingRatio",
   relatedArticles: [
     "children-ratio-and-regional-future",
     "prefecture-livability-ranking-five-metrics",

@@ -7,6 +7,7 @@ export const homeownershipRateGap: Article = {
     "持ち家比率が全国トップクラスの秋田県・富山県と、最下位クラスの東京都・沖縄県。この差は「豊かさ」の違いではありません。",
   publishedAt: "2026-06-30",
   relatedDataset: "homeownership",
+  embedRanking: "homeownership",
   relatedArticles: [
     "income-ranking-caution",
     "car-ownership-tokyo-lowest-rural-highest",

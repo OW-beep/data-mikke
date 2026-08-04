@@ -48,6 +48,7 @@ import { areaHokkaido44TimesKagawa } from "./area-hokkaido-44-times-kagawa";
 import { milkProductionHokkaidoHalfOfJapan } from "./milk-production-hokkaido-half-of-japan";
 import { lifeExpectancyGenderGapOkinawaVsAichi } from "./life-expectancy-gender-gap-okinawa-vs-aichi";
 import { schoolLunchFacilityCountTokyoVsTottori } from "./school-lunch-facility-count-tokyo-vs-tottori";
+import { forestRateCrimeRateCorrelation } from "./forest-rate-crime-rate-correlation";
 
 /**
  * ★記事追加手順★
@@ -104,7 +105,8 @@ export const ARTICLE_LIST: Article[] = [
   areaHokkaido44TimesKagawa,
   milkProductionHokkaidoHalfOfJapan,
   lifeExpectancyGenderGapOkinawaVsAichi,
-  schoolLunchFacilityCountTokyoVsTottori
+  schoolLunchFacilityCountTokyoVsTottori,
+  forestRateCrimeRateCorrelation
 ].sort((a, b) => (a.publishedAt < b.publishedAt ? 1 : -1));
 
 export function getArticle(slug: string): Article | undefined {

@@ -7,6 +7,11 @@ export const nurseCountIncomeInverse: Article = {
     "人口10万人あたり看護師数は医師数との相関がr=0.684と強い一方、県民所得との相関はr=-0.461と、逆方向に働いていました。",
   publishedAt: "2026-07-28",
   relatedDataset: "nurse",
+  embedScatter: {
+    a: "nurse",
+    b: "income",
+    note: "右肩下がりの傾向がうっすらと見られ、看護師数(人口あたり)が多い県ほど、県民所得はやや低めになる逆相関があります。"
+  },
   relatedArticles: ["doctor-count-west-high-east-low-mystery", "hospital-per-capita-ranking"],
   body: [
     "人口10万人あたりの看護師数を都道府県別に見ると、高知県が1,114.78人で全国トップ、次いで鹿児島県・長崎県・熊本県・佐賀県と、九州・四国の県が上位に集中しています。最下位は埼玉県で486.91人、高知県の半分以下という大きな開きがあります。",

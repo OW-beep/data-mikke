@@ -7,6 +7,7 @@ export const culturalPropertyPerCapitaSurprise: Article = {
     "国宝・重要文化財の総数では東京都がトップですが、人口10万人あたりに直すと、まったく違う顔ぶれが上位に来ます。",
   publishedAt: "2026-07-06",
   relatedDataset: "culturalPropertyPerCapita",
+  embedRanking: "culturalPropertyPerCapita",
   relatedArticles: [
     "cultural-property-kansai-concentration",
     "cultural-property-density-by-area",

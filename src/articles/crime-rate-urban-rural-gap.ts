@@ -7,6 +7,7 @@ export const crimeRateUrbanGap: Article = {
     "人口あたりの犯罪発生件数で上位に来るのは、必ずしも「治安が悪い」ことだけを意味しません。数字の裏側にある事情を整理しました。",
   publishedAt: "2026-07-04",
   relatedDataset: "crime",
+  embedRanking: "crime",
   relatedArticles: [
     "population-density-correlates-income-crime-homeownership",
     "car-ownership-traffic-accident-correlation",

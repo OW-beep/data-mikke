@@ -7,6 +7,11 @@ export const salaryVsIncomeNaraCommuter: Article = {
     "「県民所得」と「平均年収」は別の統計です。奈良県はこの2つで順位が30も違います。答えは「どこで働き、どこで暮らすか」の違いにあります。",
   publishedAt: "2026-07-30",
   relatedDataset: "salary",
+  embedScatter: {
+    a: "salary",
+    b: "income",
+    note: "点が右肩上がりの直線からどれだけ離れているかが、その県の「平均年収」と「県民所得」のズレの大きさです。奈良県は特に大きく外れています。"
+  },
   relatedArticles: ["income-ranking-caution", "savings-income-gap-aichi-beats-tokyo", "population-density-meaning"],
   body: [
     "以前の記事「『県民所得ランキング』は給料のランキングではない」で、県民所得はあくまで都道府県という経済単位全体の指標であり、個人の給与実態を示すものではないと説明しました。今回、厚生労働省「賃金構造基本統計調査」をもとにした「平均年収」データを追加したことで、この2つの指標がどれだけ違う結果を示すか、具体的な数字で確認できるようになりました。",

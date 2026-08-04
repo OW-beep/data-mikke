@@ -7,6 +7,7 @@ export const incomeRankingCaution: Article = {
     "1人当たり県民所得のランキングを見て「この県は給料が高い」と早合点する前に知っておきたい、指標の中身の話です。",
   publishedAt: "2026-06-24",
   relatedDataset: "income",
+  embedRanking: "income",
   relatedArticles: [
     "homeownership-rate-gap",
     "density-and-income-relation",

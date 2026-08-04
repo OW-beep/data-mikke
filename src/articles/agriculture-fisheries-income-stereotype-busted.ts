@@ -7,6 +7,11 @@ export const agricultureFisheriesIncomeStereotype: Article = {
     "農業県・漁業県は経済的に厳しいというイメージがありますが、米収穫量・漁獲量と県民所得の相関係数はどちらもほぼゼロ。イメージと実データは違いました。",
   publishedAt: "2026-08-01",
   relatedDataset: "rice",
+  embedScatter: {
+    a: "rice",
+    b: "income",
+    note: "点がほぼ横一直線に散らばっており、米収穫量と県民所得の間に右肩上がり・右肩下がりいずれの傾向も見られません。"
+  },
   relatedArticles: [
     "rice-per-capita-akita-hidden-number-one",
     "fish-catch-rice-harvest-coastal-overlap",

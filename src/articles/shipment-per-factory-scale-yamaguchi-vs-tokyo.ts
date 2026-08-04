@@ -7,6 +7,7 @@ export const shipmentPerFactoryScaleDifference: Article = {
     "製造品出荷額を事業所数で割ると、山口県の1事業所あたりの規模は東京都の11倍以上。「工業県」の中身が県によってまったく違うことが分かります。",
   publishedAt: "2026-07-25",
   relatedDataset: "shipmentPerFactory",
+  embedRanking: "shipmentPerFactory",
   relatedArticles: ["manufacturing-per-capita-powerhouse"],
   body: [
     "製造品出荷額等を製造業事業所数で割ると、1事業所あたりの平均的な出荷規模が見えてきます。この指標で全国トップに立つのは山口県で、1事業所あたり約18億円。2位は大分県（約14億円）、3位は三重県（約13億円）と続きます。一方、最下位は東京都で、1事業所あたりわずか約1.6億円。山口県との差は11倍以上にもなります。",

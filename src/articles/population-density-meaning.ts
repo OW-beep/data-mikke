@@ -7,6 +7,7 @@ export const populationDensityMeaning: Article = {
     "人口密度が高い都道府県は、必ずしも人口が多い県ではありません。人口ランキングと人口密度ランキングを見比べると、順位が入れ替わる県がいくつもあります。",
   publishedAt: "2026-06-27",
   relatedDataset: "density",
+  embedRanking: "density",
   relatedArticles: [
     "coefficient-of-variation-regional-disparity-ranking",
     "population-density-correlates-income-crime-homeownership",

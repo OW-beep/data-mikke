@@ -8,6 +8,7 @@ export const cafeNaganoKingdom: Article = {
   publishedAt: "2026-07-19",
   featured: true,
   relatedDataset: "cafe",
+  embedRanking: "cafe",
   body: [
     "喫茶店の軒数を都道府県別に見ると、東京都が31,841軒で圧倒的な1位、続いて愛知県、大阪府と、人口の多い大都市圏が上位を占めます。ここまでは、当サイトでこれまで見てきた病院数や大学数と同じ、おなじみの並びです。しかし、これを人口10万人あたりに調整すると、話はまったく変わってきます。",
 

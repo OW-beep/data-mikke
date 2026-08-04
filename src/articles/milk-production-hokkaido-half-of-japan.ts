@@ -7,6 +7,7 @@ export const milkProductionHokkaidoHalfOfJapan: Article = {
     "都道府県別の生乳生産量は、北海道が387.6万トンで全国の52%を占める圧倒的な1位。2位の栃木県（29.9万トン）とは13倍もの差があります。",
   publishedAt: "2026-08-07",
   relatedDataset: "milk",
+  embedRanking: "milk",
   relatedArticles: ["rice-per-capita-akita-hidden-number-one", "fish-catch-rice-harvest-coastal-overlap"],
   body: [
     "都道府県別の生乳生産量を見ると、北海道が387.6万トンで、他の都道府県を寄せ付けない圧倒的な全国トップです。全国47都道府県の生産量合計747.4万トンのうち、北海道1道だけで約52%を占めており、日本の生乳の半分以上がこの1つの道で作られていることになります。2位は栃木県（29.9万トン）、3位は群馬県（24.7万トン）ですが、北海道との差は13倍以上にのぼり、当サイトでこれまで見てきたどの指標よりも、1つの地域への集中度が際立っています。",

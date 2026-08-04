@@ -8,6 +8,7 @@ export const populationRankingHowToRead: Article = {
   publishedAt: "2026-06-22",
   featured: true,
   relatedDataset: "population",
+  embedRanking: "population",
   relatedArticles: ["how-to-compare-prefecture-data", "population-density-meaning"],
   body: [
     "都道府県別の人口ランキングを見ると、上位には東京都・神奈川県・大阪府・愛知県・埼玉県といった顔ぶれが並びます。人口の絶対数だけを見れば「大都市圏が多い」という当たり前の結論で終わってしまいますが、このランキングには少なくとも3つの見落としがちな視点があります。",

@@ -7,6 +7,11 @@ export const universityDensityIncomeMyth: Article = {
     "「大学が多い＝優秀な人材が集まる＝経済的に豊か」という連想は自然に思えます。しかし実際に相関係数を計算すると、答えはr=0.182。ほとんど関係がありませんでした。",
   publishedAt: "2026-08-02",
   relatedDataset: "universityPerCapita",
+  embedScatter: {
+    a: "universityPerCapita",
+    b: "income",
+    note: "点がほぼ横一直線に広がっており、大学数(人口あたり)の多さと県民所得の高さの間に、右肩上がりの明確な関係は見られません。"
+  },
   relatedArticles: ["university-per-capita-kyoto-student-city", "income-ranking-caution", "manufacturing-per-capita-powerhouse"],
   body: [
     "「大学が多い地域は、優秀な人材や研究機関が集まり、経済的にも豊かになりやすいのではないか」という仮説は、直感的にはもっともらしく聞こえます。実際に確かめてみましょう。当サイトの人口10万人あたり大学数と県民所得の相関係数を計算すると、r = 0.182 という、ほとんど関係がないと言っていいレベルの弱い正の相関にとどまりました。",

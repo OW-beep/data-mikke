@@ -7,6 +7,7 @@ export const doctorCountWestHighEastLow: Article = {
     "人口10万人あたりの医師数は徳島県・東京都・京都府が上位、埼玉県・茨城県・千葉県が下位という、はっきりした地域差があります。所得との相関はほぼゼロでした。",
   publishedAt: "2026-07-23",
   relatedDataset: "doctor",
+  embedRanking: "doctor",
   relatedArticles: ["hospital-per-capita-ranking", "hospital-count-reading-guide", "income-ranking-caution"],
   body: [
     "人口10万人あたりの医師数を都道府県別に見ると、徳島県・東京都・京都府が300人前後で上位を占め、逆に埼玉県・茨城県・千葉県は150〜170人台と、上位の半分近くにとどまります。この分布を地図で見ると、西日本の県が軒並み上位に、東日本、特に東京近郊のベッドタウン県が下位に集まる「西高東低」の傾向がはっきり表れます。",

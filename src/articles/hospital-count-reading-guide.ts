@@ -7,6 +7,7 @@ export const hospitalCountReadingGuide: Article = {
     "病院数の多い・少ないだけで「医療が充実している県」と判断するのは早計です。統計を読むときに補って考えたい視点を紹介します。",
   publishedAt: "2026-06-25",
   relatedDataset: "hospital",
+  embedRanking: "hospital",
   relatedArticles: [
     "hospital-per-capita-ranking",
     "doctor-count-west-high-east-low-mystery",

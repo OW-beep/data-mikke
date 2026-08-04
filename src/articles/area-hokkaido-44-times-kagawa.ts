@@ -7,6 +7,7 @@ export const areaHokkaido44TimesKagawa: Article = {
     "都道府県の面積は北海道83,422km²から香川県1,877km²まで、実に44倍の開きがあります。ただし面積の大小は、県民所得や森林率とはほとんど連動していませんでした。",
   publishedAt: "2026-08-06",
   relatedDataset: "area",
+  embedRanking: "area",
   relatedArticles: ["population-density-meaning", "forest-rate-kochi-vs-osaka"],
   body: [
     "都道府県別の面積を見ると、北海道が83,422km²で圧倒的な全国トップです。2位の岩手県（15,274km²）、3位の福島県（13,783km²）を大きく引き離しており、北海道だけで日本の国土の約22%を占めています。最も面積が小さいのは香川県の1,877km²で、大阪府（1,905km²）、東京都（2,200km²）がこれに続きます。北海道と香川県の差は約44倍にのぼり、同じ「都道府県」という単位でくくられていても、面積という点ではまったく異なるスケールの地域が並んでいることになります。",

@@ -6,6 +6,12 @@ export const densityIncomeRelation: Article = {
   excerpt:
     "「都会は稼げる」という印象は、データで見るとどこまで本当なのでしょうか。人口密度ランキングと県民所得ランキングを重ねて確認してみました。",
   publishedAt: "2026-06-28",
+  relatedDataset: "density",
+  embedScatter: {
+    a: "density",
+    b: "income",
+    note: "東京都・大阪府が右上に突出する一方、それ以外の県は緩やかな右肩上がりにとどまり、「密度が高い＝所得も高い」が一部の大都市に限られた関係であることが分かります。"
+  },
   relatedArticles: [
     "population-density-meaning",
     "income-ranking-caution",
