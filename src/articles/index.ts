@@ -52,6 +52,11 @@ import { forestRateCrimeRateCorrelation } from "./forest-rate-crime-rate-correla
 import { whyIBuiltDataMikkeFormerCivilServant } from "./why-i-built-data-mikke-former-civil-servant";
 import { populationDoesNotEqualConvenience } from "./population-does-not-equal-convenience-per-capita-lesson";
 import { whyVisualizationMattersPublicToPrivate } from "./why-visualization-matters-public-sector-to-private";
+import { correlationNotFoundIsAlsoADiscovery } from "./correlation-not-found-is-also-a-discovery";
+import { lessonToMyPastSelfJustShipIt } from "./lesson-to-my-past-self-just-ship-it";
+import { culturalPropertyFourWaysToSeeIt } from "./cultural-property-four-ways-to-see-it";
+import { manufacturingThreeWaysTokyoAichiYamaguchi } from "./manufacturing-three-ways-tokyo-aichi-yamaguchi";
+import { birthrateSmallestGapOkinawaTokyo } from "./birthrate-smallest-gap-okinawa-tokyo";
 
 /**
  * ★記事追加手順★
@@ -112,7 +117,12 @@ export const ARTICLE_LIST: Article[] = [
   forestRateCrimeRateCorrelation,
   whyIBuiltDataMikkeFormerCivilServant,
   populationDoesNotEqualConvenience,
-  whyVisualizationMattersPublicToPrivate
+  whyVisualizationMattersPublicToPrivate,
+  correlationNotFoundIsAlsoADiscovery,
+  lessonToMyPastSelfJustShipIt,
+  culturalPropertyFourWaysToSeeIt,
+  manufacturingThreeWaysTokyoAichiYamaguchi,
+  birthrateSmallestGapOkinawaTokyo
 ].sort((a, b) => (a.publishedAt < b.publishedAt ? 1 : -1));
 
 export function getArticle(slug: string): Article | undefined {

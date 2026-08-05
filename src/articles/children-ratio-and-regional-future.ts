@@ -8,7 +8,7 @@ export const childrenRatioAndFuture: Article = {
   publishedAt: "2026-07-01",
   relatedDataset: "childrenRatio",
   embedRanking: "childrenRatio",
-  relatedArticles: ["aging-ratio-top-prefectures", "divorce-rate-regional-gap", "homeownership-rate-gap", "car-ownership-tokyo-lowest-rural-highest"],
+  relatedArticles: ["aging-ratio-top-prefectures", "divorce-rate-regional-gap", "homeownership-rate-gap", "car-ownership-tokyo-lowest-rural-highest", "birthrate-smallest-gap-okinawa-tokyo"],
   body: [
     "年少人口割合（総人口に占める15歳未満人口の割合）は、その地域に子育て世帯や子どもがどれだけ多いかを示す指標です。全国的には沖縄県が最も高い水準で安定しており、次いで滋賀県や佐賀県など、九州・中国地方の一部の県が上位に入る傾向があります。逆に、高齢化が進む秋田県や高知県などは、年少人口割合が全国で最も低い水準にとどまっています。",
 

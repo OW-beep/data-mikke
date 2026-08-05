@@ -12,7 +12,7 @@ export const spuriousCorrelationLibraryUniversity: Article = {
     b: "university",
     note: "右上に飛び出している1点が東京都です。この1点が相関係数を大きく押し上げています。"
   },
-  relatedArticles: ["population-density-correlates-income-crime-homeownership", "coefficient-of-variation-regional-disparity-ranking"],
+  relatedArticles: ["population-density-correlates-income-crime-homeownership", "coefficient-of-variation-regional-disparity-ranking", "correlation-not-found-is-also-a-discovery"],
   body: [
     "当サイトが持つ複数の統計データについて、47都道府県を単位にピアソンの相関係数を計算してみると、いくつか目を引く数字が出てきます。その中でも特に強いのが、図書館数と大学数の相関です。単純な件数同士で相関係数を求めると r = 0.925 という、非常に強い正の相関になります。感覚的には「図書館が多い県は大学も多い」という関係が成り立っているように見えます。",
 

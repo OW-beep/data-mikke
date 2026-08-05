@@ -8,7 +8,7 @@ export const shipmentPerFactoryScaleDifference: Article = {
   publishedAt: "2026-07-25",
   relatedDataset: "shipmentPerFactory",
   embedRanking: "shipmentPerFactory",
-  relatedArticles: ["manufacturing-per-capita-powerhouse"],
+  relatedArticles: ["manufacturing-per-capita-powerhouse", "manufacturing-three-ways-tokyo-aichi-yamaguchi"],
   body: [
     "製造品出荷額等を製造業事業所数で割ると、1事業所あたりの平均的な出荷規模が見えてきます。この指標で全国トップに立つのは山口県で、1事業所あたり約18億円。2位は大分県（約14億円）、3位は三重県（約13億円）と続きます。一方、最下位は東京都で、1事業所あたりわずか約1.6億円。山口県との差は11倍以上にもなります。",
 

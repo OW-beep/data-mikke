@@ -24,7 +24,8 @@ export function generateMetadata({ params }: { params: { slug: string } }) {
       description: article.excerpt,
       type: "article",
       publishedTime: article.publishedAt
-    }
+    },
+    ...(article.noindex ? { robots: { index: false, follow: true } } : {})
   };
 }
 

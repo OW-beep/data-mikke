@@ -8,9 +8,10 @@ export const culturalPropertyDensityByArea: Article = {
   publishedAt: "2026-07-15",
   relatedDataset: "culturalPropertyPerArea",
   embedRanking: "culturalPropertyPerArea",
-  relatedArticles: ["cultural-property-per-capita-surprise", "cultural-property-building-kyoto-nara-temples"],
+  noindex: true,
+  relatedArticles: ["cultural-property-four-ways-to-see-it"],
   body: [
-    "以前の記事で、国宝・重要文化財の総数を人口10万人あたりに調整すると、奈良県・滋賀県・和歌山県といった県が上位に浮上することを紹介しました。今回は同じ総数を、人口ではなく「面積」で割った指標を見てみます。すると、上位の顔ぶれがまた少し変わってきます。",
+    "国宝・重要文化財の総数を人口10万人あたりに調整すると、奈良県・滋賀県・和歌山県といった県が上位に浮上します。では、人口ではなく「面積」で割ったらどうなるでしょうか。同じ総数のはずなのに、上位の顔ぶれがまた少し変わってきます。",
 
     "面積あたりで見ると、京都府が他を大きく引き離して1位になります。人口あたりの指標では奈良県に次ぐ位置でしたが、面積で割ると圧倒的な密度を記録するのは、京都府が非常にコンパクトな市街地に、寺社仏閣や歴史的建造物がぎっしりと集積しているためです。奈良県は文化財の総数こそ京都府に迫るものの、県の面積が京都府よりやや広く、山間部も多いため、面積で割ると密度としては京都府に及びません。",
 

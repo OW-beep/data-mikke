@@ -11,10 +11,12 @@ export const agingRatioTopPrefectures: Article = {
   relatedArticles: [
     "children-ratio-and-regional-future",
     "prefecture-livability-ranking-five-metrics",
-    "life-expectancy-more-doctors-does-not-mean-longer-life"
+    "life-expectancy-more-doctors-does-not-mean-longer-life",
+    "lesson-to-my-past-self-just-ship-it",
+    "birthrate-smallest-gap-okinawa-tokyo"
   ],
   body: [
-    "高齢化率（総人口に占める65歳以上人口の割合）を都道府県別に見ると、秋田県が全国で最も高い水準にあり、次いで高知県、山口県といった地方の県が上位に並びます。一方、東京都・沖縄県・神奈川県といった都市部や、出生率の高い沖縄県は、高齢化率が全国的に低い水準にとどまっています。",
+    "高齢化が進んでいると聞いて、多くの人が地方の農村部を思い浮かべるかもしれません。実際、高齢化率（総人口に占める65歳以上人口の割合）を都道府県別に見ると、秋田県が全国で最も高い水準にあり、次いで高知県、山口県といった地方の県が上位に並びます。一方、東京都・沖縄県・神奈川県といった都市部や、出生率の高い沖縄県は、高齢化率が全国的に低い水準にとどまっています。",
 
     "この地域差の大きな要因は、高度経済成長期に地方から都市部へ若い世代が大量に移動したことにあります。当時、進学や就職で東京・大阪・名古屋などに移り住んだ世代が地方に戻らなかったことで、地方には親世代が残り、都市部には若い世代が集積しました。その結果が数十年を経て、地方の高齢化率の高さという形で表れています。高齢化率は「今、何が起きているか」だけでなく「数十年前に何が起きたか」を映す指標でもあるのです。",
 

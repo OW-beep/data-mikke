@@ -12,6 +12,8 @@ export interface Article {
   relatedArticles?: string[];
   /** 一覧ページ・トップページで「おすすめ」として優先表示するためのフラグ（手動キュレーション） */
   featured?: boolean;
+  /** trueの場合、検索エンジンにインデックスさせない（統合元の記事など、内容の重複を避けたい場合に使用） */
+  noindex?: boolean;
   /** 本文。段落ごとに配列で持つ（改行で分割してレンダリングする） */
   body: string[];
 }

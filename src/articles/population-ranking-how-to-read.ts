@@ -9,7 +9,7 @@ export const populationRankingHowToRead: Article = {
   featured: true,
   relatedDataset: "population",
   embedRanking: "population",
-  relatedArticles: ["how-to-compare-prefecture-data", "population-density-meaning"],
+  relatedArticles: ["how-to-compare-prefecture-data", "population-density-meaning", "lesson-to-my-past-self-just-ship-it"],
   body: [
     "人口ランキングほど「見たつもり」になりやすい統計はないかもしれません。都道府県別の人口ランキングを見ると、上位には東京都・神奈川県・大阪府・愛知県・埼玉県といった顔ぶれが並びます。人口の絶対数だけを見れば「大都市圏が多い」という当たり前の結論で終わってしまいますが、このランキングには少なくとも3つの見落としがちな視点があります。",
 
@@ -19,6 +19,6 @@ export const populationRankingHowToRead: Article = {
 
     "3つ目は、人口の増減は必ずしも出生・死亡だけで決まらないという点です。転入・転出という社会的な人口移動も大きく影響します。進学や就職を機に若い世代が都市部に移動する動きは、地方の人口減少を加速させる一方で、その若い世代がどこかの都市部で暮らし始めることで、その都市の人口を押し上げます。つまり日本全体で見れば人口はゼロサムに近く、ランキングの変動は「増える県」と「減る県」がセットで存在していることを意味します。",
 
-    "こうした前提を踏まえたうえで、当サイトの人口ダッシュボードやランキングページ、都道府県ページを併用すると、単なる順位表以上の情報を読み取ることができます。まずは自分の住む都道府県、あるいは気になる都道府県のページから確認してみてください。"
+    "こうした前提を踏まえたうえで、人口という、一見もっとも分かりやすいはずの統計ほど、実は読み解くのに補助線が必要な指標だということが、こうして並べてみると見えてきます。"
   ]
 };

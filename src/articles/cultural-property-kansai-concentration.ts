@@ -8,7 +8,8 @@ export const culturalPropertyKansaiConcentration: Article = {
   publishedAt: "2026-07-05",
   relatedDataset: "culturalProperty",
   embedRanking: "culturalProperty",
-  relatedArticles: ["cultural-property-per-capita-surprise", "cultural-property-density-by-area", "cultural-property-building-kyoto-nara-temples"],
+  noindex: true,
+  relatedArticles: ["cultural-property-four-ways-to-see-it"],
   body: [
     "京都や奈良を旅行すると、街のあちこちに国宝級の寺社仏閣があることに驚かされます。この感覚は、実は数字にもそのまま表れています。都道府県別の国宝・重要文化財の総数を見ると、東京都・京都府・奈良県・滋賀県の上位4都府県だけで、全国の半数近くを占めているのです。特に東京都と京都府は2,000件を超え、3位の奈良県以下を大きく引き離しています。この極端な偏りには、日本の歴史そのものが関係しています。",
 

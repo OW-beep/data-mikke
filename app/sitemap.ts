@@ -25,7 +25,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.6
   }));
 
-  const articlePages: MetadataRoute.Sitemap = ARTICLE_LIST.map((a) => ({
+  const articlePages: MetadataRoute.Sitemap = ARTICLE_LIST.filter((a) => !a.noindex).map((a) => ({
     url: `${SITE.url}/articles/${a.slug}`,
     changeFrequency: "yearly",
     priority: 0.5

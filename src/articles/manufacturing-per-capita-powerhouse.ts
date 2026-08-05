@@ -8,7 +8,7 @@ export const manufacturingPerCapitaPowerhouse: Article = {
   publishedAt: "2026-07-08",
   relatedDataset: "manufacturingPerCapita",
   embedRanking: "manufacturingPerCapita",
-  relatedArticles: ["income-ranking-caution", "shipment-per-factory-scale-yamaguchi-vs-tokyo", "savings-income-gap-aichi-beats-tokyo"],
+  relatedArticles: ["income-ranking-caution", "shipment-per-factory-scale-yamaguchi-vs-tokyo", "savings-income-gap-aichi-beats-tokyo", "manufacturing-three-ways-tokyo-aichi-yamaguchi"],
   body: [
     "製造品出荷額等の総額ランキングでは、愛知県が2位以下を大きく引き離してトップに立っています。自動車産業を中心とした巨大な製造業の集積があるためで、これ自体はよく知られた事実です。ここで気になるのは、この強さが単に「人口が多いから」なのか、それとも「人口あたりで見ても本当に強い」のかという点です。",
 

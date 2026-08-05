@@ -8,14 +8,14 @@ export const culturalPropertyPerCapitaSurprise: Article = {
   publishedAt: "2026-07-06",
   relatedDataset: "culturalPropertyPerCapita",
   embedRanking: "culturalPropertyPerCapita",
+  noindex: true,
   relatedArticles: [
-    "cultural-property-kansai-concentration",
-    "cultural-property-density-by-area",
+    "cultural-property-four-ways-to-see-it",
     "university-per-capita-kyoto-student-city",
     "cafe-count-nagano-hidden-kingdom"
   ],
   body: [
-    "前回の記事で紹介した国宝・重要文化財の総数ランキングでは、東京都・京都府・奈良県・滋賀県が上位を占めていました。しかし、この総数を人口で割って「人口10万人あたり」の指標に直すと、ランキングの顔ぶれは大きく変わります。",
+    "国宝・重要文化財の総数ランキングでは、東京都・京都府・奈良県・滋賀県が上位を占めます。この総数を人口で割って「人口10万人あたり」の指標に直すと、ランキングの顔ぶれは大きく変わります。",
 
     "総数で1位だった東京都は、人口10万人あたりで見ると上位から大きく後退します。理由は単純で、東京都は人口が非常に多いため、文化財の総数が多くても、1人あたりに換算すると相対的に薄まってしまうためです。逆に、総数では3位・4位だった奈良県・滋賀県は、人口10万人あたりで見ると全国トップクラスに躍り出ます。人口が少ないにもかかわらず文化財の蓄積が多いため、1人あたりの密度が非常に高くなるからです。",
 

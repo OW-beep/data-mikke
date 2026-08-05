@@ -8,9 +8,10 @@ export const culturalPropertyBuildingKyotoNara: Article = {
   publishedAt: "2026-07-12",
   relatedDataset: "culturalPropertyBuilding",
   embedRanking: "culturalPropertyBuilding",
-  relatedArticles: ["cultural-property-kansai-concentration", "cultural-property-density-by-area"],
+  noindex: true,
+  relatedArticles: ["cultural-property-four-ways-to-see-it"],
   body: [
-    "以前紹介した国宝・重要文化財の総数ランキングでは、東京都が2,729件で1位でした。しかし、文化庁はこの総数を「建造物」と「美術工芸品（絵画・彫刻・工芸品など）」の2種類に分けて公表しています。このうち建造物だけに絞ってランキングを作り直すと、まったく違う顔ぶれが上位に来ます。",
+    "国宝・重要文化財の総数ランキングでは、東京都が2,729件で1位でした。ただしこれは、性質の異なる2種類の文化財を合算した数字です。文化庁はこの総数を「建造物」と「美術工芸品（絵画・彫刻・工芸品など）」に分けて公表しており、建造物だけに絞ってランキングを作り直すと、まったく違う顔ぶれが上位に来ます。",
 
     "建造物数で1位に立つのは京都府（292件）、2位は奈良県（261件）、3位は滋賀県（182件）です。東京都は9位（72件）にとどまり、総数ランキングでの1位という座から大きく後退します。これは、東京都の文化財の多くが「美術工芸品」（絵画・書跡・刀剣など、博物館に収蔵される移動可能な文化財）に偏っているためです。実際、美術工芸品だけのランキングでは東京都が1,562件で圧倒的な1位を維持しています。",
 

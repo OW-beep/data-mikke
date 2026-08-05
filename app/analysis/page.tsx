@@ -70,7 +70,8 @@ const CORRELATION_PAIRS: { a: string; b: string; note?: string }[] = [
   { a: "milk", b: "rice", note: "生の件数同士（人口・農地規模に強く影響されやすい組み合わせ）" },
   { a: "lifeExpectancyFemale", b: "doctor" },
   { a: "lifeExpectancyFemale", b: "income" },
-  { a: "schoolLunch", b: "income", note: "生の件数同士（人口規模に強く影響されやすい組み合わせ）" }
+  { a: "schoolLunch", b: "income", note: "生の件数同士（人口規模に強く影響されやすい組み合わせ）" },
+  { a: "birthrate", b: "income", note: "出生率(2024年)と県民所得(2022年度)は年度が異なる参考値" }
 ];
 
 export default async function AnalysisPage() {
