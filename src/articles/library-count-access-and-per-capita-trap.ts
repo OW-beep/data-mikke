@@ -8,9 +8,9 @@ export const libraryAccessGap: Article = {
   publishedAt: "2026-07-09",
   relatedDataset: "library",
   embedRanking: "library",
-  relatedArticles: ["spurious-correlation-library-university-population", "university-count-tokyo-concentration-history"],
+  relatedArticles: ["spurious-correlation-library-university-population", "university-count-tokyo-concentration-history", "population-does-not-equal-convenience-per-capita-lesson"],
   body: [
-    "都道府県別の公共図書館数を見ると、東京都が394館で圧倒的なトップに立ち、次いで埼玉県・大阪府・北海道・千葉県と続きます。単純な数の比較であれば、東京都は文化的インフラが最も充実した都道府県だと言いたくなります。しかし、これまで当サイトが病院数や文化財数で繰り返し確認してきたのと同じ落とし穴が、ここにもあります。",
+    "図書館の数だけで、その県の「文化的な豊かさ」を語れるでしょうか。都道府県別の公共図書館数を見ると、東京都が394館で圧倒的なトップに立ち、次いで埼玉県・大阪府・北海道・千葉県と続きます。単純な数の比較であれば、東京都は文化的インフラが最も充実した都道府県だと言いたくなります。しかし、これまで当サイトが病院数や文化財数で繰り返し確認してきたのと同じ落とし穴が、ここにもあります。",
 
     "まず、東京都は人口も圧倒的に多いため、館数が多いのは半ば当然の結果です。人口10万人あたりに換算すると、実は東京都は上位から後退し、代わりに長野県や山梨県、鳥取県のような、人口規模の割に図書館が手厚く整備されている地方の県が上位に浮かび上がってきます。特に長野県は総数でも全国6位に入っており、人口規模を考えると図書館密度は際立って高い水準にあります。これは、長野県が「教育県」としての歴史的な自負を持ち、市町村単位で図書館整備に力を入れてきた経緯とも関係していると考えられます。",
 

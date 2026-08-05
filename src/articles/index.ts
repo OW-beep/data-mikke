@@ -49,6 +49,9 @@ import { milkProductionHokkaidoHalfOfJapan } from "./milk-production-hokkaido-ha
 import { lifeExpectancyGenderGapOkinawaVsAichi } from "./life-expectancy-gender-gap-okinawa-vs-aichi";
 import { schoolLunchFacilityCountTokyoVsTottori } from "./school-lunch-facility-count-tokyo-vs-tottori";
 import { forestRateCrimeRateCorrelation } from "./forest-rate-crime-rate-correlation";
+import { whyIBuiltDataMikkeFormerCivilServant } from "./why-i-built-data-mikke-former-civil-servant";
+import { populationDoesNotEqualConvenience } from "./population-does-not-equal-convenience-per-capita-lesson";
+import { whyVisualizationMattersPublicToPrivate } from "./why-visualization-matters-public-sector-to-private";
 
 /**
  * ★記事追加手順★
@@ -106,7 +109,10 @@ export const ARTICLE_LIST: Article[] = [
   milkProductionHokkaidoHalfOfJapan,
   lifeExpectancyGenderGapOkinawaVsAichi,
   schoolLunchFacilityCountTokyoVsTottori,
-  forestRateCrimeRateCorrelation
+  forestRateCrimeRateCorrelation,
+  whyIBuiltDataMikkeFormerCivilServant,
+  populationDoesNotEqualConvenience,
+  whyVisualizationMattersPublicToPrivate
 ].sort((a, b) => (a.publishedAt < b.publishedAt ? 1 : -1));
 
 export function getArticle(slug: string): Article | undefined {

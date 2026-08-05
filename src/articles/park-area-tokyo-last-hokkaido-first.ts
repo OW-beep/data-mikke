@@ -15,6 +15,7 @@ export const parkAreaTokyoLast: Article = {
   relatedArticles: [
     "population-density-meaning",
     "population-density-correlates-income-crime-homeownership",
+    "population-does-not-equal-convenience-per-capita-lesson",
     "car-ownership-tokyo-lowest-rural-highest"
   ],
   body: [
