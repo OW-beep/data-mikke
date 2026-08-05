@@ -5,7 +5,7 @@ export const lessonToMyPastSelfJustShipIt: Article = {
   title: "「とりあえず触って、外に出してみた方がいい」——公務員時代の自分に伝えたいこと",
   excerpt:
     "完璧に整理してから公開しようとするより、小さくても形にして反応を見ながら直していくほうが、結果的に価値のあるものになる。データみっけを個人で育てる中で、あらためて実感していることです。",
-  publishedAt: "2026-08-21",
+  publishedAt: "2026-08-03",
   relatedArticles: [
     "why-i-built-data-mikke-former-civil-servant",
     "population-ranking-how-to-read",

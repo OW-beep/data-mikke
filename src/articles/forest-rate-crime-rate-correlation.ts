@@ -5,7 +5,7 @@ export const forestRateCrimeRateCorrelation: Article = {
   title: "森林率と犯罪発生率の相関係数はr=-0.55。森が多い県は犯罪が少ないのか",
   excerpt:
     "森林率が高い都道府県ほど、人口千人あたりの犯罪発生件数が少ない傾向があります。ただし高知県のような例外もあり、背景には都市化度という別の変数が隠れていそうです。",
-  publishedAt: "2026-08-10",
+  publishedAt: "2026-07-29",
   relatedDataset: "forest",
   embedScatter: {
     a: "forest",

@@ -5,7 +5,7 @@ export const forestRateKochiVsOsaka: Article = {
   title: "森林率トップの高知県83.8%、最下位の大阪府30.0%。国土の見え方は県によってまるで違う",
   excerpt:
     "国土に占める森林の割合を都道府県別に見ると、高知県83.8%から大阪府30.0%まで、50ポイント以上の開きがあります。所得との相関はゆるやかな負の関係でした。",
-  publishedAt: "2026-08-04",
+  publishedAt: "2026-07-23",
   relatedDataset: "forest",
   embedRanking: "forest",
   relatedArticles: ["population-density-meaning", "agriculture-fisheries-income-stereotype-busted", "forest-rate-crime-rate-correlation"],

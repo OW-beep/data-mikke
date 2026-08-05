@@ -5,7 +5,7 @@ export const schoolLunchFacilityCountTokyoVsTottori: Article = {
   title: "給食施設数は東京都が8,582施設でトップ。学校だけでなく病院・事業所も含む地味だが奥深い指標",
   excerpt:
     "学校・病院・事業所等の給食施設数を都道府県別に見ると、東京都が8,582施設で全国トップ。人口規模とほぼ連動しつつも、新潟県のように順位が押し上がる県もあります。",
-  publishedAt: "2026-08-09",
+  publishedAt: "2026-07-28",
   relatedDataset: "schoolLunch",
   embedScatter: {
     a: "schoolLunch",

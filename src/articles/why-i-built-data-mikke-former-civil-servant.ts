@@ -5,7 +5,7 @@ export const whyIBuiltDataMikkeFormerCivilServant: Article = {
   title: "「1位」というランキングを、私はもう鵜呑みにできない。元地方公務員がデータみっけを作った理由",
   excerpt:
     "地方公務員として行政のオープンデータ整備に携わっていた頃、痛感したのは「数字だけでは実態は見えない」ということでした。データみっけの指標づくりの裏にある、実務からきた考え方を書きます。",
-  publishedAt: "2026-08-14",
+  publishedAt: "2026-07-30",
   featured: true,
   relatedArticles: [
     "prefecture-composite-score-explained",

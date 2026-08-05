@@ -5,7 +5,7 @@ export const populationDoesNotEqualConvenience: Article = {
   title: "「人口が多い街=便利な街」ではなかった。公務員時代に痛感した、人口10万人あたりで見る大切さ",
   excerpt:
     "人口の多い自治体ほど公共施設や医療資源も充実しているはず——実務でそう思い込んでいた前提は、人口10万人あたりで数字を見直すたびに裏切られました。その経験が、データみっけの「per capita」指標の原点です。",
-  publishedAt: "2026-08-16",
+  publishedAt: "2026-07-31",
   relatedArticles: [
     "library-count-access-and-per-capita-trap",
     "hospital-per-capita-ranking",

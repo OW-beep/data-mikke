@@ -5,7 +5,7 @@ export const whyVisualizationMattersPublicToPrivate: Article = {
   title: "数字を見せただけでは伝わらない。住民の声から学んだ「見せ方」へのこだわり",
   excerpt:
     "行政時代、正確なデータを公開しても「これは何を意味するのか」と聞かれ続けました。民間に移って気づいたのは、データは「正しく出す」だけでは足りず、「価値として届ける」工程が別に必要だということです。",
-  publishedAt: "2026-08-17",
+  publishedAt: "2026-08-01",
   relatedArticles: [
     "why-i-built-data-mikke-former-civil-servant",
     "population-does-not-equal-convenience-per-capita-lesson",

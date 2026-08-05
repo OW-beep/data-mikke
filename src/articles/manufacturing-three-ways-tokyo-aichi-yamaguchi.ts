@@ -5,7 +5,7 @@ export const manufacturingThreeWaysTokyoAichiYamaguchi: Article = {
   title: "工場の数は東京、稼ぐ額は愛知、1つあたりの規模は山口——「ものづくり県」は測り方で変わる",
   excerpt:
     "「工業が盛んな県」と一言でいっても、工場の数で測るか、稼ぎ出す金額で測るか、1つの工場あたりの規模で測るかによって、1位はまったく別の県になります。同じ製造業データの3つの顔を追いました。",
-  publishedAt: "2026-08-23",
+  publishedAt: "2026-08-05",
   relatedDataset: "manufacturing",
   embedRanking: "manufacturing",
   relatedArticles: [

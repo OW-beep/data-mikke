@@ -5,7 +5,7 @@ export const lifeExpectancyGenderGapOkinawaVsAichi: Article = {
   title: "平均寿命の男女差が最も大きいのは沖縄県の7.15歳。最も小さい愛知県とは1.4歳の差",
   excerpt:
     "平均寿命を男女別に見て女性から男性を引くと、沖縄県が7.15歳差で全国最大。最小の愛知県（5.75歳差）との間にも1.4歳の開きがあります。",
-  publishedAt: "2026-08-08",
+  publishedAt: "2026-07-27",
   relatedDataset: "lifeExpectancyFemale",
   embedScatter: {
     a: "lifeExpectancyMale",

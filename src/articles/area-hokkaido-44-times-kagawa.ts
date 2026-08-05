@@ -5,7 +5,7 @@ export const areaHokkaido44TimesKagawa: Article = {
   title: "面積は北海道が香川県の44倍。それでも所得や森林率との相関はほとんど無かった",
   excerpt:
     "都道府県の面積は北海道83,422km²から香川県1,877km²まで、実に44倍の開きがあります。ただし面積の大小は、県民所得や森林率とはほとんど連動していませんでした。",
-  publishedAt: "2026-08-06",
+  publishedAt: "2026-07-25",
   relatedDataset: "area",
   embedRanking: "area",
   relatedArticles: ["population-density-meaning", "forest-rate-kochi-vs-osaka"],

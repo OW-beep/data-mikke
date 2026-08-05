@@ -5,7 +5,7 @@ export const correlationNotFoundIsAlsoADiscovery: Article = {
   title: "「相関が見つからなかった」も、立派な発見。データ分析を始める人に伝えたいこと",
   excerpt:
     "データ分析は「正解を当てること」ではなく、新しい気づきを得ることだと思っています。小さな疑問をデータで確かめてみると、予想と違う結果になることも、それ自体が発見です。",
-  publishedAt: "2026-08-19",
+  publishedAt: "2026-08-02",
   relatedArticles: [
     "spurious-correlation-library-university-population",
     "forest-rate-crime-rate-correlation",

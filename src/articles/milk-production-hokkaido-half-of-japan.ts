@@ -5,7 +5,7 @@ export const milkProductionHokkaidoHalfOfJapan: Article = {
   title: "生乳生産量、北海道だけで全国の52%。2位栃木県との差は13倍",
   excerpt:
     "都道府県別の生乳生産量は、北海道が387.6万トンで全国の52%を占める圧倒的な1位。2位の栃木県（29.9万トン）とは13倍もの差があります。",
-  publishedAt: "2026-08-07",
+  publishedAt: "2026-07-26",
   relatedDataset: "milk",
   embedRanking: "milk",
   relatedArticles: ["rice-per-capita-akita-hidden-number-one", "fish-catch-rice-harvest-coastal-overlap"],

@@ -5,7 +5,7 @@ export const culturalPropertyFourWaysToSeeIt: Article = {
   title: "国宝・重要文化財は「4つの数え方」で、まったく違うランキングになる",
   excerpt:
     "総数、建造物だけ、人口あたり、面積あたり——同じ国宝・重要文化財のデータでも、割り方を変えるだけで1位の顔ぶれが4回入れ替わります。1つの統計を多角的に見る面白さを、実際の数字で追いました。",
-  publishedAt: "2026-08-22",
+  publishedAt: "2026-08-04",
   featured: true,
   relatedDataset: "culturalProperty",
   embedRanking: "culturalProperty",
