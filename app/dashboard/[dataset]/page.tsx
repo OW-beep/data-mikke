@@ -18,7 +18,10 @@ export function generateMetadata({ params }: { params: { dataset: string } }) {
     title: dataset.seo?.dashboardTitle ?? `${dataset.title}の統計データ・都道府県別ダッシュボード`,
     description:
       dataset.seo?.dashboardDescription ??
-      `${dataset.description ?? dataset.title} 出典: ${dataset.source}（${dataset.frequency}）。都道府県別の推移・上位ランキングを掲載。`
+      `${dataset.description ?? dataset.title} 出典: ${dataset.source}（${dataset.frequency}）。都道府県別の推移・上位ランキングを掲載。`,
+    // 解説記事・都道府県ページに評価を集中させるため、当面は検索エンジンにインデックスさせない。
+    // ページ自体は残し、記事からのリンク経由で閲覧できる状態は維持する。
+    robots: { index: false, follow: true }
   };
 }
 

@@ -250,6 +250,32 @@ h3 {
   text-align: right;
 }
 
+.dm-ranking-details {
+  margin-top: 16px;
+}
+.dm-ranking-details summary {
+  cursor: pointer;
+  font-size: 14px;
+  color: var(--dm-teal);
+  font-weight: 600;
+  padding: 8px 0;
+  list-style: none;
+}
+.dm-ranking-details summary::-webkit-details-marker {
+  display: none;
+}
+.dm-ranking-details summary::before {
+  content: "▸ ";
+  display: inline-block;
+  margin-right: 4px;
+}
+.dm-ranking-details[open] summary::before {
+  content: "▾ ";
+}
+.dm-ranking-details[open] summary {
+  margin-bottom: 8px;
+}
+
 .dm-rank {
   display: inline-flex;
   align-items: center;

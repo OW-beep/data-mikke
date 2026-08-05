@@ -16,7 +16,9 @@ export function generateMetadata({ params }: { params: { dataset: string } }) {
     title: dataset.seo?.rankingTitle ?? `${dataset.title}の都道府県別ランキング（全47都道府県）`,
     description:
       dataset.seo?.rankingDescription ??
-      `${dataset.title}を都道府県別に多い順に並べたランキング。出典: ${dataset.source}。`
+      `${dataset.title}を都道府県別に多い順に並べたランキング。出典: ${dataset.source}。`,
+    // 解説記事・都道府県ページに評価を集中させるため、当面は検索エンジンにインデックスさせない。
+    robots: { index: false, follow: true }
   };
 }
 

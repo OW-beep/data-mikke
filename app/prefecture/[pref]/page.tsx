@@ -53,12 +53,27 @@ export default async function PrefecturePage({ params }: { params: { pref: strin
   const compositeScore = composite.filter((c) => c.favorable).length;
   const compositeTotal = composite.length;
 
+  // 全指標の中で最も順位が高い/低い指標を実データから特定し、都道府県ごとに固有の一文を生成する
+  const rankedRows = rows.filter((r) => r.rank !== null && r.latest !== undefined);
+  const bestRow =
+    rankedRows.length > 0 ? rankedRows.reduce((a, b) => (a.rank! < b.rank! ? a : b)) : null;
+  const worstRow =
+    rankedRows.length > 0 ? rankedRows.reduce((a, b) => (a.rank! > b.rank! ? a : b)) : null;
+
   const categories = Array.from(new Set(DATASET_LIST.map((d) => d.category)));
 
   return (
     <div>
       <p className="dm-eyebrow">都道府県ページ</p>
       <h1>{prefecture.name}</h1>
+
+      {bestRow && worstRow && bestRow.dataset.id !== worstRow.dataset.id && (
+        <p className="dm-lede">
+          当サイトが掲載する{rankedRows.length}指標の中で、{prefecture.name}
+          が全国で最も高い順位にあるのは「{bestRow.dataset.title}」（全国{bestRow.rank!}位）、
+          逆に最も低い順位にあるのは「{worstRow.dataset.title}」（全国{worstRow.rank!}位）です。
+        </p>
+      )}
 
       {compositeTotal > 0 && (
         <>

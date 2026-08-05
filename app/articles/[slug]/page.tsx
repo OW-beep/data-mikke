@@ -5,6 +5,7 @@ import { getDataset } from "@/datasets";
 import { loadDataset, latestByArea, rankDescending } from "@/lib/loadData";
 import { PREFECTURES } from "@/lib/prefectures";
 import { ScatterPlot } from "@/components/ScatterPlot";
+import { RankingBarChart } from "@/components/RankingBarChart";
 import { pearsonCorrelation, describeCorrelationStrength } from "@/lib/stats";
 import { linkifyPrefectures } from "@/lib/linkifyPrefectures";
 
@@ -104,29 +105,36 @@ export default async function ArticlePage({ params }: { params: { slug: string }
           <h2>
             {embedDataset.title}ランキング（全{rankedRows.length}都道府県・{rankedRows[0]?.year ?? "-"}年時点）
           </h2>
-          <table className="dm-table">
-            <thead>
-              <tr>
-                <th style={{ width: 60 }}>順位</th>
-                <th>都道府県</th>
-                <th className="dm-num">値</th>
-              </tr>
-            </thead>
-            <tbody>
-              {rankedRows.map((row, i) => {
-                const pref = PREFECTURES.find((p) => p.code === row.areaCode);
-                return (
-                  <tr key={row.areaCode}>
-                    <td className="dm-mono">{i + 1}</td>
-                    <td>{pref ? <Link href={`/prefecture/${pref.slug}`}>{row.areaName}</Link> : row.areaName}</td>
-                    <td className="dm-num dm-mono">
-                      {row.value.toLocaleString()} {embedDataset.unit}
-                    </td>
-                  </tr>
-                );
-              })}
-            </tbody>
-          </table>
+          <RankingBarChart
+            data={rankedRows.slice(0, 10).map((p) => ({ areaName: p.areaName, value: p.value }))}
+            unit={embedDataset.unit}
+          />
+          <details className="dm-ranking-details">
+            <summary>47都道府県すべての順位を表で見る</summary>
+            <table className="dm-table">
+              <thead>
+                <tr>
+                  <th style={{ width: 60 }}>順位</th>
+                  <th>都道府県</th>
+                  <th className="dm-num">値</th>
+                </tr>
+              </thead>
+              <tbody>
+                {rankedRows.map((row, i) => {
+                  const pref = PREFECTURES.find((p) => p.code === row.areaCode);
+                  return (
+                    <tr key={row.areaCode}>
+                      <td className="dm-mono">{i + 1}</td>
+                      <td>{pref ? <Link href={`/prefecture/${pref.slug}`}>{row.areaName}</Link> : row.areaName}</td>
+                      <td className="dm-num dm-mono">
+                        {row.value.toLocaleString()} {embedDataset.unit}
+                      </td>
+                    </tr>
+                  );
+                })}
+              </tbody>
+            </table>
+          </details>
         </div>
       )}
 
