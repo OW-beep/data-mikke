@@ -7,6 +7,7 @@ export const birthrateSmallestGapOkinawaTokyo: Article = {
     "面積は44倍、生乳生産量は13倍の差があった当サイトの指標の中で、合計特殊出生率の1位・沖縄県(1.60)と最下位・東京都(1.04)の差は約1.5倍。地域差が意外なほど小さい指標です。",
   publishedAt: "2026-08-06",
   relatedDataset: "birthrate",
+  noindex: true, // 実データ未確認(ESTAT_APP_ID未反映によりモックデータで執筆したため、確認できるまで非公開扱い)
   embedRanking: "birthrate",
   relatedArticles: [
     "aging-ratio-top-prefectures",

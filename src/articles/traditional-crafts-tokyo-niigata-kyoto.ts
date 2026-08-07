@@ -8,7 +8,7 @@ export const traditionalCraftsTokyoNiigataKyoto: Article = {
   publishedAt: "2026-08-04",
   relatedDataset: "craft",
   embedRanking: "craft",
-  relatedArticles: ["cultural-property-four-ways-to-see-it", "why-i-built-data-mikke-former-civil-servant"],
+  relatedArticles: ["cultural-property-four-ways-to-see-it", "why-i-built-data-mikke-former-civil-servant", "rural-infrastructure-area-correlation-onsen-michinoeki-craft"],
   body: [
     "経済産業省が伝統的工芸品産業の振興に関する法律（伝産法）に基づいて指定する「伝統的工芸品」は、2025年10月27日時点で全国に244品目あります（都道府県をまたいで指定される品目があるため、都道府県別の指定数の単純合計とは一致しません）。都道府県別に指定数を見ると、意外にも最多は東京都で23品目です。江戸切子、江戸木目込人形、東京銀器、東京手描友禅、多摩織など、江戸時代から続く職人の技が、今も都内各地の工房に受け継がれています。2位は新潟県と京都府で、ともに17品目です。",
 

@@ -8,7 +8,7 @@ export const michinoekiHokkaidoVsTokyoOneStation: Article = {
   publishedAt: "2026-08-05",
   relatedDataset: "michinoeki",
   embedRanking: "michinoeki",
-  relatedArticles: ["area-hokkaido-44-times-kagawa", "car-ownership-tokyo-lowest-rural-highest"],
+  relatedArticles: ["area-hokkaido-44-times-kagawa", "car-ownership-tokyo-lowest-rural-highest", "rural-infrastructure-area-correlation-onsen-michinoeki-craft"],
   body: [
     "国土交通省道路局が公開する「道の駅一覧」（2024年8月7日現在）によると、全国には1,221の道の駅があります。都道府県別に見ると、北海道が128駅で圧倒的な全国トップです。2位は岐阜県（56駅）、3位は長野県（54駅）、4位は新潟県（42駅）、5位は岩手県・兵庫県・和歌山県・熊本県（いずれも36駅）と続きます。",
 

@@ -60,6 +60,7 @@ import { birthrateSmallestGapOkinawaTokyo } from "./birthrate-smallest-gap-okina
 import { traditionalCraftsTokyoNiigataKyoto } from "./traditional-crafts-tokyo-niigata-kyoto";
 import { michinoekiHokkaidoVsTokyoOneStation } from "./michinoeki-hokkaido-vs-tokyo-one-station";
 import { onsenCountHokkaidoNaganoNiigata } from "./onsen-count-hokkaido-nagano-niigata";
+import { ruralInfrastructureAreaCorrelation } from "./rural-infrastructure-area-correlation-onsen-michinoeki-craft";
 
 /**
  * ★記事追加手順★
@@ -128,7 +129,8 @@ export const ARTICLE_LIST: Article[] = [
   birthrateSmallestGapOkinawaTokyo,
   traditionalCraftsTokyoNiigataKyoto,
   michinoekiHokkaidoVsTokyoOneStation,
-  onsenCountHokkaidoNaganoNiigata
+  onsenCountHokkaidoNaganoNiigata,
+  ruralInfrastructureAreaCorrelation
 ].sort((a, b) => (a.publishedAt < b.publishedAt ? 1 : -1));
 
 export function getArticle(slug: string): Article | undefined {

@@ -8,7 +8,7 @@ export const onsenCountHokkaidoNaganoNiigata: Article = {
   publishedAt: "2026-08-06",
   relatedDataset: "onsen",
   embedRanking: "onsen",
-  relatedArticles: ["sunshine-hours-saitama-top-okinawa-low", "forest-rate-kochi-vs-osaka"],
+  relatedArticles: ["sunshine-hours-saitama-top-okinawa-low", "forest-rate-kochi-vs-osaka", "rural-infrastructure-area-correlation-onsen-michinoeki-craft"],
   body: [
     "環境省が公表する令和4年度の温泉利用状況（令和5年3月末現在）によると、都道府県別の温泉地数（宿泊施設のある温泉地の数）で全国トップに立つのは北海道の230か所です。2位は長野県（194か所）、3位は新潟県（142か所）、4位は福島県（127か所）、5位は青森県（125か所）と続きます。全国の温泉地数は合計2,879か所です。",
 
