@@ -6,7 +6,8 @@ import {
   buildClassNameMap,
   buildTotalFilters,
   transformEstatResponse,
-  summarizeClassifications
+  summarizeClassifications,
+  getEstatAppId
 } from "./shared";
 
 /**
@@ -30,7 +31,7 @@ export const estatPopulationProvider: Provider = {
   datasetId: "population",
 
   async fetch(): Promise<DataPoint[]> {
-    const appId = process.env.ESTAT_APP_ID;
+    const appId = getEstatAppId();
 
     if (!appId) {
       console.warn("[estat/population] ESTAT_APP_ID 未設定のためモックデータを使用します");

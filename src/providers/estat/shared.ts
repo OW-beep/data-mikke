@@ -2,6 +2,15 @@ import { DataPoint } from "@/types/data";
 import { PREFECTURES } from "@/lib/prefectures";
 
 /**
+ * e-Stat APIキーを環境変数から取得する共通ヘルパー。
+ * 過去に ESTAT_APP_ID と ESTAT_API_KEY の2つの名前が混在して使われていた経緯があるため、
+ * どちらが設定されていても動作するように両方を見る。
+ */
+export function getEstatAppId(): string | undefined {
+  return process.env.ESTAT_APP_ID ?? process.env.ESTAT_API_KEY;
+}
+
+/**
  * e-Stat API（getStatsData）を呼び出して素のJSONを取得する共通関数。
  * 複数のProvider（人口・出生率など）から使い回す。
  */

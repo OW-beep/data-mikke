@@ -1,7 +1,7 @@
 import { Provider } from "@/providers/types";
 import { DataPoint } from "@/types/data";
 import { PREFECTURES } from "@/lib/prefectures";
-import { callGetStatsData, buildClassNameMap, buildTotalFilters, transformEstatResponse, summarizeClassifications } from "./shared";
+import { callGetStatsData, buildClassNameMap, buildTotalFilters, transformEstatResponse, summarizeClassifications, getEstatAppId } from "./shared";
 
 /**
  * e-Stat API から「都道府県別 高齢化率（65歳以上人口 ÷ 総人口 × 100）」を取得するProvider。
@@ -18,7 +18,7 @@ export const estatAgingRatioProvider: Provider = {
   datasetId: "agingRatio",
 
   async fetch(): Promise<DataPoint[]> {
-    const appId = process.env.ESTAT_APP_ID;
+    const appId = getEstatAppId();
 
     if (!appId) {
       console.warn("[estat/agingRatio] ESTAT_APP_ID 未設定のためモックデータを使用します");
