@@ -1,6 +1,7 @@
 import { Provider } from "./types";
 import { estatPopulationProvider } from "./estat/population";
 import { estatBirthrateProvider } from "./estat/birthrate";
+import { estatConvenienceProvider } from "./estat/convenience";
 import { estatDivorceProvider } from "./estat/divorce";
 import { estatChildrenRatioProvider } from "./estat/childrenRatio";
 import { estatAgingRatioProvider } from "./estat/agingRatio";
@@ -19,6 +20,9 @@ import { manualCulturalPropertyBuildingProvider } from "./manual/culturalPropert
 import { manualElectricityHouseholdProvider } from "./manual/electricityHousehold";
 import { manualSchoolLunchProvider } from "./manual/schoolLunch";
 import { manualCafeProvider } from "./manual/cafe";
+import { manualOnsenProvider } from "./manual/onsen";
+import { manualMichinoekiProvider } from "./manual/michinoeki";
+import { manualCraftProvider } from "./manual/craft";
 import { manualCarProvider } from "./manual/car";
 import { manualParkProvider } from "./manual/park";
 import { manualDoctorProvider } from "./manual/doctor";
@@ -50,6 +54,7 @@ import { computedCafePerCapitaProvider } from "./computed/cafePerCapita";
 export const PROVIDERS: Record<string, Provider> = {
   "estat-population": estatPopulationProvider,
   "estat-birthrate": estatBirthrateProvider,
+  "estat-convenience": estatConvenienceProvider,
   "estat-divorce": estatDivorceProvider,
   "estat-children-ratio": estatChildrenRatioProvider,
   "estat-aging-ratio": estatAgingRatioProvider,
@@ -68,6 +73,9 @@ export const PROVIDERS: Record<string, Provider> = {
   "manual-electricity-household": manualElectricityHouseholdProvider,
   "manual-school-lunch": manualSchoolLunchProvider,
   "manual-cafe": manualCafeProvider,
+  "manual-onsen": manualOnsenProvider,
+  "manual-michinoeki": manualMichinoekiProvider,
+  "manual-craft": manualCraftProvider,
   "manual-car": manualCarProvider,
   "manual-park": manualParkProvider,
   "manual-doctor": manualDoctorProvider,

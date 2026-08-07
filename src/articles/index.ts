@@ -57,6 +57,9 @@ import { lessonToMyPastSelfJustShipIt } from "./lesson-to-my-past-self-just-ship
 import { culturalPropertyFourWaysToSeeIt } from "./cultural-property-four-ways-to-see-it";
 import { manufacturingThreeWaysTokyoAichiYamaguchi } from "./manufacturing-three-ways-tokyo-aichi-yamaguchi";
 import { birthrateSmallestGapOkinawaTokyo } from "./birthrate-smallest-gap-okinawa-tokyo";
+import { traditionalCraftsTokyoNiigataKyoto } from "./traditional-crafts-tokyo-niigata-kyoto";
+import { michinoekiHokkaidoVsTokyoOneStation } from "./michinoeki-hokkaido-vs-tokyo-one-station";
+import { onsenCountHokkaidoNaganoNiigata } from "./onsen-count-hokkaido-nagano-niigata";
 
 /**
  * ★記事追加手順★
@@ -122,7 +125,10 @@ export const ARTICLE_LIST: Article[] = [
   lessonToMyPastSelfJustShipIt,
   culturalPropertyFourWaysToSeeIt,
   manufacturingThreeWaysTokyoAichiYamaguchi,
-  birthrateSmallestGapOkinawaTokyo
+  birthrateSmallestGapOkinawaTokyo,
+  traditionalCraftsTokyoNiigataKyoto,
+  michinoekiHokkaidoVsTokyoOneStation,
+  onsenCountHokkaidoNaganoNiigata
 ].sort((a, b) => (a.publishedAt < b.publishedAt ? 1 : -1));
 
 export function getArticle(slug: string): Article | undefined {

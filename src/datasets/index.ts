@@ -27,6 +27,10 @@ import { culturalPropertyBuilding } from "./culturalPropertyBuilding";
 import { electricityHousehold } from "./electricityHousehold";
 import { schoolLunch } from "./schoolLunch";
 import { cafe } from "./cafe";
+import { convenience } from "./convenience";
+import { onsen } from "./onsen";
+import { michinoeki } from "./michinoeki";
+import { craft } from "./craft";
 import { cafePerCapita } from "./cafePerCapita";
 import { car } from "./car";
 import { park } from "./park";
@@ -83,6 +87,10 @@ export const DATASETS: Record<string, DatasetConfig> = {
   electricityHousehold,
   schoolLunch,
   cafe,
+  convenience,
+  onsen,
+  michinoeki,
+  craft,
   cafePerCapita,
   car,
   park,
