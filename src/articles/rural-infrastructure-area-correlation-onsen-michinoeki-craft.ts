@@ -16,7 +16,8 @@ export const ruralInfrastructureAreaCorrelation: Article = {
     "michinoeki-hokkaido-vs-tokyo-one-station",
     "onsen-count-hokkaido-nagano-niigata",
     "traditional-crafts-tokyo-niigata-kyoto",
-    "area-hokkaido-44-times-kagawa"
+    "area-hokkaido-44-times-kagawa",
+    "convenience-store-income-correlation-not-area"
   ],
   body: [
     "先日追加した3つの新しいデータセット――温泉地の数、道の駅の数、伝統的工芸品の指定数――を、当サイトの面積データと重ねて相関係数を計算してみました。すると、はっきりとした対比が見えてきました。",

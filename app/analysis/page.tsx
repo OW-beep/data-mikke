@@ -75,7 +75,9 @@ const CORRELATION_PAIRS: { a: string; b: string; note?: string }[] = [
   { a: "michinoeki", b: "area" },
   { a: "onsen", b: "area" },
   { a: "onsen", b: "michinoeki" },
-  { a: "craft", b: "area" }
+  { a: "craft", b: "area" },
+  { a: "convenience", b: "income" },
+  { a: "convenience", b: "area" }
 ];
 
 export default async function AnalysisPage() {

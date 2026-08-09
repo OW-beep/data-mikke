@@ -8,7 +8,7 @@ export const convenienceStoreTokyoVsTottori28Times: Article = {
   publishedAt: "2026-08-09",
   relatedDataset: "convenience",
   embedRanking: "convenience",
-  relatedArticles: ["cafe-count-nagano-hidden-kingdom", "school-lunch-facility-count-tokyo-vs-tottori"],
+  relatedArticles: ["cafe-count-nagano-hidden-kingdom", "school-lunch-facility-count-tokyo-vs-tottori", "convenience-store-income-correlation-not-area"],
   body: [
     "経済産業省「商業動態統計調査」によると、都道府県別のコンビニエンスストア店舗数で全国トップに立つのは東京都の7,154店です。2位の大阪府（3,891店）、3位の神奈川県（3,675店）を大きく引き離しており、東京都1都だけで全国のコンビニのかなりの割合を占めています。上位には大阪府・神奈川県・愛知県・北海道・埼玉県・千葉県・福岡県と、人口の多い大都市圏が並びます。",
 

@@ -62,6 +62,7 @@ import { michinoekiHokkaidoVsTokyoOneStation } from "./michinoeki-hokkaido-vs-to
 import { onsenCountHokkaidoNaganoNiigata } from "./onsen-count-hokkaido-nagano-niigata";
 import { ruralInfrastructureAreaCorrelation } from "./rural-infrastructure-area-correlation-onsen-michinoeki-craft";
 import { convenienceStoreTokyoVsTottori28Times } from "./convenience-store-tokyo-vs-tottori-28-times";
+import { convenienceStoreIncomeCorrelationNotArea } from "./convenience-store-income-correlation-not-area";
 
 /**
  * ★記事追加手順★
@@ -132,7 +133,8 @@ export const ARTICLE_LIST: Article[] = [
   michinoekiHokkaidoVsTokyoOneStation,
   onsenCountHokkaidoNaganoNiigata,
   ruralInfrastructureAreaCorrelation,
-  convenienceStoreTokyoVsTottori28Times
+  convenienceStoreTokyoVsTottori28Times,
+  convenienceStoreIncomeCorrelationNotArea
 ].sort((a, b) => (a.publishedAt < b.publishedAt ? 1 : -1));
 
 export function getArticle(slug: string): Article | undefined {
