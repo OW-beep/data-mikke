@@ -67,7 +67,10 @@ async function fetchFromEstat(appId: string): Promise<DataPoint[]> {
   const areaNameByCode = buildClassNameMap(json, areaClassId);
   const timeYearMap = buildTimeYearMap(json);
   const totalFilters = buildTotalFilters(json, areaClassId);
-  const points = transformEstatResponse(json, "population", areaNameByCode, totalFilters, timeYearMap);
+  const rawPoints = transformEstatResponse(json, "population", areaNameByCode, totalFilters, timeYearMap);
+  // このe-Stat表（人口推計）は「千人」単位で値を返すため、当サイトの単位「人」に合わせて1000倍する。
+  // 例: 東京都の生値が14,178 → 14,178,000人（実際の人口とほぼ一致することを確認済み）
+  const points = rawPoints.map((p) => ({ ...p, value: p.value * 1000 }));
 
   const years = Array.from(new Set(points.map((p) => p.year))).sort();
   console.log(
