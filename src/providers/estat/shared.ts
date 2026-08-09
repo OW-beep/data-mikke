@@ -7,7 +7,10 @@ import { PREFECTURES } from "@/lib/prefectures";
  * どちらが設定されていても動作するように両方を見る。
  */
 export function getEstatAppId(): string | undefined {
-  return process.env.ESTAT_APP_ID ?? process.env.ESTAT_API_KEY;
+  const raw = process.env.ESTAT_APP_ID ?? process.env.ESTAT_API_KEY;
+  // Vercelの環境変数はコピペ時に前後へ空白・改行が混入しやすいため、念のためtrimしておく。
+  const trimmed = raw?.trim();
+  return trimmed && trimmed.length > 0 ? trimmed : undefined;
 }
 
 /**
