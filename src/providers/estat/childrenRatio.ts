@@ -1,7 +1,8 @@
 import { Provider } from "@/providers/types";
 import { DataPoint } from "@/types/data";
 import { PREFECTURES } from "@/lib/prefectures";
-import { callGetStatsData, buildClassNameMap, buildTotalFilters, transformEstatResponse, summarizeClassifications, getEstatAppId } from "./shared";
+import { callGetStatsData, buildClassNameMap,
+  buildTimeYearMap, buildTotalFilters, transformEstatResponse, summarizeClassifications, getEstatAppId } from "./shared";
 
 /**
  * e-Stat API から「都道府県別 年少人口割合（15歳未満人口 ÷ 総人口 × 100）」を取得するProvider。
@@ -51,6 +52,7 @@ async function fetchFromEstat(appId: string): Promise<DataPoint[]> {
 
   const json = await callGetStatsData(appId, statsDataId);
   const areaNameByCode = buildClassNameMap(json, areaClassId);
+  const timeYearMap = buildTimeYearMap(json);
 
   // 年齢区分の分類軸を探し、「0～14歳」に相当するクラスのコードを特定する
   const classObjRaw = json?.GET_STATS_DATA?.STATISTICAL_DATA?.CLASS_INF?.CLASS_OBJ;
@@ -58,10 +60,12 @@ async function fetchFromEstat(appId: string): Promise<DataPoint[]> {
 
   let ageClassId: string | null = null;
   let childCode: string | null = null;
+  const candidateNames: string[] = [];
   for (const classObj of classObjList) {
     const classesRaw = classObj?.CLASS;
     const classes: any[] = Array.isArray(classesRaw) ? classesRaw : classesRaw ? [classesRaw] : [];
-    const childClass = classes.find((c) => /0.*1?4歳/.test(String(c?.["@name"] ?? "")));
+    for (const c of classes) candidateNames.push(String(c?.["@name"] ?? ""));
+    const childClass = classes.find((c) => /15歳未満|0.{0,3}14歳/.test(String(c?.["@name"] ?? "")));
     if (childClass) {
       ageClassId = classObj["@id"];
       childCode = String(childClass["@code"]);
@@ -70,17 +74,19 @@ async function fetchFromEstat(appId: string): Promise<DataPoint[]> {
   }
 
   if (!ageClassId || !childCode) {
-    console.warn("[estat/childrenRatio] 年齢区分の軸が見つかりませんでした");
+    console.warn(
+      `[estat/childrenRatio] 年齢区分の軸が見つかりませんでした。候補一覧: ${candidateNames.join(", ")}`
+    );
     return [];
   }
 
   // 分母（総人口）は通常どおり「総数」フィルタで抽出
   const totalFilters = buildTotalFilters(json, areaClassId);
-  const totalPoints = transformEstatResponse(json, "childrenRatio", areaNameByCode, totalFilters);
+  const totalPoints = transformEstatResponse(json, "childrenRatio", areaNameByCode, totalFilters, timeYearMap);
 
   // 分子（15歳未満人口）は年齢区分だけ「0～14歳」に差し替えて抽出
   const childFilters = { ...totalFilters, [ageClassId]: childCode };
-  const childPoints = transformEstatResponse(json, "childrenRatio", areaNameByCode, childFilters);
+  const childPoints = transformEstatResponse(json, "childrenRatio", areaNameByCode, childFilters, timeYearMap);
 
   const totalByKey = new Map(totalPoints.map((p) => [`${p.areaCode}-${p.year}`, p.value]));
 

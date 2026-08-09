@@ -91,6 +91,38 @@ export function buildTotalFilters(json: any, areaClassId: string): Record<string
 }
 
 /**
+ * e-Stat の @time コードは、年の4桁を単純に含む表もあれば、
+ * そうでない独自コード体系の表もある（例: 人口推計テーブルで確認済み）。
+ * コードから直接スライスするのではなく、TIME_INF（時間軸マスタ）の
+ * @name（人が読める表記、例:「2020年10月1日」「令和2年」）から
+ * 西暦4桁を正規表現で拾うほうが、表によらず安定する。
+ * @nameから拾えない場合のみ、旧来のコード先頭4桁方式にフォールバックする。
+ */
+export function buildTimeYearMap(json: any, timeClassId = "time"): Map<string, number> {
+  const classObjRaw = json?.GET_STATS_DATA?.STATISTICAL_DATA?.CLASS_INF?.CLASS_OBJ;
+  const classObjList: any[] = Array.isArray(classObjRaw) ? classObjRaw : classObjRaw ? [classObjRaw] : [];
+  const targetClass = classObjList.find((c) => c["@id"] === timeClassId);
+
+  const map = new Map<string, number>();
+  const classesRaw = targetClass?.CLASS;
+  const classes: any[] = Array.isArray(classesRaw) ? classesRaw : classesRaw ? [classesRaw] : [];
+  for (const c of classes) {
+    const code = c?.["@code"];
+    const name = String(c?.["@name"] ?? "");
+    if (!code) continue;
+
+    // 名前の中から「西暦らしい4桁（1900〜2099）」を探す。和暦（令和/平成等）が
+    // 混じっている表でも、多くの場合は名前に西暦が併記されているためこれで拾える。
+    const match = name.match(/(19|20)\d{2}/);
+    const year = match ? Number(match[0]) : Number(String(code).slice(0, 4));
+    if (year) {
+      map.set(String(code), year);
+    }
+  }
+  return map;
+}
+
+/**
  * e-StatのレスポンスJSON構造を共通DataPoint形式に変換する。
  * 都道府県名で照合するため、地域コードの桁数の違い（"13" / "13000" 等）に影響されない。
  */
@@ -98,7 +130,8 @@ export function transformEstatResponse(
   json: any,
   dataset: string,
   areaNameByCode: Map<string, string>,
-  totalFilters: Record<string, string>
+  totalFilters: Record<string, string>,
+  timeYearMap?: Map<string, number>
 ): DataPoint[] {
   const valuesRaw = json?.GET_STATS_DATA?.STATISTICAL_DATA?.DATA_INF?.VALUE;
   const values: any[] = Array.isArray(valuesRaw) ? valuesRaw : valuesRaw ? [valuesRaw] : [];
@@ -117,7 +150,8 @@ export function transformEstatResponse(
       const pref = PREFECTURES.find((p) => p.name === areaName || areaName.includes(p.name));
       if (!pref) return null; // 「全国」など都道府県以外の行は除外
 
-      const year = Number(String(v["@time"] ?? "").slice(0, 4));
+      const timeCode = String(v["@time"] ?? "");
+      const year = timeYearMap?.get(timeCode) ?? Number(timeCode.slice(0, 4));
       const value = Number(v["$"]);
       if (!year || Number.isNaN(value)) return null;
 

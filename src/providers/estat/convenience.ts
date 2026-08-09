@@ -1,7 +1,8 @@
 import { Provider } from "@/providers/types";
 import { DataPoint } from "@/types/data";
 import { PREFECTURES } from "@/lib/prefectures";
-import { callGetStatsData, buildClassNameMap, transformEstatResponse, summarizeClassifications, getEstatAppId } from "./shared";
+import { callGetStatsData, buildClassNameMap,
+  buildTimeYearMap, transformEstatResponse, summarizeClassifications, getEstatAppId } from "./shared";
 
 /**
  * e-Stat API から「都道府県別 コンビニエンスストア店舗数」を取得するProvider。
@@ -59,8 +60,9 @@ async function fetchFromEstat(appId: string): Promise<DataPoint[]> {
   const json = await callGetStatsData(appId, statsDataId);
 
   const areaNameByCode = buildClassNameMap(json, areaClassId);
+  const timeYearMap = buildTimeYearMap(json);
   const filters = buildFiltersPreferringName(json, areaClassId, "店舗数");
-  const points = transformEstatResponse(json, "convenience", areaNameByCode, filters);
+  const points = transformEstatResponse(json, "convenience", areaNameByCode, filters, timeYearMap);
 
   // 「店舗数」以外の指標（販売額など）が誤って混入していないか、年ごとの件数で簡易チェックする
   const years = Array.from(new Set(points.map((p) => p.year))).sort();

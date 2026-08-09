@@ -4,6 +4,7 @@ import { PREFECTURES } from "@/lib/prefectures";
 import {
   callGetStatsData,
   buildClassNameMap,
+  buildTimeYearMap,
   buildTotalFilters,
   transformEstatResponse,
   summarizeClassifications,
@@ -64,8 +65,9 @@ async function fetchFromEstat(appId: string): Promise<DataPoint[]> {
   const json = await callGetStatsData(appId, statsDataId);
 
   const areaNameByCode = buildClassNameMap(json, areaClassId);
+  const timeYearMap = buildTimeYearMap(json);
   const totalFilters = buildTotalFilters(json, areaClassId);
-  const points = transformEstatResponse(json, "population", areaNameByCode, totalFilters);
+  const points = transformEstatResponse(json, "population", areaNameByCode, totalFilters, timeYearMap);
 
   const years = Array.from(new Set(points.map((p) => p.year))).sort();
   console.log(

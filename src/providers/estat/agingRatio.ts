@@ -1,7 +1,8 @@
 import { Provider } from "@/providers/types";
 import { DataPoint } from "@/types/data";
 import { PREFECTURES } from "@/lib/prefectures";
-import { callGetStatsData, buildClassNameMap, buildTotalFilters, transformEstatResponse, summarizeClassifications, getEstatAppId } from "./shared";
+import { callGetStatsData, buildClassNameMap,
+  buildTimeYearMap, buildTotalFilters, transformEstatResponse, summarizeClassifications, getEstatAppId } from "./shared";
 
 /**
  * e-Stat API から「都道府県別 高齢化率（65歳以上人口 ÷ 総人口 × 100）」を取得するProvider。
@@ -50,6 +51,7 @@ async function fetchFromEstat(appId: string): Promise<DataPoint[]> {
 
   const json = await callGetStatsData(appId, statsDataId);
   const areaNameByCode = buildClassNameMap(json, areaClassId);
+  const timeYearMap = buildTimeYearMap(json);
 
   // 年齢区分の分類軸を探し、「65歳以上」に相当するクラスのコードを特定する
   const classObjRaw = json?.GET_STATS_DATA?.STATISTICAL_DATA?.CLASS_INF?.CLASS_OBJ;
@@ -74,10 +76,10 @@ async function fetchFromEstat(appId: string): Promise<DataPoint[]> {
   }
 
   const totalFilters = buildTotalFilters(json, areaClassId);
-  const totalPoints = transformEstatResponse(json, "agingRatio", areaNameByCode, totalFilters);
+  const totalPoints = transformEstatResponse(json, "agingRatio", areaNameByCode, totalFilters, timeYearMap);
 
   const elderlyFilters = { ...totalFilters, [ageClassId]: elderlyCode };
-  const elderlyPoints = transformEstatResponse(json, "agingRatio", areaNameByCode, elderlyFilters);
+  const elderlyPoints = transformEstatResponse(json, "agingRatio", areaNameByCode, elderlyFilters, timeYearMap);
 
   const totalByKey = new Map(totalPoints.map((p) => [`${p.areaCode}-${p.year}`, p.value]));
 

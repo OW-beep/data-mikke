@@ -1,7 +1,8 @@
 import { Provider } from "@/providers/types";
 import { DataPoint } from "@/types/data";
 import { PREFECTURES } from "@/lib/prefectures";
-import { callGetStatsData, buildClassNameMap, buildTotalFilters, transformEstatResponse, summarizeClassifications, getEstatAppId } from "./shared";
+import { callGetStatsData, buildClassNameMap,
+  buildTimeYearMap, buildTotalFilters, transformEstatResponse, summarizeClassifications, getEstatAppId } from "./shared";
 
 /**
  * e-Stat API から「都道府県別 合計特殊出生率」を取得するProvider。
@@ -51,8 +52,9 @@ async function fetchFromEstat(appId: string): Promise<DataPoint[]> {
   const json = await callGetStatsData(appId, statsDataId);
 
   const areaNameByCode = buildClassNameMap(json, areaClassId);
+  const timeYearMap = buildTimeYearMap(json);
   const totalFilters = buildTotalFilters(json, areaClassId);
-  const points = transformEstatResponse(json, "birthrate", areaNameByCode, totalFilters);
+  const points = transformEstatResponse(json, "birthrate", areaNameByCode, totalFilters, timeYearMap);
 
   const years = Array.from(new Set(points.map((p) => p.year))).sort();
   console.log(
