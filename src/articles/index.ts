@@ -61,6 +61,7 @@ import { traditionalCraftsTokyoNiigataKyoto } from "./traditional-crafts-tokyo-n
 import { michinoekiHokkaidoVsTokyoOneStation } from "./michinoeki-hokkaido-vs-tokyo-one-station";
 import { onsenCountHokkaidoNaganoNiigata } from "./onsen-count-hokkaido-nagano-niigata";
 import { ruralInfrastructureAreaCorrelation } from "./rural-infrastructure-area-correlation-onsen-michinoeki-craft";
+import { convenienceStoreTokyoVsTottori28Times } from "./convenience-store-tokyo-vs-tottori-28-times";
 
 /**
  * ★記事追加手順★
@@ -130,7 +131,8 @@ export const ARTICLE_LIST: Article[] = [
   traditionalCraftsTokyoNiigataKyoto,
   michinoekiHokkaidoVsTokyoOneStation,
   onsenCountHokkaidoNaganoNiigata,
-  ruralInfrastructureAreaCorrelation
+  ruralInfrastructureAreaCorrelation,
+  convenienceStoreTokyoVsTottori28Times
 ].sort((a, b) => (a.publishedAt < b.publishedAt ? 1 : -1));
 
 export function getArticle(slug: string): Article | undefined {
