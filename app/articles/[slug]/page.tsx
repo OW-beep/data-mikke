@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { SITE } from "@/lib/site";
 import { ARTICLE_LIST, getArticle } from "@/articles";
 import { getDataset } from "@/datasets";
 import { loadDataset, latestByArea, rankDescending } from "@/lib/loadData";
@@ -73,8 +74,38 @@ export default async function ArticlePage({ params }: { params: { slug: string }
     .map((slug) => getArticle(slug))
     .filter((a): a is NonNullable<typeof a> => Boolean(a));
 
+  const articleJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: article.title,
+    description: article.excerpt,
+    datePublished: article.publishedAt,
+    dateModified: article.publishedAt,
+    author: { "@type": "Organization", name: SITE.name },
+    publisher: { "@type": "Organization", name: SITE.name },
+    mainEntityOfPage: { "@type": "WebPage", "@id": `${SITE.url}/articles/${article.slug}` }
+  };
+
+  const breadcrumbJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: SITE.name, item: SITE.url },
+      { "@type": "ListItem", position: 2, name: "解説記事", item: `${SITE.url}/articles` },
+      { "@type": "ListItem", position: 3, name: article.title, item: `${SITE.url}/articles/${article.slug}` }
+    ]
+  };
+
   return (
     <div>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
+      />
       <p className="dm-eyebrow">Articles</p>
       <h1>{article.title}</h1>
       <p className="dm-article-meta">公開日: {article.publishedAt}</p>

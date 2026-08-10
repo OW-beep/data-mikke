@@ -48,9 +48,26 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
+  const websiteJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    name: SITE.name,
+    url: SITE.url,
+    description: SITE.description,
+    potentialAction: {
+      "@type": "SearchAction",
+      target: `${SITE.url}/search?q={search_term_string}`,
+      "query-input": "required name=search_term_string"
+    }
+  };
+
   return (
     <html lang="ja" className={`${display.variable} ${body.variable} ${mono.variable}`}>
       <body>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd) }}
+        />
         {SITE.adsenseClientId && (
           <Script
             async
@@ -66,10 +83,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               データみっけ
             </Link>
             <nav className="dm-nav">
-              <Link href="/datasets">データ一覧</Link>
+              <Link href="/articles">解説記事</Link>
               <Link href="/compare">比較</Link>
               <Link href="/analysis">分析</Link>
-              <Link href="/articles">解説記事</Link>
+              <Link href="/datasets">データ一覧</Link>
+              <Link href="/search" aria-label="サイト内検索">
+                検索
+              </Link>
             </nav>
           </div>
         </header>
