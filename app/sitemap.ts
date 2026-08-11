@@ -9,6 +9,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE.url}/datasets`, changeFrequency: "monthly", priority: 0.7 },
     { url: `${SITE.url}/analysis`, changeFrequency: "weekly", priority: 0.6 },
     { url: `${SITE.url}/guide`, changeFrequency: "monthly", priority: 0.6 },
+    { url: `${SITE.url}/methodology`, changeFrequency: "monthly", priority: 0.5 },
     { url: `${SITE.url}/updates`, changeFrequency: "weekly", priority: 0.5 },
     { url: `${SITE.url}/compare`, changeFrequency: "monthly", priority: 0.6 },
     { url: `${SITE.url}/articles`, changeFrequency: "weekly", priority: 0.7 },

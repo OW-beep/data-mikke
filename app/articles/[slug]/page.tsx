@@ -81,7 +81,7 @@ export default async function ArticlePage({ params }: { params: { slug: string }
     description: article.excerpt,
     datePublished: article.publishedAt,
     dateModified: article.publishedAt,
-    author: { "@type": "Organization", name: SITE.name },
+    author: { "@type": "Person", name: SITE.operatorName },
     publisher: { "@type": "Organization", name: SITE.name },
     mainEntityOfPage: { "@type": "WebPage", "@id": `${SITE.url}/articles/${article.slug}` }
   };
@@ -109,6 +109,10 @@ export default async function ArticlePage({ params }: { params: { slug: string }
       <p className="dm-eyebrow">Articles</p>
       <h1>{article.title}</h1>
       <p className="dm-article-meta">公開日: {article.publishedAt}</p>
+      <p className="dm-article-byline">
+        執筆: <Link href="/about">{SITE.operatorName}</Link>
+        （元地方公務員・データサイエンティスト）
+      </p>
 
       <div className="dm-article-body" style={{ marginTop: 24 }}>
         {linkifyPrefectures(article.body).map((nodes, i) => (
