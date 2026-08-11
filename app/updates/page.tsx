@@ -8,6 +8,11 @@ const UPDATES: { date: string; note: string }[] = [
   {
     date: "2026-08-11",
     note:
+      "特集ページを2本新設(/feature/population 人口統計特集、/feature/tourism-culture 観光・地域文化特集)。関連記事・データセットを編集的にまとめ、サイト全体を絞らずに特定テーマの専門性を示す構成に。トップページ・サイトマップにも導線を追加"
+  },
+  {
+    date: "2026-08-11",
+    note:
       "記事ページに著者バイライン(執筆者名・肩書き・aboutへのリンク)を追加。Article構造化データのauthorもOrganizationからPerson型に変更し、E-E-A-T信号を強化"
   },
   {

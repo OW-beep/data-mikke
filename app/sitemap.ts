@@ -10,6 +10,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE.url}/analysis`, changeFrequency: "weekly", priority: 0.6 },
     { url: `${SITE.url}/guide`, changeFrequency: "monthly", priority: 0.6 },
     { url: `${SITE.url}/methodology`, changeFrequency: "monthly", priority: 0.5 },
+    { url: `${SITE.url}/feature/population`, changeFrequency: "monthly", priority: 0.6 },
+    { url: `${SITE.url}/feature/tourism-culture`, changeFrequency: "monthly", priority: 0.6 },
     { url: `${SITE.url}/updates`, changeFrequency: "weekly", priority: 0.5 },
     { url: `${SITE.url}/compare`, changeFrequency: "monthly", priority: 0.6 },
     { url: `${SITE.url}/articles`, changeFrequency: "weekly", priority: 0.7 },

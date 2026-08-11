@@ -44,6 +44,17 @@ export default function HomePage() {
         </Link>
       </div>
 
+      <div className="dm-usecase-grid" style={{ marginTop: 14 }}>
+        <Link href="/feature/population" className="dm-usecase-card">
+          <p className="dm-usecase-title">特集: 人口統計</p>
+          <p className="dm-usecase-desc">人口・人口密度・高齢化率・出生率などをまとめて見る</p>
+        </Link>
+        <Link href="/feature/tourism-culture" className="dm-usecase-card">
+          <p className="dm-usecase-title">特集: 観光・地域文化</p>
+          <p className="dm-usecase-desc">文化財・伝統工芸・温泉地・喫茶店文化をまとめて見る</p>
+        </Link>
+      </div>
+
       <hr className="dm-divider" />
 
       <div className="dm-grid" style={{ gridTemplateColumns: "1fr 1fr", gap: 32 }}>
