@@ -50,6 +50,8 @@ import { computedElectricityPerCapitaProvider } from "./computed/electricityPerC
 import { computedCulturalPropertyPerAreaProvider } from "./computed/culturalPropertyPerArea";
 import { computedUniversityPerCapitaProvider } from "./computed/universityPerCapita";
 import { computedCafePerCapitaProvider } from "./computed/cafePerCapita";
+import { manualUrbanityIndexProvider } from "./manual/urbanityIndex";
+import { manualMonozukuriIndexProvider } from "./manual/monozukuriIndex";
 
 export const PROVIDERS: Record<string, Provider> = {
   "estat-population": estatPopulationProvider,
@@ -74,6 +76,8 @@ export const PROVIDERS: Record<string, Provider> = {
   "manual-school-lunch": manualSchoolLunchProvider,
   "manual-cafe": manualCafeProvider,
   "manual-onsen": manualOnsenProvider,
+  "manual-urbanity-index": manualUrbanityIndexProvider,
+  "manual-monozukuri-index": manualMonozukuriIndexProvider,
   "manual-michinoeki": manualMichinoekiProvider,
   "manual-craft": manualCraftProvider,
   "manual-car": manualCarProvider,

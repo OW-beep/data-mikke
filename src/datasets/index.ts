@@ -50,6 +50,8 @@ import { rent } from "./rent";
 import { sunshine } from "./sunshine";
 import { forest } from "./forest";
 import { shipmentPerFactory } from "./shipmentPerFactory";
+import { urbanityIndex } from "./urbanityIndex";
+import { monozukuriIndex } from "./monozukuriIndex";
 
 /**
  * ★データ追加手順★
@@ -108,6 +110,8 @@ export const DATASETS: Record<string, DatasetConfig> = {
   salary,
   temperature,
   rent,
+  urbanityIndex,
+  monozukuriIndex,
   sunshine,
   forest
 };
