@@ -182,6 +182,40 @@ export default async function ArticlePage({ params }: { params: { slug: string }
         </div>
       )}
 
+      {article.table && (
+        <div style={{ marginTop: 32 }}>
+          <h2>{article.table.title}</h2>
+          <details className="dm-ranking-details">
+            <summary>47都道府県すべてを表で見る</summary>
+            <table className="dm-table">
+              <thead>
+                <tr>
+                  {article.table.columns.map((col, i) => (
+                    <th key={i} className={i === 0 ? undefined : "dm-num"}>
+                      {col}
+                    </th>
+                  ))}
+                </tr>
+              </thead>
+              <tbody>
+                {article.table.rows.map((row, i) => {
+                  const pref = PREFECTURES.find((p) => p.name === row[0]);
+                  return (
+                    <tr key={i}>
+                      {row.map((cell, j) => (
+                        <td key={j} className={j === 0 ? undefined : "dm-num dm-mono"}>
+                          {j === 0 && pref ? <Link href={`/prefecture/${pref.slug}`}>{cell}</Link> : cell}
+                        </td>
+                      ))}
+                    </tr>
+                  );
+                })}
+              </tbody>
+            </table>
+          </details>
+        </div>
+      )}
+
       {relatedArticles.length > 0 && (
         <div className="dm-related-articles">
           <h2>あわせて読みたい</h2>

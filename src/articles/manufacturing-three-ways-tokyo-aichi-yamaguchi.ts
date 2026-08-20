@@ -7,7 +7,7 @@ export const manufacturingThreeWaysTokyoAichiYamaguchi: Article = {
     "「工業が盛んな県」と一言でいっても、工場の数で測るか、稼ぎ出す金額で測るか、1つの工場あたりの規模で測るかによって、1位はまったく別の県になります。同じ製造業データの3つの顔を追いました。",
   publishedAt: "2026-08-05",
   relatedDataset: "manufacturing",
-  embedRanking: "manufacturing",
+  embedRanking: "factory",
   relatedArticles: [
     "shipment-per-factory-scale-yamaguchi-vs-tokyo",
     "manufacturing-per-capita-powerhouse",

@@ -7,6 +7,7 @@ export const electricityPerCapitaLifestyle: Article = {
     "電力使用量の総量ランキングでは大都市が上位に来ますが、1人あたりに直すと、住宅事情や気候の違いが色濃く表れます。",
   publishedAt: "2026-07-13",
   relatedDataset: "electricityPerCapita",
+  embedRanking: "electricity",
   embedScatter: {
     a: "electricityPerCapita",
     b: "income",

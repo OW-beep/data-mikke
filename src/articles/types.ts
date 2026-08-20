@@ -8,6 +8,11 @@ export interface Article {
   embedRanking?: string;
   /** 記事本文の末尾に、2つのdataset間の散布図を自動生成して埋め込む */
   embedScatter?: { a: string; b: string; note?: string };
+  /**
+   * 記事固有の一覧表（47都道府県の対応表など、既存datasetのランキングでは表現できないもの）。
+   * デフォルトは折りたたみ表示（<details>）。columns/rowsの列数は揃えること。
+   */
+  table?: { title: string; columns: string[]; rows: string[][] };
   /** 回遊率向上のための関連記事リンク（slugの配列） */
   relatedArticles?: string[];
   /** 一覧ページ・トップページで「おすすめ」として優先表示するためのフラグ（手動キュレーション） */
