@@ -11,7 +11,8 @@ export const rentDensityIncomeTradeoff: Article = {
   relatedArticles: [
     "salary-vs-income-nara-commuter-effect",
     "population-density-correlates-income-crime-homeownership",
-    "homeownership-rate-gap"
+    "homeownership-rate-gap",
+    "rent-affordability-regression-residual-ranking"
   ],
   body: [
     "同じ1坪の部屋でも、住む県によって家賃は3倍近く変わります。1ヶ月・1坪あたりの家賃を都道府県別に見ると、東京都が8,806円で圧倒的な1位、次いで京都府（5,988円）・神奈川県（6,258円）・大阪府（5,746円）と大都市圏が並びます。最も安いのは青森県で3,163円。東京都との差は2.8倍にのぼります。",
