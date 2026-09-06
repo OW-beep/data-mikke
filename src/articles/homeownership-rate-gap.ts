@@ -12,7 +12,8 @@ export const homeownershipRateGap: Article = {
     "income-ranking-caution",
     "car-ownership-tokyo-lowest-rural-highest",
     "population-density-correlates-income-crime-homeownership",
-    "savings-income-gap-aichi-beats-tokyo"
+    "savings-income-gap-aichi-beats-tokyo",
+    "divorce-rate-regional-gap"
   ],
   body: [
     "「持ち家か賃貸か」という選択のしやすさは、住んでいる県によって大きく変わります。持ち家比率（住んでいる住宅のうち持ち家の割合）を都道府県別に見ると、秋田県・富山県・山形県・福井県といった地方の県が70%台後半で並ぶ一方、東京都は全国で最も低い水準、次いで沖縄県も低い水準にとどまっています。持ち家比率だけを見ると「地方は豊かで、都会は住宅を持てない人が多い」という印象を持ってしまいそうですが、実際にはもっと単純な理由が背景にあります。",

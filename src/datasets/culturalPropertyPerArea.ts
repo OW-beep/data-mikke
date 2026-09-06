@@ -16,6 +16,6 @@ export const culturalPropertyPerArea: DatasetConfig = {
     dashboardTitle: "面積あたり文化財密度ランキング｜都道府県別の歴史的集積度",
     dashboardDescription: "国宝・重要文化財数を面積で調整した「文化財密度」の都道府県ランキング。人口あたりとは違う顔ぶれが見えます。",
     rankingTitle: "文化財密度が高い都道府県ランキング（面積あたり国宝・重文数）",
-    rankingDescription: "都道府県の面積あたり国宝・重要文化財数ランキング。京都府が圧倒的な密度を見せます。"
+    rankingDescription: "都道府県の面積あたり国宝・重要文化財数ランキング。東京都が圧倒的な密度を見せます。"
   }
 };

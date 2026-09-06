@@ -64,6 +64,8 @@ import { ruralInfrastructureAreaCorrelation } from "./rural-infrastructure-area-
 import { prefectureArchetypesPcaClusteringAnalysis } from "./prefecture-archetypes-pca-clustering-analysis";
 import { prefectureNearestNeighborStatisticalTwin } from "./prefecture-nearest-neighbor-statistical-twin";
 import { rentAffordabilityRegressionResidualRanking } from "./rent-affordability-regression-residual-ranking";
+import { incomeLifeExpectancyWeakCorrelation } from "./income-life-expectancy-weak-correlation-shiga-nara";
+import { milkProductionAreaCorrelationOutlierCheck } from "./milk-production-area-correlation-hokkaido-outlier";
 import { convenienceStoreTokyoVsTottori28Times } from "./convenience-store-tokyo-vs-tottori-28-times";
 import { convenienceStoreIncomeCorrelationNotArea } from "./convenience-store-income-correlation-not-area";
 
@@ -140,7 +142,9 @@ export const ARTICLE_LIST: Article[] = [
   convenienceStoreIncomeCorrelationNotArea,
   prefectureArchetypesPcaClusteringAnalysis,
   prefectureNearestNeighborStatisticalTwin,
-  rentAffordabilityRegressionResidualRanking
+  rentAffordabilityRegressionResidualRanking,
+  incomeLifeExpectancyWeakCorrelation,
+  milkProductionAreaCorrelationOutlierCheck
 ].sort((a, b) => (a.publishedAt < b.publishedAt ? 1 : -1));
 
 export function getArticle(slug: string): Article | undefined {
