@@ -53,6 +53,19 @@ import { computedCafePerCapitaProvider } from "./computed/cafePerCapita";
 import { manualUrbanityIndexProvider } from "./manual/urbanityIndex";
 import { manualMonozukuriIndexProvider } from "./manual/monozukuriIndex";
 
+import { manualElectricityBillProvider } from "./manual/electricityBill";
+import { manualGasBillProvider } from "./manual/gasBill";
+import { manualWaterBillProvider } from "./manual/waterBill";
+import { manualGasolineProvider } from "./manual/gasoline";
+import { manualBarberFeeProvider } from "./manual/barberFee";
+import { manualCleaningFeeProvider } from "./manual/cleaningFee";
+import { manualVegetableIntakeProvider } from "./manual/vegetableIntake";
+import { manualSaltIntakeProvider } from "./manual/saltIntake";
+import { manualStepsProvider } from "./manual/steps";
+import { manualBmiProvider } from "./manual/bmi";
+import { manualSmokingRateProvider } from "./manual/smokingRate";
+import { computedHealthScoreProvider } from "./computed/healthScore";
+
 export const PROVIDERS: Record<string, Provider> = {
   "estat-population": estatPopulationProvider,
   "estat-birthrate": estatBirthrateProvider,
@@ -106,5 +119,17 @@ export const PROVIDERS: Record<string, Provider> = {
   "computed-electricity-per-capita": computedElectricityPerCapitaProvider,
   "computed-cultural-property-per-area": computedCulturalPropertyPerAreaProvider,
   "computed-university-per-capita": computedUniversityPerCapitaProvider,
-  "computed-cafe-per-capita": computedCafePerCapitaProvider
+  "computed-cafe-per-capita": computedCafePerCapitaProvider,
+  "manual-electricity-bill": manualElectricityBillProvider,
+  "manual-gas-bill": manualGasBillProvider,
+  "manual-water-bill": manualWaterBillProvider,
+  "manual-gasoline": manualGasolineProvider,
+  "manual-barber-fee": manualBarberFeeProvider,
+  "manual-cleaning-fee": manualCleaningFeeProvider,
+  "manual-vegetable-intake": manualVegetableIntakeProvider,
+  "manual-salt-intake": manualSaltIntakeProvider,
+  "manual-steps": manualStepsProvider,
+  "manual-bmi": manualBmiProvider,
+  "manual-smoking-rate": manualSmokingRateProvider,
+  "computed-health-score": computedHealthScoreProvider,
 };

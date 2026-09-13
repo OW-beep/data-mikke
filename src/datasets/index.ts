@@ -60,6 +60,19 @@ import { monozukuriIndex } from "./monozukuriIndex";
  * 3. ここに登録
  * → Dashboard / Ranking / Compare / Prefecture / API / 記事 が自動的に増える
  */
+import { electricityBill } from "./electricityBill";
+import { gasBill } from "./gasBill";
+import { waterBill } from "./waterBill";
+import { gasoline } from "./gasoline";
+import { barberFee } from "./barberFee";
+import { cleaningFee } from "./cleaningFee";
+import { vegetableIntake } from "./vegetableIntake";
+import { saltIntake } from "./saltIntake";
+import { steps } from "./steps";
+import { bmi } from "./bmi";
+import { smokingRate } from "./smokingRate";
+import { healthScore } from "./healthScore";
+
 export const DATASETS: Record<string, DatasetConfig> = {
   population,
   hospital,
@@ -113,7 +126,19 @@ export const DATASETS: Record<string, DatasetConfig> = {
   urbanityIndex,
   monozukuriIndex,
   sunshine,
-  forest
+  forest,
+  electricityBill,
+  gasBill,
+  waterBill,
+  gasoline,
+  barberFee,
+  cleaningFee,
+  vegetableIntake,
+  saltIntake,
+  steps,
+  bmi,
+  smokingRate,
+  healthScore
 };
 
 export const DATASET_LIST: DatasetConfig[] = Object.values(DATASETS);

@@ -68,6 +68,9 @@ import { incomeLifeExpectancyWeakCorrelation } from "./income-life-expectancy-we
 import { milkProductionAreaCorrelationOutlierCheck } from "./milk-production-area-correlation-hokkaido-outlier";
 import { convenienceStoreTokyoVsTottori28Times } from "./convenience-store-tokyo-vs-tottori-28-times";
 import { convenienceStoreIncomeCorrelationNotArea } from "./convenience-store-income-correlation-not-area";
+import { livingCostDatasetsIntro } from "./living-cost-datasets-intro";
+import { healthScoreExplained } from "./health-score-explained";
+import { vegetablePriceAndIntake } from "./vegetable-price-and-intake";
 
 /**
  * ★記事追加手順★
@@ -144,7 +147,10 @@ export const ARTICLE_LIST: Article[] = [
   prefectureNearestNeighborStatisticalTwin,
   rentAffordabilityRegressionResidualRanking,
   incomeLifeExpectancyWeakCorrelation,
-  milkProductionAreaCorrelationOutlierCheck
+  milkProductionAreaCorrelationOutlierCheck,
+  livingCostDatasetsIntro,
+  healthScoreExplained,
+  vegetablePriceAndIntake
 ].sort((a, b) => (a.publishedAt < b.publishedAt ? 1 : -1));
 
 export function getArticle(slug: string): Article | undefined {
