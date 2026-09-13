@@ -86,6 +86,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <Link href="/articles">解説記事</Link>
               <Link href="/guide">使い方</Link>
               <Link href="/compare">比較</Link>
+              <Link href="/tools/kurashi">くらしツール</Link>
               <Link href="/analysis">分析</Link>
               <Link href="/datasets">データ一覧</Link>
               <Link href="/search" aria-label="サイト内検索">

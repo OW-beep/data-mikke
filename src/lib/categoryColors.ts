@@ -18,7 +18,8 @@ const CATEGORY_COLORS: Record<string, string> = {
   交通: "#4a6fa5", // road blue
   環境: "#3f8f5f", // forest green
   健康: "#d6604d", // warm red
-  気候: "#e8a33d" // sunny orange
+  気候: "#e8a33d", // sunny orange
+  生活費: "#c9622a" // burnt orange
 };
 
 const FALLBACK_COLOR = "#0f8c6c";
@@ -43,7 +44,8 @@ const CATEGORY_EMOJI: Record<string, string> = {
   交通: "🚃",
   環境: "🌱",
   健康: "❤️",
-  気候: "☀️"
+  気候: "☀️",
+  生活費: "🛒"
 };
 
 export function getCategoryEmoji(category: string): string {
