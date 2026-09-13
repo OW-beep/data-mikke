@@ -66,6 +66,19 @@ import { manualBmiProvider } from "./manual/bmi";
 import { manualSmokingRateProvider } from "./manual/smokingRate";
 import { computedHealthScoreProvider } from "./computed/healthScore";
 
+import { manualRicePriceProvider } from "./manual/ricePrice";
+import { manualBreadPriceProvider } from "./manual/breadPrice";
+import { manualEggPriceProvider } from "./manual/eggPrice";
+import { manualMilkPriceProvider } from "./manual/milkPrice";
+import { manualOnionPriceProvider } from "./manual/onionPrice";
+import { manualCabbagePriceProvider } from "./manual/cabbagePrice";
+import { manualApplePriceProvider } from "./manual/applePrice";
+import { manualBananaPriceProvider } from "./manual/bananaPrice";
+import { manualPorkPriceProvider } from "./manual/porkPrice";
+import { manualBeefPriceProvider } from "./manual/beefPrice";
+import { manualRamenPriceProvider } from "./manual/ramenPrice";
+import { manualCoffeePriceProvider } from "./manual/coffeePrice";
+
 export const PROVIDERS: Record<string, Provider> = {
   "estat-population": estatPopulationProvider,
   "estat-birthrate": estatBirthrateProvider,
@@ -132,4 +145,16 @@ export const PROVIDERS: Record<string, Provider> = {
   "manual-bmi": manualBmiProvider,
   "manual-smoking-rate": manualSmokingRateProvider,
   "computed-health-score": computedHealthScoreProvider,
+  "manual-rice-price": manualRicePriceProvider,
+  "manual-bread-price": manualBreadPriceProvider,
+  "manual-egg-price": manualEggPriceProvider,
+  "manual-milk-price": manualMilkPriceProvider,
+  "manual-onion-price": manualOnionPriceProvider,
+  "manual-cabbage-price": manualCabbagePriceProvider,
+  "manual-apple-price": manualApplePriceProvider,
+  "manual-banana-price": manualBananaPriceProvider,
+  "manual-pork-price": manualPorkPriceProvider,
+  "manual-beef-price": manualBeefPriceProvider,
+  "manual-ramen-price": manualRamenPriceProvider,
+  "manual-coffee-price": manualCoffeePriceProvider,
 };

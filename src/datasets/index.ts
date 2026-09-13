@@ -73,6 +73,19 @@ import { bmi } from "./bmi";
 import { smokingRate } from "./smokingRate";
 import { healthScore } from "./healthScore";
 
+import { ricePrice } from "./ricePrice";
+import { breadPrice } from "./breadPrice";
+import { eggPrice } from "./eggPrice";
+import { milkPrice } from "./milkPrice";
+import { onionPrice } from "./onionPrice";
+import { cabbagePrice } from "./cabbagePrice";
+import { applePrice } from "./applePrice";
+import { bananaPrice } from "./bananaPrice";
+import { porkPrice } from "./porkPrice";
+import { beefPrice } from "./beefPrice";
+import { ramenPrice } from "./ramenPrice";
+import { coffeePrice } from "./coffeePrice";
+
 export const DATASETS: Record<string, DatasetConfig> = {
   population,
   hospital,
@@ -138,7 +151,19 @@ export const DATASETS: Record<string, DatasetConfig> = {
   steps,
   bmi,
   smokingRate,
-  healthScore
+  healthScore,
+  ricePrice,
+  breadPrice,
+  eggPrice,
+  milkPrice,
+  onionPrice,
+  cabbagePrice,
+  applePrice,
+  bananaPrice,
+  porkPrice,
+  beefPrice,
+  ramenPrice,
+  coffeePrice,
 };
 
 export const DATASET_LIST: DatasetConfig[] = Object.values(DATASETS);

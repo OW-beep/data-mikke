@@ -31,6 +31,22 @@ const COST_ITEMS: CostItem[] = [
   { id: "cleaningFee", label: "クリーニング代（スーツ）", unit: "円", icon: "🧺" }
 ];
 
+/** デフォルトでは表示せず、「品目を追加」から選んで比較に加えられる品目カタログ */
+const EXTRA_COST_CATALOG: CostItem[] = [
+  { id: "ricePrice", label: "米（うるち米・5kg）", unit: "円", icon: "🍚" },
+  { id: "breadPrice", label: "食パン", unit: "円", icon: "🍞" },
+  { id: "eggPrice", label: "鶏卵（1kg）", unit: "円", icon: "🥚" },
+  { id: "milkPrice", label: "牛乳（1L）", unit: "円", icon: "🥛" },
+  { id: "onionPrice", label: "たまねぎ（1kg）", unit: "円", icon: "🧅" },
+  { id: "cabbagePrice", label: "キャベツ（1kg）", unit: "円", icon: "🥬" },
+  { id: "applePrice", label: "りんご（1kg）", unit: "円", icon: "🍎" },
+  { id: "bananaPrice", label: "バナナ（1kg）", unit: "円", icon: "🍌" },
+  { id: "porkPrice", label: "豚肉（100g）", unit: "円", icon: "🥓" },
+  { id: "beefPrice", label: "牛肉（100g）", unit: "円", icon: "🥩" },
+  { id: "ramenPrice", label: "ラーメン（外食）", unit: "円", icon: "🍜" },
+  { id: "coffeePrice", label: "コーヒー（外食）", unit: "円", icon: "☕" }
+];
+
 interface HealthItem {
   id: string;
   label: string;
@@ -59,8 +75,16 @@ export function KurashiToolClient({ prefectures }: { prefectures: Prefecture[] }
 
   const [prefA, setPrefA] = useState(chiba);
   const [prefB, setPrefB] = useState(osaka);
+  const [extraItems, setExtraItems] = useState<CostItem[]>([]);
+  const [addSelect, setAddSelect] = useState(EXTRA_COST_CATALOG[0].id);
   const [costRows, setCostRows] = useState<{ item: CostItem; a: number | null; b: number | null }[]>([]);
   const [costLoading, setCostLoading] = useState(false);
+
+  const allCostItems = useMemo(() => [...COST_ITEMS, ...extraItems], [extraItems]);
+  const addableItems = useMemo(
+    () => EXTRA_COST_CATALOG.filter((i) => !extraItems.some((e) => e.id === i.id)),
+    [extraItems]
+  );
 
   const [healthPref, setHealthPref] = useState(chiba);
   const [healthRows, setHealthRows] = useState<{ item: HealthItem; value: number | null; benchmark: number | null }[]>(
@@ -78,7 +102,7 @@ export function KurashiToolClient({ prefectures }: { prefectures: Prefecture[] }
     let cancelled = false;
     setCostLoading(true);
     Promise.all(
-      COST_ITEMS.map(async (item) => {
+      allCostItems.map(async (item) => {
         const [a, b] = await Promise.all([fetchLatest(item.id, prefA), fetchLatest(item.id, prefB)]);
         return { item, a: a?.value ?? null, b: b?.value ?? null };
       })
@@ -91,12 +115,21 @@ export function KurashiToolClient({ prefectures }: { prefectures: Prefecture[] }
     return () => {
       cancelled = true;
     };
-  }, [prefA, prefB]);
+  }, [prefA, prefB, allCostItems]);
 
   const costTotalA = costRows.reduce((s, r) => s + (r.a ?? 0), 0);
   const costTotalB = costRows.reduce((s, r) => s + (r.b ?? 0), 0);
   const costDiff = costTotalB - costTotalA;
   const costCounted = costRows.filter((r) => r.a !== null && r.b !== null).length;
+
+  function addExtraItem() {
+    const item = EXTRA_COST_CATALOG.find((i) => i.id === addSelect);
+    if (!item || extraItems.some((e) => e.id === item.id)) return;
+    setExtraItems((prev) => [...prev, item]);
+  }
+  function removeExtraItem(id: string) {
+    setExtraItems((prev) => prev.filter((i) => i.id !== id));
+  }
 
   // --- 健康スコア診断 ---
   useEffect(() => {
@@ -135,7 +168,7 @@ export function KurashiToolClient({ prefectures }: { prefectures: Prefecture[] }
       {/* 生活費比較シミュレーター */}
       <h2>🛒 総合生活費比較シミュレーター</h2>
       <p className="dm-lede">
-        家賃・電気代・都市ガス代・水道料・ガソリン・理髪料・クリーニング代の7項目で、2つの都道府県のくらしのコストを比べます。
+        家賃・電気代・都市ガス代・水道料・ガソリン・理髪料・クリーニング代を基本項目に、必要に応じて食料品など他の品目も追加して、2つの都道府県のくらしのコストを比べます。
       </p>
 
       <div className="dm-compare-picker">
@@ -173,7 +206,7 @@ export function KurashiToolClient({ prefectures }: { prefectures: Prefecture[] }
               {costDiff >= 0 ? "+" : ""}
               {Math.round(costDiff).toLocaleString()}円
             </div>
-            <div style={{ fontSize: 11, marginTop: 2 }}>{COST_ITEMS.length}項目中{costCounted}項目で比較</div>
+            <div style={{ fontSize: 11, marginTop: 2 }}>{allCostItems.length}項目中{costCounted}項目で比較</div>
           </div>
           <div className="dm-scoreboard-side">
             <div className="dm-scoreboard-name">{nameB}</div>
@@ -181,7 +214,7 @@ export function KurashiToolClient({ prefectures }: { prefectures: Prefecture[] }
         </div>
       )}
       <p className="dm-doc-updated">
-        ※ 家賃は総務省統計局「小売物価統計調査」（1ヶ月・1坪あたり）、他6項目も同調査（都道府県庁所在市等の価格）に基づく簡易的な指数です。
+        ※ 家賃は総務省統計局「小売物価統計調査」（1ヶ月・1坪あたり）、他の項目も同調査（都道府県庁所在市等の価格）に基づく簡易的な指数です。
       </p>
 
       {costLoading && <p style={{ color: "var(--dm-muted)" }}>読み込み中...</p>}
@@ -209,6 +242,22 @@ export function KurashiToolClient({ prefectures }: { prefectures: Prefecture[] }
                     <Link href={`/dashboard/${r.item.id}`}>
                       {r.item.icon} {r.item.label}
                     </Link>
+                    {extraItems.some((e) => e.id === r.item.id) && (
+                      <button
+                        onClick={() => removeExtraItem(r.item.id)}
+                        aria-label="この品目を削除"
+                        style={{
+                          marginLeft: 6,
+                          border: "none",
+                          background: "none",
+                          color: "var(--dm-muted)",
+                          cursor: "pointer",
+                          fontSize: 12
+                        }}
+                      >
+                        ×削除
+                      </button>
+                    )}
                   </td>
                   <td className="dm-num dm-mono" style={{ fontWeight: aWins ? 700 : 400 }}>
                     {r.a !== null ? `${r.a.toLocaleString()}${r.item.unit}` : "データなし"}
@@ -234,6 +283,26 @@ export function KurashiToolClient({ prefectures }: { prefectures: Prefecture[] }
             })}
           </tbody>
         </table>
+      )}
+
+      {addableItems.length > 0 && (
+        <div className="dm-card" style={{ marginTop: 16, display: "flex", alignItems: "center", gap: 10, flexWrap: "wrap" }}>
+          <span style={{ fontSize: 13, fontWeight: 700 }}>🔍 他の品目も比べる：</span>
+          <select className="dm-select" value={addSelect} onChange={(e) => setAddSelect(e.target.value)} style={{ flex: "0 0 auto" }}>
+            {addableItems.map((i) => (
+              <option key={i.id} value={i.id}>
+                {i.icon} {i.label}
+              </option>
+            ))}
+          </select>
+          <button
+            onClick={addExtraItem}
+            className="dm-select"
+            style={{ cursor: "pointer", fontWeight: 700, background: "var(--dm-coral)", color: "#fffefa", border: "none" }}
+          >
+            追加
+          </button>
+        </div>
       )}
 
       {/* 健康スコア診断 */}
