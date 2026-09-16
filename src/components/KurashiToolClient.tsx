@@ -54,6 +54,7 @@ export function KurashiToolClient({ prefectures }: { prefectures: Prefecture[] }
   const [prefA, setPrefA] = useState(chiba);
   const [prefB, setPrefB] = useState(osaka);
   const [extraItems, setExtraItems] = useState<CostItem[]>([]);
+  const [removedBaseIds, setRemovedBaseIds] = useState<string[]>([]);
   const [catalog, setCatalog] = useState<CatalogMap | null>(null);
   const [addCategory, setAddCategory] = useState<string>(FEATURED_CATEGORY);
   const [addSelect, setAddSelect] = useState(EXTRA_COST_CATALOG[0].id);
@@ -72,11 +73,13 @@ export function KurashiToolClient({ prefectures }: { prefectures: Prefecture[] }
       .catch(() => setCatalog({}));
   }, []);
 
-  const allCostItems = useMemo(() => [...COST_ITEMS, ...extraItems], [extraItems]);
+  const BASE_CATEGORY = "🏠 基本の生活費品目";
+  const visibleBaseItems = useMemo(() => COST_ITEMS.filter((i) => !removedBaseIds.includes(i.id)), [removedBaseIds]);
+  const allCostItems = useMemo(() => [...visibleBaseItems, ...extraItems], [visibleBaseItems, extraItems]);
 
-  // カテゴリ一覧：おすすめ（データセット化済み12品目）→ カタログの32カテゴリ（品目数の多い順）
+  // カテゴリ一覧：基本品目（削除した分のみ再追加可）→ おすすめ（データセット化済み12品目）→ カタログの32カテゴリ（品目数の多い順）
   const categoryList = useMemo(() => {
-    if (!catalog) return [FEATURED_CATEGORY];
+    if (!catalog) return [BASE_CATEGORY, FEATURED_CATEGORY];
     const counts = new Map<string, number>();
     Object.values(catalog).forEach((entry) => {
       counts.set(entry.category, (counts.get(entry.category) ?? 0) + 1);
@@ -84,11 +87,14 @@ export function KurashiToolClient({ prefectures }: { prefectures: Prefecture[] }
     const catalogCats = Array.from(counts.entries())
       .sort((a, b) => b[1] - a[1])
       .map(([cat]) => cat);
-    return [FEATURED_CATEGORY, ...catalogCats];
+    return [BASE_CATEGORY, FEATURED_CATEGORY, ...catalogCats];
   }, [catalog]);
 
   // 選択中カテゴリに属する「追加できる品目」一覧（追加済みは除く）
   const addableInCategory: CostItem[] = useMemo(() => {
+    if (addCategory === BASE_CATEGORY) {
+      return COST_ITEMS.filter((i) => removedBaseIds.includes(i.id));
+    }
     if (addCategory === FEATURED_CATEGORY) {
       return EXTRA_COST_CATALOG.filter((i) => !extraItems.some((e) => e.id === i.id));
     }
@@ -98,15 +104,16 @@ export function KurashiToolClient({ prefectures }: { prefectures: Prefecture[] }
       .filter(([id]) => !extraItems.some((e) => e.id === id))
       .map(([id, entry]) => ({ id, label: entry.label, unit: "円", icon: "🏷️", kind: "catalog" as const }))
       .sort((a, b) => a.label.localeCompare(b.label, "ja"));
-  }, [addCategory, catalog, extraItems]);
+  }, [addCategory, catalog, extraItems, removedBaseIds]);
 
   const totalAddableCount = useMemo(() => {
+    const base = removedBaseIds.length;
     const featured = EXTRA_COST_CATALOG.filter((i) => !extraItems.some((e) => e.id === i.id)).length;
     const catalogCount = catalog
       ? Object.keys(catalog).filter((id) => !extraItems.some((e) => e.id === id)).length
       : 0;
-    return featured + catalogCount;
-  }, [catalog, extraItems]);
+    return base + featured + catalogCount;
+  }, [catalog, extraItems, removedBaseIds]);
 
   useEffect(() => {
     if (addableInCategory.length > 0 && !addableInCategory.some((i) => i.id === addSelect)) {
@@ -195,10 +202,20 @@ export function KurashiToolClient({ prefectures }: { prefectures: Prefecture[] }
 
   function addExtraItem() {
     const item = addableInCategory.find((i) => i.id === addSelect);
-    if (!item || extraItems.some((e) => e.id === item.id)) return;
+    if (!item) return;
+    if (COST_ITEMS.some((i) => i.id === item.id)) {
+      // 削除済みの基本品目を復元
+      setRemovedBaseIds((prev) => prev.filter((id) => id !== item.id));
+      return;
+    }
+    if (extraItems.some((e) => e.id === item.id)) return;
     setExtraItems((prev) => [...prev, item]);
   }
   function removeExtraItem(id: string) {
+    if (COST_ITEMS.some((i) => i.id === id)) {
+      setRemovedBaseIds((prev) => (prev.includes(id) ? prev : [...prev, id]));
+      return;
+    }
     setExtraItems((prev) => prev.filter((i) => i.id !== id));
   }
 
@@ -241,7 +258,7 @@ export function KurashiToolClient({ prefectures }: { prefectures: Prefecture[] }
       <p className="dm-lede">
         家賃・電気代・都市ガス代・水道料・ガソリン・理髪料・クリーニング代の基本7品目に加えて、
         <strong>食料品から学童保育料まで500品目超</strong>
-        の中から選んで、2つの都道府県のくらしのコストを比べられます。
+        の中から選んで、2つの都道府県のくらしのコストを比べられます。基本品目も含め、各品目は「×削除」でいつでも外せます。
       </p>
 
       <div className="dm-compare-picker">
@@ -387,22 +404,20 @@ export function KurashiToolClient({ prefectures }: { prefectures: Prefecture[] }
                       <Link href={`/dashboard/${r.item.id}`}>
                         {r.item.icon} {r.item.label}
                       </Link>
-                      {extraItems.some((e) => e.id === r.item.id) && (
-                        <button
-                          onClick={() => removeExtraItem(r.item.id)}
-                          aria-label="この品目を削除"
-                          style={{
-                            marginLeft: 6,
-                            border: "none",
-                            background: "none",
-                            color: "var(--dm-muted)",
-                            cursor: "pointer",
-                            fontSize: 12
-                          }}
-                        >
-                          ×削除
-                        </button>
-                      )}
+                      <button
+                        onClick={() => removeExtraItem(r.item.id)}
+                        aria-label="この品目を削除"
+                        style={{
+                          marginLeft: 6,
+                          border: "none",
+                          background: "none",
+                          color: "var(--dm-muted)",
+                          cursor: "pointer",
+                          fontSize: 12
+                        }}
+                      >
+                        ×削除
+                      </button>
                     </td>
                     <td className="dm-num dm-mono" style={{ fontWeight: aCheaper ? 700 : 400, color: aCheaper ? "var(--dm-teal-deep)" : undefined }}>
                       {r.a !== null ? `${r.a.toLocaleString()}${r.item.unit}` : "データなし"}
