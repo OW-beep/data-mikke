@@ -22,6 +22,7 @@ interface CatalogEntry {
   label: string;
   category: string;
   values: Record<string, number>;
+  unit?: string;
 }
 type CatalogMap = Record<string, CatalogEntry>;
 
@@ -102,7 +103,13 @@ export function KurashiToolClient({ prefectures }: { prefectures: Prefecture[] }
     return Object.entries(catalog)
       .filter(([, entry]) => entry.category === addCategory)
       .filter(([id]) => !extraItems.some((e) => e.id === id))
-      .map(([id, entry]) => ({ id, label: entry.label, unit: "円", icon: "🏷️", kind: "catalog" as const }))
+      .map(([id, entry]) => ({
+        id,
+        label: entry.unit ? `${entry.label}（${entry.unit}）` : entry.label,
+        unit: "円",
+        icon: "🏷️",
+        kind: "catalog" as const
+      }))
       .sort((a, b) => a.label.localeCompare(b.label, "ja"));
   }, [addCategory, catalog, extraItems, removedBaseIds]);
 
