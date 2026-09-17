@@ -86,6 +86,8 @@ import { beefPrice } from "./beefPrice";
 import { ramenPrice } from "./ramenPrice";
 import { coffeePrice } from "./coffeePrice";
 
+import { costIndex } from "./costIndex";
+
 export const DATASETS: Record<string, DatasetConfig> = {
   population,
   hospital,
@@ -152,6 +154,7 @@ export const DATASETS: Record<string, DatasetConfig> = {
   bmi,
   smokingRate,
   healthScore,
+  costIndex,
   ricePrice,
   breadPrice,
   eggPrice,

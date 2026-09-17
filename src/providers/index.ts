@@ -79,6 +79,8 @@ import { manualBeefPriceProvider } from "./manual/beefPrice";
 import { manualRamenPriceProvider } from "./manual/ramenPrice";
 import { manualCoffeePriceProvider } from "./manual/coffeePrice";
 
+import { computedCostIndexProvider } from "./computed/costIndex";
+
 export const PROVIDERS: Record<string, Provider> = {
   "estat-population": estatPopulationProvider,
   "estat-birthrate": estatBirthrateProvider,
@@ -145,6 +147,7 @@ export const PROVIDERS: Record<string, Provider> = {
   "manual-bmi": manualBmiProvider,
   "manual-smoking-rate": manualSmokingRateProvider,
   "computed-health-score": computedHealthScoreProvider,
+  "computed-cost-index": computedCostIndexProvider,
   "manual-rice-price": manualRicePriceProvider,
   "manual-bread-price": manualBreadPriceProvider,
   "manual-egg-price": manualEggPriceProvider,

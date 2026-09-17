@@ -71,6 +71,9 @@ import { convenienceStoreIncomeCorrelationNotArea } from "./convenience-store-in
 import { livingCostDatasetsIntro } from "./living-cost-datasets-intro";
 import { healthScoreExplained } from "./health-score-explained";
 import { vegetablePriceAndIntake } from "./vegetable-price-and-intake";
+import { gasBillIncomeRegressive } from "./gas-bill-income-regressive";
+import { rentVsCarOwnership } from "./rent-vs-car-ownership";
+import { ricePriceProducingRegionGap } from "./rice-price-producing-region-gap";
 
 /**
  * ★記事追加手順★
@@ -150,7 +153,10 @@ export const ARTICLE_LIST: Article[] = [
   milkProductionAreaCorrelationOutlierCheck,
   livingCostDatasetsIntro,
   healthScoreExplained,
-  vegetablePriceAndIntake
+  vegetablePriceAndIntake,
+  gasBillIncomeRegressive,
+  rentVsCarOwnership,
+  ricePriceProducingRegionGap
 ].sort((a, b) => (a.publishedAt < b.publishedAt ? 1 : -1));
 
 export function getArticle(slug: string): Article | undefined {
