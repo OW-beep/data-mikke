@@ -9,6 +9,8 @@ import { ScatterPlot } from "@/components/ScatterPlot";
 import { RankingBarChart } from "@/components/RankingBarChart";
 import { pearsonCorrelation, describeCorrelationStrength } from "@/lib/stats";
 import { linkifyPrefectures } from "@/lib/linkifyPrefectures";
+import { searchRakutenItems } from "@/lib/rakuten";
+import { RakutenProductCard } from "@/components/RakutenProductCard";
 
 export function generateStaticParams() {
   return ARTICLE_LIST.map((a) => ({ slug: a.slug }));
@@ -73,6 +75,10 @@ export default async function ArticlePage({ params }: { params: { slug: string }
   const relatedArticles = (article.relatedArticles ?? [])
     .map((slug) => getArticle(slug))
     .filter((a): a is NonNullable<typeof a> => Boolean(a));
+
+  const rakutenItems = article.affiliateKeyword
+    ? await searchRakutenItems(article.affiliateKeyword)
+    : null;
 
   const articleJsonLd = {
     "@context": "https://schema.org",
@@ -227,6 +233,10 @@ export default async function ArticlePage({ params }: { params: { slug: string }
             ))}
           </ul>
         </div>
+      )}
+
+      {rakutenItems && rakutenItems.length > 0 && (
+        <RakutenProductCard heading={`「${article.affiliateKeyword}」を探す`} items={rakutenItems} />
       )}
 
       <div className="dm-cta-box">

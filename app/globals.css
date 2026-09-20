@@ -233,6 +233,52 @@ h3 {
   color: var(--dm-muted);
   letter-spacing: 0.04em;
 }
+.dm-rakuten-card {
+  margin-top: 32px;
+  border-top-color: var(--dm-coral);
+}
+.dm-rakuten-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 12px;
+  margin-top: 10px;
+}
+.dm-rakuten-item {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  text-decoration: none;
+  color: inherit;
+  font-size: 12px;
+  border: 1px solid var(--dm-line);
+  border-radius: 4px;
+  padding: 8px;
+}
+.dm-rakuten-item:hover {
+  border-color: var(--dm-coral);
+}
+.dm-rakuten-item img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 3px;
+}
+.dm-rakuten-item-name {
+  color: var(--dm-ink);
+  line-height: 1.4;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.dm-rakuten-item-price {
+  font-weight: 700;
+  color: var(--dm-coral-deep);
+}
+.dm-rakuten-item-shop {
+  color: var(--dm-muted);
+  font-size: 11px;
+}
 .dm-card h3 {
   margin: 4px 0 10px;
 }
@@ -612,6 +658,36 @@ h3 {
   font-size: 13px;
   color: var(--dm-ink-soft);
   margin: 0;
+}
+.dm-usecase-card-interactive {
+  cursor: default;
+}
+.dm-usecase-picker {
+  display: flex;
+  gap: 8px;
+  margin-top: 12px;
+}
+.dm-usecase-picker .dm-select {
+  flex: 1;
+  min-width: 0;
+  font-size: 13px;
+  padding: 6px 8px;
+}
+.dm-usecase-go {
+  flex: 0 0 auto;
+  font-family: var(--font-body), sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: 1px solid var(--dm-coral);
+  background: var(--dm-coral);
+  color: #fffefa;
+  cursor: pointer;
+}
+.dm-usecase-go:hover {
+  background: var(--dm-coral-deep);
+  border-color: var(--dm-coral-deep);
 }
 
 /* ---------- homepage: latest / popular articles ---------- */

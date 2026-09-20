@@ -17,6 +17,11 @@ export interface Article {
   relatedArticles?: string[];
   /** 一覧ページ・トップページで「おすすめ」として優先表示するためのフラグ（手動キュレーション） */
   featured?: boolean;
+  /**
+   * 記事末尾に、この検索語で楽天市場の商品検索APIを呼び出した結果をPRカードとして埋め込む。
+   * RAKUTEN_APP_ID が未設定の環境では自動的に非表示になる。
+   */
+  affiliateKeyword?: string;
   /** trueの場合、検索エンジンにインデックスさせない（統合元の記事など、内容の重複を避けたい場合に使用） */
   noindex?: boolean;
   /** 本文。段落ごとに配列で持つ（改行で分割してレンダリングする） */
