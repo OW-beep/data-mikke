@@ -11,5 +11,6 @@ export const milkPrice: DatasetConfig = {
   ranking: true,
   compare: true,
   providerId: "manual-milk-price",
-  description: "牛乳（1L）の小売価格の都道府県平均（2025年）。"
+  description: "牛乳（1L）の小売価格の都道府県平均（2025年）。",
+  affiliateKeyword: "牛乳"
 };

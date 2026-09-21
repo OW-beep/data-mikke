@@ -35,4 +35,10 @@ export interface DatasetConfig {
     rankingTitle?: string;
     rankingDescription?: string;
   };
+  /**
+   * ランキングページ末尾に、この検索語で楽天市場の商品検索APIを呼び出した結果をPRカードとして埋め込む。
+   * RAKUTEN_APP_ID/RAKUTEN_ACCESS_KEY が未設定の環境では自動的に非表示になる。
+   * 家賃や電気代のように「そのもの自体を買う」ことがない指標には設定しないこと。
+   */
+  affiliateKeyword?: string;
 }

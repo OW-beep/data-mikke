@@ -11,5 +11,6 @@ export const applePrice: DatasetConfig = {
   ranking: true,
   compare: true,
   providerId: "manual-apple-price",
-  description: "りんご（1kg）の小売価格の都道府県平均（2025年）。"
+  description: "りんご（1kg）の小売価格の都道府県平均（2025年）。",
+  affiliateKeyword: "りんご"
 };

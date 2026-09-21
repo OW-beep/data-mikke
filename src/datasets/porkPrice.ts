@@ -11,5 +11,6 @@ export const porkPrice: DatasetConfig = {
   ranking: true,
   compare: true,
   providerId: "manual-pork-price",
-  description: "豚肉（100g）の小売価格の都道府県平均（2025年）。"
+  description: "豚肉（100g）の小売価格の都道府県平均（2025年）。",
+  affiliateKeyword: "豚肉"
 };

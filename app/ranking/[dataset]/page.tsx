@@ -4,6 +4,8 @@ import { getDataset, DATASET_LIST } from "@/datasets";
 import { loadDataset, latestByArea, rankDescending } from "@/lib/loadData";
 import { findPrefectureByCode } from "@/lib/prefectures";
 import { buildRankingInsight } from "@/lib/stats";
+import { searchRakutenItems } from "@/lib/rakuten";
+import { RakutenProductCard } from "@/components/RakutenProductCard";
 
 export function generateStaticParams() {
   return DATASET_LIST.filter((d) => d.ranking).map((d) => ({ dataset: d.id }));
@@ -29,6 +31,8 @@ export default async function RankingPage({ params }: { params: { dataset: strin
   const points = await loadDataset(dataset.id);
   const ranked = rankDescending(latestByArea(points));
   const insight = buildRankingInsight(ranked, dataset.unit);
+
+  const rakutenItems = dataset.affiliateKeyword ? await searchRakutenItems(dataset.affiliateKeyword) : null;
 
   return (
     <div>
@@ -71,6 +75,10 @@ export default async function RankingPage({ params }: { params: { dataset: strin
           ))}
         </tbody>
       </table>
+
+      {rakutenItems && rakutenItems.length > 0 && (
+        <RakutenProductCard heading={`「${dataset.affiliateKeyword}」を探す`} items={rakutenItems} />
+      )}
     </div>
   );
 }

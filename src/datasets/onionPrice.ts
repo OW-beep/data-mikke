@@ -11,5 +11,6 @@ export const onionPrice: DatasetConfig = {
   ranking: true,
   compare: true,
   providerId: "manual-onion-price",
-  description: "たまねぎ（1kg）の小売価格の都道府県平均（2025年）。"
+  description: "たまねぎ（1kg）の小売価格の都道府県平均（2025年）。",
+  affiliateKeyword: "たまねぎ"
 };

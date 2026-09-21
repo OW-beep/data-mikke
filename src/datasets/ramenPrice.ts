@@ -11,5 +11,6 @@ export const ramenPrice: DatasetConfig = {
   ranking: true,
   compare: true,
   providerId: "manual-ramen-price",
-  description: "中華そば（外食）の価格の都道府県平均（2025年）。"
+  description: "中華そば（外食）の価格の都道府県平均（2025年）。",
+  affiliateKeyword: "即席ラーメン"
 };

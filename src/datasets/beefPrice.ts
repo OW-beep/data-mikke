@@ -11,5 +11,6 @@ export const beefPrice: DatasetConfig = {
   ranking: true,
   compare: true,
   providerId: "manual-beef-price",
-  description: "牛肉（100g）の小売価格の都道府県平均（2025年）。"
+  description: "牛肉（100g）の小売価格の都道府県平均（2025年）。",
+  affiliateKeyword: "牛肉"
 };

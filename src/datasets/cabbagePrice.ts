@@ -11,5 +11,6 @@ export const cabbagePrice: DatasetConfig = {
   ranking: true,
   compare: true,
   providerId: "manual-cabbage-price",
-  description: "キャベツ（1kg）の小売価格の都道府県平均（2025年）。"
+  description: "キャベツ（1kg）の小売価格の都道府県平均（2025年）。",
+  affiliateKeyword: "キャベツ"
 };

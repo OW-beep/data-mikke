@@ -11,5 +11,6 @@ export const coffeePrice: DatasetConfig = {
   ranking: true,
   compare: true,
   providerId: "manual-coffee-price",
-  description: "喫茶店等のコーヒー（外食）の価格の都道府県平均（2025年）。"
+  description: "喫茶店等のコーヒー（外食）の価格の都道府県平均（2025年）。",
+  affiliateKeyword: "コーヒー豆"
 };

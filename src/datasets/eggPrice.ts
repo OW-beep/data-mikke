@@ -11,5 +11,6 @@ export const eggPrice: DatasetConfig = {
   ranking: true,
   compare: true,
   providerId: "manual-egg-price",
-  description: "鶏卵（1kg）の小売価格の都道府県平均（2025年）。"
+  description: "鶏卵（1kg）の小売価格の都道府県平均（2025年）。",
+  affiliateKeyword: "卵"
 };

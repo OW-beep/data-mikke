@@ -11,5 +11,6 @@ export const breadPrice: DatasetConfig = {
   ranking: true,
   compare: true,
   providerId: "manual-bread-price",
-  description: "食パンの小売価格の都道府県平均（2025年）。"
+  description: "食パンの小売価格の都道府県平均（2025年）。",
+  affiliateKeyword: "食パン"
 };

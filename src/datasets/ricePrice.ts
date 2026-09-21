@@ -11,5 +11,6 @@ export const ricePrice: DatasetConfig = {
   ranking: true,
   compare: true,
   providerId: "manual-rice-price",
-  description: "うるち米（5kg）の小売価格の都道府県平均（2025年）。"
+  description: "うるち米（5kg）の小売価格の都道府県平均（2025年）。",
+  affiliateKeyword: "米"
 };
