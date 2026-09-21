@@ -109,8 +109,12 @@ export async function searchRakutenItems(keyword: string, hits = 3): Promise<Rak
       return null;
     }
 
-    // 画像URLが取得できているか確認するため、成功時も先頭1件の生データをログに出す（デバッグ用）
-    console.warn(`[rakuten] 「${keyword}」1件目の生データ=${JSON.stringify(data.Items[0]).slice(0, 600)}`);
+    // 画像URLが取得できているか確認するため、成功時も先頭1件のキー一覧と画像関連フィールドをログに出す（デバッグ用）
+    const first = data.Items[0] as unknown as Record<string, unknown>;
+    console.warn(`[rakuten] 「${keyword}」1件目のキー一覧=${Object.keys(first).join(",")}`);
+    console.warn(
+      `[rakuten] 「${keyword}」画像関連フィールド: mediumImageUrls=${JSON.stringify(first.mediumImageUrls)} smallImageUrls=${JSON.stringify(first.smallImageUrls)} imageFlag=${first.imageFlag}`
+    );
 
     return data.Items.map((item) => ({
       name: item.itemName,
