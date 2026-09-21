@@ -43,7 +43,7 @@ interface RawItem {
   itemUrl: string;
   affiliateUrl?: string;
   shopName: string;
-  mediumImageUrls?: { imageUrl: string }[];
+  mediumImageUrls?: string[];
 }
 
 const ENDPOINT = "https://openapi.rakuten.co.jp/ichibams/api/IchibaItem/Search/20260701";
@@ -109,18 +109,11 @@ export async function searchRakutenItems(keyword: string, hits = 3): Promise<Rak
       return null;
     }
 
-    // 画像URLが取得できているか確認するため、成功時も先頭1件のキー一覧と画像関連フィールドをログに出す（デバッグ用）
-    const first = data.Items[0] as unknown as Record<string, unknown>;
-    console.warn(`[rakuten] 「${keyword}」1件目のキー一覧=${Object.keys(first).join(",")}`);
-    console.warn(
-      `[rakuten] 「${keyword}」画像関連フィールド: mediumImageUrls=${JSON.stringify(first.mediumImageUrls)} smallImageUrls=${JSON.stringify(first.smallImageUrls)} imageFlag=${first.imageFlag}`
-    );
-
     return data.Items.map((item) => ({
       name: item.itemName,
       price: item.itemPrice,
       url: item.affiliateUrl || item.itemUrl,
-      imageUrl: item.mediumImageUrls?.[0]?.imageUrl ?? null,
+      imageUrl: item.mediumImageUrls?.[0] ?? null,
       shopName: item.shopName
     }));
   } catch (err) {
