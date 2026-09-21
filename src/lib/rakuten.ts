@@ -55,7 +55,7 @@ export async function searchRakutenItems(keyword: string, hits = 3): Promise<Rak
     return null;
   }
 
-  const params = new URLSearchParams({
+  const paramsObj: Record<string, string> = {
     format: "json",
     formatVersion: "2",
     keyword,
@@ -63,15 +63,21 @@ export async function searchRakutenItems(keyword: string, hits = 3): Promise<Rak
     accessKey,
     hits: String(hits),
     sort: "standard"
-  });
+  };
   const affiliateId = process.env.RAKUTEN_AFFILIATE_ID;
-  if (affiliateId) params.set("affiliateId", affiliateId);
+  if (affiliateId) paramsObj.affiliateId = affiliateId;
+
+  // URLSearchParamsはスペースを"+"にエンコードするが、楽天側が"+"を区切りのスペースとして
+  // 解釈せず検索結果0件になるケースがあるため、encodeURIComponent（%20）で明示的に組み立てる
+  const query = Object.entries(paramsObj)
+    .map(([key, value]) => `${key}=${encodeURIComponent(value)}`)
+    .join("&");
 
   // アプリ登録時に指定した「Allowed websites」のドメインとRefererが一致しないと弾かれる
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://data-mikke-lab.vercel.app";
 
   try {
-    const res = await fetch(`${ENDPOINT}?${params.toString()}`, {
+    const res = await fetch(`${ENDPOINT}?${query}`, {
       headers: { Referer: siteUrl, Origin: siteUrl },
       // 楽天APIの呼び出し回数を抑えるため、同じキーワードの結果は1日キャッシュする
       next: { revalidate: 60 * 60 * 24 }
@@ -85,7 +91,9 @@ export async function searchRakutenItems(keyword: string, hits = 3): Promise<Rak
       return null;
     }
     if (!data.items || data.items.length === 0) {
-      console.warn(`[rakuten] 「${keyword}」の検索結果が0件でした`);
+      console.warn(
+        `[rakuten] 「${keyword}」の検索結果が0件でした。送信したkeyword文字列=${encodeURIComponent(keyword)}`
+      );
       return null;
     }
 
