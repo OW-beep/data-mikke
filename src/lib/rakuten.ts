@@ -8,9 +8,9 @@
  * - エンドポイント: https://openapi.rakuten.co.jp/ichibams/api/IchibaItem/Search/20260701
  *   （旧 app.rakuten.co.jp/services/api/... は完全停止済み）
  * - applicationId に加えて accessKey が必須（クエリパラメータかヘッダーのどちらでも可。ここではクエリで送る）
- * - formatVersion=2 を指定すると、レスポンスが
- *     { items: [ { itemName, itemPrice, ... }, ... ] }
- *   というフラットな形式になる（指定しない場合は items[].item.itemName のようにネストする）
+ * - formatVersion=2 を指定しているが、実際のレスポンスはドキュメント記載と異なり
+ *   キー名が "Items"（大文字）のままで、配列の各要素はフラットな商品情報オブジェクト
+ *   （{item: {...}} のようなネストはない）。ドキュメントより実際のレスポンスを信用してこの形で解析する。
  *
  * - RAKUTEN_APP_ID / RAKUTEN_ACCESS_KEY が未設定の場合は何もせず null を返す
  *   （キー未登録でもビルド・他ページが壊れないようにするため）。
@@ -28,9 +28,12 @@ export interface RakutenItem {
   shopName: string;
 }
 
-// formatVersion=2 指定時のレスポンス形式（フラット）
+// 楽天の実際のレスポンスは、ドキュメント記載と異なり formatVersion=2 でも
+// キー名は "Items"（大文字）のままで、配列の各要素はフラットな商品情報オブジェクトだった
+// （{item: {...}} のようなネストはない）。ドキュメントより実レスポンスを信用してこの形に合わせる。
 interface RakutenSearchResponse {
-  items?: RawItem[];
+  Items?: RawItem[];
+  count?: number;
   error?: string;
   error_description?: string;
 }
@@ -97,7 +100,7 @@ export async function searchRakutenItems(keyword: string, hits = 3): Promise<Rak
       );
       return null;
     }
-    if (!data.items || data.items.length === 0) {
+    if (!data.Items || data.Items.length === 0) {
       // 原因切り分け用に、レスポンスの生の内容をそのままログに出す（countが0件なのか、
       // itemsのキー名自体が想定と違うのかを確認するため）
       console.warn(
@@ -106,7 +109,7 @@ export async function searchRakutenItems(keyword: string, hits = 3): Promise<Rak
       return null;
     }
 
-    return data.items.map((item) => ({
+    return data.Items.map((item) => ({
       name: item.itemName,
       price: item.itemPrice,
       url: item.affiliateUrl || item.itemUrl,
