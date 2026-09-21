@@ -109,6 +109,9 @@ export async function searchRakutenItems(keyword: string, hits = 3): Promise<Rak
       return null;
     }
 
+    // 画像URLが取得できているか確認するため、成功時も先頭1件の生データをログに出す（デバッグ用）
+    console.warn(`[rakuten] 「${keyword}」1件目の生データ=${JSON.stringify(data.Items[0]).slice(0, 600)}`);
+
     return data.Items.map((item) => ({
       name: item.itemName,
       price: item.itemPrice,
