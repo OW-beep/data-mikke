@@ -82,7 +82,14 @@ export async function searchRakutenItems(keyword: string, hits = 3): Promise<Rak
       // 楽天APIの呼び出し回数を抑えるため、同じキーワードの結果は1日キャッシュする
       next: { revalidate: 60 * 60 * 24 }
     });
-    const data: RakutenSearchResponse = await res.json().catch(() => ({}) as RakutenSearchResponse);
+    const rawText = await res.text();
+    let data: RakutenSearchResponse = {};
+    try {
+      data = JSON.parse(rawText);
+    } catch {
+      console.warn(`[rakuten] 「${keyword}」のレスポンスがJSONとして解釈できませんでした。body=${rawText.slice(0, 500)}`);
+      return null;
+    }
 
     if (!res.ok || data.error) {
       console.warn(
@@ -91,8 +98,10 @@ export async function searchRakutenItems(keyword: string, hits = 3): Promise<Rak
       return null;
     }
     if (!data.items || data.items.length === 0) {
+      // 原因切り分け用に、レスポンスの生の内容をそのままログに出す（countが0件なのか、
+      // itemsのキー名自体が想定と違うのかを確認するため）
       console.warn(
-        `[rakuten] 「${keyword}」の検索結果が0件でした。送信したkeyword文字列=${encodeURIComponent(keyword)}`
+        `[rakuten] 「${keyword}」の検索結果が0件でした。送信keyword=${encodeURIComponent(keyword)} / rawBody=${rawText.slice(0, 800)}`
       );
       return null;
     }
