@@ -40,7 +40,12 @@ export async function searchRakutenItems(keyword: string, hits = 3): Promise<Rak
   const applicationId = process.env.RAKUTEN_APP_ID;
   const accessKey = process.env.RAKUTEN_ACCESS_KEY;
   // 2026年の仕様変更以降、applicationIdだけでは呼び出せず、accessKeyも必須になっている
-  if (!applicationId || !accessKey) return null;
+  if (!applicationId || !accessKey) {
+    console.warn(
+      `[rakuten] RAKUTEN_APP_ID または RAKUTEN_ACCESS_KEY が未設定のため「${keyword}」の検索をスキップしました`
+    );
+    return null;
+  }
 
   const params = new URLSearchParams({
     format: "json",
@@ -62,9 +67,18 @@ export async function searchRakutenItems(keyword: string, hits = 3): Promise<Rak
       // 楽天APIの呼び出し回数を抑えるため、同じキーワードの結果は1日キャッシュする
       next: { revalidate: 60 * 60 * 24 }
     });
-    if (!res.ok) return null;
+    if (!res.ok) {
+      const bodyText = await res.text().catch(() => "");
+      console.warn(
+        `[rakuten] 「${keyword}」の検索がHTTP ${res.status}で失敗しました。Referer=${siteUrl} / body=${bodyText.slice(0, 300)}`
+      );
+      return null;
+    }
     const data: RakutenSearchResponse = await res.json();
-    if (!data.Items) return null;
+    if (!data.Items) {
+      console.warn(`[rakuten] 「${keyword}」の検索結果が空でした。error=${data.error} / ${data.error_description}`);
+      return null;
+    }
 
     return data.Items.map(({ Item }) => ({
       name: Item.itemName,
@@ -73,8 +87,9 @@ export async function searchRakutenItems(keyword: string, hits = 3): Promise<Rak
       imageUrl: Item.mediumImageUrls?.[0]?.imageUrl ?? null,
       shopName: Item.shopName
     }));
-  } catch {
+  } catch (err) {
     // ネットワークエラー等で記事ページ自体が落ちないよう、失敗時は「表示なし」にフォールバックする
+    console.warn(`[rakuten] 「${keyword}」の検索中に例外が発生しました:`, err);
     return null;
   }
 }
