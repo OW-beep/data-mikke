@@ -17,5 +17,6 @@ export const ricePerCapita: DatasetConfig = {
     dashboardDescription: "水稲収穫量を人口で調整した「1人あたり米収穫量」の都道府県ランキング。総収穫量とは違う顔ぶれの「米どころ」が見えてきます。",
     rankingTitle: "1人あたり米収穫量が多い都道府県ランキング",
     rankingDescription: "都道府県別の1人あたり米収穫量ランキング。秋田県・山形県が上位です。"
-  }
+  },
+  affiliateKeyword: "米"
 };

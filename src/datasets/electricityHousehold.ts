@@ -18,5 +18,6 @@ export const electricityHousehold: DatasetConfig = {
     dashboardDescription: "資源エネルギー庁のデータをもとにした、家庭部門に絞った都道府県別電力消費量ランキング。",
     rankingTitle: "家庭の電力消費量が多い都道府県ランキング",
     rankingDescription: "都道府県別の家庭部門電力消費量ランキング。産業用途を除いた、暮らしの電力消費に絞った指標。"
-  }
+  },
+  affiliateKeyword: "LED電球"
 };

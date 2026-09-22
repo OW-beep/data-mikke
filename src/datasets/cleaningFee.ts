@@ -11,5 +11,6 @@ export const cleaningFee: DatasetConfig = {
   ranking: true,
   compare: true,
   providerId: "manual-cleaning-fee",
-  description: "男性用スーツ上下のドライクリーニング代の都道府県平均（2025年）。"
+  description: "男性用スーツ上下のドライクリーニング代の都道府県平均（2025年）。",
+  affiliateKeyword: "衣類スチーマー"
 };

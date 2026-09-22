@@ -8,6 +8,7 @@ export const culturalPropertyFourWaysToSeeIt: Article = {
   publishedAt: "2026-08-04",
   featured: true,
   relatedDataset: "culturalProperty",
+  affiliateKeyword: "御朱印帳",
   embedRanking: "culturalProperty",
   relatedArticles: [
     "university-per-capita-kyoto-student-city",

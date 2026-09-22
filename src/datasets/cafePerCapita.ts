@@ -17,5 +17,6 @@ export const cafePerCapita: DatasetConfig = {
     dashboardDescription: "人口あたりの喫茶店数で見ると、総数トップの東京都ではなく長野県が1位に。喫茶店文化の地域差が見えてきます。",
     rankingTitle: "人口あたり喫茶店が多い都道府県ランキング",
     rankingDescription: "都道府県別の人口10万人あたり喫茶店数ランキング。長野県が全国トップの水準です。"
-  }
+  },
+  affiliateKeyword: "コーヒーメーカー"
 };

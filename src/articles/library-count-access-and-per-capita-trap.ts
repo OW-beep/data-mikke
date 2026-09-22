@@ -7,6 +7,7 @@ export const libraryAccessGap: Article = {
     "図書館数だけで文化的インフラの充実度を語るのは早計です。人口・面積との関係から、数字の裏側を丁寧に読み解きます。",
   publishedAt: "2026-07-09",
   relatedDataset: "library",
+  affiliateKeyword: "本棚",
   embedRanking: "library",
   relatedArticles: ["spurious-correlation-library-university-population", "university-count-tokyo-concentration-history", "population-does-not-equal-convenience-per-capita-lesson"],
   body: [

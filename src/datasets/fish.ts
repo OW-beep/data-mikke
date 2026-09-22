@@ -17,5 +17,6 @@ export const fish: DatasetConfig = {
     dashboardDescription: "都道府県ごとの海面漁業漁獲量を比較できます。北海道が全国の3割近くを占め、2位長崎県に3倍以上の差をつけています。",
     rankingTitle: "漁獲量が多い都道府県ランキング（全47都道府県）",
     rankingDescription: "都道府県別の海面漁業漁獲量ランキング。北海道・長崎県・静岡県が上位です。"
-  }
+  },
+  affiliateKeyword: "海鮮 詰め合わせ"
 };

@@ -7,6 +7,7 @@ export const riceAkitaHiddenNumberOne: Article = {
     "水稲収穫量の総量ランキングでは新潟県がトップですが、人口10万人あたりに直すと秋田県が2位以下を大きく引き離します。",
   publishedAt: "2026-07-24",
   relatedDataset: "ricePerCapita",
+  affiliateKeyword: "米",
   embedRanking: "ricePerCapita",
   relatedArticles: ["population-density-meaning", "milk-production-hokkaido-half-of-japan"],
   body: [

@@ -11,5 +11,6 @@ export const gasoline: DatasetConfig = {
   ranking: true,
   compare: true,
   providerId: "manual-gasoline",
-  description: "レギュラーガソリン（セルフサービス式を除く）1Lあたり価格の都道府県平均（2025年）。"
+  description: "レギュラーガソリン（セルフサービス式を除く）1Lあたり価格の都道府県平均（2025年）。",
+  affiliateKeyword: "カー用品"
 };

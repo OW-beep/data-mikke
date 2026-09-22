@@ -17,5 +17,6 @@ export const library: DatasetConfig = {
     dashboardDescription: "都道府県ごとの公共図書館数を、ランキングと出典つきで確認できます。",
     rankingTitle: "図書館が多い都道府県ランキング（全47都道府県）",
     rankingDescription: "都道府県別の公共図書館数を1位から47位まで比較したランキング。"
-  }
+  },
+  affiliateKeyword: "本棚"
 };

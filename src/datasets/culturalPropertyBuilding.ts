@@ -18,5 +18,6 @@ export const culturalPropertyBuilding: DatasetConfig = {
     dashboardDescription: "国宝・重要文化財のうち建造物（寺社・城郭など）だけに絞った都道府県ランキング。京都府・奈良県が突出しています。",
     rankingTitle: "国宝・重文の建造物が多い都道府県ランキング",
     rankingDescription: "都道府県別の国宝・重文の建造物数ランキング。京都府が292件で全国トップ。"
-  }
+  },
+  affiliateKeyword: "御朱印帳"
 };

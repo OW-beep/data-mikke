@@ -11,5 +11,6 @@ export const milk: DatasetConfig = {
   ranking: true,
   compare: true,
   providerId: "manual-milk",
-  description: "都道府県別の生乳生産量。北海道が全国の過半を占める、地域差の大きい指標。"
+  description: "都道府県別の生乳生産量。北海道が全国の過半を占める、地域差の大きい指標。",
+  affiliateKeyword: "牛乳"
 };

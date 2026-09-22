@@ -12,5 +12,6 @@ export const culturalPropertyPerCapita: DatasetConfig = {
   compare: true,
   providerId: "computed-cultural-property-per-capita",
   description:
-    "国宝・重要文化財数を人口で調整した当サイト独自の指標。単純な総数ランキングとは異なる顔ぶれが上位に来る。"
+    "国宝・重要文化財数を人口で調整した当サイト独自の指標。単純な総数ランキングとは異なる顔ぶれが上位に来る。",
+  affiliateKeyword: "御朱印帳"
 };

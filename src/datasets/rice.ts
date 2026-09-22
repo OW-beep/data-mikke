@@ -17,5 +17,6 @@ export const rice: DatasetConfig = {
     dashboardDescription: "都道府県ごとの水稲（お米）の収穫量を比較できます。新潟県が全国トップ、東京都はわずか484トンです。",
     rankingTitle: "米の収穫量が多い都道府県ランキング（全47都道府県）",
     rankingDescription: "都道府県別の水稲収穫量ランキング。新潟県・北海道・秋田県が上位です。"
-  }
+  },
+  affiliateKeyword: "米"
 };

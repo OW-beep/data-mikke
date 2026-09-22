@@ -7,6 +7,7 @@ export const fishRiceCoastalOverlap: Article = {
     "海の幸と稲作、一見無関係に見える2つの一次産業データですが、相関係数を計算すると r=0.413 という無視できない関係が見えてきます。",
   publishedAt: "2026-07-27",
   relatedDataset: "fish",
+  affiliateKeyword: "海鮮 詰め合わせ",
   embedScatter: {
     a: "fish",
     b: "rice",

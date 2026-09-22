@@ -17,5 +17,6 @@ export const onsen: DatasetConfig = {
     dashboardDescription: "都道府県ごとの温泉地の数を比較できます。北海道・長野県・新潟県が上位です。",
     rankingTitle: "温泉地が多い都道府県ランキング（全47都道府県）",
     rankingDescription: "都道府県別の温泉地数ランキング。出典: 環境省「温泉利用状況」。"
-  }
+  },
+  affiliateKeyword: "入浴剤"
 };

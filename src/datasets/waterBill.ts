@@ -11,5 +11,6 @@ export const waterBill: DatasetConfig = {
   ranking: true,
   compare: true,
   providerId: "manual-water-bill",
-  description: "20立方メートル利用を基準とした水道料の都道府県平均（2025年）。"
+  description: "20立方メートル利用を基準とした水道料の都道府県平均（2025年）。",
+  affiliateKeyword: "節水シャワーヘッド"
 };

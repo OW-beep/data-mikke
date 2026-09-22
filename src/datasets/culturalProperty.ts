@@ -11,5 +11,6 @@ export const culturalProperty: DatasetConfig = {
   ranking: true,
   compare: true,
   providerId: "manual-cultural-property",
-  description: "都道府県別の国宝・重要文化財の総数。京都・奈良など歴史的蓄積のある地域に集中する。"
+  description: "都道府県別の国宝・重要文化財の総数。京都・奈良など歴史的蓄積のある地域に集中する。",
+  affiliateKeyword: "御朱印帳"
 };

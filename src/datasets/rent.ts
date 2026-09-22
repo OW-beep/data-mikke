@@ -17,5 +17,6 @@ export const rent: DatasetConfig = {
     dashboardDescription: "1坪・1ヶ月あたりの家賃で見る都道府県ランキング。東京都が突出して高く、地方との差は2.8倍にのぼります。",
     rankingTitle: "家賃が高い都道府県ランキング（全47都道府県）",
     rankingDescription: "都道府県別の家賃相場ランキング。東京都・京都府・神奈川県が上位です。"
-  }
+  },
+  affiliateKeyword: "引っ越し ダンボール"
 };

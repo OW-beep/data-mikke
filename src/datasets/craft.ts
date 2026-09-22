@@ -17,5 +17,6 @@ export const craft: DatasetConfig = {
     dashboardDescription: "都道府県ごとの伝統的工芸品の指定数を比較できます。東京都が23品目で全国最多です。",
     rankingTitle: "伝統的工芸品の指定数が多い都道府県ランキング（全47都道府県）",
     rankingDescription: "都道府県別の伝統的工芸品指定数ランキング。出典: 経済産業省。"
-  }
+  },
+  affiliateKeyword: "伝統工芸品"
 };

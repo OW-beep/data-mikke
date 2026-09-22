@@ -11,5 +11,6 @@ export const barberFee: DatasetConfig = {
   ranking: true,
   compare: true,
   providerId: "manual-barber-fee",
-  description: "理髪料の都道府県庁所在市等における価格（2025年）。"
+  description: "理髪料の都道府県庁所在市等における価格（2025年）。",
+  affiliateKeyword: "バリカン"
 };

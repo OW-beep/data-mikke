@@ -7,6 +7,7 @@ export const parkAreaTokyoLast: Article = {
     "北海道は1人あたり27.22m²もの都市公園があるのに対し、東京都はわずか4.26m²。人口密度・所得との関係から、この差の背景を読み解きます。",
   publishedAt: "2026-07-21",
   relatedDataset: "park",
+  affiliateKeyword: "レジャーシート",
   embedScatter: {
     a: "density",
     b: "park",

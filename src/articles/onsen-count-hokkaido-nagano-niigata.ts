@@ -7,6 +7,7 @@ export const onsenCountHokkaidoNaganoNiigata: Article = {
     "環境省の調査によると、温泉地の数そのものは北海道が全国トップですが、源泉の数や湧出量で見ると、大分県が圧倒的な1位に立ちます。「温泉地の数」と「温泉そのものの規模」は、必ずしも一致しません。",
   publishedAt: "2026-08-06",
   relatedDataset: "onsen",
+  affiliateKeyword: "入浴剤",
   embedRanking: "onsen",
   relatedArticles: ["sunshine-hours-saitama-top-okinawa-low", "forest-rate-kochi-vs-osaka", "rural-infrastructure-area-correlation-onsen-michinoeki-craft"],
   body: [

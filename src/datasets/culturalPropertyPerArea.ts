@@ -17,5 +17,6 @@ export const culturalPropertyPerArea: DatasetConfig = {
     dashboardDescription: "国宝・重要文化財数を面積で調整した「文化財密度」の都道府県ランキング。人口あたりとは違う顔ぶれが見えます。",
     rankingTitle: "文化財密度が高い都道府県ランキング（面積あたり国宝・重文数）",
     rankingDescription: "都道府県の面積あたり国宝・重要文化財数ランキング。東京都が圧倒的な密度を見せます。"
-  }
+  },
+  affiliateKeyword: "御朱印帳"
 };

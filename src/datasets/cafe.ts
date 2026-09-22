@@ -17,5 +17,6 @@ export const cafe: DatasetConfig = {
     dashboardDescription: "都道府県ごとの喫茶店の軒数を比較できます。愛知県・岐阜県など「喫茶店文化」が根付く地域の実態が見えます。",
     rankingTitle: "喫茶店が多い都道府県ランキング（全47都道府県）",
     rankingDescription: "都道府県別の喫茶店の軒数ランキング。東京都・愛知県・大阪府が上位です。"
-  }
+  },
+  affiliateKeyword: "コーヒーメーカー"
 };
