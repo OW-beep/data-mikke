@@ -88,6 +88,8 @@ import { coffeePrice } from "./coffeePrice";
 
 import { costIndex } from "./costIndex";
 
+import { minimumWage } from "./minimumWage";
+
 export const DATASETS: Record<string, DatasetConfig> = {
   population,
   hospital,
@@ -155,6 +157,7 @@ export const DATASETS: Record<string, DatasetConfig> = {
   smokingRate,
   healthScore,
   costIndex,
+  minimumWage,
   ricePrice,
   breadPrice,
   eggPrice,

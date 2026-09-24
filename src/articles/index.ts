@@ -73,6 +73,7 @@ import { healthScoreExplained } from "./health-score-explained";
 import { vegetablePriceAndIntake } from "./vegetable-price-and-intake";
 import { stepsIncomeUrbanizationLink } from "./steps-income-urbanization-link";
 import { saltIntakeTohokuConcentration } from "./salt-intake-tohoku-concentration";
+import { minimumWageRealValueRanking } from "./minimum-wage-real-value-ranking";
 import { gasBillIncomeRegressive } from "./gas-bill-income-regressive";
 import { rentVsCarOwnership } from "./rent-vs-car-ownership";
 import { ricePriceProducingRegionGap } from "./rice-price-producing-region-gap";
@@ -160,7 +161,8 @@ export const ARTICLE_LIST: Article[] = [
   rentVsCarOwnership,
   ricePriceProducingRegionGap,
   stepsIncomeUrbanizationLink,
-  saltIntakeTohokuConcentration
+  saltIntakeTohokuConcentration,
+  minimumWageRealValueRanking
 ].sort((a, b) => (a.publishedAt < b.publishedAt ? 1 : -1));
 
 export function getArticle(slug: string): Article | undefined {
