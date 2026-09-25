@@ -1,0 +1,331 @@
+[
+  {
+    "dataset": "steps",
+    "areaCode": "01",
+    "areaName": "北海道",
+    "year": 2024,
+    "value": 7289.2
+  },
+  {
+    "dataset": "steps",
+    "areaCode": "02",
+    "areaName": "青森県",
+    "year": 2024,
+    "value": 7349.6
+  },
+  {
+    "dataset": "steps",
+    "areaCode": "03",
+    "areaName": "岩手県",
+    "year": 2024,
+    "value": 7273.5
+  },
+  {
+    "dataset": "steps",
+    "areaCode": "04",
+    "areaName": "宮城県",
+    "year": 2024,
+    "value": 8168.2
+  },
+  {
+    "dataset": "steps",
+    "areaCode": "05",
+    "areaName": "秋田県",
+    "year": 2024,
+    "value": 6492.2
+  },
+  {
+    "dataset": "steps",
+    "areaCode": "06",
+    "areaName": "山形県",
+    "year": 2024,
+    "value": 7596.4
+  },
+  {
+    "dataset": "steps",
+    "areaCode": "07",
+    "areaName": "福島県",
+    "year": 2024,
+    "value": 7935.2
+  },
+  {
+    "dataset": "steps",
+    "areaCode": "08",
+    "areaName": "茨城県",
+    "year": 2024,
+    "value": 7554.6
+  },
+  {
+    "dataset": "steps",
+    "areaCode": "09",
+    "areaName": "栃木県",
+    "year": 2024,
+    "value": 7516
+  },
+  {
+    "dataset": "steps",
+    "areaCode": "10",
+    "areaName": "群馬県",
+    "year": 2024,
+    "value": 8094.8
+  },
+  {
+    "dataset": "steps",
+    "areaCode": "11",
+    "areaName": "埼玉県",
+    "year": 2024,
+    "value": 8381.6
+  },
+  {
+    "dataset": "steps",
+    "areaCode": "12",
+    "areaName": "千葉県",
+    "year": 2024,
+    "value": 8147.6
+  },
+  {
+    "dataset": "steps",
+    "areaCode": "13",
+    "areaName": "東京都",
+    "year": 2024,
+    "value": 8189.6
+  },
+  {
+    "dataset": "steps",
+    "areaCode": "14",
+    "areaName": "神奈川県",
+    "year": 2024,
+    "value": 9107.8
+  },
+  {
+    "dataset": "steps",
+    "areaCode": "15",
+    "areaName": "新潟県",
+    "year": 2024,
+    "value": 7362
+  },
+  {
+    "dataset": "steps",
+    "areaCode": "16",
+    "areaName": "富山県",
+    "year": 2024,
+    "value": 7377.9
+  },
+  {
+    "dataset": "steps",
+    "areaCode": "17",
+    "areaName": "石川県",
+    "year": 2024,
+    "value": 6906.1
+  },
+  {
+    "dataset": "steps",
+    "areaCode": "18",
+    "areaName": "福井県",
+    "year": 2024,
+    "value": 7169.5
+  },
+  {
+    "dataset": "steps",
+    "areaCode": "19",
+    "areaName": "山梨県",
+    "year": 2024,
+    "value": 7567.1
+  },
+  {
+    "dataset": "steps",
+    "areaCode": "20",
+    "areaName": "長野県",
+    "year": 2024,
+    "value": 7577
+  },
+  {
+    "dataset": "steps",
+    "areaCode": "21",
+    "areaName": "岐阜県",
+    "year": 2024,
+    "value": 7504.2
+  },
+  {
+    "dataset": "steps",
+    "areaCode": "22",
+    "areaName": "静岡県",
+    "year": 2024,
+    "value": 8000.6
+  },
+  {
+    "dataset": "steps",
+    "areaCode": "23",
+    "areaName": "愛知県",
+    "year": 2024,
+    "value": 7890
+  },
+  {
+    "dataset": "steps",
+    "areaCode": "24",
+    "areaName": "三重県",
+    "year": 2024,
+    "value": 7647.3
+  },
+  {
+    "dataset": "steps",
+    "areaCode": "25",
+    "areaName": "滋賀県",
+    "year": 2024,
+    "value": 7971.2
+  },
+  {
+    "dataset": "steps",
+    "areaCode": "26",
+    "areaName": "京都府",
+    "year": 2024,
+    "value": 7823.1
+  },
+  {
+    "dataset": "steps",
+    "areaCode": "27",
+    "areaName": "大阪府",
+    "year": 2024,
+    "value": 8281.6
+  },
+  {
+    "dataset": "steps",
+    "areaCode": "28",
+    "areaName": "兵庫県",
+    "year": 2024,
+    "value": 8393.4
+  },
+  {
+    "dataset": "steps",
+    "areaCode": "29",
+    "areaName": "奈良県",
+    "year": 2024,
+    "value": 7824.1
+  },
+  {
+    "dataset": "steps",
+    "areaCode": "30",
+    "areaName": "和歌山県",
+    "year": 2024,
+    "value": 7498.7
+  },
+  {
+    "dataset": "steps",
+    "areaCode": "31",
+    "areaName": "鳥取県",
+    "year": 2024,
+    "value": 7514.4
+  },
+  {
+    "dataset": "steps",
+    "areaCode": "32",
+    "areaName": "島根県",
+    "year": 2024,
+    "value": 7289.2
+  },
+  {
+    "dataset": "steps",
+    "areaCode": "33",
+    "areaName": "岡山県",
+    "year": 2024,
+    "value": 7734.6
+  },
+  {
+    "dataset": "steps",
+    "areaCode": "34",
+    "areaName": "広島県",
+    "year": 2024,
+    "value": 7836.6
+  },
+  {
+    "dataset": "steps",
+    "areaCode": "35",
+    "areaName": "山口県",
+    "year": 2024,
+    "value": 7514.8
+  },
+  {
+    "dataset": "steps",
+    "areaCode": "36",
+    "areaName": "徳島県",
+    "year": 2024,
+    "value": 8127
+  },
+  {
+    "dataset": "steps",
+    "areaCode": "37",
+    "areaName": "香川県",
+    "year": 2024,
+    "value": 7575.1
+  },
+  {
+    "dataset": "steps",
+    "areaCode": "38",
+    "areaName": "愛媛県",
+    "year": 2024,
+    "value": 7711.6
+  },
+  {
+    "dataset": "steps",
+    "areaCode": "39",
+    "areaName": "高知県",
+    "year": 2024,
+    "value": 7624.8
+  },
+  {
+    "dataset": "steps",
+    "areaCode": "40",
+    "areaName": "福岡県",
+    "year": 2024,
+    "value": 8467.5
+  },
+  {
+    "dataset": "steps",
+    "areaCode": "41",
+    "areaName": "佐賀県",
+    "year": 2024,
+    "value": 7526.3
+  },
+  {
+    "dataset": "steps",
+    "areaCode": "42",
+    "areaName": "長崎県",
+    "year": 2024,
+    "value": 7083
+  },
+  {
+    "dataset": "steps",
+    "areaCode": "43",
+    "areaName": "熊本県",
+    "year": 2024,
+    "value": 7458.7
+  },
+  {
+    "dataset": "steps",
+    "areaCode": "44",
+    "areaName": "大分県",
+    "year": 2024,
+    "value": 7424.4
+  },
+  {
+    "dataset": "steps",
+    "areaCode": "45",
+    "areaName": "宮崎県",
+    "year": 2024,
+    "value": 7333.2
+  },
+  {
+    "dataset": "steps",
+    "areaCode": "46",
+    "areaName": "鹿児島県",
+    "year": 2024,
+    "value": 6960.1
+  },
+  {
+    "dataset": "steps",
+    "areaCode": "47",
+    "areaName": "沖縄県",
+    "year": 2024,
+    "value": 6930.2
+  }
+]

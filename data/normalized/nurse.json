@@ -1,0 +1,331 @@
+[
+  {
+    "dataset": "nurse",
+    "areaCode": "01",
+    "areaName": "北海道",
+    "year": 2010,
+    "value": 923.45
+  },
+  {
+    "dataset": "nurse",
+    "areaCode": "02",
+    "areaName": "青森県",
+    "year": 2010,
+    "value": 826.74
+  },
+  {
+    "dataset": "nurse",
+    "areaCode": "03",
+    "areaName": "岩手県",
+    "year": 2010,
+    "value": 896.97
+  },
+  {
+    "dataset": "nurse",
+    "areaCode": "04",
+    "areaName": "宮城県",
+    "year": 2010,
+    "value": 684.49
+  },
+  {
+    "dataset": "nurse",
+    "areaCode": "05",
+    "areaName": "秋田県",
+    "year": 2010,
+    "value": 865.2
+  },
+  {
+    "dataset": "nurse",
+    "areaCode": "06",
+    "areaName": "山形県",
+    "year": 2010,
+    "value": 843.34
+  },
+  {
+    "dataset": "nurse",
+    "areaCode": "07",
+    "areaName": "福島県",
+    "year": 2010,
+    "value": 705.05
+  },
+  {
+    "dataset": "nurse",
+    "areaCode": "08",
+    "areaName": "茨城県",
+    "year": 2010,
+    "value": 575.53
+  },
+  {
+    "dataset": "nurse",
+    "areaCode": "09",
+    "areaName": "栃木県",
+    "year": 2010,
+    "value": 656.43
+  },
+  {
+    "dataset": "nurse",
+    "areaCode": "10",
+    "areaName": "群馬県",
+    "year": 2010,
+    "value": 715.36
+  },
+  {
+    "dataset": "nurse",
+    "areaCode": "11",
+    "areaName": "埼玉県",
+    "year": 2010,
+    "value": 486.91
+  },
+  {
+    "dataset": "nurse",
+    "areaCode": "12",
+    "areaName": "千葉県",
+    "year": 2010,
+    "value": 523.66
+  },
+  {
+    "dataset": "nurse",
+    "areaCode": "13",
+    "areaName": "東京都",
+    "year": 2010,
+    "value": 653.78
+  },
+  {
+    "dataset": "nurse",
+    "areaCode": "14",
+    "areaName": "神奈川県",
+    "year": 2010,
+    "value": 569.2
+  },
+  {
+    "dataset": "nurse",
+    "areaCode": "15",
+    "areaName": "新潟県",
+    "year": 2010,
+    "value": 783.89
+  },
+  {
+    "dataset": "nurse",
+    "areaCode": "16",
+    "areaName": "富山県",
+    "year": 2010,
+    "value": 938.21
+  },
+  {
+    "dataset": "nurse",
+    "areaCode": "17",
+    "areaName": "石川県",
+    "year": 2010,
+    "value": 1006.93
+  },
+  {
+    "dataset": "nurse",
+    "areaCode": "18",
+    "areaName": "福井県",
+    "year": 2010,
+    "value": 880.55
+  },
+  {
+    "dataset": "nurse",
+    "areaCode": "19",
+    "areaName": "山梨県",
+    "year": 2010,
+    "value": 751.15
+  },
+  {
+    "dataset": "nurse",
+    "areaCode": "20",
+    "areaName": "長野県",
+    "year": 2010,
+    "value": 839.04
+  },
+  {
+    "dataset": "nurse",
+    "areaCode": "21",
+    "areaName": "岐阜県",
+    "year": 2010,
+    "value": 656.39
+  },
+  {
+    "dataset": "nurse",
+    "areaCode": "22",
+    "areaName": "静岡県",
+    "year": 2010,
+    "value": 688.13
+  },
+  {
+    "dataset": "nurse",
+    "areaCode": "23",
+    "areaName": "愛知県",
+    "year": 2010,
+    "value": 630.05
+  },
+  {
+    "dataset": "nurse",
+    "areaCode": "24",
+    "areaName": "三重県",
+    "year": 2010,
+    "value": 701.78
+  },
+  {
+    "dataset": "nurse",
+    "areaCode": "25",
+    "areaName": "滋賀県",
+    "year": 2010,
+    "value": 809.06
+  },
+  {
+    "dataset": "nurse",
+    "areaCode": "26",
+    "areaName": "京都府",
+    "year": 2010,
+    "value": 845.11
+  },
+  {
+    "dataset": "nurse",
+    "areaCode": "27",
+    "areaName": "大阪府",
+    "year": 2010,
+    "value": 707.48
+  },
+  {
+    "dataset": "nurse",
+    "areaCode": "28",
+    "areaName": "兵庫県",
+    "year": 2010,
+    "value": 738.48
+  },
+  {
+    "dataset": "nurse",
+    "areaCode": "29",
+    "areaName": "奈良県",
+    "year": 2010,
+    "value": 716.48
+  },
+  {
+    "dataset": "nurse",
+    "areaCode": "30",
+    "areaName": "和歌山県",
+    "year": 2010,
+    "value": 826.08
+  },
+  {
+    "dataset": "nurse",
+    "areaCode": "31",
+    "areaName": "鳥取県",
+    "year": 2010,
+    "value": 949.26
+  },
+  {
+    "dataset": "nurse",
+    "areaCode": "32",
+    "areaName": "島根県",
+    "year": 2010,
+    "value": 980.49
+  },
+  {
+    "dataset": "nurse",
+    "areaCode": "33",
+    "areaName": "岡山県",
+    "year": 2010,
+    "value": 978.22
+  },
+  {
+    "dataset": "nurse",
+    "areaCode": "34",
+    "areaName": "広島県",
+    "year": 2010,
+    "value": 847.85
+  },
+  {
+    "dataset": "nurse",
+    "areaCode": "35",
+    "areaName": "山口県",
+    "year": 2010,
+    "value": 948.09
+  },
+  {
+    "dataset": "nurse",
+    "areaCode": "36",
+    "areaName": "徳島県",
+    "year": 2010,
+    "value": 963.86
+  },
+  {
+    "dataset": "nurse",
+    "areaCode": "37",
+    "areaName": "香川県",
+    "year": 2010,
+    "value": 930.27
+  },
+  {
+    "dataset": "nurse",
+    "areaCode": "38",
+    "areaName": "愛媛県",
+    "year": 2010,
+    "value": 961.79
+  },
+  {
+    "dataset": "nurse",
+    "areaCode": "39",
+    "areaName": "高知県",
+    "year": 2010,
+    "value": 1114.78
+  },
+  {
+    "dataset": "nurse",
+    "areaCode": "40",
+    "areaName": "福岡県",
+    "year": 2010,
+    "value": 952.29
+  },
+  {
+    "dataset": "nurse",
+    "areaCode": "41",
+    "areaName": "佐賀県",
+    "year": 2010,
+    "value": 1012.84
+  },
+  {
+    "dataset": "nurse",
+    "areaCode": "42",
+    "areaName": "長崎県",
+    "year": 2010,
+    "value": 1040.11
+  },
+  {
+    "dataset": "nurse",
+    "areaCode": "43",
+    "areaName": "熊本県",
+    "year": 2010,
+    "value": 1023.92
+  },
+  {
+    "dataset": "nurse",
+    "areaCode": "44",
+    "areaName": "大分県",
+    "year": 2010,
+    "value": 981.42
+  },
+  {
+    "dataset": "nurse",
+    "areaCode": "45",
+    "areaName": "宮崎県",
+    "year": 2010,
+    "value": 1010.72
+  },
+  {
+    "dataset": "nurse",
+    "areaCode": "46",
+    "areaName": "鹿児島県",
+    "year": 2010,
+    "value": 1050.2
+  },
+  {
+    "dataset": "nurse",
+    "areaCode": "47",
+    "areaName": "沖縄県",
+    "year": 2010,
+    "value": 815.54
+  }
+]

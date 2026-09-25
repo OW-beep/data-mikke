@@ -1,0 +1,1318 @@
+[
+  {
+    "dataset": "homeownership",
+    "areaCode": "01",
+    "areaName": "北海道",
+    "year": 2003,
+    "value": 56.7
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "01",
+    "areaName": "北海道",
+    "year": 2008,
+    "value": 57.2
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "01",
+    "areaName": "北海道",
+    "year": 2013,
+    "value": 57.7
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "01",
+    "areaName": "北海道",
+    "year": 2018,
+    "value": 56.3
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "02",
+    "areaName": "青森県",
+    "year": 2003,
+    "value": 70.9
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "02",
+    "areaName": "青森県",
+    "year": 2008,
+    "value": 71.7
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "02",
+    "areaName": "青森県",
+    "year": 2013,
+    "value": 71.3
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "02",
+    "areaName": "青森県",
+    "year": 2018,
+    "value": 70.3
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "03",
+    "areaName": "岩手県",
+    "year": 2003,
+    "value": 70.1
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "03",
+    "areaName": "岩手県",
+    "year": 2008,
+    "value": 71.9
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "03",
+    "areaName": "岩手県",
+    "year": 2013,
+    "value": 68.9
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "03",
+    "areaName": "岩手県",
+    "year": 2018,
+    "value": 69.9
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "04",
+    "areaName": "宮城県",
+    "year": 2003,
+    "value": 60.6
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "04",
+    "areaName": "宮城県",
+    "year": 2008,
+    "value": 60.8
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "04",
+    "areaName": "宮城県",
+    "year": 2013,
+    "value": 58
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "04",
+    "areaName": "宮城県",
+    "year": 2018,
+    "value": 58.1
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "05",
+    "areaName": "秋田県",
+    "year": 2003,
+    "value": 77.6
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "05",
+    "areaName": "秋田県",
+    "year": 2008,
+    "value": 78.4
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "05",
+    "areaName": "秋田県",
+    "year": 2013,
+    "value": 78.1
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "05",
+    "areaName": "秋田県",
+    "year": 2018,
+    "value": 77.3
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "06",
+    "areaName": "山形県",
+    "year": 2003,
+    "value": 75.9
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "06",
+    "areaName": "山形県",
+    "year": 2008,
+    "value": 75.5
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "06",
+    "areaName": "山形県",
+    "year": 2013,
+    "value": 76.7
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "06",
+    "areaName": "山形県",
+    "year": 2018,
+    "value": 74.9
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "07",
+    "areaName": "福島県",
+    "year": 2003,
+    "value": 68.6
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "07",
+    "areaName": "福島県",
+    "year": 2008,
+    "value": 68.8
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "07",
+    "areaName": "福島県",
+    "year": 2013,
+    "value": 66.5
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "07",
+    "areaName": "福島県",
+    "year": 2018,
+    "value": 67.7
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "08",
+    "areaName": "茨城県",
+    "year": 2003,
+    "value": 70.1
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "08",
+    "areaName": "茨城県",
+    "year": 2008,
+    "value": 70.7
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "08",
+    "areaName": "茨城県",
+    "year": 2013,
+    "value": 71.3
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "08",
+    "areaName": "茨城県",
+    "year": 2018,
+    "value": 71.2
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "09",
+    "areaName": "栃木県",
+    "year": 2003,
+    "value": 69.2
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "09",
+    "areaName": "栃木県",
+    "year": 2008,
+    "value": 68.6
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "09",
+    "areaName": "栃木県",
+    "year": 2013,
+    "value": 70.6
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "09",
+    "areaName": "栃木県",
+    "year": 2018,
+    "value": 69.1
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "10",
+    "areaName": "群馬県",
+    "year": 2003,
+    "value": 70.5
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "10",
+    "areaName": "群馬県",
+    "year": 2008,
+    "value": 70.7
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "10",
+    "areaName": "群馬県",
+    "year": 2013,
+    "value": 70.6
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "10",
+    "areaName": "群馬県",
+    "year": 2018,
+    "value": 71.4
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "11",
+    "areaName": "埼玉県",
+    "year": 2003,
+    "value": 64.1
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "11",
+    "areaName": "埼玉県",
+    "year": 2008,
+    "value": 65.3
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "11",
+    "areaName": "埼玉県",
+    "year": 2013,
+    "value": 66.1
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "11",
+    "areaName": "埼玉県",
+    "year": 2018,
+    "value": 65.7
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "12",
+    "areaName": "千葉県",
+    "year": 2003,
+    "value": 64.3
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "12",
+    "areaName": "千葉県",
+    "year": 2008,
+    "value": 64.4
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "12",
+    "areaName": "千葉県",
+    "year": 2013,
+    "value": 66.3
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "12",
+    "areaName": "千葉県",
+    "year": 2018,
+    "value": 65.4
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "13",
+    "areaName": "東京都",
+    "year": 2003,
+    "value": 44.8
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "13",
+    "areaName": "東京都",
+    "year": 2008,
+    "value": 44.6
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "13",
+    "areaName": "東京都",
+    "year": 2013,
+    "value": 45.8
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "13",
+    "areaName": "東京都",
+    "year": 2018,
+    "value": 45
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "14",
+    "areaName": "神奈川県",
+    "year": 2003,
+    "value": 56.3
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "14",
+    "areaName": "神奈川県",
+    "year": 2008,
+    "value": 57.2
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "14",
+    "areaName": "神奈川県",
+    "year": 2013,
+    "value": 58.6
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "14",
+    "areaName": "神奈川県",
+    "year": 2018,
+    "value": 59.1
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "15",
+    "areaName": "新潟県",
+    "year": 2003,
+    "value": 74.9
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "15",
+    "areaName": "新潟県",
+    "year": 2008,
+    "value": 73.9
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "15",
+    "areaName": "新潟県",
+    "year": 2013,
+    "value": 75.5
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "15",
+    "areaName": "新潟県",
+    "year": 2018,
+    "value": 74
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "16",
+    "areaName": "富山県",
+    "year": 2003,
+    "value": 79.6
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "16",
+    "areaName": "富山県",
+    "year": 2008,
+    "value": 77.5
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "16",
+    "areaName": "富山県",
+    "year": 2013,
+    "value": 79.4
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "16",
+    "areaName": "富山県",
+    "year": 2018,
+    "value": 76.8
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "17",
+    "areaName": "石川県",
+    "year": 2003,
+    "value": 68.7
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "17",
+    "areaName": "石川県",
+    "year": 2008,
+    "value": 69.1
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "17",
+    "areaName": "石川県",
+    "year": 2013,
+    "value": 70.8
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "17",
+    "areaName": "石川県",
+    "year": 2018,
+    "value": 69.3
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "18",
+    "areaName": "福井県",
+    "year": 2003,
+    "value": 76.1
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "18",
+    "areaName": "福井県",
+    "year": 2008,
+    "value": 77.4
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "18",
+    "areaName": "福井県",
+    "year": 2013,
+    "value": 76.5
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "18",
+    "areaName": "福井県",
+    "year": 2018,
+    "value": 74.9
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "19",
+    "areaName": "山梨県",
+    "year": 2003,
+    "value": 69.6
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "19",
+    "areaName": "山梨県",
+    "year": 2008,
+    "value": 69.4
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "19",
+    "areaName": "山梨県",
+    "year": 2013,
+    "value": 70.9
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "19",
+    "areaName": "山梨県",
+    "year": 2018,
+    "value": 70.2
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "20",
+    "areaName": "長野県",
+    "year": 2003,
+    "value": 72.2
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "20",
+    "areaName": "長野県",
+    "year": 2008,
+    "value": 72.4
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "20",
+    "areaName": "長野県",
+    "year": 2013,
+    "value": 73
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "20",
+    "areaName": "長野県",
+    "year": 2018,
+    "value": 71.2
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "21",
+    "areaName": "岐阜県",
+    "year": 2003,
+    "value": 73.4
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "21",
+    "areaName": "岐阜県",
+    "year": 2008,
+    "value": 73.9
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "21",
+    "areaName": "岐阜県",
+    "year": 2013,
+    "value": 74.5
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "21",
+    "areaName": "岐阜県",
+    "year": 2018,
+    "value": 74.3
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "22",
+    "areaName": "静岡県",
+    "year": 2003,
+    "value": 65.6
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "22",
+    "areaName": "静岡県",
+    "year": 2008,
+    "value": 64.8
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "22",
+    "areaName": "静岡県",
+    "year": 2013,
+    "value": 67.7
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "22",
+    "areaName": "静岡県",
+    "year": 2018,
+    "value": 67
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "23",
+    "areaName": "愛知県",
+    "year": 2003,
+    "value": 58.7
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "23",
+    "areaName": "愛知県",
+    "year": 2008,
+    "value": 57.8
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "23",
+    "areaName": "愛知県",
+    "year": 2013,
+    "value": 58.7
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "23",
+    "areaName": "愛知県",
+    "year": 2018,
+    "value": 59.5
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "24",
+    "areaName": "三重県",
+    "year": 2003,
+    "value": 75.3
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "24",
+    "areaName": "三重県",
+    "year": 2008,
+    "value": 73
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "24",
+    "areaName": "三重県",
+    "year": 2013,
+    "value": 73.2
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "24",
+    "areaName": "三重県",
+    "year": 2018,
+    "value": 72
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "25",
+    "areaName": "滋賀県",
+    "year": 2003,
+    "value": 73
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "25",
+    "areaName": "滋賀県",
+    "year": 2008,
+    "value": 70.4
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "25",
+    "areaName": "滋賀県",
+    "year": 2013,
+    "value": 72.6
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "25",
+    "areaName": "滋賀県",
+    "year": 2018,
+    "value": 71.6
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "26",
+    "areaName": "京都府",
+    "year": 2003,
+    "value": 61
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "26",
+    "areaName": "京都府",
+    "year": 2008,
+    "value": 60.8
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "26",
+    "areaName": "京都府",
+    "year": 2013,
+    "value": 60.8
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "26",
+    "areaName": "京都府",
+    "year": 2018,
+    "value": 61.3
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "27",
+    "areaName": "大阪府",
+    "year": 2003,
+    "value": 51.9
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "27",
+    "areaName": "大阪府",
+    "year": 2008,
+    "value": 53
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "27",
+    "areaName": "大阪府",
+    "year": 2013,
+    "value": 54.2
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "27",
+    "areaName": "大阪府",
+    "year": 2018,
+    "value": 54.7
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "28",
+    "areaName": "兵庫県",
+    "year": 2003,
+    "value": 63.4
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "28",
+    "areaName": "兵庫県",
+    "year": 2008,
+    "value": 63.6
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "28",
+    "areaName": "兵庫県",
+    "year": 2013,
+    "value": 63.6
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "28",
+    "areaName": "兵庫県",
+    "year": 2018,
+    "value": 64.8
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "29",
+    "areaName": "奈良県",
+    "year": 2003,
+    "value": 72.2
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "29",
+    "areaName": "奈良県",
+    "year": 2008,
+    "value": 72.6
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "29",
+    "areaName": "奈良県",
+    "year": 2013,
+    "value": 73.8
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "29",
+    "areaName": "奈良県",
+    "year": 2018,
+    "value": 74.1
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "30",
+    "areaName": "和歌山県",
+    "year": 2003,
+    "value": 72.9
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "30",
+    "areaName": "和歌山県",
+    "year": 2008,
+    "value": 72.8
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "30",
+    "areaName": "和歌山県",
+    "year": 2013,
+    "value": 74.8
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "30",
+    "areaName": "和歌山県",
+    "year": 2018,
+    "value": 73
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "31",
+    "areaName": "鳥取県",
+    "year": 2003,
+    "value": 70.7
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "31",
+    "areaName": "鳥取県",
+    "year": 2008,
+    "value": 70
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "31",
+    "areaName": "鳥取県",
+    "year": 2013,
+    "value": 69.8
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "31",
+    "areaName": "鳥取県",
+    "year": 2018,
+    "value": 68.8
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "32",
+    "areaName": "島根県",
+    "year": 2003,
+    "value": 72.9
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "32",
+    "areaName": "島根県",
+    "year": 2008,
+    "value": 73
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "32",
+    "areaName": "島根県",
+    "year": 2013,
+    "value": 71.8
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "32",
+    "areaName": "島根県",
+    "year": 2018,
+    "value": 70.2
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "33",
+    "areaName": "岡山県",
+    "year": 2003,
+    "value": 66
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "33",
+    "areaName": "岡山県",
+    "year": 2008,
+    "value": 66.5
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "33",
+    "areaName": "岡山県",
+    "year": 2013,
+    "value": 67.6
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "33",
+    "areaName": "岡山県",
+    "year": 2018,
+    "value": 64.9
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "34",
+    "areaName": "広島県",
+    "year": 2003,
+    "value": 60.5
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "34",
+    "areaName": "広島県",
+    "year": 2008,
+    "value": 61.2
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "34",
+    "areaName": "広島県",
+    "year": 2013,
+    "value": 62.6
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "34",
+    "areaName": "広島県",
+    "year": 2018,
+    "value": 61.4
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "35",
+    "areaName": "山口県",
+    "year": 2003,
+    "value": 66.1
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "35",
+    "areaName": "山口県",
+    "year": 2008,
+    "value": 66.4
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "35",
+    "areaName": "山口県",
+    "year": 2013,
+    "value": 67.3
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "35",
+    "areaName": "山口県",
+    "year": 2018,
+    "value": 67.1
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "36",
+    "areaName": "徳島県",
+    "year": 2003,
+    "value": 70.8
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "36",
+    "areaName": "徳島県",
+    "year": 2008,
+    "value": 69
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "36",
+    "areaName": "徳島県",
+    "year": 2013,
+    "value": 71.8
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "36",
+    "areaName": "徳島県",
+    "year": 2018,
+    "value": 69.2
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "37",
+    "areaName": "香川県",
+    "year": 2003,
+    "value": 70.2
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "37",
+    "areaName": "香川県",
+    "year": 2008,
+    "value": 70.9
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "37",
+    "areaName": "香川県",
+    "year": 2013,
+    "value": 71
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "37",
+    "areaName": "香川県",
+    "year": 2018,
+    "value": 69.3
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "38",
+    "areaName": "愛媛県",
+    "year": 2003,
+    "value": 66.6
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "38",
+    "areaName": "愛媛県",
+    "year": 2008,
+    "value": 65.6
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "38",
+    "areaName": "愛媛県",
+    "year": 2013,
+    "value": 66.3
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "38",
+    "areaName": "愛媛県",
+    "year": 2018,
+    "value": 66.5
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "39",
+    "areaName": "高知県",
+    "year": 2003,
+    "value": 64.7
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "39",
+    "areaName": "高知県",
+    "year": 2008,
+    "value": 66.8
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "39",
+    "areaName": "高知県",
+    "year": 2013,
+    "value": 65.8
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "39",
+    "areaName": "高知県",
+    "year": 2018,
+    "value": 64.9
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "40",
+    "areaName": "福岡県",
+    "year": 2003,
+    "value": 54.3
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "40",
+    "areaName": "福岡県",
+    "year": 2008,
+    "value": 53.6
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "40",
+    "areaName": "福岡県",
+    "year": 2013,
+    "value": 53.8
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "40",
+    "areaName": "福岡県",
+    "year": 2018,
+    "value": 52.8
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "41",
+    "areaName": "佐賀県",
+    "year": 2003,
+    "value": 70.9
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "41",
+    "areaName": "佐賀県",
+    "year": 2008,
+    "value": 69.3
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "41",
+    "areaName": "佐賀県",
+    "year": 2013,
+    "value": 70.5
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "41",
+    "areaName": "佐賀県",
+    "year": 2018,
+    "value": 66.9
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "42",
+    "areaName": "長崎県",
+    "year": 2003,
+    "value": 65
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "42",
+    "areaName": "長崎県",
+    "year": 2008,
+    "value": 65.7
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "42",
+    "areaName": "長崎県",
+    "year": 2013,
+    "value": 66
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "42",
+    "areaName": "長崎県",
+    "year": 2018,
+    "value": 63.7
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "43",
+    "areaName": "熊本県",
+    "year": 2003,
+    "value": 63.8
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "43",
+    "areaName": "熊本県",
+    "year": 2008,
+    "value": 64.3
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "43",
+    "areaName": "熊本県",
+    "year": 2013,
+    "value": 64.1
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "43",
+    "areaName": "熊本県",
+    "year": 2018,
+    "value": 61.9
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "44",
+    "areaName": "大分県",
+    "year": 2003,
+    "value": 63.5
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "44",
+    "areaName": "大分県",
+    "year": 2008,
+    "value": 62.6
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "44",
+    "areaName": "大分県",
+    "year": 2013,
+    "value": 63.7
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "44",
+    "areaName": "大分県",
+    "year": 2018,
+    "value": 63.6
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "45",
+    "areaName": "宮崎県",
+    "year": 2003,
+    "value": 67.1
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "45",
+    "areaName": "宮崎県",
+    "year": 2008,
+    "value": 66
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "45",
+    "areaName": "宮崎県",
+    "year": 2013,
+    "value": 67.4
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "45",
+    "areaName": "宮崎県",
+    "year": 2018,
+    "value": 65.7
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "46",
+    "areaName": "鹿児島県",
+    "year": 2003,
+    "value": 67.3
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "46",
+    "areaName": "鹿児島県",
+    "year": 2008,
+    "value": 65.8
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "46",
+    "areaName": "鹿児島県",
+    "year": 2013,
+    "value": 65.4
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "46",
+    "areaName": "鹿児島県",
+    "year": 2018,
+    "value": 64.6
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "47",
+    "areaName": "沖縄県",
+    "year": 2003,
+    "value": 52.3
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "47",
+    "areaName": "沖縄県",
+    "year": 2008,
+    "value": 50.2
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "47",
+    "areaName": "沖縄県",
+    "year": 2013,
+    "value": 48
+  },
+  {
+    "dataset": "homeownership",
+    "areaCode": "47",
+    "areaName": "沖縄県",
+    "year": 2018,
+    "value": 44.4
+  }
+]

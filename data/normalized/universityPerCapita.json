@@ -1,0 +1,331 @@
+[
+  {
+    "dataset": "universityPerCapita",
+    "areaCode": "01",
+    "areaName": "北海道",
+    "year": 2014,
+    "value": 0.73
+  },
+  {
+    "dataset": "universityPerCapita",
+    "areaCode": "02",
+    "areaName": "青森県",
+    "year": 2014,
+    "value": 1.77
+  },
+  {
+    "dataset": "universityPerCapita",
+    "areaCode": "03",
+    "areaName": "岩手県",
+    "year": 2014,
+    "value": 0.83
+  },
+  {
+    "dataset": "universityPerCapita",
+    "areaCode": "04",
+    "areaName": "宮城県",
+    "year": 2014,
+    "value": 2.2
+  },
+  {
+    "dataset": "universityPerCapita",
+    "areaCode": "05",
+    "areaName": "秋田県",
+    "year": 2014,
+    "value": 1.04
+  },
+  {
+    "dataset": "universityPerCapita",
+    "areaCode": "06",
+    "areaName": "山形県",
+    "year": 2014,
+    "value": 0.84
+  },
+  {
+    "dataset": "universityPerCapita",
+    "areaCode": "07",
+    "areaName": "福島県",
+    "year": 2014,
+    "value": 1.07
+  },
+  {
+    "dataset": "universityPerCapita",
+    "areaCode": "08",
+    "areaName": "茨城県",
+    "year": 2014,
+    "value": 1.15
+  },
+  {
+    "dataset": "universityPerCapita",
+    "areaCode": "09",
+    "areaName": "栃木県",
+    "year": 2014,
+    "value": 1.1
+  },
+  {
+    "dataset": "universityPerCapita",
+    "areaCode": "10",
+    "areaName": "群馬県",
+    "year": 2014,
+    "value": 1.52
+  },
+  {
+    "dataset": "universityPerCapita",
+    "areaCode": "11",
+    "areaName": "埼玉県",
+    "year": 2014,
+    "value": 3.25
+  },
+  {
+    "dataset": "universityPerCapita",
+    "areaCode": "12",
+    "areaName": "千葉県",
+    "year": 2014,
+    "value": 2.91
+  },
+  {
+    "dataset": "universityPerCapita",
+    "areaCode": "13",
+    "areaName": "東京都",
+    "year": 2014,
+    "value": 1
+  },
+  {
+    "dataset": "universityPerCapita",
+    "areaCode": "14",
+    "areaName": "神奈川県",
+    "year": 2014,
+    "value": 0.32
+  },
+  {
+    "dataset": "universityPerCapita",
+    "areaCode": "15",
+    "areaName": "新潟県",
+    "year": 2014,
+    "value": 1.73
+  },
+  {
+    "dataset": "universityPerCapita",
+    "areaCode": "16",
+    "areaName": "富山県",
+    "year": 2014,
+    "value": 0.47
+  },
+  {
+    "dataset": "universityPerCapita",
+    "areaCode": "17",
+    "areaName": "石川県",
+    "year": 2014,
+    "value": 1.08
+  },
+  {
+    "dataset": "universityPerCapita",
+    "areaCode": "18",
+    "areaName": "福井県",
+    "year": 2014,
+    "value": 0.44
+  },
+  {
+    "dataset": "universityPerCapita",
+    "areaCode": "19",
+    "areaName": "山梨県",
+    "year": 2014,
+    "value": 0.59
+  },
+  {
+    "dataset": "universityPerCapita",
+    "areaCode": "20",
+    "areaName": "長野県",
+    "year": 2014,
+    "value": 0.66
+  },
+  {
+    "dataset": "universityPerCapita",
+    "areaCode": "21",
+    "areaName": "岐阜県",
+    "year": 2014,
+    "value": 0.95
+  },
+  {
+    "dataset": "universityPerCapita",
+    "areaCode": "22",
+    "areaName": "静岡県",
+    "year": 2014,
+    "value": 1.08
+  },
+  {
+    "dataset": "universityPerCapita",
+    "areaCode": "23",
+    "areaName": "愛知県",
+    "year": 2014,
+    "value": 0.69
+  },
+  {
+    "dataset": "universityPerCapita",
+    "areaCode": "24",
+    "areaName": "三重県",
+    "year": 2014,
+    "value": 0.51
+  },
+  {
+    "dataset": "universityPerCapita",
+    "areaCode": "25",
+    "areaName": "滋賀県",
+    "year": 2014,
+    "value": 0.57
+  },
+  {
+    "dataset": "universityPerCapita",
+    "areaCode": "26",
+    "areaName": "京都府",
+    "year": 2014,
+    "value": 2.36
+  },
+  {
+    "dataset": "universityPerCapita",
+    "areaCode": "27",
+    "areaName": "大阪府",
+    "year": 2014,
+    "value": 0.66
+  },
+  {
+    "dataset": "universityPerCapita",
+    "areaCode": "28",
+    "areaName": "兵庫県",
+    "year": 2014,
+    "value": 2.58
+  },
+  {
+    "dataset": "universityPerCapita",
+    "areaCode": "29",
+    "areaName": "奈良県",
+    "year": 2014,
+    "value": 0.71
+  },
+  {
+    "dataset": "universityPerCapita",
+    "areaCode": "30",
+    "areaName": "和歌山県",
+    "year": 2014,
+    "value": 0.19
+  },
+  {
+    "dataset": "universityPerCapita",
+    "areaCode": "31",
+    "areaName": "鳥取県",
+    "year": 2014,
+    "value": 0.12
+  },
+  {
+    "dataset": "universityPerCapita",
+    "areaCode": "32",
+    "areaName": "島根県",
+    "year": 2014,
+    "value": 0.12
+  },
+  {
+    "dataset": "universityPerCapita",
+    "areaCode": "33",
+    "areaName": "岡山県",
+    "year": 2014,
+    "value": 1
+  },
+  {
+    "dataset": "universityPerCapita",
+    "areaCode": "34",
+    "areaName": "広島県",
+    "year": 2014,
+    "value": 1.16
+  },
+  {
+    "dataset": "universityPerCapita",
+    "areaCode": "35",
+    "areaName": "山口県",
+    "year": 2014,
+    "value": 0.57
+  },
+  {
+    "dataset": "universityPerCapita",
+    "areaCode": "36",
+    "areaName": "徳島県",
+    "year": 2014,
+    "value": 0.22
+  },
+  {
+    "dataset": "universityPerCapita",
+    "areaCode": "37",
+    "areaName": "香川県",
+    "year": 2014,
+    "value": 0.22
+  },
+  {
+    "dataset": "universityPerCapita",
+    "areaCode": "38",
+    "areaName": "愛媛県",
+    "year": 2014,
+    "value": 0.27
+  },
+  {
+    "dataset": "universityPerCapita",
+    "areaCode": "39",
+    "areaName": "高知県",
+    "year": 2014,
+    "value": 0.16
+  },
+  {
+    "dataset": "universityPerCapita",
+    "areaCode": "40",
+    "areaName": "福岡県",
+    "year": 2014,
+    "value": 1.75
+  },
+  {
+    "dataset": "universityPerCapita",
+    "areaCode": "41",
+    "areaName": "佐賀県",
+    "year": 2014,
+    "value": 0.1
+  },
+  {
+    "dataset": "universityPerCapita",
+    "areaCode": "42",
+    "areaName": "長崎県",
+    "year": 2014,
+    "value": 0.49
+  },
+  {
+    "dataset": "universityPerCapita",
+    "areaCode": "43",
+    "areaName": "熊本県",
+    "year": 2014,
+    "value": 0.44
+  },
+  {
+    "dataset": "universityPerCapita",
+    "areaCode": "44",
+    "areaName": "大分県",
+    "year": 2014,
+    "value": 0.24
+  },
+  {
+    "dataset": "universityPerCapita",
+    "areaCode": "45",
+    "areaName": "宮崎県",
+    "year": 2014,
+    "value": 0.33
+  },
+  {
+    "dataset": "universityPerCapita",
+    "areaCode": "46",
+    "areaName": "鹿児島県",
+    "year": 2014,
+    "value": 0.28
+  },
+  {
+    "dataset": "universityPerCapita",
+    "areaCode": "47",
+    "areaName": "沖縄県",
+    "year": 2014,
+    "value": 0.36
+  }
+]

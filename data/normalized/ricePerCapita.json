@@ -1,0 +1,331 @@
+[
+  {
+    "dataset": "ricePerCapita",
+    "areaCode": "01",
+    "areaName": "北海道",
+    "year": 2022,
+    "value": 108.49
+  },
+  {
+    "dataset": "ricePerCapita",
+    "areaCode": "02",
+    "areaName": "青森県",
+    "year": 2022,
+    "value": 413.06
+  },
+  {
+    "dataset": "ricePerCapita",
+    "areaCode": "03",
+    "areaName": "岩手県",
+    "year": 2022,
+    "value": 408.51
+  },
+  {
+    "dataset": "ricePerCapita",
+    "areaCode": "04",
+    "areaName": "宮城県",
+    "year": 2022,
+    "value": 507.92
+  },
+  {
+    "dataset": "ricePerCapita",
+    "areaCode": "05",
+    "areaName": "秋田県",
+    "year": 2022,
+    "value": 671.8
+  },
+  {
+    "dataset": "ricePerCapita",
+    "areaCode": "06",
+    "areaName": "山形県",
+    "year": 2022,
+    "value": 510.04
+  },
+  {
+    "dataset": "ricePerCapita",
+    "areaCode": "07",
+    "areaName": "福島県",
+    "year": 2022,
+    "value": 421.42
+  },
+  {
+    "dataset": "ricePerCapita",
+    "areaCode": "08",
+    "areaName": "茨城県",
+    "year": 2022,
+    "value": 404.24
+  },
+  {
+    "dataset": "ricePerCapita",
+    "areaCode": "09",
+    "areaName": "栃木県",
+    "year": 2022,
+    "value": 327.11
+  },
+  {
+    "dataset": "ricePerCapita",
+    "areaCode": "10",
+    "areaName": "群馬県",
+    "year": 2022,
+    "value": 83.77
+  },
+  {
+    "dataset": "ricePerCapita",
+    "areaCode": "11",
+    "areaName": "埼玉県",
+    "year": 2022,
+    "value": 158.27
+  },
+  {
+    "dataset": "ricePerCapita",
+    "areaCode": "12",
+    "areaName": "千葉県",
+    "year": 2022,
+    "value": 277.11
+  },
+  {
+    "dataset": "ricePerCapita",
+    "areaCode": "13",
+    "areaName": "東京都",
+    "year": 2022,
+    "value": 0.03
+  },
+  {
+    "dataset": "ricePerCapita",
+    "areaCode": "14",
+    "areaName": "神奈川県",
+    "year": 2022,
+    "value": 1.57
+  },
+  {
+    "dataset": "ricePerCapita",
+    "areaCode": "15",
+    "areaName": "新潟県",
+    "year": 2022,
+    "value": 602.93
+  },
+  {
+    "dataset": "ricePerCapita",
+    "areaCode": "16",
+    "areaName": "富山県",
+    "year": 2022,
+    "value": 182.23
+  },
+  {
+    "dataset": "ricePerCapita",
+    "areaCode": "17",
+    "areaName": "石川県",
+    "year": 2022,
+    "value": 109.74
+  },
+  {
+    "dataset": "ricePerCapita",
+    "areaCode": "18",
+    "areaName": "福井県",
+    "year": 2022,
+    "value": 104.61
+  },
+  {
+    "dataset": "ricePerCapita",
+    "areaCode": "19",
+    "areaName": "山梨県",
+    "year": 2022,
+    "value": 21.37
+  },
+  {
+    "dataset": "ricePerCapita",
+    "areaCode": "20",
+    "areaName": "長野県",
+    "year": 2022,
+    "value": 152.27
+  },
+  {
+    "dataset": "ricePerCapita",
+    "areaCode": "21",
+    "areaName": "岐阜県",
+    "year": 2022,
+    "value": 79.57
+  },
+  {
+    "dataset": "ricePerCapita",
+    "areaCode": "22",
+    "areaName": "静岡県",
+    "year": 2022,
+    "value": 58.61
+  },
+  {
+    "dataset": "ricePerCapita",
+    "areaCode": "23",
+    "areaName": "愛知県",
+    "year": 2022,
+    "value": 17.59
+  },
+  {
+    "dataset": "ricePerCapita",
+    "areaCode": "24",
+    "areaName": "三重県",
+    "year": 2022,
+    "value": 95
+  },
+  {
+    "dataset": "ricePerCapita",
+    "areaCode": "25",
+    "areaName": "滋賀県",
+    "year": 2022,
+    "value": 107.31
+  },
+  {
+    "dataset": "ricePerCapita",
+    "areaCode": "26",
+    "areaName": "京都府",
+    "year": 2022,
+    "value": 49.64
+  },
+  {
+    "dataset": "ricePerCapita",
+    "areaCode": "27",
+    "areaName": "大阪府",
+    "year": 2022,
+    "value": 2.62
+  },
+  {
+    "dataset": "ricePerCapita",
+    "areaCode": "28",
+    "areaName": "兵庫県",
+    "year": 2022,
+    "value": 116.16
+  },
+  {
+    "dataset": "ricePerCapita",
+    "areaCode": "29",
+    "areaName": "奈良県",
+    "year": 2022,
+    "value": 28.13
+  },
+  {
+    "dataset": "ricePerCapita",
+    "areaCode": "30",
+    "areaName": "和歌山県",
+    "year": 2022,
+    "value": 19.41
+  },
+  {
+    "dataset": "ricePerCapita",
+    "areaCode": "31",
+    "areaName": "鳥取県",
+    "year": 2022,
+    "value": 38.07
+  },
+  {
+    "dataset": "ricePerCapita",
+    "areaCode": "32",
+    "areaName": "島根県",
+    "year": 2022,
+    "value": 50.94
+  },
+  {
+    "dataset": "ricePerCapita",
+    "areaCode": "33",
+    "areaName": "岡山県",
+    "year": 2022,
+    "value": 86.22
+  },
+  {
+    "dataset": "ricePerCapita",
+    "areaCode": "34",
+    "areaName": "広島県",
+    "year": 2022,
+    "value": 65.66
+  },
+  {
+    "dataset": "ricePerCapita",
+    "areaCode": "35",
+    "areaName": "山口県",
+    "year": 2022,
+    "value": 52
+  },
+  {
+    "dataset": "ricePerCapita",
+    "areaCode": "36",
+    "areaName": "徳島県",
+    "year": 2022,
+    "value": 26.19
+  },
+  {
+    "dataset": "ricePerCapita",
+    "areaCode": "37",
+    "areaName": "香川県",
+    "year": 2022,
+    "value": 30.04
+  },
+  {
+    "dataset": "ricePerCapita",
+    "areaCode": "38",
+    "areaName": "愛媛県",
+    "year": 2022,
+    "value": 36.28
+  },
+  {
+    "dataset": "ricePerCapita",
+    "areaCode": "39",
+    "areaName": "高知県",
+    "year": 2022,
+    "value": 25.79
+  },
+  {
+    "dataset": "ricePerCapita",
+    "areaCode": "40",
+    "areaName": "福岡県",
+    "year": 2022,
+    "value": 83.5
+  },
+  {
+    "dataset": "ricePerCapita",
+    "areaCode": "41",
+    "areaName": "佐賀県",
+    "year": 2022,
+    "value": 58.57
+  },
+  {
+    "dataset": "ricePerCapita",
+    "areaCode": "42",
+    "areaName": "長崎県",
+    "year": 2022,
+    "value": 24
+  },
+  {
+    "dataset": "ricePerCapita",
+    "areaCode": "43",
+    "areaName": "熊本県",
+    "year": 2022,
+    "value": 75.59
+  },
+  {
+    "dataset": "ricePerCapita",
+    "areaCode": "44",
+    "areaName": "大分県",
+    "year": 2022,
+    "value": 44.15
+  },
+  {
+    "dataset": "ricePerCapita",
+    "areaCode": "45",
+    "areaName": "宮崎県",
+    "year": 2022,
+    "value": 35.01
+  },
+  {
+    "dataset": "ricePerCapita",
+    "areaCode": "46",
+    "areaName": "鹿児島県",
+    "year": 2022,
+    "value": 39.37
+  },
+  {
+    "dataset": "ricePerCapita",
+    "areaCode": "47",
+    "areaName": "沖縄県",
+    "year": 2022,
+    "value": 0.86
+  }
+]

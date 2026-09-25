@@ -1,0 +1,331 @@
+[
+  {
+    "dataset": "milk",
+    "areaCode": "01",
+    "areaName": "北海道",
+    "year": 2011,
+    "value": 3876
+  },
+  {
+    "dataset": "milk",
+    "areaCode": "02",
+    "areaName": "青森県",
+    "year": 2011,
+    "value": 68
+  },
+  {
+    "dataset": "milk",
+    "areaCode": "03",
+    "areaName": "岩手県",
+    "year": 2011,
+    "value": 209
+  },
+  {
+    "dataset": "milk",
+    "areaCode": "04",
+    "areaName": "宮城県",
+    "year": 2011,
+    "value": 117
+  },
+  {
+    "dataset": "milk",
+    "areaCode": "05",
+    "areaName": "秋田県",
+    "year": 2011,
+    "value": 30
+  },
+  {
+    "dataset": "milk",
+    "areaCode": "06",
+    "areaName": "山形県",
+    "year": 2011,
+    "value": 74
+  },
+  {
+    "dataset": "milk",
+    "areaCode": "07",
+    "areaName": "福島県",
+    "year": 2011,
+    "value": 75
+  },
+  {
+    "dataset": "milk",
+    "areaCode": "08",
+    "areaName": "茨城県",
+    "year": 2011,
+    "value": 148
+  },
+  {
+    "dataset": "milk",
+    "areaCode": "09",
+    "areaName": "栃木県",
+    "year": 2011,
+    "value": 299
+  },
+  {
+    "dataset": "milk",
+    "areaCode": "10",
+    "areaName": "群馬県",
+    "year": 2011,
+    "value": 247
+  },
+  {
+    "dataset": "milk",
+    "areaCode": "11",
+    "areaName": "埼玉県",
+    "year": 2011,
+    "value": 70
+  },
+  {
+    "dataset": "milk",
+    "areaCode": "12",
+    "areaName": "千葉県",
+    "year": 2011,
+    "value": 240
+  },
+  {
+    "dataset": "milk",
+    "areaCode": "13",
+    "areaName": "東京都",
+    "year": 2011,
+    "value": 11
+  },
+  {
+    "dataset": "milk",
+    "areaCode": "14",
+    "areaName": "神奈川県",
+    "year": 2011,
+    "value": 49
+  },
+  {
+    "dataset": "milk",
+    "areaCode": "15",
+    "areaName": "新潟県",
+    "year": 2011,
+    "value": 58
+  },
+  {
+    "dataset": "milk",
+    "areaCode": "16",
+    "areaName": "富山県",
+    "year": 2011,
+    "value": 15
+  },
+  {
+    "dataset": "milk",
+    "areaCode": "17",
+    "areaName": "石川県",
+    "year": 2011,
+    "value": 22
+  },
+  {
+    "dataset": "milk",
+    "areaCode": "18",
+    "areaName": "福井県",
+    "year": 2011,
+    "value": 7
+  },
+  {
+    "dataset": "milk",
+    "areaCode": "19",
+    "areaName": "山梨県",
+    "year": 2011,
+    "value": 22
+  },
+  {
+    "dataset": "milk",
+    "areaCode": "20",
+    "areaName": "長野県",
+    "year": 2011,
+    "value": 112
+  },
+  {
+    "dataset": "milk",
+    "areaCode": "21",
+    "areaName": "岐阜県",
+    "year": 2011,
+    "value": 48
+  },
+  {
+    "dataset": "milk",
+    "areaCode": "22",
+    "areaName": "静岡県",
+    "year": 2011,
+    "value": 98
+  },
+  {
+    "dataset": "milk",
+    "areaCode": "23",
+    "areaName": "愛知県",
+    "year": 2011,
+    "value": 199
+  },
+  {
+    "dataset": "milk",
+    "areaCode": "24",
+    "areaName": "三重県",
+    "year": 2011,
+    "value": 54
+  },
+  {
+    "dataset": "milk",
+    "areaCode": "25",
+    "areaName": "滋賀県",
+    "year": 2011,
+    "value": 24
+  },
+  {
+    "dataset": "milk",
+    "areaCode": "26",
+    "areaName": "京都府",
+    "year": 2011,
+    "value": 33
+  },
+  {
+    "dataset": "milk",
+    "areaCode": "27",
+    "areaName": "大阪府",
+    "year": 2011,
+    "value": 12
+  },
+  {
+    "dataset": "milk",
+    "areaCode": "28",
+    "areaName": "兵庫県",
+    "year": 2011,
+    "value": 102
+  },
+  {
+    "dataset": "milk",
+    "areaCode": "29",
+    "areaName": "奈良県",
+    "year": 2011,
+    "value": 27
+  },
+  {
+    "dataset": "milk",
+    "areaCode": "30",
+    "areaName": "和歌山県",
+    "year": 2011,
+    "value": 5
+  },
+  {
+    "dataset": "milk",
+    "areaCode": "31",
+    "areaName": "鳥取県",
+    "year": 2011,
+    "value": 59
+  },
+  {
+    "dataset": "milk",
+    "areaCode": "32",
+    "areaName": "島根県",
+    "year": 2011,
+    "value": 60
+  },
+  {
+    "dataset": "milk",
+    "areaCode": "33",
+    "areaName": "岡山県",
+    "year": 2011,
+    "value": 101
+  },
+  {
+    "dataset": "milk",
+    "areaCode": "34",
+    "areaName": "広島県",
+    "year": 2011,
+    "value": 62
+  },
+  {
+    "dataset": "milk",
+    "areaCode": "35",
+    "areaName": "山口県",
+    "year": 2011,
+    "value": 20
+  },
+  {
+    "dataset": "milk",
+    "areaCode": "36",
+    "areaName": "徳島県",
+    "year": 2011,
+    "value": 37
+  },
+  {
+    "dataset": "milk",
+    "areaCode": "37",
+    "areaName": "香川県",
+    "year": 2011,
+    "value": 35
+  },
+  {
+    "dataset": "milk",
+    "areaCode": "38",
+    "areaName": "愛媛県",
+    "year": 2011,
+    "value": 41
+  },
+  {
+    "dataset": "milk",
+    "areaCode": "39",
+    "areaName": "高知県",
+    "year": 2011,
+    "value": 26
+  },
+  {
+    "dataset": "milk",
+    "areaCode": "40",
+    "areaName": "福岡県",
+    "year": 2011,
+    "value": 89
+  },
+  {
+    "dataset": "milk",
+    "areaCode": "41",
+    "areaName": "佐賀県",
+    "year": 2011,
+    "value": 20
+  },
+  {
+    "dataset": "milk",
+    "areaCode": "42",
+    "areaName": "長崎県",
+    "year": 2011,
+    "value": 53
+  },
+  {
+    "dataset": "milk",
+    "areaCode": "43",
+    "areaName": "熊本県",
+    "year": 2011,
+    "value": 239
+  },
+  {
+    "dataset": "milk",
+    "areaCode": "44",
+    "areaName": "大分県",
+    "year": 2011,
+    "value": 84
+  },
+  {
+    "dataset": "milk",
+    "areaCode": "45",
+    "areaName": "宮崎県",
+    "year": 2011,
+    "value": 83
+  },
+  {
+    "dataset": "milk",
+    "areaCode": "46",
+    "areaName": "鹿児島県",
+    "year": 2011,
+    "value": 87
+  },
+  {
+    "dataset": "milk",
+    "areaCode": "47",
+    "areaName": "沖縄県",
+    "year": 2011,
+    "value": 27
+  }
+]

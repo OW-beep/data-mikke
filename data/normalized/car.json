@@ -1,0 +1,331 @@
+[
+  {
+    "dataset": "car",
+    "areaCode": "01",
+    "areaName": "北海道",
+    "year": 2014,
+    "value": 1325
+  },
+  {
+    "dataset": "car",
+    "areaCode": "02",
+    "areaName": "青森県",
+    "year": 2014,
+    "value": 1651
+  },
+  {
+    "dataset": "car",
+    "areaCode": "03",
+    "areaName": "岩手県",
+    "year": 2014,
+    "value": 1812
+  },
+  {
+    "dataset": "car",
+    "areaCode": "04",
+    "areaName": "宮城県",
+    "year": 2014,
+    "value": 1625
+  },
+  {
+    "dataset": "car",
+    "areaCode": "05",
+    "areaName": "秋田県",
+    "year": 2014,
+    "value": 1802
+  },
+  {
+    "dataset": "car",
+    "areaCode": "06",
+    "areaName": "山形県",
+    "year": 2014,
+    "value": 2111
+  },
+  {
+    "dataset": "car",
+    "areaCode": "07",
+    "areaName": "福島県",
+    "year": 2014,
+    "value": 1889
+  },
+  {
+    "dataset": "car",
+    "areaCode": "08",
+    "areaName": "茨城県",
+    "year": 2014,
+    "value": 1948
+  },
+  {
+    "dataset": "car",
+    "areaCode": "09",
+    "areaName": "栃木県",
+    "year": 2014,
+    "value": 1893
+  },
+  {
+    "dataset": "car",
+    "areaCode": "10",
+    "areaName": "群馬県",
+    "year": 2014,
+    "value": 1903
+  },
+  {
+    "dataset": "car",
+    "areaCode": "11",
+    "areaName": "埼玉県",
+    "year": 2014,
+    "value": 1190
+  },
+  {
+    "dataset": "car",
+    "areaCode": "12",
+    "areaName": "千葉県",
+    "year": 2014,
+    "value": 1188
+  },
+  {
+    "dataset": "car",
+    "areaCode": "13",
+    "areaName": "東京都",
+    "year": 2014,
+    "value": 665
+  },
+  {
+    "dataset": "car",
+    "areaCode": "14",
+    "areaName": "神奈川県",
+    "year": 2014,
+    "value": 917
+  },
+  {
+    "dataset": "car",
+    "areaCode": "15",
+    "areaName": "新潟県",
+    "year": 2014,
+    "value": 1875
+  },
+  {
+    "dataset": "car",
+    "areaCode": "16",
+    "areaName": "富山県",
+    "year": 2014,
+    "value": 2057
+  },
+  {
+    "dataset": "car",
+    "areaCode": "17",
+    "areaName": "石川県",
+    "year": 2014,
+    "value": 1860
+  },
+  {
+    "dataset": "car",
+    "areaCode": "18",
+    "areaName": "福井県",
+    "year": 2014,
+    "value": 2101
+  },
+  {
+    "dataset": "car",
+    "areaCode": "19",
+    "areaName": "山梨県",
+    "year": 2014,
+    "value": 1938
+  },
+  {
+    "dataset": "car",
+    "areaCode": "20",
+    "areaName": "長野県",
+    "year": 2014,
+    "value": 1969
+  },
+  {
+    "dataset": "car",
+    "areaCode": "21",
+    "areaName": "岐阜県",
+    "year": 2014,
+    "value": 1960
+  },
+  {
+    "dataset": "car",
+    "areaCode": "22",
+    "areaName": "静岡県",
+    "year": 2014,
+    "value": 1762
+  },
+  {
+    "dataset": "car",
+    "areaCode": "23",
+    "areaName": "愛知県",
+    "year": 2014,
+    "value": 1568
+  },
+  {
+    "dataset": "car",
+    "areaCode": "24",
+    "areaName": "三重県",
+    "year": 2014,
+    "value": 1790
+  },
+  {
+    "dataset": "car",
+    "areaCode": "25",
+    "areaName": "滋賀県",
+    "year": 2014,
+    "value": 1750
+  },
+  {
+    "dataset": "car",
+    "areaCode": "26",
+    "areaName": "京都府",
+    "year": 2014,
+    "value": 1073
+  },
+  {
+    "dataset": "car",
+    "areaCode": "27",
+    "areaName": "大阪府",
+    "year": 2014,
+    "value": 843
+  },
+  {
+    "dataset": "car",
+    "areaCode": "28",
+    "areaName": "兵庫県",
+    "year": 2014,
+    "value": 1144
+  },
+  {
+    "dataset": "car",
+    "areaCode": "29",
+    "areaName": "奈良県",
+    "year": 2014,
+    "value": 1353
+  },
+  {
+    "dataset": "car",
+    "areaCode": "30",
+    "areaName": "和歌山県",
+    "year": 2014,
+    "value": 1709
+  },
+  {
+    "dataset": "car",
+    "areaCode": "31",
+    "areaName": "鳥取県",
+    "year": 2014,
+    "value": 1954
+  },
+  {
+    "dataset": "car",
+    "areaCode": "32",
+    "areaName": "島根県",
+    "year": 2014,
+    "value": 1829
+  },
+  {
+    "dataset": "car",
+    "areaCode": "33",
+    "areaName": "岡山県",
+    "year": 2014,
+    "value": 1831
+  },
+  {
+    "dataset": "car",
+    "areaCode": "34",
+    "areaName": "広島県",
+    "year": 2014,
+    "value": 1497
+  },
+  {
+    "dataset": "car",
+    "areaCode": "35",
+    "areaName": "山口県",
+    "year": 2014,
+    "value": 1632
+  },
+  {
+    "dataset": "car",
+    "areaCode": "36",
+    "areaName": "徳島県",
+    "year": 2014,
+    "value": 1925
+  },
+  {
+    "dataset": "car",
+    "areaCode": "37",
+    "areaName": "香川県",
+    "year": 2014,
+    "value": 1765
+  },
+  {
+    "dataset": "car",
+    "areaCode": "38",
+    "areaName": "愛媛県",
+    "year": 2014,
+    "value": 1565
+  },
+  {
+    "dataset": "car",
+    "areaCode": "39",
+    "areaName": "高知県",
+    "year": 2014,
+    "value": 1519
+  },
+  {
+    "dataset": "car",
+    "areaCode": "40",
+    "areaName": "福岡県",
+    "year": 2014,
+    "value": 1352
+  },
+  {
+    "dataset": "car",
+    "areaCode": "41",
+    "areaName": "佐賀県",
+    "year": 2014,
+    "value": 1873
+  },
+  {
+    "dataset": "car",
+    "areaCode": "42",
+    "areaName": "長崎県",
+    "year": 2014,
+    "value": 1448
+  },
+  {
+    "dataset": "car",
+    "areaCode": "43",
+    "areaName": "熊本県",
+    "year": 2014,
+    "value": 1717
+  },
+  {
+    "dataset": "car",
+    "areaCode": "44",
+    "areaName": "大分県",
+    "year": 2014,
+    "value": 1598
+  },
+  {
+    "dataset": "car",
+    "areaCode": "45",
+    "areaName": "宮崎県",
+    "year": 2014,
+    "value": 1719
+  },
+  {
+    "dataset": "car",
+    "areaCode": "46",
+    "areaName": "鹿児島県",
+    "year": 2014,
+    "value": 1645
+  },
+  {
+    "dataset": "car",
+    "areaCode": "47",
+    "areaName": "沖縄県",
+    "year": 2014,
+    "value": 1513
+  }
+]

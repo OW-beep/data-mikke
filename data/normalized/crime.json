@@ -1,0 +1,331 @@
+[
+  {
+    "dataset": "crime",
+    "areaCode": "01",
+    "areaName": "北海道",
+    "year": 2011,
+    "value": 8.95
+  },
+  {
+    "dataset": "crime",
+    "areaCode": "02",
+    "areaName": "青森県",
+    "year": 2011,
+    "value": 6.07
+  },
+  {
+    "dataset": "crime",
+    "areaCode": "03",
+    "areaName": "岩手県",
+    "year": 2011,
+    "value": 4.78
+  },
+  {
+    "dataset": "crime",
+    "areaCode": "04",
+    "areaName": "宮城県",
+    "year": 2011,
+    "value": 8.77
+  },
+  {
+    "dataset": "crime",
+    "areaCode": "05",
+    "areaName": "秋田県",
+    "year": 2011,
+    "value": 4.08
+  },
+  {
+    "dataset": "crime",
+    "areaCode": "06",
+    "areaName": "山形県",
+    "year": 2011,
+    "value": 5.51
+  },
+  {
+    "dataset": "crime",
+    "areaCode": "07",
+    "areaName": "福島県",
+    "year": 2011,
+    "value": 7.97
+  },
+  {
+    "dataset": "crime",
+    "areaCode": "08",
+    "areaName": "茨城県",
+    "year": 2011,
+    "value": 12.95
+  },
+  {
+    "dataset": "crime",
+    "areaCode": "09",
+    "areaName": "栃木県",
+    "year": 2011,
+    "value": 11.49
+  },
+  {
+    "dataset": "crime",
+    "areaCode": "10",
+    "areaName": "群馬県",
+    "year": 2011,
+    "value": 10.45
+  },
+  {
+    "dataset": "crime",
+    "areaCode": "11",
+    "areaName": "埼玉県",
+    "year": 2011,
+    "value": 13.93
+  },
+  {
+    "dataset": "crime",
+    "areaCode": "12",
+    "areaName": "千葉県",
+    "year": 2011,
+    "value": 13.35
+  },
+  {
+    "dataset": "crime",
+    "areaCode": "13",
+    "areaName": "東京都",
+    "year": 2011,
+    "value": 14.17
+  },
+  {
+    "dataset": "crime",
+    "areaCode": "14",
+    "areaName": "神奈川県",
+    "year": 2011,
+    "value": 9.47
+  },
+  {
+    "dataset": "crime",
+    "areaCode": "15",
+    "areaName": "新潟県",
+    "year": 2011,
+    "value": 8.66
+  },
+  {
+    "dataset": "crime",
+    "areaCode": "16",
+    "areaName": "富山県",
+    "year": 2011,
+    "value": 6.11
+  },
+  {
+    "dataset": "crime",
+    "areaCode": "17",
+    "areaName": "石川県",
+    "year": 2011,
+    "value": 6.91
+  },
+  {
+    "dataset": "crime",
+    "areaCode": "18",
+    "areaName": "福井県",
+    "year": 2011,
+    "value": 7.04
+  },
+  {
+    "dataset": "crime",
+    "areaCode": "19",
+    "areaName": "山梨県",
+    "year": 2011,
+    "value": 8.55
+  },
+  {
+    "dataset": "crime",
+    "areaCode": "20",
+    "areaName": "長野県",
+    "year": 2011,
+    "value": 8.23
+  },
+  {
+    "dataset": "crime",
+    "areaCode": "21",
+    "areaName": "岐阜県",
+    "year": 2011,
+    "value": 12.13
+  },
+  {
+    "dataset": "crime",
+    "areaCode": "22",
+    "areaName": "静岡県",
+    "year": 2011,
+    "value": 9.54
+  },
+  {
+    "dataset": "crime",
+    "areaCode": "23",
+    "areaName": "愛知県",
+    "year": 2011,
+    "value": 16.05
+  },
+  {
+    "dataset": "crime",
+    "areaCode": "24",
+    "areaName": "三重県",
+    "year": 2011,
+    "value": 11.98
+  },
+  {
+    "dataset": "crime",
+    "areaCode": "25",
+    "areaName": "滋賀県",
+    "year": 2011,
+    "value": 9.75
+  },
+  {
+    "dataset": "crime",
+    "areaCode": "26",
+    "areaName": "京都府",
+    "year": 2011,
+    "value": 14.34
+  },
+  {
+    "dataset": "crime",
+    "areaCode": "27",
+    "areaName": "大阪府",
+    "year": 2011,
+    "value": 17.51
+  },
+  {
+    "dataset": "crime",
+    "areaCode": "28",
+    "areaName": "兵庫県",
+    "year": 2011,
+    "value": 13.7
+  },
+  {
+    "dataset": "crime",
+    "areaCode": "29",
+    "areaName": "奈良県",
+    "year": 2011,
+    "value": 9.51
+  },
+  {
+    "dataset": "crime",
+    "areaCode": "30",
+    "areaName": "和歌山県",
+    "year": 2011,
+    "value": 10.93
+  },
+  {
+    "dataset": "crime",
+    "areaCode": "31",
+    "areaName": "鳥取県",
+    "year": 2011,
+    "value": 8.39
+  },
+  {
+    "dataset": "crime",
+    "areaCode": "32",
+    "areaName": "島根県",
+    "year": 2011,
+    "value": 6.23
+  },
+  {
+    "dataset": "crime",
+    "areaCode": "33",
+    "areaName": "岡山県",
+    "year": 2011,
+    "value": 12.27
+  },
+  {
+    "dataset": "crime",
+    "areaCode": "34",
+    "areaName": "広島県",
+    "year": 2011,
+    "value": 9.07
+  },
+  {
+    "dataset": "crime",
+    "areaCode": "35",
+    "areaName": "山口県",
+    "year": 2011,
+    "value": 7.89
+  },
+  {
+    "dataset": "crime",
+    "areaCode": "36",
+    "areaName": "徳島県",
+    "year": 2011,
+    "value": 8.26
+  },
+  {
+    "dataset": "crime",
+    "areaCode": "37",
+    "areaName": "香川県",
+    "year": 2011,
+    "value": 9.24
+  },
+  {
+    "dataset": "crime",
+    "areaCode": "38",
+    "areaName": "愛媛県",
+    "year": 2011,
+    "value": 11.29
+  },
+  {
+    "dataset": "crime",
+    "areaCode": "39",
+    "areaName": "高知県",
+    "year": 2011,
+    "value": 10.47
+  },
+  {
+    "dataset": "crime",
+    "areaCode": "40",
+    "areaName": "福岡県",
+    "year": 2011,
+    "value": 14.48
+  },
+  {
+    "dataset": "crime",
+    "areaCode": "41",
+    "areaName": "佐賀県",
+    "year": 2011,
+    "value": 9.59
+  },
+  {
+    "dataset": "crime",
+    "areaCode": "42",
+    "areaName": "長崎県",
+    "year": 2011,
+    "value": 5.95
+  },
+  {
+    "dataset": "crime",
+    "areaCode": "43",
+    "areaName": "熊本県",
+    "year": 2011,
+    "value": 7.73
+  },
+  {
+    "dataset": "crime",
+    "areaCode": "44",
+    "areaName": "大分県",
+    "year": 2011,
+    "value": 6.85
+  },
+  {
+    "dataset": "crime",
+    "areaCode": "45",
+    "areaName": "宮崎県",
+    "year": 2011,
+    "value": 8.36
+  },
+  {
+    "dataset": "crime",
+    "areaCode": "46",
+    "areaName": "鹿児島県",
+    "year": 2011,
+    "value": 6.21
+  },
+  {
+    "dataset": "crime",
+    "areaCode": "47",
+    "areaName": "沖縄県",
+    "year": 2011,
+    "value": 8.9
+  }
+]

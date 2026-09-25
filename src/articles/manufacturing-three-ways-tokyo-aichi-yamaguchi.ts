@@ -2,9 +2,9 @@ import { Article } from "./types";
 
 export const manufacturingThreeWaysTokyoAichiYamaguchi: Article = {
   slug: "manufacturing-three-ways-tokyo-aichi-yamaguchi",
-  title: "工場の数は東京、稼ぐ額は愛知、1つあたりの規模は山口——「ものづくり県」は測り方で変わる",
+  title: "製造業（工業）ランキング、工場の数は東京、稼ぐ額は愛知、1つあたりの規模は山口が1位",
   excerpt:
-    "「工業が盛んな県」と一言でいっても、工場の数で測るか、稼ぎ出す金額で測るか、1つの工場あたりの規模で測るかによって、1位はまったく別の県になります。同じ製造業データの3つの顔を追いました。",
+    "都道府県別の製造業・工業ランキングは、工場の数で測れば東京都、稼ぎ出す金額で測れば愛知県、1つの工場あたりの規模で測れば山口県が、それぞれ1位になります。同じ製造業データの3つの顔を追いました。",
   publishedAt: "2026-08-05",
   relatedDataset: "manufacturing",
   embedRanking: "factory",

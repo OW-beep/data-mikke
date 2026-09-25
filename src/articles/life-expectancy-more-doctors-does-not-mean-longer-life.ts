@@ -2,9 +2,9 @@ import { Article } from "./types";
 
 export const lifeExpectancyDoctorMyth: Article = {
   slug: "life-expectancy-more-doctors-does-not-mean-longer-life",
-  title: "医師が多い県ほど長生きできる、わけではなかった",
+  title: "医師の数と平均寿命の関係は? 都道府県別データで見ると、医師が多い県ほど長生きできる、わけではなかった",
   excerpt:
-    "平均寿命(男性)と医師数の相関係数はわずかr=0.130。「医療が充実している=長生きできる」という直感は、データの上では裏付けられませんでした。",
+    "都道府県別の医師数と平均寿命(男性)の相関係数はわずかr=0.130。「医療が充実している=長生きできる」という直感は、データの上では裏付けられませんでした。",
   publishedAt: "2026-07-29",
   relatedDataset: "lifeExpectancyMale",
   embedScatter: {

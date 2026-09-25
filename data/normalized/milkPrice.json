@@ -1,0 +1,331 @@
+[
+  {
+    "dataset": "milkPrice",
+    "areaCode": "01",
+    "areaName": "北海道",
+    "year": 2025,
+    "value": 279.7
+  },
+  {
+    "dataset": "milkPrice",
+    "areaCode": "02",
+    "areaName": "青森県",
+    "year": 2025,
+    "value": 252.5
+  },
+  {
+    "dataset": "milkPrice",
+    "areaCode": "03",
+    "areaName": "岩手県",
+    "year": 2025,
+    "value": 241
+  },
+  {
+    "dataset": "milkPrice",
+    "areaCode": "04",
+    "areaName": "宮城県",
+    "year": 2025,
+    "value": 248
+  },
+  {
+    "dataset": "milkPrice",
+    "areaCode": "05",
+    "areaName": "秋田県",
+    "year": 2025,
+    "value": 239
+  },
+  {
+    "dataset": "milkPrice",
+    "areaCode": "06",
+    "areaName": "山形県",
+    "year": 2025,
+    "value": 257
+  },
+  {
+    "dataset": "milkPrice",
+    "areaCode": "07",
+    "areaName": "福島県",
+    "year": 2025,
+    "value": 267
+  },
+  {
+    "dataset": "milkPrice",
+    "areaCode": "08",
+    "areaName": "茨城県",
+    "year": 2025,
+    "value": 257
+  },
+  {
+    "dataset": "milkPrice",
+    "areaCode": "09",
+    "areaName": "栃木県",
+    "year": 2025,
+    "value": 253
+  },
+  {
+    "dataset": "milkPrice",
+    "areaCode": "10",
+    "areaName": "群馬県",
+    "year": 2025,
+    "value": 222
+  },
+  {
+    "dataset": "milkPrice",
+    "areaCode": "11",
+    "areaName": "埼玉県",
+    "year": 2025,
+    "value": 223.2
+  },
+  {
+    "dataset": "milkPrice",
+    "areaCode": "12",
+    "areaName": "千葉県",
+    "year": 2025,
+    "value": 229
+  },
+  {
+    "dataset": "milkPrice",
+    "areaCode": "13",
+    "areaName": "東京都",
+    "year": 2025,
+    "value": 252
+  },
+  {
+    "dataset": "milkPrice",
+    "areaCode": "14",
+    "areaName": "神奈川県",
+    "year": 2025,
+    "value": 252.2
+  },
+  {
+    "dataset": "milkPrice",
+    "areaCode": "15",
+    "areaName": "新潟県",
+    "year": 2025,
+    "value": 230.5
+  },
+  {
+    "dataset": "milkPrice",
+    "areaCode": "16",
+    "areaName": "富山県",
+    "year": 2025,
+    "value": 284
+  },
+  {
+    "dataset": "milkPrice",
+    "areaCode": "17",
+    "areaName": "石川県",
+    "year": 2025,
+    "value": 304
+  },
+  {
+    "dataset": "milkPrice",
+    "areaCode": "18",
+    "areaName": "福井県",
+    "year": 2025,
+    "value": 261
+  },
+  {
+    "dataset": "milkPrice",
+    "areaCode": "19",
+    "areaName": "山梨県",
+    "year": 2025,
+    "value": 247
+  },
+  {
+    "dataset": "milkPrice",
+    "areaCode": "20",
+    "areaName": "長野県",
+    "year": 2025,
+    "value": 222.5
+  },
+  {
+    "dataset": "milkPrice",
+    "areaCode": "21",
+    "areaName": "岐阜県",
+    "year": 2025,
+    "value": 256
+  },
+  {
+    "dataset": "milkPrice",
+    "areaCode": "22",
+    "areaName": "静岡県",
+    "year": 2025,
+    "value": 249.3
+  },
+  {
+    "dataset": "milkPrice",
+    "areaCode": "23",
+    "areaName": "愛知県",
+    "year": 2025,
+    "value": 241.5
+  },
+  {
+    "dataset": "milkPrice",
+    "areaCode": "24",
+    "areaName": "三重県",
+    "year": 2025,
+    "value": 254.5
+  },
+  {
+    "dataset": "milkPrice",
+    "areaCode": "25",
+    "areaName": "滋賀県",
+    "year": 2025,
+    "value": 279
+  },
+  {
+    "dataset": "milkPrice",
+    "areaCode": "26",
+    "areaName": "京都府",
+    "year": 2025,
+    "value": 248
+  },
+  {
+    "dataset": "milkPrice",
+    "areaCode": "27",
+    "areaName": "大阪府",
+    "year": 2025,
+    "value": 267.2
+  },
+  {
+    "dataset": "milkPrice",
+    "areaCode": "28",
+    "areaName": "兵庫県",
+    "year": 2025,
+    "value": 254.2
+  },
+  {
+    "dataset": "milkPrice",
+    "areaCode": "29",
+    "areaName": "奈良県",
+    "year": 2025,
+    "value": 245
+  },
+  {
+    "dataset": "milkPrice",
+    "areaCode": "30",
+    "areaName": "和歌山県",
+    "year": 2025,
+    "value": 259
+  },
+  {
+    "dataset": "milkPrice",
+    "areaCode": "31",
+    "areaName": "鳥取県",
+    "year": 2025,
+    "value": 307
+  },
+  {
+    "dataset": "milkPrice",
+    "areaCode": "32",
+    "areaName": "島根県",
+    "year": 2025,
+    "value": 268
+  },
+  {
+    "dataset": "milkPrice",
+    "areaCode": "33",
+    "areaName": "岡山県",
+    "year": 2025,
+    "value": 254
+  },
+  {
+    "dataset": "milkPrice",
+    "areaCode": "34",
+    "areaName": "広島県",
+    "year": 2025,
+    "value": 261
+  },
+  {
+    "dataset": "milkPrice",
+    "areaCode": "35",
+    "areaName": "山口県",
+    "year": 2025,
+    "value": 281
+  },
+  {
+    "dataset": "milkPrice",
+    "areaCode": "36",
+    "areaName": "徳島県",
+    "year": 2025,
+    "value": 259
+  },
+  {
+    "dataset": "milkPrice",
+    "areaCode": "37",
+    "areaName": "香川県",
+    "year": 2025,
+    "value": 282
+  },
+  {
+    "dataset": "milkPrice",
+    "areaCode": "38",
+    "areaName": "愛媛県",
+    "year": 2025,
+    "value": 324.5
+  },
+  {
+    "dataset": "milkPrice",
+    "areaCode": "39",
+    "areaName": "高知県",
+    "year": 2025,
+    "value": 256
+  },
+  {
+    "dataset": "milkPrice",
+    "areaCode": "40",
+    "areaName": "福岡県",
+    "year": 2025,
+    "value": 264
+  },
+  {
+    "dataset": "milkPrice",
+    "areaCode": "41",
+    "areaName": "佐賀県",
+    "year": 2025,
+    "value": 267
+  },
+  {
+    "dataset": "milkPrice",
+    "areaCode": "42",
+    "areaName": "長崎県",
+    "year": 2025,
+    "value": 267.5
+  },
+  {
+    "dataset": "milkPrice",
+    "areaCode": "43",
+    "areaName": "熊本県",
+    "year": 2025,
+    "value": 268
+  },
+  {
+    "dataset": "milkPrice",
+    "areaCode": "44",
+    "areaName": "大分県",
+    "year": 2025,
+    "value": 258
+  },
+  {
+    "dataset": "milkPrice",
+    "areaCode": "45",
+    "areaName": "宮崎県",
+    "year": 2025,
+    "value": 293
+  },
+  {
+    "dataset": "milkPrice",
+    "areaCode": "46",
+    "areaName": "鹿児島県",
+    "year": 2025,
+    "value": 278
+  },
+  {
+    "dataset": "milkPrice",
+    "areaCode": "47",
+    "areaName": "沖縄県",
+    "year": 2025,
+    "value": 364
+  }
+]

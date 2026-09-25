@@ -1,0 +1,331 @@
+[
+  {
+    "dataset": "hospital",
+    "areaCode": "01",
+    "areaName": "北海道",
+    "year": 2018,
+    "value": 575
+  },
+  {
+    "dataset": "hospital",
+    "areaCode": "02",
+    "areaName": "青森県",
+    "year": 2018,
+    "value": 101
+  },
+  {
+    "dataset": "hospital",
+    "areaCode": "03",
+    "areaName": "岩手県",
+    "year": 2018,
+    "value": 92
+  },
+  {
+    "dataset": "hospital",
+    "areaCode": "04",
+    "areaName": "宮城県",
+    "year": 2018,
+    "value": 142
+  },
+  {
+    "dataset": "hospital",
+    "areaCode": "05",
+    "areaName": "秋田県",
+    "year": 2018,
+    "value": 73
+  },
+  {
+    "dataset": "hospital",
+    "areaCode": "06",
+    "areaName": "山形県",
+    "year": 2018,
+    "value": 68
+  },
+  {
+    "dataset": "hospital",
+    "areaCode": "07",
+    "areaName": "福島県",
+    "year": 2018,
+    "value": 128
+  },
+  {
+    "dataset": "hospital",
+    "areaCode": "08",
+    "areaName": "茨城県",
+    "year": 2018,
+    "value": 183
+  },
+  {
+    "dataset": "hospital",
+    "areaCode": "09",
+    "areaName": "栃木県",
+    "year": 2018,
+    "value": 109
+  },
+  {
+    "dataset": "hospital",
+    "areaCode": "10",
+    "areaName": "群馬県",
+    "year": 2018,
+    "value": 131
+  },
+  {
+    "dataset": "hospital",
+    "areaCode": "11",
+    "areaName": "埼玉県",
+    "year": 2018,
+    "value": 344
+  },
+  {
+    "dataset": "hospital",
+    "areaCode": "12",
+    "areaName": "千葉県",
+    "year": 2018,
+    "value": 279
+  },
+  {
+    "dataset": "hospital",
+    "areaCode": "13",
+    "areaName": "東京都",
+    "year": 2018,
+    "value": 646
+  },
+  {
+    "dataset": "hospital",
+    "areaCode": "14",
+    "areaName": "神奈川県",
+    "year": 2018,
+    "value": 343
+  },
+  {
+    "dataset": "hospital",
+    "areaCode": "15",
+    "areaName": "新潟県",
+    "year": 2018,
+    "value": 131
+  },
+  {
+    "dataset": "hospital",
+    "areaCode": "16",
+    "areaName": "富山県",
+    "year": 2018,
+    "value": 109
+  },
+  {
+    "dataset": "hospital",
+    "areaCode": "17",
+    "areaName": "石川県",
+    "year": 2018,
+    "value": 99
+  },
+  {
+    "dataset": "hospital",
+    "areaCode": "18",
+    "areaName": "福井県",
+    "year": 2018,
+    "value": 71
+  },
+  {
+    "dataset": "hospital",
+    "areaCode": "19",
+    "areaName": "山梨県",
+    "year": 2018,
+    "value": 60
+  },
+  {
+    "dataset": "hospital",
+    "areaCode": "20",
+    "areaName": "長野県",
+    "year": 2018,
+    "value": 130
+  },
+  {
+    "dataset": "hospital",
+    "areaCode": "21",
+    "areaName": "岐阜県",
+    "year": 2018,
+    "value": 103
+  },
+  {
+    "dataset": "hospital",
+    "areaCode": "22",
+    "areaName": "静岡県",
+    "year": 2018,
+    "value": 182
+  },
+  {
+    "dataset": "hospital",
+    "areaCode": "23",
+    "areaName": "愛知県",
+    "year": 2018,
+    "value": 325
+  },
+  {
+    "dataset": "hospital",
+    "areaCode": "24",
+    "areaName": "三重県",
+    "year": 2018,
+    "value": 103
+  },
+  {
+    "dataset": "hospital",
+    "areaCode": "25",
+    "areaName": "滋賀県",
+    "year": 2018,
+    "value": 58
+  },
+  {
+    "dataset": "hospital",
+    "areaCode": "26",
+    "areaName": "京都府",
+    "year": 2018,
+    "value": 173
+  },
+  {
+    "dataset": "hospital",
+    "areaCode": "27",
+    "areaName": "大阪府",
+    "year": 2018,
+    "value": 535
+  },
+  {
+    "dataset": "hospital",
+    "areaCode": "28",
+    "areaName": "兵庫県",
+    "year": 2018,
+    "value": 353
+  },
+  {
+    "dataset": "hospital",
+    "areaCode": "29",
+    "areaName": "奈良県",
+    "year": 2018,
+    "value": 75
+  },
+  {
+    "dataset": "hospital",
+    "areaCode": "30",
+    "areaName": "和歌山県",
+    "year": 2018,
+    "value": 86
+  },
+  {
+    "dataset": "hospital",
+    "areaCode": "31",
+    "areaName": "鳥取県",
+    "year": 2018,
+    "value": 45
+  },
+  {
+    "dataset": "hospital",
+    "areaCode": "32",
+    "areaName": "島根県",
+    "year": 2018,
+    "value": 53
+  },
+  {
+    "dataset": "hospital",
+    "areaCode": "33",
+    "areaName": "岡山県",
+    "year": 2018,
+    "value": 170
+  },
+  {
+    "dataset": "hospital",
+    "areaCode": "34",
+    "areaName": "広島県",
+    "year": 2018,
+    "value": 248
+  },
+  {
+    "dataset": "hospital",
+    "areaCode": "35",
+    "areaName": "山口県",
+    "year": 2018,
+    "value": 148
+  },
+  {
+    "dataset": "hospital",
+    "areaCode": "36",
+    "areaName": "徳島県",
+    "year": 2018,
+    "value": 114
+  },
+  {
+    "dataset": "hospital",
+    "areaCode": "37",
+    "areaName": "香川県",
+    "year": 2018,
+    "value": 92
+  },
+  {
+    "dataset": "hospital",
+    "areaCode": "38",
+    "areaName": "愛媛県",
+    "year": 2018,
+    "value": 143
+  },
+  {
+    "dataset": "hospital",
+    "areaCode": "39",
+    "areaName": "高知県",
+    "year": 2018,
+    "value": 133
+  },
+  {
+    "dataset": "hospital",
+    "areaCode": "40",
+    "areaName": "福岡県",
+    "year": 2018,
+    "value": 465
+  },
+  {
+    "dataset": "hospital",
+    "areaCode": "41",
+    "areaName": "佐賀県",
+    "year": 2018,
+    "value": 108
+  },
+  {
+    "dataset": "hospital",
+    "areaCode": "42",
+    "areaName": "長崎県",
+    "year": 2018,
+    "value": 159
+  },
+  {
+    "dataset": "hospital",
+    "areaCode": "43",
+    "areaName": "熊本県",
+    "year": 2018,
+    "value": 214
+  },
+  {
+    "dataset": "hospital",
+    "areaCode": "44",
+    "areaName": "大分県",
+    "year": 2018,
+    "value": 158
+  },
+  {
+    "dataset": "hospital",
+    "areaCode": "45",
+    "areaName": "宮崎県",
+    "year": 2018,
+    "value": 141
+  },
+  {
+    "dataset": "hospital",
+    "areaCode": "46",
+    "areaName": "鹿児島県",
+    "year": 2018,
+    "value": 259
+  },
+  {
+    "dataset": "hospital",
+    "areaCode": "47",
+    "areaName": "沖縄県",
+    "year": 2018,
+    "value": 94
+  }
+]

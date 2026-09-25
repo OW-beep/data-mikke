@@ -1,0 +1,331 @@
+[
+  {
+    "dataset": "factory",
+    "areaCode": "01",
+    "areaName": "北海道",
+    "year": 2012,
+    "value": 11600
+  },
+  {
+    "dataset": "factory",
+    "areaCode": "02",
+    "areaName": "青森県",
+    "year": 2012,
+    "value": 3087
+  },
+  {
+    "dataset": "factory",
+    "areaCode": "03",
+    "areaName": "岩手県",
+    "year": 2012,
+    "value": 3790
+  },
+  {
+    "dataset": "factory",
+    "areaCode": "04",
+    "areaName": "宮城県",
+    "year": 2012,
+    "value": 5019
+  },
+  {
+    "dataset": "factory",
+    "areaCode": "05",
+    "areaName": "秋田県",
+    "year": 2012,
+    "value": 3789
+  },
+  {
+    "dataset": "factory",
+    "areaCode": "06",
+    "areaName": "山形県",
+    "year": 2012,
+    "value": 5535
+  },
+  {
+    "dataset": "factory",
+    "areaCode": "07",
+    "areaName": "福島県",
+    "year": 2012,
+    "value": 7481
+  },
+  {
+    "dataset": "factory",
+    "areaCode": "08",
+    "areaName": "茨城県",
+    "year": 2012,
+    "value": 11419
+  },
+  {
+    "dataset": "factory",
+    "areaCode": "09",
+    "areaName": "栃木県",
+    "year": 2012,
+    "value": 10085
+  },
+  {
+    "dataset": "factory",
+    "areaCode": "10",
+    "areaName": "群馬県",
+    "year": 2012,
+    "value": 11817
+  },
+  {
+    "dataset": "factory",
+    "areaCode": "11",
+    "areaName": "埼玉県",
+    "year": 2012,
+    "value": 29417
+  },
+  {
+    "dataset": "factory",
+    "areaCode": "12",
+    "areaName": "千葉県",
+    "year": 2012,
+    "value": 11935
+  },
+  {
+    "dataset": "factory",
+    "areaCode": "13",
+    "areaName": "東京都",
+    "year": 2012,
+    "value": 50051
+  },
+  {
+    "dataset": "factory",
+    "areaCode": "14",
+    "areaName": "神奈川県",
+    "year": 2012,
+    "value": 19898
+  },
+  {
+    "dataset": "factory",
+    "areaCode": "15",
+    "areaName": "新潟県",
+    "year": 2012,
+    "value": 12475
+  },
+  {
+    "dataset": "factory",
+    "areaCode": "16",
+    "areaName": "富山県",
+    "year": 2012,
+    "value": 5480
+  },
+  {
+    "dataset": "factory",
+    "areaCode": "17",
+    "areaName": "石川県",
+    "year": 2012,
+    "value": 7808
+  },
+  {
+    "dataset": "factory",
+    "areaCode": "18",
+    "areaName": "福井県",
+    "year": 2012,
+    "value": 5610
+  },
+  {
+    "dataset": "factory",
+    "areaCode": "19",
+    "areaName": "山梨県",
+    "year": 2012,
+    "value": 4964
+  },
+  {
+    "dataset": "factory",
+    "areaCode": "20",
+    "areaName": "長野県",
+    "year": 2012,
+    "value": 11658
+  },
+  {
+    "dataset": "factory",
+    "areaCode": "21",
+    "areaName": "岐阜県",
+    "year": 2012,
+    "value": 14955
+  },
+  {
+    "dataset": "factory",
+    "areaCode": "22",
+    "areaName": "静岡県",
+    "year": 2012,
+    "value": 21267
+  },
+  {
+    "dataset": "factory",
+    "areaCode": "23",
+    "areaName": "愛知県",
+    "year": 2012,
+    "value": 39379
+  },
+  {
+    "dataset": "factory",
+    "areaCode": "24",
+    "areaName": "三重県",
+    "year": 2012,
+    "value": 8123
+  },
+  {
+    "dataset": "factory",
+    "areaCode": "25",
+    "areaName": "滋賀県",
+    "year": 2012,
+    "value": 5877
+  },
+  {
+    "dataset": "factory",
+    "areaCode": "26",
+    "areaName": "京都府",
+    "year": 2012,
+    "value": 15207
+  },
+  {
+    "dataset": "factory",
+    "areaCode": "27",
+    "areaName": "大阪府",
+    "year": 2012,
+    "value": 47442
+  },
+  {
+    "dataset": "factory",
+    "areaCode": "28",
+    "areaName": "兵庫県",
+    "year": 2012,
+    "value": 19407
+  },
+  {
+    "dataset": "factory",
+    "areaCode": "29",
+    "areaName": "奈良県",
+    "year": 2012,
+    "value": 5073
+  },
+  {
+    "dataset": "factory",
+    "areaCode": "30",
+    "areaName": "和歌山県",
+    "year": 2012,
+    "value": 4334
+  },
+  {
+    "dataset": "factory",
+    "areaCode": "31",
+    "areaName": "鳥取県",
+    "year": 2012,
+    "value": 1672
+  },
+  {
+    "dataset": "factory",
+    "areaCode": "32",
+    "areaName": "島根県",
+    "year": 2012,
+    "value": 2440
+  },
+  {
+    "dataset": "factory",
+    "areaCode": "33",
+    "areaName": "岡山県",
+    "year": 2012,
+    "value": 7283
+  },
+  {
+    "dataset": "factory",
+    "areaCode": "34",
+    "areaName": "広島県",
+    "year": 2012,
+    "value": 11005
+  },
+  {
+    "dataset": "factory",
+    "areaCode": "35",
+    "areaName": "山口県",
+    "year": 2012,
+    "value": 3744
+  },
+  {
+    "dataset": "factory",
+    "areaCode": "36",
+    "areaName": "徳島県",
+    "year": 2012,
+    "value": 2915
+  },
+  {
+    "dataset": "factory",
+    "areaCode": "37",
+    "areaName": "香川県",
+    "year": 2012,
+    "value": 4486
+  },
+  {
+    "dataset": "factory",
+    "areaCode": "38",
+    "areaName": "愛媛県",
+    "year": 2012,
+    "value": 5070
+  },
+  {
+    "dataset": "factory",
+    "areaCode": "39",
+    "areaName": "高知県",
+    "year": 2012,
+    "value": 2415
+  },
+  {
+    "dataset": "factory",
+    "areaCode": "40",
+    "areaName": "福岡県",
+    "year": 2012,
+    "value": 12430
+  },
+  {
+    "dataset": "factory",
+    "areaCode": "41",
+    "areaName": "佐賀県",
+    "year": 2012,
+    "value": 3002
+  },
+  {
+    "dataset": "factory",
+    "areaCode": "42",
+    "areaName": "長崎県",
+    "year": 2012,
+    "value": 4154
+  },
+  {
+    "dataset": "factory",
+    "areaCode": "43",
+    "areaName": "熊本県",
+    "year": 2012,
+    "value": 4329
+  },
+  {
+    "dataset": "factory",
+    "areaCode": "44",
+    "areaName": "大分県",
+    "year": 2012,
+    "value": 3170
+  },
+  {
+    "dataset": "factory",
+    "areaCode": "45",
+    "areaName": "宮崎県",
+    "year": 2012,
+    "value": 3155
+  },
+  {
+    "dataset": "factory",
+    "areaCode": "46",
+    "areaName": "鹿児島県",
+    "year": 2012,
+    "value": 5174
+  },
+  {
+    "dataset": "factory",
+    "areaCode": "47",
+    "areaName": "沖縄県",
+    "year": 2012,
+    "value": 2954
+  }
+]

@@ -1,0 +1,331 @@
+[
+  {
+    "dataset": "sunshine",
+    "areaCode": "11",
+    "areaName": "埼玉県",
+    "year": 2014,
+    "value": 2366
+  },
+  {
+    "dataset": "sunshine",
+    "areaCode": "10",
+    "areaName": "群馬県",
+    "year": 2014,
+    "value": 2344
+  },
+  {
+    "dataset": "sunshine",
+    "areaCode": "19",
+    "areaName": "山梨県",
+    "year": 2014,
+    "value": 2335
+  },
+  {
+    "dataset": "sunshine",
+    "areaCode": "23",
+    "areaName": "愛知県",
+    "year": 2014,
+    "value": 2255
+  },
+  {
+    "dataset": "sunshine",
+    "areaCode": "08",
+    "areaName": "茨城県",
+    "year": 2014,
+    "value": 2250
+  },
+  {
+    "dataset": "sunshine",
+    "areaCode": "14",
+    "areaName": "神奈川県",
+    "year": 2014,
+    "value": 2221
+  },
+  {
+    "dataset": "sunshine",
+    "areaCode": "22",
+    "areaName": "静岡県",
+    "year": 2014,
+    "value": 2215
+  },
+  {
+    "dataset": "sunshine",
+    "areaCode": "21",
+    "areaName": "岐阜県",
+    "year": 2014,
+    "value": 2209
+  },
+  {
+    "dataset": "sunshine",
+    "areaCode": "09",
+    "areaName": "栃木県",
+    "year": 2014,
+    "value": 2180
+  },
+  {
+    "dataset": "sunshine",
+    "areaCode": "27",
+    "areaName": "大阪府",
+    "year": 2014,
+    "value": 2161
+  },
+  {
+    "dataset": "sunshine",
+    "areaCode": "30",
+    "areaName": "和歌山県",
+    "year": 2014,
+    "value": 2145
+  },
+  {
+    "dataset": "sunshine",
+    "areaCode": "24",
+    "areaName": "三重県",
+    "year": 2014,
+    "value": 2142
+  },
+  {
+    "dataset": "sunshine",
+    "areaCode": "12",
+    "areaName": "千葉県",
+    "year": 2014,
+    "value": 2113
+  },
+  {
+    "dataset": "sunshine",
+    "areaCode": "13",
+    "areaName": "東京都",
+    "year": 2014,
+    "value": 2104
+  },
+  {
+    "dataset": "sunshine",
+    "areaCode": "36",
+    "areaName": "徳島県",
+    "year": 2014,
+    "value": 2098
+  },
+  {
+    "dataset": "sunshine",
+    "areaCode": "28",
+    "areaName": "兵庫県",
+    "year": 2014,
+    "value": 2096
+  },
+  {
+    "dataset": "sunshine",
+    "areaCode": "39",
+    "areaName": "高知県",
+    "year": 2014,
+    "value": 2095
+  },
+  {
+    "dataset": "sunshine",
+    "areaCode": "04",
+    "areaName": "宮城県",
+    "year": 2014,
+    "value": 2093
+  },
+  {
+    "dataset": "sunshine",
+    "areaCode": "45",
+    "areaName": "宮崎県",
+    "year": 2014,
+    "value": 2072
+  },
+  {
+    "dataset": "sunshine",
+    "areaCode": "20",
+    "areaName": "長野県",
+    "year": 2014,
+    "value": 2028
+  },
+  {
+    "dataset": "sunshine",
+    "areaCode": "34",
+    "areaName": "広島県",
+    "year": 2014,
+    "value": 1980
+  },
+  {
+    "dataset": "sunshine",
+    "areaCode": "37",
+    "areaName": "香川県",
+    "year": 2014,
+    "value": 1976
+  },
+  {
+    "dataset": "sunshine",
+    "areaCode": "33",
+    "areaName": "岡山県",
+    "year": 2014,
+    "value": 1973
+  },
+  {
+    "dataset": "sunshine",
+    "areaCode": "25",
+    "areaName": "滋賀県",
+    "year": 2014,
+    "value": 1971
+  },
+  {
+    "dataset": "sunshine",
+    "areaCode": "01",
+    "areaName": "北海道",
+    "year": 2014,
+    "value": 1913
+  },
+  {
+    "dataset": "sunshine",
+    "areaCode": "38",
+    "areaName": "愛媛県",
+    "year": 2014,
+    "value": 1901
+  },
+  {
+    "dataset": "sunshine",
+    "areaCode": "07",
+    "areaName": "福島県",
+    "year": 2014,
+    "value": 1889
+  },
+  {
+    "dataset": "sunshine",
+    "areaCode": "43",
+    "areaName": "熊本県",
+    "year": 2014,
+    "value": 1884
+  },
+  {
+    "dataset": "sunshine",
+    "areaCode": "46",
+    "areaName": "鹿児島県",
+    "year": 2014,
+    "value": 1872
+  },
+  {
+    "dataset": "sunshine",
+    "areaCode": "17",
+    "areaName": "石川県",
+    "year": 2014,
+    "value": 1861
+  },
+  {
+    "dataset": "sunshine",
+    "areaCode": "41",
+    "areaName": "佐賀県",
+    "year": 2014,
+    "value": 1860
+  },
+  {
+    "dataset": "sunshine",
+    "areaCode": "29",
+    "areaName": "奈良県",
+    "year": 2014,
+    "value": 1854
+  },
+  {
+    "dataset": "sunshine",
+    "areaCode": "03",
+    "areaName": "岩手県",
+    "year": 2014,
+    "value": 1852
+  },
+  {
+    "dataset": "sunshine",
+    "areaCode": "44",
+    "areaName": "大分県",
+    "year": 2014,
+    "value": 1841
+  },
+  {
+    "dataset": "sunshine",
+    "areaCode": "26",
+    "areaName": "京都府",
+    "year": 2014,
+    "value": 1825
+  },
+  {
+    "dataset": "sunshine",
+    "areaCode": "40",
+    "areaName": "福岡県",
+    "year": 2014,
+    "value": 1810
+  },
+  {
+    "dataset": "sunshine",
+    "areaCode": "18",
+    "areaName": "福井県",
+    "year": 2014,
+    "value": 1788
+  },
+  {
+    "dataset": "sunshine",
+    "areaCode": "35",
+    "areaName": "山口県",
+    "year": 2014,
+    "value": 1771
+  },
+  {
+    "dataset": "sunshine",
+    "areaCode": "16",
+    "areaName": "富山県",
+    "year": 2014,
+    "value": 1769
+  },
+  {
+    "dataset": "sunshine",
+    "areaCode": "15",
+    "areaName": "新潟県",
+    "year": 2014,
+    "value": 1764
+  },
+  {
+    "dataset": "sunshine",
+    "areaCode": "42",
+    "areaName": "長崎県",
+    "year": 2014,
+    "value": 1761
+  },
+  {
+    "dataset": "sunshine",
+    "areaCode": "47",
+    "areaName": "沖縄県",
+    "year": 2014,
+    "value": 1760
+  },
+  {
+    "dataset": "sunshine",
+    "areaCode": "06",
+    "areaName": "山形県",
+    "year": 2014,
+    "value": 1737
+  },
+  {
+    "dataset": "sunshine",
+    "areaCode": "02",
+    "areaName": "青森県",
+    "year": 2014,
+    "value": 1735
+  },
+  {
+    "dataset": "sunshine",
+    "areaCode": "32",
+    "areaName": "島根県",
+    "year": 2014,
+    "value": 1721
+  },
+  {
+    "dataset": "sunshine",
+    "areaCode": "31",
+    "areaName": "鳥取県",
+    "year": 2014,
+    "value": 1707
+  },
+  {
+    "dataset": "sunshine",
+    "areaCode": "05",
+    "areaName": "秋田県",
+    "year": 2014,
+    "value": 1647
+  }
+]

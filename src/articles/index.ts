@@ -77,6 +77,8 @@ import { minimumWageRealValueRanking } from "./minimum-wage-real-value-ranking";
 import { gasBillIncomeRegressive } from "./gas-bill-income-regressive";
 import { rentVsCarOwnership } from "./rent-vs-car-ownership";
 import { ricePriceProducingRegionGap } from "./rice-price-producing-region-gap";
+import { ricePriceReversal2026Oversupply } from "./rice-price-reversal-2026-oversupply";
+import { foodPriceHikeSeptember2026CostIndexGap } from "./food-price-hike-september-2026-cost-index-gap";
 
 /**
  * ★記事追加手順★
@@ -162,7 +164,9 @@ export const ARTICLE_LIST: Article[] = [
   ricePriceProducingRegionGap,
   stepsIncomeUrbanizationLink,
   saltIntakeTohokuConcentration,
-  minimumWageRealValueRanking
+  minimumWageRealValueRanking,
+  ricePriceReversal2026Oversupply,
+  foodPriceHikeSeptember2026CostIndexGap
 ].sort((a, b) => (a.publishedAt < b.publishedAt ? 1 : -1));
 
 export function getArticle(slug: string): Article | undefined {

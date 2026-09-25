@@ -1,0 +1,331 @@
+[
+  {
+    "dataset": "forest",
+    "areaCode": "01",
+    "areaName": "北海道",
+    "year": 2017,
+    "value": 70.6
+  },
+  {
+    "dataset": "forest",
+    "areaCode": "02",
+    "areaName": "青森県",
+    "year": 2017,
+    "value": 65.6
+  },
+  {
+    "dataset": "forest",
+    "areaCode": "03",
+    "areaName": "岩手県",
+    "year": 2017,
+    "value": 76.7
+  },
+  {
+    "dataset": "forest",
+    "areaCode": "04",
+    "areaName": "宮城県",
+    "year": 2017,
+    "value": 57.3
+  },
+  {
+    "dataset": "forest",
+    "areaCode": "05",
+    "areaName": "秋田県",
+    "year": 2017,
+    "value": 72.1
+  },
+  {
+    "dataset": "forest",
+    "areaCode": "06",
+    "areaName": "山形県",
+    "year": 2017,
+    "value": 71.8
+  },
+  {
+    "dataset": "forest",
+    "areaCode": "07",
+    "areaName": "福島県",
+    "year": 2017,
+    "value": 70.7
+  },
+  {
+    "dataset": "forest",
+    "areaCode": "08",
+    "areaName": "茨城県",
+    "year": 2017,
+    "value": 30.6
+  },
+  {
+    "dataset": "forest",
+    "areaCode": "09",
+    "areaName": "栃木県",
+    "year": 2017,
+    "value": 54.5
+  },
+  {
+    "dataset": "forest",
+    "areaCode": "10",
+    "areaName": "群馬県",
+    "year": 2017,
+    "value": 66.5
+  },
+  {
+    "dataset": "forest",
+    "areaCode": "11",
+    "areaName": "埼玉県",
+    "year": 2017,
+    "value": 31.5
+  },
+  {
+    "dataset": "forest",
+    "areaCode": "12",
+    "areaName": "千葉県",
+    "year": 2017,
+    "value": 30.5
+  },
+  {
+    "dataset": "forest",
+    "areaCode": "13",
+    "areaName": "東京都",
+    "year": 2017,
+    "value": 36
+  },
+  {
+    "dataset": "forest",
+    "areaCode": "14",
+    "areaName": "神奈川県",
+    "year": 2017,
+    "value": 39.2
+  },
+  {
+    "dataset": "forest",
+    "areaCode": "15",
+    "areaName": "新潟県",
+    "year": 2017,
+    "value": 68
+  },
+  {
+    "dataset": "forest",
+    "areaCode": "16",
+    "areaName": "富山県",
+    "year": 2017,
+    "value": 67.1
+  },
+  {
+    "dataset": "forest",
+    "areaCode": "17",
+    "areaName": "石川県",
+    "year": 2017,
+    "value": 68.3
+  },
+  {
+    "dataset": "forest",
+    "areaCode": "18",
+    "areaName": "福井県",
+    "year": 2017,
+    "value": 74.5
+  },
+  {
+    "dataset": "forest",
+    "areaCode": "19",
+    "areaName": "山梨県",
+    "year": 2017,
+    "value": 77.9
+  },
+  {
+    "dataset": "forest",
+    "areaCode": "20",
+    "areaName": "長野県",
+    "year": 2017,
+    "value": 78.8
+  },
+  {
+    "dataset": "forest",
+    "areaCode": "21",
+    "areaName": "岐阜県",
+    "year": 2017,
+    "value": 81.2
+  },
+  {
+    "dataset": "forest",
+    "areaCode": "22",
+    "areaName": "静岡県",
+    "year": 2017,
+    "value": 63.9
+  },
+  {
+    "dataset": "forest",
+    "areaCode": "23",
+    "areaName": "愛知県",
+    "year": 2017,
+    "value": 42.2
+  },
+  {
+    "dataset": "forest",
+    "areaCode": "24",
+    "areaName": "三重県",
+    "year": 2017,
+    "value": 64.5
+  },
+  {
+    "dataset": "forest",
+    "areaCode": "25",
+    "areaName": "滋賀県",
+    "year": 2017,
+    "value": 50.5
+  },
+  {
+    "dataset": "forest",
+    "areaCode": "26",
+    "areaName": "京都府",
+    "year": 2017,
+    "value": 74.2
+  },
+  {
+    "dataset": "forest",
+    "areaCode": "27",
+    "areaName": "大阪府",
+    "year": 2017,
+    "value": 30
+  },
+  {
+    "dataset": "forest",
+    "areaCode": "28",
+    "areaName": "兵庫県",
+    "year": 2017,
+    "value": 66.7
+  },
+  {
+    "dataset": "forest",
+    "areaCode": "29",
+    "areaName": "奈良県",
+    "year": 2017,
+    "value": 76.9
+  },
+  {
+    "dataset": "forest",
+    "areaCode": "30",
+    "areaName": "和歌山県",
+    "year": 2017,
+    "value": 76.5
+  },
+  {
+    "dataset": "forest",
+    "areaCode": "31",
+    "areaName": "鳥取県",
+    "year": 2017,
+    "value": 73.8
+  },
+  {
+    "dataset": "forest",
+    "areaCode": "32",
+    "areaName": "島根県",
+    "year": 2017,
+    "value": 78.2
+  },
+  {
+    "dataset": "forest",
+    "areaCode": "33",
+    "areaName": "岡山県",
+    "year": 2017,
+    "value": 67.9
+  },
+  {
+    "dataset": "forest",
+    "areaCode": "34",
+    "areaName": "広島県",
+    "year": 2017,
+    "value": 72.1
+  },
+  {
+    "dataset": "forest",
+    "areaCode": "35",
+    "areaName": "山口県",
+    "year": 2017,
+    "value": 71.5
+  },
+  {
+    "dataset": "forest",
+    "areaCode": "36",
+    "areaName": "徳島県",
+    "year": 2017,
+    "value": 75.9
+  },
+  {
+    "dataset": "forest",
+    "areaCode": "37",
+    "areaName": "香川県",
+    "year": 2017,
+    "value": 46.6
+  },
+  {
+    "dataset": "forest",
+    "areaCode": "38",
+    "areaName": "愛媛県",
+    "year": 2017,
+    "value": 70.7
+  },
+  {
+    "dataset": "forest",
+    "areaCode": "39",
+    "areaName": "高知県",
+    "year": 2017,
+    "value": 83.8
+  },
+  {
+    "dataset": "forest",
+    "areaCode": "40",
+    "areaName": "福岡県",
+    "year": 2017,
+    "value": 44.6
+  },
+  {
+    "dataset": "forest",
+    "areaCode": "41",
+    "areaName": "佐賀県",
+    "year": 2017,
+    "value": 45.2
+  },
+  {
+    "dataset": "forest",
+    "areaCode": "42",
+    "areaName": "長崎県",
+    "year": 2017,
+    "value": 58.7
+  },
+  {
+    "dataset": "forest",
+    "areaCode": "43",
+    "areaName": "熊本県",
+    "year": 2017,
+    "value": 62.5
+  },
+  {
+    "dataset": "forest",
+    "areaCode": "44",
+    "areaName": "大分県",
+    "year": 2017,
+    "value": 71.4
+  },
+  {
+    "dataset": "forest",
+    "areaCode": "45",
+    "areaName": "宮崎県",
+    "year": 2017,
+    "value": 75.7
+  },
+  {
+    "dataset": "forest",
+    "areaCode": "46",
+    "areaName": "鹿児島県",
+    "year": 2017,
+    "value": 64
+  },
+  {
+    "dataset": "forest",
+    "areaCode": "47",
+    "areaName": "沖縄県",
+    "year": 2017,
+    "value": 46.8
+  }
+]

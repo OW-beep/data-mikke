@@ -1,0 +1,331 @@
+[
+  {
+    "dataset": "culturalPropertyBuilding",
+    "areaCode": "01",
+    "areaName": "北海道",
+    "year": 2013,
+    "value": 25
+  },
+  {
+    "dataset": "culturalPropertyBuilding",
+    "areaCode": "02",
+    "areaName": "青森県",
+    "year": 2013,
+    "value": 31
+  },
+  {
+    "dataset": "culturalPropertyBuilding",
+    "areaCode": "03",
+    "areaName": "岩手県",
+    "year": 2013,
+    "value": 25
+  },
+  {
+    "dataset": "culturalPropertyBuilding",
+    "areaCode": "04",
+    "areaName": "宮城県",
+    "year": 2013,
+    "value": 20
+  },
+  {
+    "dataset": "culturalPropertyBuilding",
+    "areaCode": "05",
+    "areaName": "秋田県",
+    "year": 2013,
+    "value": 24
+  },
+  {
+    "dataset": "culturalPropertyBuilding",
+    "areaCode": "06",
+    "areaName": "山形県",
+    "year": 2013,
+    "value": 29
+  },
+  {
+    "dataset": "culturalPropertyBuilding",
+    "areaCode": "07",
+    "areaName": "福島県",
+    "year": 2013,
+    "value": 33
+  },
+  {
+    "dataset": "culturalPropertyBuilding",
+    "areaCode": "08",
+    "areaName": "茨城県",
+    "year": 2013,
+    "value": 32
+  },
+  {
+    "dataset": "culturalPropertyBuilding",
+    "areaCode": "09",
+    "areaName": "栃木県",
+    "year": 2013,
+    "value": 31
+  },
+  {
+    "dataset": "culturalPropertyBuilding",
+    "areaCode": "10",
+    "areaName": "群馬県",
+    "year": 2013,
+    "value": 21
+  },
+  {
+    "dataset": "culturalPropertyBuilding",
+    "areaCode": "11",
+    "areaName": "埼玉県",
+    "year": 2013,
+    "value": 24
+  },
+  {
+    "dataset": "culturalPropertyBuilding",
+    "areaCode": "12",
+    "areaName": "千葉県",
+    "year": 2013,
+    "value": 29
+  },
+  {
+    "dataset": "culturalPropertyBuilding",
+    "areaCode": "13",
+    "areaName": "東京都",
+    "year": 2013,
+    "value": 72
+  },
+  {
+    "dataset": "culturalPropertyBuilding",
+    "areaCode": "14",
+    "areaName": "神奈川県",
+    "year": 2013,
+    "value": 52
+  },
+  {
+    "dataset": "culturalPropertyBuilding",
+    "areaCode": "15",
+    "areaName": "新潟県",
+    "year": 2013,
+    "value": 34
+  },
+  {
+    "dataset": "culturalPropertyBuilding",
+    "areaCode": "16",
+    "areaName": "富山県",
+    "year": 2013,
+    "value": 20
+  },
+  {
+    "dataset": "culturalPropertyBuilding",
+    "areaCode": "17",
+    "areaName": "石川県",
+    "year": 2013,
+    "value": 43
+  },
+  {
+    "dataset": "culturalPropertyBuilding",
+    "areaCode": "18",
+    "areaName": "福井県",
+    "year": 2013,
+    "value": 26
+  },
+  {
+    "dataset": "culturalPropertyBuilding",
+    "areaCode": "19",
+    "areaName": "山梨県",
+    "year": 2013,
+    "value": 51
+  },
+  {
+    "dataset": "culturalPropertyBuilding",
+    "areaCode": "20",
+    "areaName": "長野県",
+    "year": 2013,
+    "value": 86
+  },
+  {
+    "dataset": "culturalPropertyBuilding",
+    "areaCode": "21",
+    "areaName": "岐阜県",
+    "year": 2013,
+    "value": 49
+  },
+  {
+    "dataset": "culturalPropertyBuilding",
+    "areaCode": "22",
+    "areaName": "静岡県",
+    "year": 2013,
+    "value": 33
+  },
+  {
+    "dataset": "culturalPropertyBuilding",
+    "areaCode": "23",
+    "areaName": "愛知県",
+    "year": 2013,
+    "value": 76
+  },
+  {
+    "dataset": "culturalPropertyBuilding",
+    "areaCode": "24",
+    "areaName": "三重県",
+    "year": 2013,
+    "value": 23
+  },
+  {
+    "dataset": "culturalPropertyBuilding",
+    "areaCode": "25",
+    "areaName": "滋賀県",
+    "year": 2013,
+    "value": 182
+  },
+  {
+    "dataset": "culturalPropertyBuilding",
+    "areaCode": "26",
+    "areaName": "京都府",
+    "year": 2013,
+    "value": 292
+  },
+  {
+    "dataset": "culturalPropertyBuilding",
+    "areaCode": "27",
+    "areaName": "大阪府",
+    "year": 2013,
+    "value": 98
+  },
+  {
+    "dataset": "culturalPropertyBuilding",
+    "areaCode": "28",
+    "areaName": "兵庫県",
+    "year": 2013,
+    "value": 105
+  },
+  {
+    "dataset": "culturalPropertyBuilding",
+    "areaCode": "29",
+    "areaName": "奈良県",
+    "year": 2013,
+    "value": 261
+  },
+  {
+    "dataset": "culturalPropertyBuilding",
+    "areaCode": "30",
+    "areaName": "和歌山県",
+    "year": 2013,
+    "value": 78
+  },
+  {
+    "dataset": "culturalPropertyBuilding",
+    "areaCode": "31",
+    "areaName": "鳥取県",
+    "year": 2013,
+    "value": 17
+  },
+  {
+    "dataset": "culturalPropertyBuilding",
+    "areaCode": "32",
+    "areaName": "島根県",
+    "year": 2013,
+    "value": 24
+  },
+  {
+    "dataset": "culturalPropertyBuilding",
+    "areaCode": "33",
+    "areaName": "岡山県",
+    "year": 2013,
+    "value": 55
+  },
+  {
+    "dataset": "culturalPropertyBuilding",
+    "areaCode": "34",
+    "areaName": "広島県",
+    "year": 2013,
+    "value": 62
+  },
+  {
+    "dataset": "culturalPropertyBuilding",
+    "areaCode": "35",
+    "areaName": "山口県",
+    "year": 2013,
+    "value": 38
+  },
+  {
+    "dataset": "culturalPropertyBuilding",
+    "areaCode": "36",
+    "areaName": "徳島県",
+    "year": 2013,
+    "value": 17
+  },
+  {
+    "dataset": "culturalPropertyBuilding",
+    "areaCode": "37",
+    "areaName": "香川県",
+    "year": 2013,
+    "value": 28
+  },
+  {
+    "dataset": "culturalPropertyBuilding",
+    "areaCode": "38",
+    "areaName": "愛媛県",
+    "year": 2013,
+    "value": 47
+  },
+  {
+    "dataset": "culturalPropertyBuilding",
+    "areaCode": "39",
+    "areaName": "高知県",
+    "year": 2013,
+    "value": 20
+  },
+  {
+    "dataset": "culturalPropertyBuilding",
+    "areaCode": "40",
+    "areaName": "福岡県",
+    "year": 2013,
+    "value": 38
+  },
+  {
+    "dataset": "culturalPropertyBuilding",
+    "areaCode": "41",
+    "areaName": "佐賀県",
+    "year": 2013,
+    "value": 13
+  },
+  {
+    "dataset": "culturalPropertyBuilding",
+    "areaCode": "42",
+    "areaName": "長崎県",
+    "year": 2013,
+    "value": 34
+  },
+  {
+    "dataset": "culturalPropertyBuilding",
+    "areaCode": "43",
+    "areaName": "熊本県",
+    "year": 2013,
+    "value": 30
+  },
+  {
+    "dataset": "culturalPropertyBuilding",
+    "areaCode": "44",
+    "areaName": "大分県",
+    "year": 2013,
+    "value": 31
+  },
+  {
+    "dataset": "culturalPropertyBuilding",
+    "areaCode": "45",
+    "areaName": "宮崎県",
+    "year": 2013,
+    "value": 9
+  },
+  {
+    "dataset": "culturalPropertyBuilding",
+    "areaCode": "46",
+    "areaName": "鹿児島県",
+    "year": 2013,
+    "value": 10
+  },
+  {
+    "dataset": "culturalPropertyBuilding",
+    "areaCode": "47",
+    "areaName": "沖縄県",
+    "year": 2013,
+    "value": 21
+  }
+]

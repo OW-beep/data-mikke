@@ -1,0 +1,331 @@
+[
+  {
+    "dataset": "lifeExpectancyFemale",
+    "areaCode": "25",
+    "areaName": "滋賀県",
+    "year": 2020,
+    "value": 88.26
+  },
+  {
+    "dataset": "lifeExpectancyFemale",
+    "areaCode": "20",
+    "areaName": "長野県",
+    "year": 2020,
+    "value": 88.23
+  },
+  {
+    "dataset": "lifeExpectancyFemale",
+    "areaCode": "29",
+    "areaName": "奈良県",
+    "year": 2020,
+    "value": 87.95
+  },
+  {
+    "dataset": "lifeExpectancyFemale",
+    "areaCode": "26",
+    "areaName": "京都府",
+    "year": 2020,
+    "value": 88.25
+  },
+  {
+    "dataset": "lifeExpectancyFemale",
+    "areaCode": "14",
+    "areaName": "神奈川県",
+    "year": 2020,
+    "value": 87.89
+  },
+  {
+    "dataset": "lifeExpectancyFemale",
+    "areaCode": "17",
+    "areaName": "石川県",
+    "year": 2020,
+    "value": 88.11
+  },
+  {
+    "dataset": "lifeExpectancyFemale",
+    "areaCode": "18",
+    "areaName": "福井県",
+    "year": 2020,
+    "value": 87.84
+  },
+  {
+    "dataset": "lifeExpectancyFemale",
+    "areaCode": "34",
+    "areaName": "広島県",
+    "year": 2020,
+    "value": 88.16
+  },
+  {
+    "dataset": "lifeExpectancyFemale",
+    "areaCode": "43",
+    "areaName": "熊本県",
+    "year": 2020,
+    "value": 88.22
+  },
+  {
+    "dataset": "lifeExpectancyFemale",
+    "areaCode": "21",
+    "areaName": "岐阜県",
+    "year": 2020,
+    "value": 87.51
+  },
+  {
+    "dataset": "lifeExpectancyFemale",
+    "areaCode": "33",
+    "areaName": "岡山県",
+    "year": 2020,
+    "value": 88.29
+  },
+  {
+    "dataset": "lifeExpectancyFemale",
+    "areaCode": "44",
+    "areaName": "大分県",
+    "year": 2020,
+    "value": 87.99
+  },
+  {
+    "dataset": "lifeExpectancyFemale",
+    "areaCode": "13",
+    "areaName": "東京都",
+    "year": 2020,
+    "value": 87.86
+  },
+  {
+    "dataset": "lifeExpectancyFemale",
+    "areaCode": "23",
+    "areaName": "愛知県",
+    "year": 2020,
+    "value": 87.52
+  },
+  {
+    "dataset": "lifeExpectancyFemale",
+    "areaCode": "16",
+    "areaName": "富山県",
+    "year": 2020,
+    "value": 87.97
+  },
+  {
+    "dataset": "lifeExpectancyFemale",
+    "areaCode": "28",
+    "areaName": "兵庫県",
+    "year": 2020,
+    "value": 87.9
+  },
+  {
+    "dataset": "lifeExpectancyFemale",
+    "areaCode": "19",
+    "areaName": "山梨県",
+    "year": 2020,
+    "value": 87.94
+  },
+  {
+    "dataset": "lifeExpectancyFemale",
+    "areaCode": "04",
+    "areaName": "宮城県",
+    "year": 2020,
+    "value": 87.51
+  },
+  {
+    "dataset": "lifeExpectancyFemale",
+    "areaCode": "24",
+    "areaName": "三重県",
+    "year": 2020,
+    "value": 87.59
+  },
+  {
+    "dataset": "lifeExpectancyFemale",
+    "areaCode": "32",
+    "areaName": "島根県",
+    "year": 2020,
+    "value": 88.21
+  },
+  {
+    "dataset": "lifeExpectancyFemale",
+    "areaCode": "22",
+    "areaName": "静岡県",
+    "year": 2020,
+    "value": 87.48
+  },
+  {
+    "dataset": "lifeExpectancyFemale",
+    "areaCode": "37",
+    "areaName": "香川県",
+    "year": 2020,
+    "value": 87.64
+  },
+  {
+    "dataset": "lifeExpectancyFemale",
+    "areaCode": "12",
+    "areaName": "千葉県",
+    "year": 2020,
+    "value": 87.5
+  },
+  {
+    "dataset": "lifeExpectancyFemale",
+    "areaCode": "11",
+    "areaName": "埼玉県",
+    "year": 2020,
+    "value": 87.31
+  },
+  {
+    "dataset": "lifeExpectancyFemale",
+    "areaCode": "41",
+    "areaName": "佐賀県",
+    "year": 2020,
+    "value": 87.78
+  },
+  {
+    "dataset": "lifeExpectancyFemale",
+    "areaCode": "06",
+    "areaName": "山形県",
+    "year": 2020,
+    "value": 87.38
+  },
+  {
+    "dataset": "lifeExpectancyFemale",
+    "areaCode": "40",
+    "areaName": "福岡県",
+    "year": 2020,
+    "value": 87.7
+  },
+  {
+    "dataset": "lifeExpectancyFemale",
+    "areaCode": "31",
+    "areaName": "鳥取県",
+    "year": 2020,
+    "value": 87.91
+  },
+  {
+    "dataset": "lifeExpectancyFemale",
+    "areaCode": "15",
+    "areaName": "新潟県",
+    "year": 2020,
+    "value": 87.57
+  },
+  {
+    "dataset": "lifeExpectancyFemale",
+    "areaCode": "36",
+    "areaName": "徳島県",
+    "year": 2020,
+    "value": 87.42
+  },
+  {
+    "dataset": "lifeExpectancyFemale",
+    "areaCode": "45",
+    "areaName": "宮崎県",
+    "year": 2020,
+    "value": 87.6
+  },
+  {
+    "dataset": "lifeExpectancyFemale",
+    "areaCode": "10",
+    "areaName": "群馬県",
+    "year": 2020,
+    "value": 87.18
+  },
+  {
+    "dataset": "lifeExpectancyFemale",
+    "areaCode": "38",
+    "areaName": "愛媛県",
+    "year": 2020,
+    "value": 87.34
+  },
+  {
+    "dataset": "lifeExpectancyFemale",
+    "areaCode": "35",
+    "areaName": "山口県",
+    "year": 2020,
+    "value": 87.43
+  },
+  {
+    "dataset": "lifeExpectancyFemale",
+    "areaCode": "30",
+    "areaName": "和歌山県",
+    "year": 2020,
+    "value": 87.36
+  },
+  {
+    "dataset": "lifeExpectancyFemale",
+    "areaCode": "42",
+    "areaName": "長崎県",
+    "year": 2020,
+    "value": 87.41
+  },
+  {
+    "dataset": "lifeExpectancyFemale",
+    "areaCode": "09",
+    "areaName": "栃木県",
+    "year": 2020,
+    "value": 86.89
+  },
+  {
+    "dataset": "lifeExpectancyFemale",
+    "areaCode": "46",
+    "areaName": "鹿児島県",
+    "year": 2020,
+    "value": 87.53
+  },
+  {
+    "dataset": "lifeExpectancyFemale",
+    "areaCode": "01",
+    "areaName": "北海道",
+    "year": 2020,
+    "value": 87.08
+  },
+  {
+    "dataset": "lifeExpectancyFemale",
+    "areaCode": "08",
+    "areaName": "茨城県",
+    "year": 2020,
+    "value": 86.94
+  },
+  {
+    "dataset": "lifeExpectancyFemale",
+    "areaCode": "27",
+    "areaName": "大阪府",
+    "year": 2020,
+    "value": 87.37
+  },
+  {
+    "dataset": "lifeExpectancyFemale",
+    "areaCode": "39",
+    "areaName": "高知県",
+    "year": 2020,
+    "value": 87.84
+  },
+  {
+    "dataset": "lifeExpectancyFemale",
+    "areaCode": "47",
+    "areaName": "沖縄県",
+    "year": 2020,
+    "value": 87.88
+  },
+  {
+    "dataset": "lifeExpectancyFemale",
+    "areaCode": "03",
+    "areaName": "岩手県",
+    "year": 2020,
+    "value": 87.05
+  },
+  {
+    "dataset": "lifeExpectancyFemale",
+    "areaCode": "07",
+    "areaName": "福島県",
+    "year": 2020,
+    "value": 86.81
+  },
+  {
+    "dataset": "lifeExpectancyFemale",
+    "areaCode": "05",
+    "areaName": "秋田県",
+    "year": 2020,
+    "value": 87.1
+  },
+  {
+    "dataset": "lifeExpectancyFemale",
+    "areaCode": "02",
+    "areaName": "青森県",
+    "year": 2020,
+    "value": 86.33
+  }
+]

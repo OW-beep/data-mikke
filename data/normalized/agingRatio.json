@@ -1,0 +1,1647 @@
+[
+  {
+    "dataset": "agingRatio",
+    "areaCode": "01",
+    "areaName": "北海道",
+    "year": 2020,
+    "value": 30
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "01",
+    "areaName": "北海道",
+    "year": 2021,
+    "value": 30.2
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "01",
+    "areaName": "北海道",
+    "year": 2022,
+    "value": 30.3
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "01",
+    "areaName": "北海道",
+    "year": 2023,
+    "value": 30.5
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "01",
+    "areaName": "北海道",
+    "year": 2024,
+    "value": 30.6
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "02",
+    "areaName": "青森県",
+    "year": 2020,
+    "value": 30.6
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "02",
+    "areaName": "青森県",
+    "year": 2021,
+    "value": 30.8
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "02",
+    "areaName": "青森県",
+    "year": 2022,
+    "value": 30.9
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "02",
+    "areaName": "青森県",
+    "year": 2023,
+    "value": 31.1
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "02",
+    "areaName": "青森県",
+    "year": 2024,
+    "value": 31.2
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "03",
+    "areaName": "岩手県",
+    "year": 2020,
+    "value": 31.2
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "03",
+    "areaName": "岩手県",
+    "year": 2021,
+    "value": 31.4
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "03",
+    "areaName": "岩手県",
+    "year": 2022,
+    "value": 31.5
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "03",
+    "areaName": "岩手県",
+    "year": 2023,
+    "value": 31.7
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "03",
+    "areaName": "岩手県",
+    "year": 2024,
+    "value": 31.8
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "04",
+    "areaName": "宮城県",
+    "year": 2020,
+    "value": 31.8
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "04",
+    "areaName": "宮城県",
+    "year": 2021,
+    "value": 31.9
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "04",
+    "areaName": "宮城県",
+    "year": 2022,
+    "value": 32.1
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "04",
+    "areaName": "宮城県",
+    "year": 2023,
+    "value": 32.3
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "04",
+    "areaName": "宮城県",
+    "year": 2024,
+    "value": 32.4
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "05",
+    "areaName": "秋田県",
+    "year": 2020,
+    "value": 38.9
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "05",
+    "areaName": "秋田県",
+    "year": 2021,
+    "value": 39
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "05",
+    "areaName": "秋田県",
+    "year": 2022,
+    "value": 39.2
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "05",
+    "areaName": "秋田県",
+    "year": 2023,
+    "value": 39.4
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "05",
+    "areaName": "秋田県",
+    "year": 2024,
+    "value": 39.5
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "06",
+    "areaName": "山形県",
+    "year": 2020,
+    "value": 33
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "06",
+    "areaName": "山形県",
+    "year": 2021,
+    "value": 33.1
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "06",
+    "areaName": "山形県",
+    "year": 2022,
+    "value": 33.3
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "06",
+    "areaName": "山形県",
+    "year": 2023,
+    "value": 33.5
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "06",
+    "areaName": "山形県",
+    "year": 2024,
+    "value": 33.6
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "07",
+    "areaName": "福島県",
+    "year": 2020,
+    "value": 33.6
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "07",
+    "areaName": "福島県",
+    "year": 2021,
+    "value": 33.8
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "07",
+    "areaName": "福島県",
+    "year": 2022,
+    "value": 33.9
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "07",
+    "areaName": "福島県",
+    "year": 2023,
+    "value": 34.1
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "07",
+    "areaName": "福島県",
+    "year": 2024,
+    "value": 34.2
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "08",
+    "areaName": "茨城県",
+    "year": 2020,
+    "value": 34.2
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "08",
+    "areaName": "茨城県",
+    "year": 2021,
+    "value": 34.3
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "08",
+    "areaName": "茨城県",
+    "year": 2022,
+    "value": 34.5
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "08",
+    "areaName": "茨城県",
+    "year": 2023,
+    "value": 34.6
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "08",
+    "areaName": "茨城県",
+    "year": 2024,
+    "value": 34.8
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "09",
+    "areaName": "栃木県",
+    "year": 2020,
+    "value": 34.8
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "09",
+    "areaName": "栃木県",
+    "year": 2021,
+    "value": 34.9
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "09",
+    "areaName": "栃木県",
+    "year": 2022,
+    "value": 35.1
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "09",
+    "areaName": "栃木県",
+    "year": 2023,
+    "value": 35.3
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "09",
+    "areaName": "栃木県",
+    "year": 2024,
+    "value": 35.4
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "10",
+    "areaName": "群馬県",
+    "year": 2020,
+    "value": 29.4
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "10",
+    "areaName": "群馬県",
+    "year": 2021,
+    "value": 29.6
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "10",
+    "areaName": "群馬県",
+    "year": 2022,
+    "value": 29.7
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "10",
+    "areaName": "群馬県",
+    "year": 2023,
+    "value": 29.9
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "10",
+    "areaName": "群馬県",
+    "year": 2024,
+    "value": 30
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "11",
+    "areaName": "埼玉県",
+    "year": 2020,
+    "value": 30
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "11",
+    "areaName": "埼玉県",
+    "year": 2021,
+    "value": 30.2
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "11",
+    "areaName": "埼玉県",
+    "year": 2022,
+    "value": 30.3
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "11",
+    "areaName": "埼玉県",
+    "year": 2023,
+    "value": 30.5
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "11",
+    "areaName": "埼玉県",
+    "year": 2024,
+    "value": 30.6
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "12",
+    "areaName": "千葉県",
+    "year": 2020,
+    "value": 30.6
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "12",
+    "areaName": "千葉県",
+    "year": 2021,
+    "value": 30.8
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "12",
+    "areaName": "千葉県",
+    "year": 2022,
+    "value": 30.9
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "12",
+    "areaName": "千葉県",
+    "year": 2023,
+    "value": 31.1
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "12",
+    "areaName": "千葉県",
+    "year": 2024,
+    "value": 31.2
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "13",
+    "areaName": "東京都",
+    "year": 2020,
+    "value": 22.3
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "13",
+    "areaName": "東京都",
+    "year": 2021,
+    "value": 22.4
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "13",
+    "areaName": "東京都",
+    "year": 2022,
+    "value": 22.6
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "13",
+    "areaName": "東京都",
+    "year": 2023,
+    "value": 22.8
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "13",
+    "areaName": "東京都",
+    "year": 2024,
+    "value": 22.9
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "14",
+    "areaName": "神奈川県",
+    "year": 2020,
+    "value": 31.8
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "14",
+    "areaName": "神奈川県",
+    "year": 2021,
+    "value": 31.9
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "14",
+    "areaName": "神奈川県",
+    "year": 2022,
+    "value": 32.1
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "14",
+    "areaName": "神奈川県",
+    "year": 2023,
+    "value": 32.3
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "14",
+    "areaName": "神奈川県",
+    "year": 2024,
+    "value": 32.4
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "15",
+    "areaName": "新潟県",
+    "year": 2020,
+    "value": 32.4
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "15",
+    "areaName": "新潟県",
+    "year": 2021,
+    "value": 32.5
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "15",
+    "areaName": "新潟県",
+    "year": 2022,
+    "value": 32.7
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "15",
+    "areaName": "新潟県",
+    "year": 2023,
+    "value": 32.9
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "15",
+    "areaName": "新潟県",
+    "year": 2024,
+    "value": 33
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "16",
+    "areaName": "富山県",
+    "year": 2020,
+    "value": 33
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "16",
+    "areaName": "富山県",
+    "year": 2021,
+    "value": 33.1
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "16",
+    "areaName": "富山県",
+    "year": 2022,
+    "value": 33.3
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "16",
+    "areaName": "富山県",
+    "year": 2023,
+    "value": 33.5
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "16",
+    "areaName": "富山県",
+    "year": 2024,
+    "value": 33.6
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "17",
+    "areaName": "石川県",
+    "year": 2020,
+    "value": 33.6
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "17",
+    "areaName": "石川県",
+    "year": 2021,
+    "value": 33.8
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "17",
+    "areaName": "石川県",
+    "year": 2022,
+    "value": 33.9
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "17",
+    "areaName": "石川県",
+    "year": 2023,
+    "value": 34.1
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "17",
+    "areaName": "石川県",
+    "year": 2024,
+    "value": 34.2
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "18",
+    "areaName": "福井県",
+    "year": 2020,
+    "value": 34.2
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "18",
+    "areaName": "福井県",
+    "year": 2021,
+    "value": 34.3
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "18",
+    "areaName": "福井県",
+    "year": 2022,
+    "value": 34.5
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "18",
+    "areaName": "福井県",
+    "year": 2023,
+    "value": 34.6
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "18",
+    "areaName": "福井県",
+    "year": 2024,
+    "value": 34.8
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "19",
+    "areaName": "山梨県",
+    "year": 2020,
+    "value": 34.8
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "19",
+    "areaName": "山梨県",
+    "year": 2021,
+    "value": 34.9
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "19",
+    "areaName": "山梨県",
+    "year": 2022,
+    "value": 35.1
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "19",
+    "areaName": "山梨県",
+    "year": 2023,
+    "value": 35.3
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "19",
+    "areaName": "山梨県",
+    "year": 2024,
+    "value": 35.4
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "20",
+    "areaName": "長野県",
+    "year": 2020,
+    "value": 29.4
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "20",
+    "areaName": "長野県",
+    "year": 2021,
+    "value": 29.6
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "20",
+    "areaName": "長野県",
+    "year": 2022,
+    "value": 29.7
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "20",
+    "areaName": "長野県",
+    "year": 2023,
+    "value": 29.9
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "20",
+    "areaName": "長野県",
+    "year": 2024,
+    "value": 30
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "21",
+    "areaName": "岐阜県",
+    "year": 2020,
+    "value": 30
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "21",
+    "areaName": "岐阜県",
+    "year": 2021,
+    "value": 30.2
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "21",
+    "areaName": "岐阜県",
+    "year": 2022,
+    "value": 30.3
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "21",
+    "areaName": "岐阜県",
+    "year": 2023,
+    "value": 30.5
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "21",
+    "areaName": "岐阜県",
+    "year": 2024,
+    "value": 30.6
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "22",
+    "areaName": "静岡県",
+    "year": 2020,
+    "value": 30.6
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "22",
+    "areaName": "静岡県",
+    "year": 2021,
+    "value": 30.8
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "22",
+    "areaName": "静岡県",
+    "year": 2022,
+    "value": 30.9
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "22",
+    "areaName": "静岡県",
+    "year": 2023,
+    "value": 31.1
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "22",
+    "areaName": "静岡県",
+    "year": 2024,
+    "value": 31.2
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "23",
+    "areaName": "愛知県",
+    "year": 2020,
+    "value": 31.2
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "23",
+    "areaName": "愛知県",
+    "year": 2021,
+    "value": 31.4
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "23",
+    "areaName": "愛知県",
+    "year": 2022,
+    "value": 31.5
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "23",
+    "areaName": "愛知県",
+    "year": 2023,
+    "value": 31.7
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "23",
+    "areaName": "愛知県",
+    "year": 2024,
+    "value": 31.8
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "24",
+    "areaName": "三重県",
+    "year": 2020,
+    "value": 31.8
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "24",
+    "areaName": "三重県",
+    "year": 2021,
+    "value": 31.9
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "24",
+    "areaName": "三重県",
+    "year": 2022,
+    "value": 32.1
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "24",
+    "areaName": "三重県",
+    "year": 2023,
+    "value": 32.3
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "24",
+    "areaName": "三重県",
+    "year": 2024,
+    "value": 32.4
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "25",
+    "areaName": "滋賀県",
+    "year": 2020,
+    "value": 32.4
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "25",
+    "areaName": "滋賀県",
+    "year": 2021,
+    "value": 32.5
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "25",
+    "areaName": "滋賀県",
+    "year": 2022,
+    "value": 32.7
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "25",
+    "areaName": "滋賀県",
+    "year": 2023,
+    "value": 32.9
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "25",
+    "areaName": "滋賀県",
+    "year": 2024,
+    "value": 33
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "26",
+    "areaName": "京都府",
+    "year": 2020,
+    "value": 33
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "26",
+    "areaName": "京都府",
+    "year": 2021,
+    "value": 33.1
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "26",
+    "areaName": "京都府",
+    "year": 2022,
+    "value": 33.3
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "26",
+    "areaName": "京都府",
+    "year": 2023,
+    "value": 33.5
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "26",
+    "areaName": "京都府",
+    "year": 2024,
+    "value": 33.6
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "27",
+    "areaName": "大阪府",
+    "year": 2020,
+    "value": 33.6
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "27",
+    "areaName": "大阪府",
+    "year": 2021,
+    "value": 33.8
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "27",
+    "areaName": "大阪府",
+    "year": 2022,
+    "value": 33.9
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "27",
+    "areaName": "大阪府",
+    "year": 2023,
+    "value": 34.1
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "27",
+    "areaName": "大阪府",
+    "year": 2024,
+    "value": 34.2
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "28",
+    "areaName": "兵庫県",
+    "year": 2020,
+    "value": 34.2
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "28",
+    "areaName": "兵庫県",
+    "year": 2021,
+    "value": 34.3
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "28",
+    "areaName": "兵庫県",
+    "year": 2022,
+    "value": 34.5
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "28",
+    "areaName": "兵庫県",
+    "year": 2023,
+    "value": 34.6
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "28",
+    "areaName": "兵庫県",
+    "year": 2024,
+    "value": 34.8
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "29",
+    "areaName": "奈良県",
+    "year": 2020,
+    "value": 34.8
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "29",
+    "areaName": "奈良県",
+    "year": 2021,
+    "value": 34.9
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "29",
+    "areaName": "奈良県",
+    "year": 2022,
+    "value": 35.1
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "29",
+    "areaName": "奈良県",
+    "year": 2023,
+    "value": 35.3
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "29",
+    "areaName": "奈良県",
+    "year": 2024,
+    "value": 35.4
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "30",
+    "areaName": "和歌山県",
+    "year": 2020,
+    "value": 29.4
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "30",
+    "areaName": "和歌山県",
+    "year": 2021,
+    "value": 29.6
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "30",
+    "areaName": "和歌山県",
+    "year": 2022,
+    "value": 29.7
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "30",
+    "areaName": "和歌山県",
+    "year": 2023,
+    "value": 29.9
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "30",
+    "areaName": "和歌山県",
+    "year": 2024,
+    "value": 30
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "31",
+    "areaName": "鳥取県",
+    "year": 2020,
+    "value": 30
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "31",
+    "areaName": "鳥取県",
+    "year": 2021,
+    "value": 30.2
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "31",
+    "areaName": "鳥取県",
+    "year": 2022,
+    "value": 30.3
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "31",
+    "areaName": "鳥取県",
+    "year": 2023,
+    "value": 30.5
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "31",
+    "areaName": "鳥取県",
+    "year": 2024,
+    "value": 30.6
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "32",
+    "areaName": "島根県",
+    "year": 2020,
+    "value": 30.6
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "32",
+    "areaName": "島根県",
+    "year": 2021,
+    "value": 30.8
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "32",
+    "areaName": "島根県",
+    "year": 2022,
+    "value": 30.9
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "32",
+    "areaName": "島根県",
+    "year": 2023,
+    "value": 31.1
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "32",
+    "areaName": "島根県",
+    "year": 2024,
+    "value": 31.2
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "33",
+    "areaName": "岡山県",
+    "year": 2020,
+    "value": 31.2
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "33",
+    "areaName": "岡山県",
+    "year": 2021,
+    "value": 31.4
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "33",
+    "areaName": "岡山県",
+    "year": 2022,
+    "value": 31.5
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "33",
+    "areaName": "岡山県",
+    "year": 2023,
+    "value": 31.7
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "33",
+    "areaName": "岡山県",
+    "year": 2024,
+    "value": 31.8
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "34",
+    "areaName": "広島県",
+    "year": 2020,
+    "value": 31.8
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "34",
+    "areaName": "広島県",
+    "year": 2021,
+    "value": 31.9
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "34",
+    "areaName": "広島県",
+    "year": 2022,
+    "value": 32.1
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "34",
+    "areaName": "広島県",
+    "year": 2023,
+    "value": 32.3
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "34",
+    "areaName": "広島県",
+    "year": 2024,
+    "value": 32.4
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "35",
+    "areaName": "山口県",
+    "year": 2020,
+    "value": 32.4
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "35",
+    "areaName": "山口県",
+    "year": 2021,
+    "value": 32.5
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "35",
+    "areaName": "山口県",
+    "year": 2022,
+    "value": 32.7
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "35",
+    "areaName": "山口県",
+    "year": 2023,
+    "value": 32.9
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "35",
+    "areaName": "山口県",
+    "year": 2024,
+    "value": 33
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "36",
+    "areaName": "徳島県",
+    "year": 2020,
+    "value": 33
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "36",
+    "areaName": "徳島県",
+    "year": 2021,
+    "value": 33.1
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "36",
+    "areaName": "徳島県",
+    "year": 2022,
+    "value": 33.3
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "36",
+    "areaName": "徳島県",
+    "year": 2023,
+    "value": 33.5
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "36",
+    "areaName": "徳島県",
+    "year": 2024,
+    "value": 33.6
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "37",
+    "areaName": "香川県",
+    "year": 2020,
+    "value": 33.6
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "37",
+    "areaName": "香川県",
+    "year": 2021,
+    "value": 33.8
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "37",
+    "areaName": "香川県",
+    "year": 2022,
+    "value": 33.9
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "37",
+    "areaName": "香川県",
+    "year": 2023,
+    "value": 34.1
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "37",
+    "areaName": "香川県",
+    "year": 2024,
+    "value": 34.2
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "38",
+    "areaName": "愛媛県",
+    "year": 2020,
+    "value": 34.2
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "38",
+    "areaName": "愛媛県",
+    "year": 2021,
+    "value": 34.3
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "38",
+    "areaName": "愛媛県",
+    "year": 2022,
+    "value": 34.5
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "38",
+    "areaName": "愛媛県",
+    "year": 2023,
+    "value": 34.6
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "38",
+    "areaName": "愛媛県",
+    "year": 2024,
+    "value": 34.8
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "39",
+    "areaName": "高知県",
+    "year": 2020,
+    "value": 34.8
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "39",
+    "areaName": "高知県",
+    "year": 2021,
+    "value": 34.9
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "39",
+    "areaName": "高知県",
+    "year": 2022,
+    "value": 35.1
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "39",
+    "areaName": "高知県",
+    "year": 2023,
+    "value": 35.3
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "39",
+    "areaName": "高知県",
+    "year": 2024,
+    "value": 35.4
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "40",
+    "areaName": "福岡県",
+    "year": 2020,
+    "value": 29.4
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "40",
+    "areaName": "福岡県",
+    "year": 2021,
+    "value": 29.6
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "40",
+    "areaName": "福岡県",
+    "year": 2022,
+    "value": 29.7
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "40",
+    "areaName": "福岡県",
+    "year": 2023,
+    "value": 29.9
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "40",
+    "areaName": "福岡県",
+    "year": 2024,
+    "value": 30
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "41",
+    "areaName": "佐賀県",
+    "year": 2020,
+    "value": 30
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "41",
+    "areaName": "佐賀県",
+    "year": 2021,
+    "value": 30.2
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "41",
+    "areaName": "佐賀県",
+    "year": 2022,
+    "value": 30.3
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "41",
+    "areaName": "佐賀県",
+    "year": 2023,
+    "value": 30.5
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "41",
+    "areaName": "佐賀県",
+    "year": 2024,
+    "value": 30.6
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "42",
+    "areaName": "長崎県",
+    "year": 2020,
+    "value": 30.6
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "42",
+    "areaName": "長崎県",
+    "year": 2021,
+    "value": 30.8
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "42",
+    "areaName": "長崎県",
+    "year": 2022,
+    "value": 30.9
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "42",
+    "areaName": "長崎県",
+    "year": 2023,
+    "value": 31.1
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "42",
+    "areaName": "長崎県",
+    "year": 2024,
+    "value": 31.2
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "43",
+    "areaName": "熊本県",
+    "year": 2020,
+    "value": 31.2
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "43",
+    "areaName": "熊本県",
+    "year": 2021,
+    "value": 31.4
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "43",
+    "areaName": "熊本県",
+    "year": 2022,
+    "value": 31.5
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "43",
+    "areaName": "熊本県",
+    "year": 2023,
+    "value": 31.7
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "43",
+    "areaName": "熊本県",
+    "year": 2024,
+    "value": 31.8
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "44",
+    "areaName": "大分県",
+    "year": 2020,
+    "value": 31.8
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "44",
+    "areaName": "大分県",
+    "year": 2021,
+    "value": 31.9
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "44",
+    "areaName": "大分県",
+    "year": 2022,
+    "value": 32.1
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "44",
+    "areaName": "大分県",
+    "year": 2023,
+    "value": 32.3
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "44",
+    "areaName": "大分県",
+    "year": 2024,
+    "value": 32.4
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "45",
+    "areaName": "宮崎県",
+    "year": 2020,
+    "value": 32.4
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "45",
+    "areaName": "宮崎県",
+    "year": 2021,
+    "value": 32.5
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "45",
+    "areaName": "宮崎県",
+    "year": 2022,
+    "value": 32.7
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "45",
+    "areaName": "宮崎県",
+    "year": 2023,
+    "value": 32.9
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "45",
+    "areaName": "宮崎県",
+    "year": 2024,
+    "value": 33
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "46",
+    "areaName": "鹿児島県",
+    "year": 2020,
+    "value": 33
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "46",
+    "areaName": "鹿児島県",
+    "year": 2021,
+    "value": 33.1
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "46",
+    "areaName": "鹿児島県",
+    "year": 2022,
+    "value": 33.3
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "46",
+    "areaName": "鹿児島県",
+    "year": 2023,
+    "value": 33.5
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "46",
+    "areaName": "鹿児島県",
+    "year": 2024,
+    "value": 33.6
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "47",
+    "areaName": "沖縄県",
+    "year": 2020,
+    "value": 22.9
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "47",
+    "areaName": "沖縄県",
+    "year": 2021,
+    "value": 23.1
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "47",
+    "areaName": "沖縄県",
+    "year": 2022,
+    "value": 23.2
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "47",
+    "areaName": "沖縄県",
+    "year": 2023,
+    "value": 23.4
+  },
+  {
+    "dataset": "agingRatio",
+    "areaCode": "47",
+    "areaName": "沖縄県",
+    "year": 2024,
+    "value": 23.5
+  }
+]

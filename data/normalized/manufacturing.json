@@ -1,0 +1,331 @@
+[
+  {
+    "dataset": "manufacturing",
+    "areaCode": "01",
+    "areaName": "北海道",
+    "year": 2013,
+    "value": 6385147
+  },
+  {
+    "dataset": "manufacturing",
+    "areaCode": "02",
+    "areaName": "青森県",
+    "year": 2013,
+    "value": 1520298
+  },
+  {
+    "dataset": "manufacturing",
+    "areaCode": "03",
+    "areaName": "岩手県",
+    "year": 2013,
+    "value": 2267151
+  },
+  {
+    "dataset": "manufacturing",
+    "areaCode": "04",
+    "areaName": "宮城県",
+    "year": 2013,
+    "value": 3726535
+  },
+  {
+    "dataset": "manufacturing",
+    "areaCode": "05",
+    "areaName": "秋田県",
+    "year": 2013,
+    "value": 1106465
+  },
+  {
+    "dataset": "manufacturing",
+    "areaCode": "06",
+    "areaName": "山形県",
+    "year": 2013,
+    "value": 2395796
+  },
+  {
+    "dataset": "manufacturing",
+    "areaCode": "07",
+    "areaName": "福島県",
+    "year": 2013,
+    "value": 4762508
+  },
+  {
+    "dataset": "manufacturing",
+    "areaCode": "08",
+    "areaName": "茨城県",
+    "year": 2013,
+    "value": 10901331
+  },
+  {
+    "dataset": "manufacturing",
+    "areaCode": "09",
+    "areaName": "栃木県",
+    "year": 2013,
+    "value": 8179507
+  },
+  {
+    "dataset": "manufacturing",
+    "areaCode": "10",
+    "areaName": "群馬県",
+    "year": 2013,
+    "value": 7722701
+  },
+  {
+    "dataset": "manufacturing",
+    "areaCode": "11",
+    "areaName": "埼玉県",
+    "year": 2013,
+    "value": 11787702
+  },
+  {
+    "dataset": "manufacturing",
+    "areaCode": "12",
+    "areaName": "千葉県",
+    "year": 2013,
+    "value": 13003297
+  },
+  {
+    "dataset": "manufacturing",
+    "areaCode": "13",
+    "areaName": "東京都",
+    "year": 2013,
+    "value": 7851824
+  },
+  {
+    "dataset": "manufacturing",
+    "areaCode": "14",
+    "areaName": "神奈川県",
+    "year": 2013,
+    "value": 17226142
+  },
+  {
+    "dataset": "manufacturing",
+    "areaCode": "15",
+    "areaName": "新潟県",
+    "year": 2013,
+    "value": 4405065
+  },
+  {
+    "dataset": "manufacturing",
+    "areaCode": "16",
+    "areaName": "富山県",
+    "year": 2013,
+    "value": 3331418
+  },
+  {
+    "dataset": "manufacturing",
+    "areaCode": "17",
+    "areaName": "石川県",
+    "year": 2013,
+    "value": 2424273
+  },
+  {
+    "dataset": "manufacturing",
+    "areaCode": "18",
+    "areaName": "福井県",
+    "year": 2013,
+    "value": 1830135
+  },
+  {
+    "dataset": "manufacturing",
+    "areaCode": "19",
+    "areaName": "山梨県",
+    "year": 2013,
+    "value": 1985155
+  },
+  {
+    "dataset": "manufacturing",
+    "areaCode": "20",
+    "areaName": "長野県",
+    "year": 2013,
+    "value": 5112535
+  },
+  {
+    "dataset": "manufacturing",
+    "areaCode": "21",
+    "areaName": "岐阜県",
+    "year": 2013,
+    "value": 4797431
+  },
+  {
+    "dataset": "manufacturing",
+    "areaCode": "22",
+    "areaName": "静岡県",
+    "year": 2013,
+    "value": 15699131
+  },
+  {
+    "dataset": "manufacturing",
+    "areaCode": "23",
+    "areaName": "愛知県",
+    "year": 2013,
+    "value": 42001844
+  },
+  {
+    "dataset": "manufacturing",
+    "areaCode": "24",
+    "areaName": "三重県",
+    "year": 2013,
+    "value": 10409249
+  },
+  {
+    "dataset": "manufacturing",
+    "areaCode": "25",
+    "areaName": "滋賀県",
+    "year": 2013,
+    "value": 6435202
+  },
+  {
+    "dataset": "manufacturing",
+    "areaCode": "26",
+    "areaName": "京都府",
+    "year": 2013,
+    "value": 4560516
+  },
+  {
+    "dataset": "manufacturing",
+    "areaCode": "27",
+    "areaName": "大阪府",
+    "year": 2013,
+    "value": 16024460
+  },
+  {
+    "dataset": "manufacturing",
+    "areaCode": "28",
+    "areaName": "兵庫県",
+    "year": 2013,
+    "value": 14026866
+  },
+  {
+    "dataset": "manufacturing",
+    "areaCode": "29",
+    "areaName": "奈良県",
+    "year": 2013,
+    "value": 1848195
+  },
+  {
+    "dataset": "manufacturing",
+    "areaCode": "30",
+    "areaName": "和歌山県",
+    "year": 2013,
+    "value": 2972305
+  },
+  {
+    "dataset": "manufacturing",
+    "areaCode": "31",
+    "areaName": "鳥取県",
+    "year": 2013,
+    "value": 655290
+  },
+  {
+    "dataset": "manufacturing",
+    "areaCode": "32",
+    "areaName": "島根県",
+    "year": 2013,
+    "value": 1004306
+  },
+  {
+    "dataset": "manufacturing",
+    "areaCode": "33",
+    "areaName": "岡山県",
+    "year": 2013,
+    "value": 7673681
+  },
+  {
+    "dataset": "manufacturing",
+    "areaCode": "34",
+    "areaName": "広島県",
+    "year": 2013,
+    "value": 8555642
+  },
+  {
+    "dataset": "manufacturing",
+    "areaCode": "35",
+    "areaName": "山口県",
+    "year": 2013,
+    "value": 6797922
+  },
+  {
+    "dataset": "manufacturing",
+    "areaCode": "36",
+    "areaName": "徳島県",
+    "year": 2013,
+    "value": 1712207
+  },
+  {
+    "dataset": "manufacturing",
+    "areaCode": "37",
+    "areaName": "香川県",
+    "year": 2013,
+    "value": 2283571
+  },
+  {
+    "dataset": "manufacturing",
+    "areaCode": "38",
+    "areaName": "愛媛県",
+    "year": 2013,
+    "value": 4067759
+  },
+  {
+    "dataset": "manufacturing",
+    "areaCode": "39",
+    "areaName": "高知県",
+    "year": 2013,
+    "value": 521768
+  },
+  {
+    "dataset": "manufacturing",
+    "areaCode": "40",
+    "areaName": "福岡県",
+    "year": 2013,
+    "value": 8193015
+  },
+  {
+    "dataset": "manufacturing",
+    "areaCode": "41",
+    "areaName": "佐賀県",
+    "year": 2013,
+    "value": 1652804
+  },
+  {
+    "dataset": "manufacturing",
+    "areaCode": "42",
+    "areaName": "長崎県",
+    "year": 2013,
+    "value": 1627820
+  },
+  {
+    "dataset": "manufacturing",
+    "areaCode": "43",
+    "areaName": "熊本県",
+    "year": 2013,
+    "value": 2385012
+  },
+  {
+    "dataset": "manufacturing",
+    "areaCode": "44",
+    "areaName": "大分県",
+    "year": 2013,
+    "value": 4382787
+  },
+  {
+    "dataset": "manufacturing",
+    "areaCode": "45",
+    "areaName": "宮崎県",
+    "year": 2013,
+    "value": 1447591
+  },
+  {
+    "dataset": "manufacturing",
+    "areaCode": "46",
+    "areaName": "鹿児島県",
+    "year": 2013,
+    "value": 1802491
+  },
+  {
+    "dataset": "manufacturing",
+    "areaCode": "47",
+    "areaName": "沖縄県",
+    "year": 2013,
+    "value": 628279
+  }
+]

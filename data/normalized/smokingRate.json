@@ -1,0 +1,331 @@
+[
+  {
+    "dataset": "smokingRate",
+    "areaCode": "01",
+    "areaName": "北海道",
+    "year": 2024,
+    "value": 34.6
+  },
+  {
+    "dataset": "smokingRate",
+    "areaCode": "02",
+    "areaName": "青森県",
+    "year": 2024,
+    "value": 26.6
+  },
+  {
+    "dataset": "smokingRate",
+    "areaCode": "03",
+    "areaName": "岩手県",
+    "year": 2024,
+    "value": 28.1
+  },
+  {
+    "dataset": "smokingRate",
+    "areaCode": "04",
+    "areaName": "宮城県",
+    "year": 2024,
+    "value": 24.7
+  },
+  {
+    "dataset": "smokingRate",
+    "areaCode": "05",
+    "areaName": "秋田県",
+    "year": 2024,
+    "value": 24.2
+  },
+  {
+    "dataset": "smokingRate",
+    "areaCode": "06",
+    "areaName": "山形県",
+    "year": 2024,
+    "value": 26.3
+  },
+  {
+    "dataset": "smokingRate",
+    "areaCode": "07",
+    "areaName": "福島県",
+    "year": 2024,
+    "value": 25.1
+  },
+  {
+    "dataset": "smokingRate",
+    "areaCode": "08",
+    "areaName": "茨城県",
+    "year": 2024,
+    "value": 30.7
+  },
+  {
+    "dataset": "smokingRate",
+    "areaCode": "09",
+    "areaName": "栃木県",
+    "year": 2024,
+    "value": 22.6
+  },
+  {
+    "dataset": "smokingRate",
+    "areaCode": "10",
+    "areaName": "群馬県",
+    "year": 2024,
+    "value": 29.2
+  },
+  {
+    "dataset": "smokingRate",
+    "areaCode": "11",
+    "areaName": "埼玉県",
+    "year": 2024,
+    "value": 27.2
+  },
+  {
+    "dataset": "smokingRate",
+    "areaCode": "12",
+    "areaName": "千葉県",
+    "year": 2024,
+    "value": 28.7
+  },
+  {
+    "dataset": "smokingRate",
+    "areaCode": "13",
+    "areaName": "東京都",
+    "year": 2024,
+    "value": 20.7
+  },
+  {
+    "dataset": "smokingRate",
+    "areaCode": "14",
+    "areaName": "神奈川県",
+    "year": 2024,
+    "value": 21.1
+  },
+  {
+    "dataset": "smokingRate",
+    "areaCode": "15",
+    "areaName": "新潟県",
+    "year": 2024,
+    "value": 25.1
+  },
+  {
+    "dataset": "smokingRate",
+    "areaCode": "16",
+    "areaName": "富山県",
+    "year": 2024,
+    "value": 18.8
+  },
+  {
+    "dataset": "smokingRate",
+    "areaCode": "17",
+    "areaName": "石川県",
+    "year": 2024,
+    "value": 20
+  },
+  {
+    "dataset": "smokingRate",
+    "areaCode": "18",
+    "areaName": "福井県",
+    "year": 2024,
+    "value": 27
+  },
+  {
+    "dataset": "smokingRate",
+    "areaCode": "19",
+    "areaName": "山梨県",
+    "year": 2024,
+    "value": 22.9
+  },
+  {
+    "dataset": "smokingRate",
+    "areaCode": "20",
+    "areaName": "長野県",
+    "year": 2024,
+    "value": 20.4
+  },
+  {
+    "dataset": "smokingRate",
+    "areaCode": "21",
+    "areaName": "岐阜県",
+    "year": 2024,
+    "value": 26.2
+  },
+  {
+    "dataset": "smokingRate",
+    "areaCode": "22",
+    "areaName": "静岡県",
+    "year": 2024,
+    "value": 24.3
+  },
+  {
+    "dataset": "smokingRate",
+    "areaCode": "23",
+    "areaName": "愛知県",
+    "year": 2024,
+    "value": 20.3
+  },
+  {
+    "dataset": "smokingRate",
+    "areaCode": "24",
+    "areaName": "三重県",
+    "year": 2024,
+    "value": 19.2
+  },
+  {
+    "dataset": "smokingRate",
+    "areaCode": "25",
+    "areaName": "滋賀県",
+    "year": 2024,
+    "value": 20
+  },
+  {
+    "dataset": "smokingRate",
+    "areaCode": "26",
+    "areaName": "京都府",
+    "year": 2024,
+    "value": 19
+  },
+  {
+    "dataset": "smokingRate",
+    "areaCode": "27",
+    "areaName": "大阪府",
+    "year": 2024,
+    "value": 19.8
+  },
+  {
+    "dataset": "smokingRate",
+    "areaCode": "28",
+    "areaName": "兵庫県",
+    "year": 2024,
+    "value": 22.5
+  },
+  {
+    "dataset": "smokingRate",
+    "areaCode": "29",
+    "areaName": "奈良県",
+    "year": 2024,
+    "value": 15.6
+  },
+  {
+    "dataset": "smokingRate",
+    "areaCode": "30",
+    "areaName": "和歌山県",
+    "year": 2024,
+    "value": 23.4
+  },
+  {
+    "dataset": "smokingRate",
+    "areaCode": "31",
+    "areaName": "鳥取県",
+    "year": 2024,
+    "value": 22.8
+  },
+  {
+    "dataset": "smokingRate",
+    "areaCode": "32",
+    "areaName": "島根県",
+    "year": 2024,
+    "value": 25.4
+  },
+  {
+    "dataset": "smokingRate",
+    "areaCode": "33",
+    "areaName": "岡山県",
+    "year": 2024,
+    "value": 27.9
+  },
+  {
+    "dataset": "smokingRate",
+    "areaCode": "34",
+    "areaName": "広島県",
+    "year": 2024,
+    "value": 27.4
+  },
+  {
+    "dataset": "smokingRate",
+    "areaCode": "35",
+    "areaName": "山口県",
+    "year": 2024,
+    "value": 22.9
+  },
+  {
+    "dataset": "smokingRate",
+    "areaCode": "36",
+    "areaName": "徳島県",
+    "year": 2024,
+    "value": 18.6
+  },
+  {
+    "dataset": "smokingRate",
+    "areaCode": "37",
+    "areaName": "香川県",
+    "year": 2024,
+    "value": 25.4
+  },
+  {
+    "dataset": "smokingRate",
+    "areaCode": "38",
+    "areaName": "愛媛県",
+    "year": 2024,
+    "value": 14.5
+  },
+  {
+    "dataset": "smokingRate",
+    "areaCode": "39",
+    "areaName": "高知県",
+    "year": 2024,
+    "value": 24.5
+  },
+  {
+    "dataset": "smokingRate",
+    "areaCode": "40",
+    "areaName": "福岡県",
+    "year": 2024,
+    "value": 27.9
+  },
+  {
+    "dataset": "smokingRate",
+    "areaCode": "41",
+    "areaName": "佐賀県",
+    "year": 2024,
+    "value": 23.5
+  },
+  {
+    "dataset": "smokingRate",
+    "areaCode": "42",
+    "areaName": "長崎県",
+    "year": 2024,
+    "value": 32.7
+  },
+  {
+    "dataset": "smokingRate",
+    "areaCode": "43",
+    "areaName": "熊本県",
+    "year": 2024,
+    "value": 27.1
+  },
+  {
+    "dataset": "smokingRate",
+    "areaCode": "44",
+    "areaName": "大分県",
+    "year": 2024,
+    "value": 19.8
+  },
+  {
+    "dataset": "smokingRate",
+    "areaCode": "45",
+    "areaName": "宮崎県",
+    "year": 2024,
+    "value": 26.2
+  },
+  {
+    "dataset": "smokingRate",
+    "areaCode": "46",
+    "areaName": "鹿児島県",
+    "year": 2024,
+    "value": 20.8
+  },
+  {
+    "dataset": "smokingRate",
+    "areaCode": "47",
+    "areaName": "沖縄県",
+    "year": 2024,
+    "value": 24.8
+  }
+]

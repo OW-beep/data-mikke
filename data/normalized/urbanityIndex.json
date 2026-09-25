@@ -1,0 +1,331 @@
+[
+  {
+    "dataset": "urbanityIndex",
+    "areaCode": "01",
+    "areaName": "北海道",
+    "year": 2026,
+    "value": -1.28
+  },
+  {
+    "dataset": "urbanityIndex",
+    "areaCode": "02",
+    "areaName": "青森県",
+    "year": 2026,
+    "value": -2.92
+  },
+  {
+    "dataset": "urbanityIndex",
+    "areaCode": "03",
+    "areaName": "岩手県",
+    "year": 2026,
+    "value": -3.02
+  },
+  {
+    "dataset": "urbanityIndex",
+    "areaCode": "04",
+    "areaName": "宮城県",
+    "year": 2026,
+    "value": 0.75
+  },
+  {
+    "dataset": "urbanityIndex",
+    "areaCode": "05",
+    "areaName": "秋田県",
+    "year": 2026,
+    "value": -2.92
+  },
+  {
+    "dataset": "urbanityIndex",
+    "areaCode": "06",
+    "areaName": "山形県",
+    "year": 2026,
+    "value": -2.23
+  },
+  {
+    "dataset": "urbanityIndex",
+    "areaCode": "07",
+    "areaName": "福島県",
+    "year": 2026,
+    "value": -1.47
+  },
+  {
+    "dataset": "urbanityIndex",
+    "areaCode": "08",
+    "areaName": "茨城県",
+    "year": 2026,
+    "value": 1.36
+  },
+  {
+    "dataset": "urbanityIndex",
+    "areaCode": "09",
+    "areaName": "栃木県",
+    "year": 2026,
+    "value": 0.62
+  },
+  {
+    "dataset": "urbanityIndex",
+    "areaCode": "10",
+    "areaName": "群馬県",
+    "year": 2026,
+    "value": 0.12
+  },
+  {
+    "dataset": "urbanityIndex",
+    "areaCode": "11",
+    "areaName": "埼玉県",
+    "year": 2026,
+    "value": 3.54
+  },
+  {
+    "dataset": "urbanityIndex",
+    "areaCode": "12",
+    "areaName": "千葉県",
+    "year": 2026,
+    "value": 2.95
+  },
+  {
+    "dataset": "urbanityIndex",
+    "areaCode": "13",
+    "areaName": "東京都",
+    "year": 2026,
+    "value": 10.47
+  },
+  {
+    "dataset": "urbanityIndex",
+    "areaCode": "14",
+    "areaName": "神奈川県",
+    "year": 2026,
+    "value": 4.9
+  },
+  {
+    "dataset": "urbanityIndex",
+    "areaCode": "15",
+    "areaName": "新潟県",
+    "year": 2026,
+    "value": -1.05
+  },
+  {
+    "dataset": "urbanityIndex",
+    "areaCode": "16",
+    "areaName": "富山県",
+    "year": 2026,
+    "value": -0.81
+  },
+  {
+    "dataset": "urbanityIndex",
+    "areaCode": "17",
+    "areaName": "石川県",
+    "year": 2026,
+    "value": -0.35
+  },
+  {
+    "dataset": "urbanityIndex",
+    "areaCode": "18",
+    "areaName": "福井県",
+    "year": 2026,
+    "value": -1.16
+  },
+  {
+    "dataset": "urbanityIndex",
+    "areaCode": "19",
+    "areaName": "山梨県",
+    "year": 2026,
+    "value": -0.39
+  },
+  {
+    "dataset": "urbanityIndex",
+    "areaCode": "20",
+    "areaName": "長野県",
+    "year": 2026,
+    "value": -0.88
+  },
+  {
+    "dataset": "urbanityIndex",
+    "areaCode": "21",
+    "areaName": "岐阜県",
+    "year": 2026,
+    "value": -0.06
+  },
+  {
+    "dataset": "urbanityIndex",
+    "areaCode": "22",
+    "areaName": "静岡県",
+    "year": 2026,
+    "value": 1.39
+  },
+  {
+    "dataset": "urbanityIndex",
+    "areaCode": "23",
+    "areaName": "愛知県",
+    "year": 2026,
+    "value": 4.31
+  },
+  {
+    "dataset": "urbanityIndex",
+    "areaCode": "24",
+    "areaName": "三重県",
+    "year": 2026,
+    "value": 0.58
+  },
+  {
+    "dataset": "urbanityIndex",
+    "areaCode": "25",
+    "areaName": "滋賀県",
+    "year": 2026,
+    "value": 0.93
+  },
+  {
+    "dataset": "urbanityIndex",
+    "areaCode": "26",
+    "areaName": "京都府",
+    "year": 2026,
+    "value": 1.96
+  },
+  {
+    "dataset": "urbanityIndex",
+    "areaCode": "27",
+    "areaName": "大阪府",
+    "year": 2026,
+    "value": 5.1
+  },
+  {
+    "dataset": "urbanityIndex",
+    "areaCode": "28",
+    "areaName": "兵庫県",
+    "year": 2026,
+    "value": 2.1
+  },
+  {
+    "dataset": "urbanityIndex",
+    "areaCode": "29",
+    "areaName": "奈良県",
+    "year": 2026,
+    "value": 0.01
+  },
+  {
+    "dataset": "urbanityIndex",
+    "areaCode": "30",
+    "areaName": "和歌山県",
+    "year": 2026,
+    "value": -1.2
+  },
+  {
+    "dataset": "urbanityIndex",
+    "areaCode": "31",
+    "areaName": "鳥取県",
+    "year": 2026,
+    "value": -2.69
+  },
+  {
+    "dataset": "urbanityIndex",
+    "areaCode": "32",
+    "areaName": "島根県",
+    "year": 2026,
+    "value": -2.38
+  },
+  {
+    "dataset": "urbanityIndex",
+    "areaCode": "33",
+    "areaName": "岡山県",
+    "year": 2026,
+    "value": -0.66
+  },
+  {
+    "dataset": "urbanityIndex",
+    "areaCode": "34",
+    "areaName": "広島県",
+    "year": 2026,
+    "value": 0.41
+  },
+  {
+    "dataset": "urbanityIndex",
+    "areaCode": "35",
+    "areaName": "山口県",
+    "year": 2026,
+    "value": -0.97
+  },
+  {
+    "dataset": "urbanityIndex",
+    "areaCode": "36",
+    "areaName": "徳島県",
+    "year": 2026,
+    "value": -0.93
+  },
+  {
+    "dataset": "urbanityIndex",
+    "areaCode": "37",
+    "areaName": "香川県",
+    "year": 2026,
+    "value": -1.04
+  },
+  {
+    "dataset": "urbanityIndex",
+    "areaCode": "38",
+    "areaName": "愛媛県",
+    "year": 2026,
+    "value": -1.63
+  },
+  {
+    "dataset": "urbanityIndex",
+    "areaCode": "39",
+    "areaName": "高知県",
+    "year": 2026,
+    "value": -2.59
+  },
+  {
+    "dataset": "urbanityIndex",
+    "areaCode": "40",
+    "areaName": "福岡県",
+    "year": 2026,
+    "value": 1.12
+  },
+  {
+    "dataset": "urbanityIndex",
+    "areaCode": "41",
+    "areaName": "佐賀県",
+    "year": 2026,
+    "value": -1.59
+  },
+  {
+    "dataset": "urbanityIndex",
+    "areaCode": "42",
+    "areaName": "長崎県",
+    "year": 2026,
+    "value": -1.23
+  },
+  {
+    "dataset": "urbanityIndex",
+    "areaCode": "43",
+    "areaName": "熊本県",
+    "year": 2026,
+    "value": -1.57
+  },
+  {
+    "dataset": "urbanityIndex",
+    "areaCode": "44",
+    "areaName": "大分県",
+    "year": 2026,
+    "value": -1.51
+  },
+  {
+    "dataset": "urbanityIndex",
+    "areaCode": "45",
+    "areaName": "宮崎県",
+    "year": 2026,
+    "value": -2.16
+  },
+  {
+    "dataset": "urbanityIndex",
+    "areaCode": "46",
+    "areaName": "鹿児島県",
+    "year": 2026,
+    "value": -2.27
+  },
+  {
+    "dataset": "urbanityIndex",
+    "areaCode": "47",
+    "areaName": "沖縄県",
+    "year": 2026,
+    "value": 0.34
+  }
+]

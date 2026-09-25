@@ -8,6 +8,7 @@ export const ricePriceProducingRegionGap: Article = {
   publishedAt: "2026-09-20",
   relatedDataset: "ricePrice",
   affiliateKeyword: "青森県産 米",
+  relatedArticles: ["rice-price-reversal-2026-oversupply", "rice-per-capita-akita-hidden-number-one"],
   body: [
     "米の値段は全国一律ではありません。総務省の小売物価統計調査（2025年）をもとに、うるち米（5kg）の価格を都道府県別に並べてみると、最も安いのは青森県の4,112円、最も高いのは岡山県の5,195円でした。その差は1,084円。同じ5kgを買うのに、住んでいる場所で1袋あたり1,000円以上違うことになります。",
 
