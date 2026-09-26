@@ -8,6 +8,7 @@ export const rentVsCarOwnership: Article = {
   publishedAt: "2026-09-19",
   relatedDataset: "rent",
   affiliateKeyword: "ドライブレコーダー",
+  relatedArticles: ["barber-fee-ranking-kagawa-highest-okinawa-lowest", "coffee-price-ranking-miyazaki-highest-kagawa-lowest"],
   body: [
     "都道府県別のデータをいくつも突き合わせていると、たまに「ここまではっきり出るのか」という組み合わせに出会います。家賃と自動車所有数がその一つでした。相関係数は約-0.80。当サイトが扱っている指標の組み合わせの中でも、群を抜いて強い関係です。",
 
