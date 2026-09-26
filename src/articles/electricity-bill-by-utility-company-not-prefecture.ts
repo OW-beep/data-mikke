@@ -12,6 +12,7 @@ export const electricityBillByUtilityCompanyNotPrefecture: Article = {
   relatedArticles: [
     "gas-bill-income-regressive",
     "food-price-hike-september-2026-cost-index-gap",
+    "water-bill-ranking-nagasaki-highest-aichi-lowest",
     "population-density-meaning"
   ],
   table: {

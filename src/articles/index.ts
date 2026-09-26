@@ -82,6 +82,8 @@ import { foodPriceHikeSeptember2026CostIndexGap } from "./food-price-hike-septem
 import { barberFeeRankingKagawaHighestOkinawaLowest } from "./barber-fee-ranking-kagawa-highest-okinawa-lowest";
 import { coffeePriceRankingMiyazakiHighestKagawaLowest } from "./coffee-price-ranking-miyazaki-highest-kagawa-lowest";
 import { electricityBillByUtilityCompanyNotPrefecture } from "./electricity-bill-by-utility-company-not-prefecture";
+import { waterBillRankingNagasakiHighestAichiLowest } from "./water-bill-ranking-nagasaki-highest-aichi-lowest";
+import { gasolinePriceRanking2026TaxCut } from "./gasoline-price-ranking-2026-tax-cut";
 
 /**
  * ★記事追加手順★
@@ -172,7 +174,9 @@ export const ARTICLE_LIST: Article[] = [
   foodPriceHikeSeptember2026CostIndexGap,
   barberFeeRankingKagawaHighestOkinawaLowest,
   coffeePriceRankingMiyazakiHighestKagawaLowest,
-  electricityBillByUtilityCompanyNotPrefecture
+  electricityBillByUtilityCompanyNotPrefecture,
+  waterBillRankingNagasakiHighestAichiLowest,
+  gasolinePriceRanking2026TaxCut
 ].sort((a, b) => (a.publishedAt < b.publishedAt ? 1 : -1));
 
 export function getArticle(slug: string): Article | undefined {

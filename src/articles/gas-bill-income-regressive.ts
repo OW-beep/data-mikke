@@ -8,7 +8,7 @@ export const gasBillIncomeRegressive: Article = {
   publishedAt: "2026-09-18",
   relatedDataset: "gasBill",
   affiliateKeyword: "電気代 節約 グッズ",
-  relatedArticles: ["electricity-bill-by-utility-company-not-prefecture", "food-price-hike-september-2026-cost-index-gap"],
+  relatedArticles: ["electricity-bill-by-utility-company-not-prefecture", "food-price-hike-september-2026-cost-index-gap", "water-bill-ranking-nagasaki-highest-aichi-lowest"],
   body: [
     "電気やガスの料金は全国どこでも似たようなもの、と思っていないでしょうか。総務省の小売物価統計調査（2025年）を都道府県別に見ると、都市ガス代（一般家庭用・1465.12MJ利用を基準）には想像以上の開きがありました。",
 

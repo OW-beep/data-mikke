@@ -16,7 +16,8 @@ export const densityIncomeRelation: Article = {
     "population-density-meaning",
     "income-ranking-caution",
     "shipment-per-factory-scale-yamaguchi-vs-tokyo",
-    "savings-income-gap-aichi-beats-tokyo"
+    "savings-income-gap-aichi-beats-tokyo",
+    "water-bill-ranking-nagasaki-highest-aichi-lowest"
   ],
   body: [
     "「都会のほうが稼げる」というイメージは根強くありますが、実際に人口密度ランキングと県民所得ランキングを重ねてみると、その関係は多くの人が思っているほど単純ではありません。",
