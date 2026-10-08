@@ -813,3 +813,15 @@ h3 {
   border-radius: 3px;
   min-width: 4px;
 }
+
+/* 広告枠（AdSlot）。本文と区別するため余白とラベルを付ける */
+.dm-ad {
+  margin: 32px 0;
+  min-height: 120px;
+}
+.dm-ad-label {
+  margin: 0 0 4px;
+  font-size: 11px;
+  color: var(--dm-muted);
+  letter-spacing: 0.08em;
+}

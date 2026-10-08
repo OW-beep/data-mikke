@@ -11,6 +11,7 @@ import { pearsonCorrelation, describeCorrelationStrength } from "@/lib/stats";
 import { linkifyPrefectures } from "@/lib/linkifyPrefectures";
 import { searchRakutenItems } from "@/lib/rakuten";
 import { RakutenProductCard } from "@/components/RakutenProductCard";
+import { AdSlot } from "@/components/AdSlot";
 
 export function generateStaticParams() {
   return ARTICLE_LIST.map((a) => ({ slug: a.slug }));
@@ -126,6 +127,8 @@ export default async function ArticlePage({ params }: { params: { slug: string }
         ))}
       </div>
 
+      <AdSlot slotId={SITE.adsenseSlots.articleMid} clientId={SITE.adsenseClientId} />
+
       {scatterData && scatterDatasetA && scatterDatasetB && (
         <div style={{ marginTop: 32 }}>
           <h2>
@@ -221,6 +224,8 @@ export default async function ArticlePage({ params }: { params: { slug: string }
           </details>
         </div>
       )}
+
+      <AdSlot slotId={SITE.adsenseSlots.articleEnd} clientId={SITE.adsenseClientId} />
 
       {relatedArticles.length > 0 && (
         <div className="dm-related-articles">

@@ -60,6 +60,10 @@ import { birthrateSmallestGapOkinawaTokyo } from "./birthrate-smallest-gap-okina
 import { traditionalCraftsTokyoNiigataKyoto } from "./traditional-crafts-tokyo-niigata-kyoto";
 import { michinoekiHokkaidoVsTokyoOneStation } from "./michinoeki-hokkaido-vs-tokyo-one-station";
 import { onsenCountHokkaidoNaganoNiigata } from "./onsen-count-hokkaido-nagano-niigata";
+import { onsenFewestPrefecturesOkinawaTottoriOsaka } from "./onsen-fewest-prefectures-okinawa-tottori-osaka";
+import { electricityBillAnnualGapHokkaidoKansai } from "./electricity-bill-annual-gap-hokkaido-kansai";
+import { populationDensityRankingAll47Prefectures2020 } from "./population-density-ranking-all-47-prefectures-2020";
+import { kinkiSalaryIncomeComparisonNaraWakayamaMie } from "./kinki-salary-income-comparison-nara-osaka-shiga";
 import { ruralInfrastructureAreaCorrelation } from "./rural-infrastructure-area-correlation-onsen-michinoeki-craft";
 import { prefectureArchetypesPcaClusteringAnalysis } from "./prefecture-archetypes-pca-clustering-analysis";
 import { prefectureNearestNeighborStatisticalTwin } from "./prefecture-nearest-neighbor-statistical-twin";
@@ -176,7 +180,11 @@ export const ARTICLE_LIST: Article[] = [
   coffeePriceRankingMiyazakiHighestKagawaLowest,
   electricityBillByUtilityCompanyNotPrefecture,
   waterBillRankingNagasakiHighestAichiLowest,
-  gasolinePriceRanking2026TaxCut
+  gasolinePriceRanking2026TaxCut,
+  onsenFewestPrefecturesOkinawaTottoriOsaka,
+  electricityBillAnnualGapHokkaidoKansai,
+  populationDensityRankingAll47Prefectures2020,
+  kinkiSalaryIncomeComparisonNaraWakayamaMie
 ].sort((a, b) => (a.publishedAt < b.publishedAt ? 1 : -1));
 
 export function getArticle(slug: string): Article | undefined {

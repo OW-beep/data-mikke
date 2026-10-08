@@ -6,6 +6,8 @@ import { PREFECTURES, findPrefectureBySlug } from "@/lib/prefectures";
 import { COMPOSITE_METRICS, compositeComment } from "@/lib/composite";
 import { median } from "@/lib/stats";
 import { TrendChart } from "@/components/TrendChart";
+import { searchRakutenItems } from "@/lib/rakuten";
+import { RakutenProductCard } from "@/components/RakutenProductCard";
 
 export function generateStaticParams() {
   return PREFECTURES.map((p) => ({ pref: p.slug }));
@@ -23,6 +25,8 @@ export function generateMetadata({ params }: { params: { pref: string } }) {
 export default async function PrefecturePage({ params }: { params: { pref: string } }) {
   const prefecture = findPrefectureBySlug(params.pref);
   if (!prefecture) notFound();
+
+  const rakutenItems = await searchRakutenItems("引っ越し ダンボール");
 
   const rows = await Promise.all(
     DATASET_LIST.map(async (dataset) => {
@@ -219,6 +223,10 @@ export default async function PrefecturePage({ params }: { params: { pref: strin
               ))}
           </div>
         </div>
+      )}
+
+      {rakutenItems && rakutenItems.length > 0 && (
+        <RakutenProductCard heading={`${prefecture.name}での新生活・引っ越しの準備に`} items={rakutenItems} />
       )}
     </div>
   );
