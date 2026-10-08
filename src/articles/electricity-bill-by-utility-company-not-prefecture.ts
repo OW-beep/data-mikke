@@ -13,7 +13,8 @@ export const electricityBillByUtilityCompanyNotPrefecture: Article = {
     "gas-bill-income-regressive",
     "food-price-hike-september-2026-cost-index-gap",
     "water-bill-ranking-nagasaki-highest-aichi-lowest",
-    "population-density-meaning"
+    "population-density-meaning",
+    "electricity-bill-annual-gap-hokkaido-kansai"
   ],
   table: {
     title: "電力会社エリア別の電気代（月額・従量電灯50A・402kWh利用基準）",

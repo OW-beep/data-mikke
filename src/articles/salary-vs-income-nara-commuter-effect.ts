@@ -12,7 +12,7 @@ export const salaryVsIncomeNaraCommuter: Article = {
     b: "income",
     note: "点が右肩上がりの直線からどれだけ離れているかが、その県の「平均年収」と「県民所得」のズレの大きさです。奈良県は特に大きく外れています。"
   },
-  relatedArticles: ["income-ranking-caution", "savings-income-gap-aichi-beats-tokyo", "population-density-meaning"],
+  relatedArticles: ["income-ranking-caution", "savings-income-gap-aichi-beats-tokyo", "population-density-meaning", "kinki-salary-income-comparison-nara-osaka-shiga"],
   body: [
     "「奈良県 年収」や「奈良県 平均年収」と検索してこのページにたどり着いた方も多いかもしれません。結論から言うと、奈良県の平均年収は483.9万円で全国9位という高水準です。ところが、同じ奈良県の「県民所得」を見ると、全国39位という下位グループに沈みます。同じ県の経済状況を示しているはずなのに、どちらの統計を見るかで評価が正反対になる——この謎を解くカギは、県民所得と平均年収という、似ているようで実は別の統計の違いにあります。",
 

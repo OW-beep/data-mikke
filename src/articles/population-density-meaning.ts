@@ -14,7 +14,8 @@ export const populationDensityMeaning: Article = {
     "park-area-tokyo-last-hokkaido-first",
     "car-ownership-tokyo-lowest-rural-highest",
     "area-hokkaido-44-times-kagawa",
-    "prefecture-archetypes-pca-clustering-analysis"
+    "prefecture-archetypes-pca-clustering-analysis",
+    "population-density-ranking-all-47-prefectures-2020"
   ],
   body: [
     "人口密度は「人口 ÷ 面積」で計算される指標で、1平方キロメートルあたりに何人が暮らしているかを表します。当サイトのこのランキングは、人口データと国土地理院の面積データを掛け合わせて独自に算出しています。単純な人口ランキングとは順位がかなり入れ替わるのが特徴です。",
