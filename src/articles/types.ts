@@ -2,6 +2,13 @@ export interface Article {
   slug: string; // URL: /articles/{slug}
   title: string;
   excerpt: string; // 一覧ページに表示する要約
+  /**
+   * 検索結果に表示するタイトル（<title>）。未指定ならtitleを使う。
+   * 検索結果では全角30文字前後で切れるため、狙う検索語と数字を前に出した短い文にする（CTR改善用）。
+   */
+  seoTitle?: string;
+  /** 検索結果のスニペット（meta description）。未指定ならexcerptを使う。全角110文字以内を目安に、答え（数字）を先に書く */
+  metaDescription?: string;
   publishedAt: string; // "2026-07-17"
   relatedDataset?: string; // 関連するdatasets/のid（あれば内部リンクを自動生成）
   /** 記事本文の末尾に、このdataset idの47都道府県ランキング表を自動生成して埋め込む */

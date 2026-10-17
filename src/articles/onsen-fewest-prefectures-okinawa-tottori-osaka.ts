@@ -6,6 +6,9 @@ export const onsenFewestPrefecturesOkinawaTottoriOsaka: Article = {
   excerpt:
     "環境省の調査をもとに、温泉地の数が少ない都道府県を下位から並べました。最少は沖縄県の13か所、次いで鳥取県・大阪府・佐賀県・東京都。下位5県の合計は85か所で、全国2,879か所の約3%にとどまります。「少ない」の意味と、数字の読み方もあわせて解説します。",
   publishedAt: "2026-10-08",
+  seoTitle: "温泉地が少ない県ランキング｜最少は沖縄県13か所、次いで鳥取県",
+  metaDescription:
+    "温泉地が少ない都道府県を少ない順に整理。最少は沖縄県(13)、次いで鳥取県・大阪府・佐賀県・東京都。下位5県の合計は全国2,879か所の約3%です。",
   relatedDataset: "onsen",
   affiliateKeyword: "入浴剤 ギフトセット",
   embedRanking: "onsen",

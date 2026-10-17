@@ -6,6 +6,9 @@ export const culturalPropertyFourWaysToSeeIt: Article = {
   excerpt:
     "都道府県別の国宝・重要文化財数ランキングは、総数なら東京都(2,729件)・京都府(2,144件)、建造物だけなら京都府、人口あたりなら奈良県・滋賀県が1位に浮かび上がります。同じ統計でも数え方次第で1位が変わる理由を、実際の件数で解説します。",
   publishedAt: "2026-08-04",
+  seoTitle: "国宝・重要文化財ランキング｜総数1位は東京都2,729件、数え方で1位が変わる",
+  metaDescription:
+    "都道府県別の国宝・重要文化財の件数ランキング。総数は東京都(2,729件)・京都府(2,144件)、建造物は京都府、人口あたりは奈良県・滋賀県が1位に。",
   featured: true,
   relatedDataset: "culturalProperty",
   affiliateKeyword: "御朱印帳",

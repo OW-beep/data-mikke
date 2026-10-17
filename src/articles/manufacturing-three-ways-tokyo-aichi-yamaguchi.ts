@@ -6,6 +6,9 @@ export const manufacturingThreeWaysTokyoAichiYamaguchi: Article = {
   excerpt:
     "都道府県別の製造業・工業ランキングは、工場の数で測れば東京都、稼ぎ出す金額で測れば愛知県、1つの工場あたりの規模で測れば山口県が、それぞれ1位になります。同じ製造業データの3つの顔を追いました。",
   publishedAt: "2026-08-05",
+  seoTitle: "製造業ランキング 都道府県別｜工場数は東京、金額は愛知、規模は山口",
+  metaDescription:
+    "都道府県別の製造業ランキング。工場の数は東京都、稼ぐ金額は愛知県、1工場あたりの規模は山口県が1位。同じデータの3つの顔を比べました。",
   relatedDataset: "manufacturing",
   embedRanking: "factory",
   relatedArticles: [

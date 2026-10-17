@@ -6,6 +6,9 @@ export const populationDensityMeaning: Article = {
   excerpt:
     "人口密度が高い都道府県は、必ずしも人口が多い県ではありません。人口ランキングと人口密度ランキングを見比べると、順位が入れ替わる県がいくつもあります。",
   publishedAt: "2026-06-27",
+  seoTitle: "人口密度が高い県の特徴｜人口の多さではなく面積の小ささが決め手",
+  metaDescription:
+    "人口密度が高い県は、人口が多い県とは限りません。人口ランキングと人口密度ランキングを見比べ、順位が入れ替わる県とその理由を解説します。",
   relatedDataset: "density",
   embedRanking: "density",
   relatedArticles: [

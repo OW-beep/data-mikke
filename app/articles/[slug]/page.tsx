@@ -21,11 +21,11 @@ export function generateMetadata({ params }: { params: { slug: string } }) {
   const article = getArticle(params.slug);
   if (!article) return {};
   return {
-    title: article.title,
-    description: article.excerpt,
+    title: article.seoTitle ?? article.title,
+    description: article.metaDescription ?? article.excerpt,
     openGraph: {
-      title: article.title,
-      description: article.excerpt,
+      title: article.seoTitle ?? article.title,
+      description: article.metaDescription ?? article.excerpt,
       type: "article",
       publishedTime: article.publishedAt
     },

@@ -6,6 +6,9 @@ export const electricityBillAnnualGapHokkaidoKansai: Article = {
   excerpt:
     "総務省の小売物価統計調査をもとに、電気代の地域差を月額ではなく年額で計算しました。同じ使い方でも、北海道電力エリアは関西電力エリアより年間57,540円、東京電力エリアでも24,384円高くなります。地域差は自分では変えられませんが、使い方は変えられます。",
   publishedAt: "2026-10-07",
+  seoTitle: "電気代の地域差は年間いくら？北海道は関西より57,540円高い",
+  metaDescription:
+    "電力会社エリア別の電気代を年額で比較。北海道電力エリアは関西電力エリアより年間57,540円、東京電力エリアでも24,384円高くなります。",
   relatedDataset: "electricityBill",
   affiliateKeyword: "ワットチェッカー",
   embedRanking: "electricityBill",

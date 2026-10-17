@@ -6,6 +6,9 @@ export const ramenPriceRankingOkinawaHighestMiyagiLowest: Article = {
   excerpt:
     "総務省の小売物価統計調査（2025年）で、外食の中華そば1杯の価格を都道府県別に比べました。最も高いのは沖縄県の831円、最も安いのは宮城県の523円で、差は308円（約1.6倍）。東京都は714円で28位と、意外にも上位ではありません。",
   publishedAt: "2026-10-08",
+  seoTitle: "ラーメン価格ランキング 都道府県別｜1位沖縄県831円、最下位は宮城県523円",
+  metaDescription:
+    "外食の中華そば1杯の価格を都道府県別に比較（2025年）。最高は沖縄県831円、最安は宮城県523円で差は308円。東京都は714円で28位です。",
   relatedDataset: "ramenPrice",
   embedRanking: "ramenPrice",
   affiliateKeyword: "ご当地ラーメン お取り寄せ",

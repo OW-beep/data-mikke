@@ -6,6 +6,9 @@ export const kinkiSalaryIncomeComparisonNaraWakayamaMie: Article = {
   excerpt:
     "「奈良県 年収」「三重 平均」などの検索に応えて、近畿2府5県（三重県を含む）の平均年収と県民所得を並べました。平均年収では大阪府・兵庫県・滋賀県・奈良県の順ですが、県民所得では滋賀県が1位、奈良県は近畿で最下位。同じ地域でも、どの統計を見るかで順位が大きく変わります。",
   publishedAt: "2026-10-08",
+  seoTitle: "近畿7府県の平均年収ランキング｜1位大阪府524.2万円、奈良県は4位",
+  metaDescription:
+    "近畿2府5県（三重県を含む）の平均年収と県民所得を比較。平均年収は大阪府524.2万円が1位、奈良県は4位ですが、県民所得では近畿で最下位です。",
   relatedDataset: "salary",
   affiliateKeyword: "家計簿",
   embedScatter: {

@@ -6,6 +6,9 @@ export const forestRateKochiVsOsaka: Article = {
   excerpt:
     "都道府県別の森林率ランキングは、1位・高知県83.8%から最下位・大阪府30.0%まで、50ポイント以上の開きがあります。所得との相関はゆるやかな負の関係でした。",
   publishedAt: "2026-07-23",
+  seoTitle: "森林率ランキング 都道府県別｜1位高知県83.8%・最下位大阪府30.0%",
+  metaDescription:
+    "都道府県別の森林率ランキング。1位は高知県(83.8%)、最下位は大阪府(30.0%)で50ポイント以上の開き。所得との関係もデータで検証しました。",
   relatedDataset: "forest",
   embedRanking: "forest",
   relatedArticles: [

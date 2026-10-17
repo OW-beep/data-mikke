@@ -6,6 +6,9 @@ export const birthrateSmallestGapOkinawaTokyo: Article = {
   excerpt:
     "都道府県別の出生率ランキング（合計特殊出生率）は、1位・沖縄県(1.54)、最下位・東京都(0.96)。面積は44倍、生乳生産量は13倍の差があった当サイトの他の指標と比べても、1位と最下位の差が約1.6倍と意外なほど小さい指標です。",
   publishedAt: "2026-08-09",
+  seoTitle: "出生率ランキング 都道府県別｜1位沖縄県1.54・最下位東京都0.96",
+  metaDescription:
+    "都道府県別の合計特殊出生率ランキング。1位は沖縄県(1.54)、最下位は東京都(0.96)で差は約1.6倍。他の指標と比べて差が小さい点も解説します。",
   relatedDataset: "birthrate",
   embedRanking: "birthrate",
   relatedArticles: [

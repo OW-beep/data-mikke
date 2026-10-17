@@ -6,6 +6,9 @@ export const lifeExpectancyDoctorMyth: Article = {
   excerpt:
     "都道府県別の医師数と平均寿命(男性)の相関係数はわずかr=0.130。「医療が充実している=長生きできる」という直感は、データの上では裏付けられませんでした。",
   publishedAt: "2026-07-29",
+  seoTitle: "医師数と平均寿命の関係｜都道府県別データでは相関r=0.130と弱い",
+  metaDescription:
+    "都道府県別の医師数と平均寿命（男性）の相関係数はわずかr=0.130。「医療が充実している＝長生き」という直感は、データでは裏付けられませんでした。",
   relatedDataset: "lifeExpectancyMale",
   embedScatter: {
     a: "doctor",

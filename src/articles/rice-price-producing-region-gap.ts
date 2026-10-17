@@ -6,6 +6,9 @@ export const ricePriceProducingRegionGap: Article = {
   excerpt:
     "うるち米5kgの価格を都道府県別に見ると、最も安い青森県4,112円と最も高い岡山県5,195円で1,084円の差。同じ米を買うのに、住む場所で年間いくら変わるのかを計算しました。",
   publishedAt: "2026-09-20",
+  seoTitle: "米の値段ランキング 都道府県別｜5kgで青森4,112円・岡山5,195円",
+  metaDescription:
+    "うるち米5kgの都道府県別価格を比較。最安は青森県4,112円、最高は岡山県5,195円で1,084円の差。住む場所で年間いくら変わるかも計算しました。",
   relatedDataset: "ricePrice",
   affiliateKeyword: "青森県産 米",
   relatedArticles: ["rice-price-reversal-2026-oversupply", "rice-per-capita-akita-hidden-number-one"],

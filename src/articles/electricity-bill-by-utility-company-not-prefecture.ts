@@ -6,6 +6,9 @@ export const electricityBillByUtilityCompanyNotPrefecture: Article = {
   excerpt:
     "都道府県別の電気代（月額）を調べると、隣り合う複数の県がまったく同じ金額になる不思議な現象があります。答えは電力会社の供給エリア。関西電力エリアの6府県は12,124円で全国最安、北海道電力は16,919円で全国最高でした。",
   publishedAt: "2026-09-26",
+  seoTitle: "電気代 地域別ランキング｜関西6府県は同額12,124円、北海道は16,919円",
+  metaDescription:
+    "都道府県別の電気代（月額）ランキング。最安は関西電力エリアの12,124円、最高は北海道電力エリアの16,919円。同額の県が並ぶ理由は電力会社の供給エリアです。",
   relatedDataset: "electricityBill",
   embedRanking: "electricityBill",
   affiliateKeyword: "LED照明",

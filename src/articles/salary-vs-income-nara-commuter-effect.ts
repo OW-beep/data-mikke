@@ -6,6 +6,9 @@ export const salaryVsIncomeNaraCommuter: Article = {
   excerpt:
     "「奈良県 年収」で調べると、平均年収483.9万円・全国9位という高い数字が出てきます。ところが同じ奈良県の「県民所得」は全国39位。同じ経済状況のはずなのに、どちらの統計を見るかで評価が正反対になる理由を解説します。",
   publishedAt: "2026-07-30",
+  seoTitle: "奈良県の平均年収483.9万円は全国9位、県民所得は39位｜差の理由",
+  metaDescription:
+    "奈良県の平均年収は483.9万円で全国9位、県民所得は全国39位。同じ県なのに評価が正反対になる理由を、統計の違いから解説します。",
   relatedDataset: "salary",
   embedScatter: {
     a: "salary",
