@@ -12,7 +12,8 @@ export const coffeePriceRankingMiyazakiHighestKagawaLowest: Article = {
   relatedArticles: [
     "food-price-hike-september-2026-cost-index-gap",
     "barber-fee-ranking-kagawa-highest-okinawa-lowest",
-    "gas-bill-income-regressive"
+    "gas-bill-income-regressive",
+    "ramen-price-ranking-okinawa-highest-miyagi-lowest"
   ],
   body: [
     "外出先で何気なく頼む一杯のコーヒー。その値段は、実は都道府県によってかなり違います。総務省「小売物価統計調査」（2025年、都道府県庁所在市等の平均）による喫茶店等のコーヒー（外食）価格を見ると、最も高いのは宮崎県の610円、次いで東京都（566.8円）、京都府（566.0円）、島根県（563.0円）、宮城県（551.0円）と続きます。最も安いのは香川県の367円で、鹿児島県（388円）、沖縄県（411円）、鳥取県（412円）、福島県（416.5円）が続きます。1位の宮崎県と最下位の香川県の差は243円、率にすると約1.7倍にのぼります。",
