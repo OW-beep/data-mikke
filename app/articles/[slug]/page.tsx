@@ -127,6 +127,24 @@ export default async function ArticlePage({ params }: { params: { slug: string }
         ))}
       </div>
 
+      {article.analysisNote && article.analysisNote.length > 0 && (
+        <section className="dm-insight">
+          <h2>データみっけの分析メモ</h2>
+          {article.analysisNote.map((t, i) => (
+            <p key={i}>{t}</p>
+          ))}
+        </section>
+      )}
+
+      {article.operatorNote && article.operatorNote.length > 0 && (
+        <section className="dm-insight dm-insight-operator">
+          <h2>運営者の視点</h2>
+          {article.operatorNote.map((t, i) => (
+            <p key={i}>{t}</p>
+          ))}
+        </section>
+      )}
+
       <AdSlot slotId={SITE.adsenseSlots.articleMid} clientId={SITE.adsenseClientId} />
 
       {scatterData && scatterDatasetA && scatterDatasetB && (
