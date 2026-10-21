@@ -65,6 +65,7 @@ import { electricityBillAnnualGapHokkaidoKansai } from "./electricity-bill-annua
 import { populationDensityRankingAll47Prefectures2020 } from "./population-density-ranking-all-47-prefectures-2020";
 import { kinkiSalaryIncomeComparisonNaraWakayamaMie } from "./kinki-salary-income-comparison-nara-osaka-shiga";
 import { ramenPriceRankingOkinawaHighestMiyagiLowest } from "./ramen-price-ranking-okinawa-highest-miyagi-lowest";
+import { beefPorkPriceRankingOkinawaMiyazakiFukui } from "./beef-pork-price-ranking-okinawa-miyazaki-fukui";
 import { ruralInfrastructureAreaCorrelation } from "./rural-infrastructure-area-correlation-onsen-michinoeki-craft";
 import { prefectureArchetypesPcaClusteringAnalysis } from "./prefecture-archetypes-pca-clustering-analysis";
 import { prefectureNearestNeighborStatisticalTwin } from "./prefecture-nearest-neighbor-statistical-twin";
@@ -186,7 +187,8 @@ export const ARTICLE_LIST: Article[] = [
   electricityBillAnnualGapHokkaidoKansai,
   populationDensityRankingAll47Prefectures2020,
   kinkiSalaryIncomeComparisonNaraWakayamaMie,
-  ramenPriceRankingOkinawaHighestMiyagiLowest
+  ramenPriceRankingOkinawaHighestMiyagiLowest,
+  beefPorkPriceRankingOkinawaMiyazakiFukui
 ].sort((a, b) => (a.publishedAt < b.publishedAt ? 1 : -1));
 
 export function getArticle(slug: string): Article | undefined {

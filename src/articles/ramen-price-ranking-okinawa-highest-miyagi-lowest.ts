@@ -16,7 +16,8 @@ export const ramenPriceRankingOkinawaHighestMiyagiLowest: Article = {
     "coffee-price-ranking-miyazaki-highest-kagawa-lowest",
     "barber-fee-ranking-kagawa-highest-okinawa-lowest",
     "food-price-hike-september-2026-cost-index-gap",
-    "how-to-compare-prefecture-data"
+    "how-to-compare-prefecture-data",
+    "beef-pork-price-ranking-okinawa-miyazaki-fukui"
   ],
   table: {
     title: "中華そば（外食）1杯の価格 上位10県と下位12県（2025年・円）",
@@ -46,6 +47,9 @@ export const ramenPriceRankingOkinawaHighestMiyagiLowest: Article = {
       ["宮城県", "523", "47"]
     ]
   },
+  analysisNote: [
+    "上位10県の平均は815円、下位10県の平均は約616円で、その差は約199円です。価格のばらつき（標準偏差÷平均）は約10%と、47都道府県の価格は平均の上下1割前後に収まる県が多く、宮城県の523円は平均より約27%低い、突出した安さだとわかります。"
+  ],
   body: [
     "ラーメン1杯の値段は、どこで食べるかによってどのくらい違うのでしょうか。総務省統計局「小売物価統計調査」（2025年、都道府県庁所在市等の年平均価格を都道府県ごとに平均）で、外食の中華そば（しょう油味）1杯の価格を比べると、最も高いのは沖縄県の831円でした。次いで大分県と宮崎県が同額の828円、山形県が819円、鳥取県が815円、滋賀県が813円、京都府が809円、佐賀県が808円と続きます。",
 

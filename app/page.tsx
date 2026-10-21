@@ -2,6 +2,7 @@ import Link from "next/link";
 import { DATASET_LIST } from "@/datasets";
 import { ARTICLE_LIST } from "@/articles";
 import { getCategoryColor, getCategoryEmoji } from "@/lib/categoryColors";
+import { OperatorStrip } from "@/components/OperatorStrip";
 
 export default function HomePage() {
   const latestArticles = ARTICLE_LIST.slice(0, 8);
@@ -24,6 +25,8 @@ export default function HomePage() {
         e-Stat・総務省統計局・国土地理院などが公開するオープンデータを、都道府県ごとに見つけて、比べて、
         意味を読み解ける形に整えました。数字は標本のように、出典・年・単位をつけてお届けします。
       </p>
+
+      <OperatorStrip />
 
       <div className="dm-usecase-grid" style={{ marginTop: 24 }}>
         <Link href="/compare" className="dm-usecase-card">
