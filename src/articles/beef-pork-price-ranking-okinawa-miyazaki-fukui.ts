@@ -20,7 +20,8 @@ export const beefPorkPriceRankingOkinawaMiyazakiFukui: Article = {
     "ramen-price-ranking-okinawa-highest-miyagi-lowest",
     "coffee-price-ranking-miyazaki-highest-kagawa-lowest",
     "food-price-hike-september-2026-cost-index-gap",
-    "how-to-compare-prefecture-data"
+    "how-to-compare-prefecture-data",
+    "bread-egg-milk-price-okinawa-akita"
   ],
   table: {
     title: "牛肉・豚肉の100gあたり価格（2025年・円）と牛肉÷豚肉の倍率",

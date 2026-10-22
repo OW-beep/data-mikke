@@ -10,6 +10,10 @@ export const populationRankingHowToRead: Article = {
   relatedDataset: "population",
   embedRanking: "population",
   relatedArticles: ["how-to-compare-prefecture-data", "population-density-meaning", "lesson-to-my-past-self-just-ship-it"],
+  operatorNote: [
+    "【行政の現場で】人口のような基礎的な統計ほど、1つの数字だけで判断することはほとんどなく、人口密度や年齢構成、産業構造などを組み合わせて背景を読み解くのが当たり前でした。人口ランキングを「見たつもり」にならないための視点を整理したのが、この記事です。",
+    "【見せ方で変わった場面】人口（実数）と人口密度（面積あたり）のように、実数と割合・比率を区別して見ないと、誤解を招きます。ランキングや色分けの地図を見るときは、何を示した数字なのかを、必ず確認してください。"
+  ],
   body: [
     "人口ランキングほど「見たつもり」になりやすい統計はないかもしれません。都道府県別の人口ランキングを見ると、上位には東京都・神奈川県・大阪府・愛知県・埼玉県といった顔ぶれが並びます。人口の絶対数だけを見れば「大都市圏が多い」という当たり前の結論で終わってしまいますが、このランキングには少なくとも3つの見落としがちな視点があります。",
 

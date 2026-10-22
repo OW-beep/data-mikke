@@ -9,7 +9,11 @@ export const barberFeeRankingKagawaHighestOkinawaLowest: Article = {
   relatedDataset: "barberFee",
   embedRanking: "barberFee",
   affiliateKeyword: "バリカン",
-  relatedArticles: ["food-price-hike-september-2026-cost-index-gap", "gas-bill-income-regressive", "rent-vs-car-ownership"],
+  relatedArticles: ["food-price-hike-september-2026-cost-index-gap", "gas-bill-income-regressive", "rent-vs-car-ownership", "suit-dry-cleaning-price-niigata-kumamoto"],
+  analysisNote: [
+    "47都道府県の「理髪料」は、平均が3,797円、中央値が3,785円です。最高の香川県（4,556円）は中央値の約1.20倍、最低の沖縄県（2,801円）は中央値の約0.74倍にあたります。平均と中央値が近く、極端に偏った分布ではありません。",
+    "人口規模の影響を受けにくい当サイトの他の約20指標と総当たりで比べると、関係が比較的強かったのは「県民所得」（相関係数+0.42）と「平均年収（賃金構造基本統計調査）」（相関係数+0.40）です。ただし、多数の指標から選んでいるため偶然の一致が含まれる可能性があり、相関は因果関係を意味しません。"
+  ],
   body: [
     "散髪にいくら払うかは、住んでいる場所によって案外大きく違います。総務省「小売物価統計調査」（2025年、都道府県庁所在市等）をもとにした理容代（散髪）の都道府県平均を見ると、最も高いのは香川県の4,556円、次いで福井県（4,465円）、長野県（4,338円）、栃木県（4,325円）、滋賀県（4,313円）と続きます。最も安いのは沖縄県の2,801円で、青森県（3,167円）、北海道（3,255円）、山口県（3,263円）、宮崎県（3,275円）が続きます。1位と最下位の差は1,755円、率にすると約1.6倍にのぼります。",
 

@@ -10,6 +10,10 @@ export const libraryAccessGap: Article = {
   affiliateKeyword: "本棚",
   embedRanking: "library",
   relatedArticles: ["spurious-correlation-library-university-population", "university-count-tokyo-concentration-history", "population-does-not-equal-convenience-per-capita-lesson"],
+  analysisNote: [
+    "47都道府県の「図書館数」は、平均が69.66館、中央値が50館です。最高の東京都（394館）は中央値の約7.88倍、最低の宮崎県（28館）は中央値の約0.56倍にあたります。平均が中央値を上回っており、一部の県が平均を押し上げている分布です。",
+    "図書館数のような件数・総量の指標は、人口や面積の大きさに引っ張られやすく、他の件数系の指標とも見かけ上、高い相関を示しがちです。面積との相関係数は+0.14で、面積とは関係が弱く、人口規模など別の要因が効いていそうです。件数をそのまま比べるのではなく、人口あたりや面積あたりに直して見るのが安全です。"
+  ],
   body: [
     "図書館の数だけで、その県の「文化的な豊かさ」を語れるでしょうか。都道府県別の公共図書館数を見ると、東京都が394館で圧倒的なトップに立ち、次いで埼玉県・大阪府・北海道・千葉県と続きます。単純な数の比較であれば、東京都は文化的インフラが最も充実した都道府県だと言いたくなります。しかし、これまで当サイトが病院数や文化財数で繰り返し確認してきたのと同じ落とし穴が、ここにもあります。",
 

@@ -66,6 +66,8 @@ import { populationDensityRankingAll47Prefectures2020 } from "./population-densi
 import { kinkiSalaryIncomeComparisonNaraWakayamaMie } from "./kinki-salary-income-comparison-nara-osaka-shiga";
 import { ramenPriceRankingOkinawaHighestMiyagiLowest } from "./ramen-price-ranking-okinawa-highest-miyagi-lowest";
 import { beefPorkPriceRankingOkinawaMiyazakiFukui } from "./beef-pork-price-ranking-okinawa-miyazaki-fukui";
+import { breadEggMilkPriceOkinawaAkita } from "./bread-egg-milk-price-okinawa-akita";
+import { suitDryCleaningPriceNiigataKumamoto } from "./suit-dry-cleaning-price-niigata-kumamoto";
 import { ruralInfrastructureAreaCorrelation } from "./rural-infrastructure-area-correlation-onsen-michinoeki-craft";
 import { prefectureArchetypesPcaClusteringAnalysis } from "./prefecture-archetypes-pca-clustering-analysis";
 import { prefectureNearestNeighborStatisticalTwin } from "./prefecture-nearest-neighbor-statistical-twin";
@@ -188,7 +190,9 @@ export const ARTICLE_LIST: Article[] = [
   populationDensityRankingAll47Prefectures2020,
   kinkiSalaryIncomeComparisonNaraWakayamaMie,
   ramenPriceRankingOkinawaHighestMiyagiLowest,
-  beefPorkPriceRankingOkinawaMiyazakiFukui
+  beefPorkPriceRankingOkinawaMiyazakiFukui,
+  breadEggMilkPriceOkinawaAkita,
+  suitDryCleaningPriceNiigataKumamoto
 ].sort((a, b) => (a.publishedAt < b.publishedAt ? 1 : -1));
 
 export function getArticle(slug: string): Article | undefined {

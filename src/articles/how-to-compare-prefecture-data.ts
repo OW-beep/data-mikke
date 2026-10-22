@@ -12,6 +12,9 @@ export const howToComparePrefectureData: Article = {
     "spurious-correlation-library-university-population",
     "why-i-built-data-mikke-former-civil-servant"
   ],
+  operatorNote: [
+    "【行政の現場で】統計を公開するときは、数字そのものだけでなく、「何を数えた数字なのか」「何と比較できるのか」「この数字だけでは何が分からないのか」まで伝えることが大切だと学びました。この記事の4つのポイントは、その学びを、都道府県のデータを比べる読者向けに整理したものです。"
+  ],
   body: [
     "当サイトの比較ページでは、2つの都道府県を選んで複数の指標を並べて見ることができます。便利な機能ですが、公的統計を比較するときには、数字をそのまま鵜呑みにすると誤った印象を持ってしまうことがあります。ここでは比較の際に意識しておきたい4つのポイントを紹介します。",
 

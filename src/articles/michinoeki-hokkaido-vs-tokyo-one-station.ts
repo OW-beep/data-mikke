@@ -10,6 +10,10 @@ export const michinoekiHokkaidoVsTokyoOneStation: Article = {
   affiliateKeyword: "道の駅 お取り寄せ",
   embedRanking: "michinoeki",
   relatedArticles: ["area-hokkaido-44-times-kagawa", "car-ownership-tokyo-lowest-rural-highest", "rural-infrastructure-area-correlation-onsen-michinoeki-craft"],
+  analysisNote: [
+    "47都道府県の「道の駅の数」は、平均が25.98駅、中央値が22駅です。最高の北海道（128駅）は中央値の約5.82倍、最低の東京都（1駅）は中央値の約0.05倍にあたります。平均が中央値を上回っており、一部の県が平均を押し上げている分布です。",
+    "道の駅の数のような件数・総量の指標は、人口や面積の大きさに引っ張られやすく、他の件数系の指標とも見かけ上、高い相関を示しがちです。面積との相関係数は+0.90で、面積の広い県ほど多い傾向がはっきり見られます。件数をそのまま比べるのではなく、人口あたりや面積あたりに直して見るのが安全です。"
+  ],
   body: [
     "国土交通省道路局が公開する「道の駅一覧」（2024年8月7日現在）によると、全国には1,221の道の駅があります。都道府県別に見ると、北海道が128駅で圧倒的な全国トップです。2位は岐阜県（56駅）、3位は長野県（54駅）、4位は新潟県（42駅）、5位は岩手県・兵庫県・和歌山県・熊本県（いずれも36駅）と続きます。",
 

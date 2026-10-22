@@ -9,6 +9,13 @@ export const gasBillIncomeRegressive: Article = {
   relatedDataset: "gasBill",
   affiliateKeyword: "電気代 節約 グッズ",
   relatedArticles: ["electricity-bill-by-utility-company-not-prefecture", "food-price-hike-september-2026-cost-index-gap", "water-bill-ranking-nagasaki-highest-aichi-lowest"],
+  analysisNote: [
+    "「都市ガス代(月)」と「県民所得」の相関係数は-0.41で、決定係数（r²）は約0.17です。つまり、一方の違いでもう一方の違いの約17%しか説明できず、関係は弱いと言えます。",
+    "どの県が相関に最も影響しているかを調べるため、1県ずつ除いて計算し直したところ、最も影響が大きかったのは沖縄県で、除くと相関係数は-0.41から-0.39に変わりました。1県を除いても大きくは変わらず、結果は特定の県に頼っていない、比較的安定した関係です。"
+  ],
+  operatorNote: [
+    "【コンサルの現場で】都市ガス代と平均年収の相関係数が約-0.65という結果は、「平均年収が低い県ほど、ガス代が高い傾向がある」という関係を示すだけで、原因までは示しません。分析結果を伝えるときは、数字を示すだけでなく、その結果が次の判断や行動にどうつながるのかまで説明する必要があると考えています。"
+  ],
   body: [
     "電気やガスの料金は全国どこでも似たようなもの、と思っていないでしょうか。総務省の小売物価統計調査（2025年）を都道府県別に見ると、都市ガス代（一般家庭用・1465.12MJ利用を基準）には想像以上の開きがありました。",
 
