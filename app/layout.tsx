@@ -4,6 +4,7 @@ import { Shippori_Mincho_B1, Zen_Kaku_Gothic_New, JetBrains_Mono } from "next/fo
 import { LogoMark } from "@/components/LogoMark";
 import { SITE } from "@/lib/site";
 import "./globals.css";
+import "./eeat.css";
 
 const display = Shippori_Mincho_B1({
   subsets: ["latin"],
@@ -100,6 +101,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <div className="dm-footer-inner">
             <nav className="dm-footer-nav">
               <Link href="/about">運営者情報</Link>
+              <Link href="/editorial-policy">編集方針</Link>
               <Link href="/updates">更新履歴</Link>
               <Link href="/privacy">プライバシーポリシー</Link>
               <Link href="/contact">お問い合わせ</Link>

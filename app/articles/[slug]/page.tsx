@@ -12,6 +12,7 @@ import { linkifyPrefectures } from "@/lib/linkifyPrefectures";
 import { searchRakutenItems } from "@/lib/rakuten";
 import { RakutenProductCard } from "@/components/RakutenProductCard";
 import { AdSlot } from "@/components/AdSlot";
+import { OPERATOR_BIO, NOTES_ADDED_DATE } from "@/lib/operator";
 
 export function generateStaticParams() {
   return ARTICLE_LIST.map((a) => ({ slug: a.slug }));
@@ -81,15 +82,30 @@ export default async function ArticlePage({ params }: { params: { slug: string }
     ? await searchRakutenItems(article.affiliateKeyword)
     : null;
 
+  // この記事で使った統計の出典を、記事の末尾に明示する（E-E-A-T: 出典の透明性）
+  const sourceDatasets = Array.from(
+    new Set(
+      [article.relatedDataset, article.embedRanking, article.embedScatter?.a, article.embedScatter?.b].filter(
+        (x): x is string => Boolean(x)
+      )
+    )
+  )
+    .map((id) => getDataset(id))
+    .filter((d): d is NonNullable<typeof d> => Boolean(d));
+
+  // 分析メモ・運営者の視点を追記した記事は、追記日を最終更新日とする
+  const hasAddedNotes = Boolean((article.analysisNote && article.analysisNote.length) || (article.operatorNote && article.operatorNote.length));
+  const updatedAt = hasAddedNotes && article.publishedAt < NOTES_ADDED_DATE ? NOTES_ADDED_DATE : article.publishedAt;
+
   const articleJsonLd = {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: article.title,
     description: article.excerpt,
     datePublished: article.publishedAt,
-    dateModified: article.publishedAt,
-    author: { "@type": "Person", name: SITE.operatorName },
-    publisher: { "@type": "Organization", name: SITE.name },
+    dateModified: updatedAt,
+    author: { "@type": "Person", name: SITE.operatorName, url: `${SITE.url}/about`, description: OPERATOR_BIO },
+    publisher: { "@type": "Organization", name: SITE.name, url: SITE.url },
     mainEntityOfPage: { "@type": "WebPage", "@id": `${SITE.url}/articles/${article.slug}` }
   };
 
@@ -115,7 +131,10 @@ export default async function ArticlePage({ params }: { params: { slug: string }
       />
       <p className="dm-eyebrow">Articles</p>
       <h1>{article.title}</h1>
-      <p className="dm-article-meta">公開日: {article.publishedAt}</p>
+      <p className="dm-article-meta">
+        公開日: {article.publishedAt}
+        {updatedAt !== article.publishedAt && <> ／ 最終更新日: {updatedAt}</>}
+      </p>
       <p className="dm-article-byline">
         執筆: <Link href="/about">{SITE.operatorName}</Link>
         （元地方公務員・データサイエンティスト）
@@ -144,6 +163,27 @@ export default async function ArticlePage({ params }: { params: { slug: string }
           ))}
         </section>
       )}
+
+      <section className="dm-source-box" aria-label="データの出典と訂正について">
+        {sourceDatasets.length > 0 && (
+          <>
+            <h2>この記事で使ったデータの出典</h2>
+            <ul>
+              {sourceDatasets.map((d) => (
+                <li key={d.id}>
+                  <strong>{d.title}</strong>
+                  {d.unit ? `（単位: ${d.unit}）` : ""} ／ 出典: {d.source}
+                </li>
+              ))}
+            </ul>
+          </>
+        )}
+        <p>
+          数値の扱い方（分母・年次・加工の方法）は<Link href="/editorial-policy">編集方針</Link>に、
+          運営者の経歴は<Link href="/about">運営者情報</Link>にまとめています。
+          記事の内容に誤りや疑問を見つけた場合は、<Link href="/contact">お問い合わせ</Link>からご連絡ください。確認のうえ、修正して更新日に反映します。
+        </p>
+      </section>
 
       <AdSlot slotId={SITE.adsenseSlots.articleMid} clientId={SITE.adsenseClientId} />
 

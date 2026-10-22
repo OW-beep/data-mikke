@@ -1,0 +1,31 @@
+/* 出典・訂正の案内ボックス（記事末尾）と編集方針ページ用のスタイル */
+.dm-source-box {
+  margin: 32px 0;
+  padding: 16px 20px;
+  background: var(--dm-bg-card);
+  border: 1px solid var(--dm-line);
+  border-radius: 10px;
+  font-size: 0.92rem;
+  color: var(--dm-ink-soft);
+}
+.dm-source-box h2 {
+  margin: 0 0 8px;
+  font-size: 1rem;
+  color: var(--dm-ink);
+}
+.dm-source-box ul {
+  margin: 0 0 12px;
+  padding-left: 1.2em;
+}
+.dm-source-box li {
+  margin-bottom: 6px;
+  line-height: 1.7;
+}
+.dm-source-box p {
+  margin: 0;
+  line-height: 1.8;
+}
+.dm-source-box a {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
