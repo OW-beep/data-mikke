@@ -13,6 +13,7 @@ import { searchRakutenItems } from "@/lib/rakuten";
 import { RakutenProductCard } from "@/components/RakutenProductCard";
 import { AdSlot } from "@/components/AdSlot";
 import { OPERATOR_BIO, NOTES_ADDED_DATE } from "@/lib/operator";
+import { renderSourceWithLinks } from "@/lib/sourceLinks";
 
 export function generateStaticParams() {
   return ARTICLE_LIST.map((a) => ({ slug: a.slug }));
@@ -172,7 +173,7 @@ export default async function ArticlePage({ params }: { params: { slug: string }
               {sourceDatasets.map((d) => (
                 <li key={d.id}>
                   <strong>{d.title}</strong>
-                  {d.unit ? `（単位: ${d.unit}）` : ""} ／ 出典: {d.source}
+                  {d.unit ? `（単位: ${d.unit}）` : ""} ／ 出典: {renderSourceWithLinks(d.source)}
                 </li>
               ))}
             </ul>
