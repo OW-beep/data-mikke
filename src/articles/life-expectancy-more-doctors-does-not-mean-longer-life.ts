@@ -19,7 +19,8 @@ export const lifeExpectancyDoctorMyth: Article = {
     "doctor-count-west-high-east-low-mystery",
     "prefecture-composite-score-explained",
     "life-expectancy-gender-gap-okinawa-vs-aichi",
-    "income-life-expectancy-weak-correlation-shiga-nara"
+    "income-life-expectancy-weak-correlation-shiga-nara",
+    "lifestyle-vs-life-expectancy-no-strong-link"
   ],
   analysisNote: [
     "相関係数r=0.130を2乗した決定係数は約0.017です。つまり、医師数の違いで説明できる平均寿命（男性）の違いは約1.7%にとどまります。残りは、生活習慣や所得、年齢構成など、医師数以外の要因の影響が大きいと考えられます。"

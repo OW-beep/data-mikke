@@ -163,7 +163,7 @@ export default async function ArticlePage({ params }: { params: { slug: string }
       )}
 
       {article.analysisNote && article.analysisNote.length > 0 && (
-        <section className="dm-insight">
+        <section className="dm-note">
           <h2>データみっけの分析メモ</h2>
           {article.analysisNote.map((t, i) => (
             <p key={i}>{t}</p>
@@ -172,7 +172,7 @@ export default async function ArticlePage({ params }: { params: { slug: string }
       )}
 
       {article.operatorNote && article.operatorNote.length > 0 && (
-        <section className="dm-insight dm-insight-operator">
+        <section className="dm-note dm-note-operator">
           <h2>運営者の視点</h2>
           {article.operatorNote.map((t, i) => (
             <p key={i}>{t}</p>

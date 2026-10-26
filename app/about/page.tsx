@@ -2,7 +2,7 @@ import { SITE } from "@/lib/site";
 
 export const metadata = {
   title: "運営者情報",
-  description: `${SITE.name}の運営者情報・サイトのコンセプトについて。`
+  description: `${SITE.name}の運営者情報（経歴・保有資格・データの扱い方の考え方）と、サイトのコンセプトについて。公的統計を都道府県別に比べやすく整理しています。`
 };
 
 export default function AboutPage() {

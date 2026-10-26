@@ -2,7 +2,7 @@ import { SITE } from "@/lib/site";
 
 export const metadata = {
   title: "お問い合わせ",
-  description: `${SITE.name}へのお問い合わせ方法。`
+  description: `${SITE.name}へのお問い合わせ方法。記事・データの誤りのご指摘、掲載や転載のご相談などは、こちらからご連絡ください。`
 };
 
 export default function ContactPage() {

@@ -102,6 +102,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <nav className="dm-footer-nav">
               <Link href="/about">運営者情報</Link>
               <Link href="/editorial-policy">編集方針</Link>
+              <Link href="/terms">利用規約</Link>
               <Link href="/updates">更新履歴</Link>
               <Link href="/privacy">プライバシーポリシー</Link>
               <Link href="/contact">お問い合わせ</Link>

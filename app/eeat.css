@@ -52,3 +52,32 @@
   line-height: 1.85;
   color: var(--dm-ink);
 }
+
+/* 分析メモ・運営者の視点（記事本文の後ろに出す補足ボックス） */
+.dm-note {
+  margin: 32px 0;
+  padding: 16px 20px;
+  background: var(--dm-teal-tint);
+  border-left: 4px solid var(--dm-teal);
+  border-radius: 0 8px 8px 0;
+}
+.dm-note h2 {
+  margin: 0 0 8px;
+  font-size: 1.05rem;
+  color: var(--dm-teal-deep);
+}
+.dm-note p {
+  margin: 0 0 10px;
+  line-height: 1.85;
+  color: var(--dm-ink);
+}
+.dm-note p:last-child {
+  margin-bottom: 0;
+}
+.dm-note-operator {
+  background: var(--dm-coral-tint);
+  border-left-color: var(--dm-coral);
+}
+.dm-note-operator h2 {
+  color: var(--dm-coral-deep);
+}

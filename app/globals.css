@@ -826,35 +826,6 @@ h3 {
   letter-spacing: 0.08em;
 }
 
-/* 分析メモ・運営者の視点（記事本文の後ろに出す補足ボックス） */
-.dm-insight {
-  margin: 32px 0;
-  padding: 16px 20px;
-  background: var(--dm-teal-tint);
-  border-left: 4px solid var(--dm-teal);
-  border-radius: 0 8px 8px 0;
-}
-.dm-insight h2 {
-  margin: 0 0 8px;
-  font-size: 1.05rem;
-  color: var(--dm-teal-deep);
-}
-.dm-insight p {
-  margin: 0 0 10px;
-  line-height: 1.85;
-  color: var(--dm-ink);
-}
-.dm-insight p:last-child {
-  margin-bottom: 0;
-}
-.dm-insight-operator {
-  background: var(--dm-coral-tint);
-  border-left-color: var(--dm-coral);
-}
-.dm-insight-operator h2 {
-  color: var(--dm-coral-deep);
-}
-
 /* トップページ直下の「運営者より」帯 */
 .dm-operator-strip {
   margin: 20px 0 8px;
