@@ -41,6 +41,8 @@ export interface Article {
    * 事実でないことは書かない（実際に経験したことだけを書く）。
    */
   operatorNote?: string[];
+  /** よくある質問（Q&A）。検索で調べられやすい疑問に、記事内の数字で答える形で書く */
+  faq?: { q: string; a: string }[];
   /** 本文。段落ごとに配列で持つ（改行で分割してレンダリングする） */
   body: string[];
 }

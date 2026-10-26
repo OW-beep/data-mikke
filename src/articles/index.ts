@@ -5,24 +5,15 @@ import { incomeRankingCaution } from "./income-ranking-caution";
 import { hospitalCountReadingGuide } from "./hospital-count-reading-guide";
 import { divorceRateRegionalGap } from "./divorce-rate-regional-gap";
 import { populationDensityMeaning } from "./population-density-meaning";
-import { densityIncomeRelation } from "./density-and-income-relation";
-import { hospitalPerCapitaRanking } from "./hospital-per-capita-ranking";
 import { homeownershipRateGap } from "./homeownership-rate-gap";
 import { childrenRatioAndFuture } from "./children-ratio-and-regional-future";
 import { agingRatioTopPrefectures } from "./aging-ratio-top-prefectures";
 import { prefectureCompositeScoreExplained } from "./prefecture-composite-score-explained";
 import { crimeRateUrbanGap } from "./crime-rate-urban-rural-gap";
-import { culturalPropertyKansaiConcentration } from "./cultural-property-kansai-concentration";
-import { culturalPropertyPerCapitaSurprise } from "./cultural-property-per-capita-surprise";
 import { livabilityRankingFiveMetrics } from "./prefecture-livability-ranking-five-metrics";
-import { manufacturingPerCapitaPowerhouse } from "./manufacturing-per-capita-powerhouse";
 import { libraryAccessGap } from "./library-count-access-and-per-capita-trap";
 import { electricityPerCapitaLifestyle } from "./electricity-per-capita-lifestyle-clues";
-import { culturalPropertyDensityByArea } from "./cultural-property-density-by-area";
 import { universityTokyoConcentration } from "./university-count-tokyo-concentration-history";
-import { universityPerCapitaKyotoTop } from "./university-per-capita-kyoto-student-city";
-import { culturalPropertyBuildingKyotoNara } from "./cultural-property-building-kyoto-nara-temples";
-import { electricityHouseholdSectorPrecision } from "./electricity-household-sector-more-precise-view";
 import { spuriousCorrelationLibraryUniversity } from "./spurious-correlation-library-university-population";
 import { densityCorrelatesEverything } from "./population-density-correlates-income-crime-homeownership";
 import { coefficientOfVariationDisparityRanking } from "./coefficient-of-variation-regional-disparity-ranking";
@@ -32,14 +23,12 @@ import { parkAreaTokyoLast } from "./park-area-tokyo-last-hokkaido-first";
 import { carTrafficAccidentCorrelation } from "./car-ownership-traffic-accident-correlation";
 import { doctorCountWestHighEastLow } from "./doctor-count-west-high-east-low-mystery";
 import { riceAkitaHiddenNumberOne } from "./rice-per-capita-akita-hidden-number-one";
-import { shipmentPerFactoryScaleDifference } from "./shipment-per-factory-scale-yamaguchi-vs-tokyo";
 import { savingsIncomeGapAichiVsTokyo } from "./savings-income-gap-aichi-beats-tokyo";
 import { nurseCountIncomeInverse } from "./nurse-count-income-inverse-relationship";
 import { fishRiceCoastalOverlap } from "./fish-catch-rice-harvest-coastal-overlap";
 import { lifeExpectancyDoctorMyth } from "./life-expectancy-more-doctors-does-not-mean-longer-life";
 import { salaryVsIncomeNaraCommuter } from "./salary-vs-income-nara-commuter-effect";
 import { temperatureOkinawaHokkaidoGap } from "./temperature-okinawa-hokkaido-gap-13-degrees";
-import { universityDensityIncomeMyth } from "./university-density-income-myth";
 import { agricultureFisheriesIncomeStereotype } from "./agriculture-fisheries-income-stereotype-busted";
 import { rentDensityIncomeTradeoff } from "./rent-density-income-tradeoff-tokyo-premium";
 import { forestRateKochiVsOsaka } from "./forest-rate-kochi-vs-osaka";
@@ -77,7 +66,6 @@ import { rentAffordabilityRegressionResidualRanking } from "./rent-affordability
 import { incomeLifeExpectancyWeakCorrelation } from "./income-life-expectancy-weak-correlation-shiga-nara";
 import { milkProductionAreaCorrelationOutlierCheck } from "./milk-production-area-correlation-hokkaido-outlier";
 import { convenienceStoreTokyoVsTottori28Times } from "./convenience-store-tokyo-vs-tottori-28-times";
-import { convenienceStoreIncomeCorrelationNotArea } from "./convenience-store-income-correlation-not-area";
 import { livingCostDatasetsIntro } from "./living-cost-datasets-intro";
 import { healthScoreExplained } from "./health-score-explained";
 import { vegetablePriceAndIntake } from "./vegetable-price-and-intake";
@@ -108,24 +96,15 @@ export const ARTICLE_LIST: Article[] = [
   hospitalCountReadingGuide,
   divorceRateRegionalGap,
   populationDensityMeaning,
-  densityIncomeRelation,
-  hospitalPerCapitaRanking,
   homeownershipRateGap,
   childrenRatioAndFuture,
   agingRatioTopPrefectures,
   prefectureCompositeScoreExplained,
   crimeRateUrbanGap,
-  culturalPropertyKansaiConcentration,
-  culturalPropertyPerCapitaSurprise,
   livabilityRankingFiveMetrics,
-  manufacturingPerCapitaPowerhouse,
   libraryAccessGap,
   electricityPerCapitaLifestyle,
-  culturalPropertyDensityByArea,
   universityTokyoConcentration,
-  universityPerCapitaKyotoTop,
-  culturalPropertyBuildingKyotoNara,
-  electricityHouseholdSectorPrecision,
   spuriousCorrelationLibraryUniversity,
   densityCorrelatesEverything,
   coefficientOfVariationDisparityRanking,
@@ -135,14 +114,12 @@ export const ARTICLE_LIST: Article[] = [
   carTrafficAccidentCorrelation,
   doctorCountWestHighEastLow,
   riceAkitaHiddenNumberOne,
-  shipmentPerFactoryScaleDifference,
   savingsIncomeGapAichiVsTokyo,
   nurseCountIncomeInverse,
   fishRiceCoastalOverlap,
   lifeExpectancyDoctorMyth,
   salaryVsIncomeNaraCommuter,
   temperatureOkinawaHokkaidoGap,
-  universityDensityIncomeMyth,
   agricultureFisheriesIncomeStereotype,
   rentDensityIncomeTradeoff,
   forestRateKochiVsOsaka,
@@ -165,7 +142,6 @@ export const ARTICLE_LIST: Article[] = [
   onsenCountHokkaidoNaganoNiigata,
   ruralInfrastructureAreaCorrelation,
   convenienceStoreTokyoVsTottori28Times,
-  convenienceStoreIncomeCorrelationNotArea,
   prefectureArchetypesPcaClusteringAnalysis,
   prefectureNearestNeighborStatisticalTwin,
   rentAffordabilityRegressionResidualRanking,

@@ -12,7 +12,7 @@ import { linkifyPrefectures } from "@/lib/linkifyPrefectures";
 import { searchRakutenItems } from "@/lib/rakuten";
 import { RakutenProductCard } from "@/components/RakutenProductCard";
 import { AdSlot } from "@/components/AdSlot";
-import { OPERATOR_BIO, NOTES_ADDED_DATE } from "@/lib/operator";
+import { OPERATOR_BIO, NOTES_ADDED_DATE, FAQ_ADDED_DATE } from "@/lib/operator";
 import { renderSourceWithLinks } from "@/lib/sourceLinks";
 
 export function generateStaticParams() {
@@ -96,7 +96,8 @@ export default async function ArticlePage({ params }: { params: { slug: string }
 
   // 分析メモ・運営者の視点を追記した記事は、追記日を最終更新日とする
   const hasAddedNotes = Boolean((article.analysisNote && article.analysisNote.length) || (article.operatorNote && article.operatorNote.length));
-  const updatedAt = hasAddedNotes && article.publishedAt < NOTES_ADDED_DATE ? NOTES_ADDED_DATE : article.publishedAt;
+  const hasFaq = Boolean(article.faq && article.faq.length);
+  const updatedAt = hasFaq && article.publishedAt < FAQ_ADDED_DATE ? FAQ_ADDED_DATE : hasAddedNotes && article.publishedAt < NOTES_ADDED_DATE ? NOTES_ADDED_DATE : article.publishedAt;
 
   const articleJsonLd = {
     "@context": "https://schema.org",
@@ -146,6 +147,20 @@ export default async function ArticlePage({ params }: { params: { slug: string }
           <p key={i}>{nodes}</p>
         ))}
       </div>
+
+      {article.faq && article.faq.length > 0 && (
+        <section className="dm-faq">
+          <h2>よくある質問</h2>
+          <dl>
+            {article.faq.map((f, i) => (
+              <div key={i}>
+                <dt>{f.q}</dt>
+                <dd>{f.a}</dd>
+              </div>
+            ))}
+          </dl>
+        </section>
+      )}
 
       {article.analysisNote && article.analysisNote.length > 0 && (
         <section className="dm-insight">

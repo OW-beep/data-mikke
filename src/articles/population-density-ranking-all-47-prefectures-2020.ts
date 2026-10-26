@@ -10,11 +10,9 @@ export const populationDensityRankingAll47Prefectures2020: Article = {
   metaDescription:
     "全47都道府県の人口密度ランキング（令和2年国勢調査）。1位は東京都6,402.6人/km²、2位大阪府、3位神奈川県。最下位の北海道66.6人との差は約96倍。全順位表つき。",
   relatedDataset: "density",
-  affiliateKeyword: "都道府県 パズル",
   embedRanking: "density",
   relatedArticles: [
     "population-density-meaning",
-    "density-and-income-relation",
     "population-density-correlates-income-crime-homeownership",
     "area-hokkaido-44-times-kagawa"
   ],

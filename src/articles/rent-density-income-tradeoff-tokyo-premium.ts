@@ -6,6 +6,7 @@ export const rentDensityIncomeTradeoff: Article = {
   excerpt:
     "家賃は人口密度との相関がr=0.861ときわめて強く、平均年収との相関もr=0.705。高い家賃を払う代わりに何を得ているのか、データから考えます。",
   publishedAt: "2026-08-03",
+  noindex: true,
   relatedDataset: "rent",
   embedScatter: { a: "density", b: "rent", note: "右上に東京都が突出しています。人口密度が上がるほど家賃も上がる、非常に強い右肩上がりの関係です。" },
   relatedArticles: [

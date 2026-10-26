@@ -6,6 +6,7 @@ export const carTrafficAccidentCorrelation: Article = {
   excerpt:
     "自動車所有率と交通事故死者数には、実データで確認できるはっきりした相関があります。ただし「運転が荒い」という話ではありません。",
   publishedAt: "2026-07-22",
+  noindex: true,
   relatedDataset: "trafficAccident",
   embedScatter: {
     a: "car",

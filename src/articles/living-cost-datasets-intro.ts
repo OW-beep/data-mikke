@@ -6,6 +6,7 @@ export const livingCostDatasetsIntro: Article = {
   excerpt:
     "総務省「小売物価統計調査」をもとに、家賃・電気代・都市ガス代・水道料・ガソリン・理髪料・クリーニング代の7つの都道府県別データを追加しました。",
   publishedAt: "2026-09-13",
+  noindex: true,
   relatedDataset: "rent",
   affiliateKeyword: "引っ越し ダンボール",
   analysisNote: [

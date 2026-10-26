@@ -17,7 +17,7 @@ export const ruralInfrastructureAreaCorrelation: Article = {
     "onsen-count-hokkaido-nagano-niigata",
     "traditional-crafts-tokyo-niigata-kyoto",
     "area-hokkaido-44-times-kagawa",
-    "convenience-store-income-correlation-not-area",
+    "convenience-store-tokyo-vs-tottori-28-times",
     "milk-production-area-correlation-hokkaido-outlier",
     "prefecture-archetypes-pca-clustering-analysis"
   ],

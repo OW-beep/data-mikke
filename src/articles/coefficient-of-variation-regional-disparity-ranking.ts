@@ -6,6 +6,7 @@ export const coefficientOfVariationDisparityRanking: Article = {
   excerpt:
     "単位も桁数もバラバラな指標同士で「どれが一番、都道府県間の差が大きいか」を比べるには、標準偏差ではなく変動係数を使います。",
   publishedAt: "2026-07-18",
+  noindex: true,
   embedRanking: "density",
   relatedArticles: [
     "population-density-meaning",

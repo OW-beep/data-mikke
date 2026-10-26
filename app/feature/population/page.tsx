@@ -11,7 +11,7 @@ export const metadata = {
 const ARTICLE_SLUGS = [
   "population-ranking-how-to-read",
   "population-density-meaning",
-  "density-and-income-relation",
+  "population-density-correlates-income-crime-homeownership",
   "population-density-correlates-income-crime-homeownership",
   "aging-ratio-top-prefectures",
   "children-ratio-and-regional-future",

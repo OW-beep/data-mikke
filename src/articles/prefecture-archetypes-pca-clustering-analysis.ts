@@ -16,7 +16,7 @@ export const prefectureArchetypesPcaClusteringAnalysis: Article = {
   relatedArticles: [
     "prefecture-composite-score-explained",
     "coefficient-of-variation-regional-disparity-ranking",
-    "density-and-income-relation",
+    "population-density-correlates-income-crime-homeownership",
     "doctor-count-west-high-east-low-mystery",
     "why-i-built-data-mikke-former-civil-servant"
   ],

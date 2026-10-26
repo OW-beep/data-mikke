@@ -6,6 +6,7 @@ export const milkProductionAreaCorrelationOutlierCheck: Article = {
   excerpt:
     "生乳生産量と面積の相関係数は、当サイトが扱ってきた指標の中でも最高水準のr=0.96です。ただしこの数字は、北海道という1つの県が持つ強い影響力（レバレッジ）によって作られている面が大きく、除外すると相関の強さは大きく変わります。",
   publishedAt: "2026-08-25",
+  noindex: true,
   relatedDataset: "milk",
   embedScatter: {
     a: "area",

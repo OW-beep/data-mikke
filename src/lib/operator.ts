@@ -10,5 +10,8 @@ export const OPERATOR_BIO =
 /** 記事に「分析メモ」「運営者の視点」を追記した日。公開日がこれより前の記事は、この日を最終更新日として表示する */
 export const NOTES_ADDED_DATE = "2026-10-22";
 
+/** 記事に「よくある質問」「地方別の見方」などを追記した日 */
+export const FAQ_ADDED_DATE = "2026-10-24";
+
 /** 編集方針ページの最終更新日 */
 export const POLICY_UPDATED_DATE = "2026-10-22";

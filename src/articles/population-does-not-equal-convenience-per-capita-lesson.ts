@@ -8,7 +8,7 @@ export const populationDoesNotEqualConvenience: Article = {
   publishedAt: "2026-07-31",
   relatedArticles: [
     "library-count-access-and-per-capita-trap",
-    "hospital-per-capita-ranking",
+    "hospital-count-reading-guide",
     "park-area-tokyo-last-hokkaido-first",
     "why-i-built-data-mikke-former-civil-servant"
   ],

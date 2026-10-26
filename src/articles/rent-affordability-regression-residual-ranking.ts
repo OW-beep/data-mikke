@@ -15,7 +15,7 @@ export const rentAffordabilityRegressionResidualRanking: Article = {
   },
   relatedArticles: [
     "rent-density-income-tradeoff-tokyo-premium",
-    "density-and-income-relation",
+    "population-density-correlates-income-crime-homeownership",
     "savings-income-gap-aichi-beats-tokyo",
     "prefecture-archetypes-pca-clustering-analysis",
     "how-to-compare-prefecture-data"
