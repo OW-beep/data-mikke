@@ -8,6 +8,9 @@ export const prefectureCompositeScoreExplained: Article = {
   publishedAt: "2026-07-03",
   embedRanking: "livability",
   relatedArticles: ["prefecture-livability-ranking-five-metrics", "why-i-built-data-mikke-former-civil-servant"],
+  operatorNote: [
+    "【運営者の考え方】複数の指標を組み合わせて総合スコアを作る場合、どの指標を選び、どのように重み付けするかによって順位が変わります。総合スコアは客観的な唯一の答えではなく、設定した評価基準にもとづく一つの見方です。ランキングや総合スコアを作るときほど、出典や算出方法、比較するときの注意点を丁寧に示すことが重要だと考えています。"
+  ],
   body: [
     "各都道府県のページには「総合力スコア」という5点満点の指標を表示しています。これは学術的に確立された評価指標ではなく、当サイトが独自に定義した簡易的な集計です。何を根拠にしているのか、また何が測れていないのかを、ここで正直に説明しておきます。",
 
