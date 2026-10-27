@@ -25,6 +25,7 @@ const mono = JetBrains_Mono({
 });
 
 export const metadata = {
+  alternates: { types: { "application/rss+xml": "/feed.xml" } },
   metadataBase: new URL(SITE.url),
   title: {
     default: `${SITE.name} | 都道府県統計図鑑`,
@@ -85,6 +86,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             </Link>
             <nav className="dm-nav">
               <Link href="/articles">解説記事</Link>
+              <Link href="/topics">テーマ別</Link>
               <Link href="/guide">使い方</Link>
               <Link href="/compare">比較</Link>
               <Link href="/tools/kurashi">くらしツール</Link>
@@ -100,6 +102,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <footer className="dm-footer">
           <div className="dm-footer-inner">
             <nav className="dm-footer-nav">
+              <Link href="/topics">テーマ別ガイド</Link>
+              <Link href="/sitemap">サイトマップ</Link>
               <Link href="/about">運営者情報</Link>
               <Link href="/editorial-policy">編集方針</Link>
               <Link href="/terms">利用規約</Link>

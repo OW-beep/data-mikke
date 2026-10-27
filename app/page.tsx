@@ -3,6 +3,7 @@ import { DATASET_LIST } from "@/datasets";
 import { ARTICLE_LIST } from "@/articles";
 import { getCategoryColor, getCategoryEmoji } from "@/lib/categoryColors";
 import { OperatorStrip } from "@/components/OperatorStrip";
+import { TOPICS } from "@/lib/topics";
 
 export default function HomePage() {
   const latestArticles = ARTICLE_LIST.slice(0, 8);
@@ -56,6 +57,16 @@ export default function HomePage() {
           <p className="dm-usecase-title">特集: 観光・地域文化</p>
           <p className="dm-usecase-desc">文化財・伝統工芸・温泉地・喫茶店文化をまとめて見る</p>
         </Link>
+      </div>
+
+      <h2 style={{ marginTop: 32 }}>テーマから探す</h2>
+      <div className="dm-usecase-grid" style={{ marginTop: 14 }}>
+        {TOPICS.map((t) => (
+          <Link key={t.slug} href={`/topics/${t.slug}`} className="dm-usecase-card">
+            <p className="dm-usecase-title">{t.title}</p>
+            <p className="dm-usecase-desc">{t.short}</p>
+          </Link>
+        ))}
       </div>
 
       <hr className="dm-divider" />

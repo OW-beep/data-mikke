@@ -23,7 +23,7 @@ const ARTICLE_SLUGS = [
 const DATASET_IDS = ["population", "density", "agingRatio", "childrenRatio", "birthrate", "divorce"];
 
 export default function PopulationFeaturePage() {
-  const articles = ARTICLE_SLUGS.map((slug) => getArticle(slug)).filter(
+  const articles = Array.from(new Set(ARTICLE_SLUGS)).map((slug) => getArticle(slug)).filter(
     (a): a is NonNullable<typeof a> => !!a && !a.noindex
   );
   const datasets = DATASET_IDS.map((id) => getDataset(id)).filter(

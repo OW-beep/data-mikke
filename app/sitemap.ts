@@ -2,6 +2,7 @@ import { MetadataRoute } from "next";
 import { SITE } from "@/lib/site";
 import { PREFECTURES } from "@/lib/prefectures";
 import { ARTICLE_LIST } from "@/articles";
+import { TOPICS } from "@/lib/topics";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const staticPages: MetadataRoute.Sitemap = [
@@ -18,6 +19,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE.url}/about`, changeFrequency: "yearly", priority: 0.3 },
     { url: `${SITE.url}/editorial-policy`, changeFrequency: "yearly", priority: 0.3 },
     { url: `${SITE.url}/terms`, changeFrequency: "yearly", priority: 0.2 },
+    { url: `${SITE.url}/topics`, changeFrequency: "weekly", priority: 0.6 },
+    { url: `${SITE.url}/sitemap`, changeFrequency: "monthly", priority: 0.2 },
+    ...TOPICS.map((t) => ({ url: `${SITE.url}/topics/${t.slug}`, changeFrequency: "weekly" as const, priority: 0.6 })),
     { url: `${SITE.url}/privacy`, changeFrequency: "yearly", priority: 0.2 },
     { url: `${SITE.url}/contact`, changeFrequency: "yearly", priority: 0.2 }
   ];

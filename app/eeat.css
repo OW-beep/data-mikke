@@ -81,3 +81,85 @@
 .dm-note-operator h2 {
   color: var(--dm-coral-deep);
 }
+
+/* 記事のポイント・目次・本文中の見出し・同じテーマの記事 */
+.dm-keypoints {
+  margin: 20px 0 8px;
+  padding: 14px 18px;
+  background: var(--dm-bg-card);
+  border: 1px solid var(--dm-line);
+  border-left: 4px solid var(--dm-coral);
+  border-radius: 8px;
+}
+.dm-keypoints p {
+  margin: 0;
+  line-height: 1.85;
+  color: var(--dm-ink);
+}
+.dm-keypoints .dm-keypoints-label {
+  margin-bottom: 4px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  color: var(--dm-coral-deep);
+}
+.dm-toc {
+  margin: 14px 0 8px;
+  padding: 12px 18px;
+  background: var(--dm-bg-card);
+  border: 1px solid var(--dm-line);
+  border-radius: 8px;
+  font-size: 0.92rem;
+}
+.dm-toc .dm-toc-label {
+  margin: 0 0 4px;
+  font-weight: 700;
+  color: var(--dm-ink);
+}
+.dm-toc ol {
+  margin: 0;
+  padding-left: 1.4em;
+}
+.dm-toc li {
+  margin: 2px 0;
+}
+.dm-toc a {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.dm-article-body h2 {
+  margin: 28px 0 8px;
+  font-size: 1.15rem;
+  scroll-margin-top: 16px;
+}
+.dm-faq,
+.dm-note,
+.dm-source-box {
+  scroll-margin-top: 16px;
+}
+.dm-topic-box {
+  margin: 32px 0;
+  padding: 16px 20px;
+  background: var(--dm-teal-tint);
+  border-radius: 10px;
+}
+.dm-topic-box .dm-topic-box-label {
+  margin: 0 0 8px;
+  font-weight: 700;
+  color: var(--dm-teal-deep);
+}
+.dm-topic-box ul {
+  margin: 0 0 10px;
+  padding-left: 1.2em;
+}
+.dm-topic-box li {
+  margin: 4px 0;
+  line-height: 1.7;
+}
+.dm-topic-box p {
+  margin: 0;
+}
+.dm-topic-box a {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}

@@ -14,6 +14,7 @@ import { RakutenProductCard } from "@/components/RakutenProductCard";
 import { AdSlot } from "@/components/AdSlot";
 import { OPERATOR_BIO, NOTES_ADDED_DATE, FAQ_ADDED_DATE } from "@/lib/operator";
 import { renderSourceWithLinks } from "@/lib/sourceLinks";
+import { findTopicForArticle, getTopicArticles } from "@/lib/topics";
 
 export function generateStaticParams() {
   return ARTICLE_LIST.map((a) => ({ slug: a.slug }));
@@ -99,6 +100,24 @@ export default async function ArticlePage({ params }: { params: { slug: string }
   const hasFaq = Boolean(article.faq && article.faq.length);
   const updatedAt = hasFaq && article.publishedAt < FAQ_ADDED_DATE ? FAQ_ADDED_DATE : hasAddedNotes && article.publishedAt < NOTES_ADDED_DATE ? NOTES_ADDED_DATE : article.publishedAt;
 
+  // 本文の「【見出し】本文」形式の段落を、見出し（h2）と本文に分ける。目次（TOC）にも使う
+  const parsedBody = article.body.map((p) => {
+    const m = p.match(/^【([^】]{1,24})】([\s\S]*)$/);
+    return m ? { heading: m[1], text: m[2].trim() } : { heading: undefined as string | undefined, text: p };
+  });
+  const linkedBody = linkifyPrefectures(parsedBody.map((x) => x.text));
+  const tocItems: { id: string; label: string }[] = [
+    ...parsedBody.flatMap((x, i) => (x.heading ? [{ id: `sec-${i}`, label: x.heading }] : [])),
+    ...(article.faq && article.faq.length ? [{ id: "faq", label: "よくある質問" }] : []),
+    ...(article.analysisNote && article.analysisNote.length ? [{ id: "analysis", label: "データみっけの分析メモ" }] : []),
+    ...(article.operatorNote && article.operatorNote.length ? [{ id: "operator", label: "運営者の視点" }] : []),
+    { id: "sources", label: "この記事で使ったデータの出典" }
+  ];
+
+  // 同じテーマの、ほかの記事（記事末尾の導線）
+  const topic = findTopicForArticle(article.slug);
+  const topicPeers = topic ? getTopicArticles(topic).filter((a) => a.slug !== article.slug).slice(0, 4) : [];
+
   const articleJsonLd = {
     "@context": "https://schema.org",
     "@type": "Article",
@@ -142,14 +161,35 @@ export default async function ArticlePage({ params }: { params: { slug: string }
         （元地方公務員・データサイエンティスト）
       </p>
 
+      <section className="dm-keypoints" aria-label="この記事のポイント">
+        <p className="dm-keypoints-label">この記事のポイント</p>
+        <p>{article.excerpt}</p>
+      </section>
+
+      {tocItems.length >= 3 && (
+        <nav className="dm-toc" aria-label="目次">
+          <p className="dm-toc-label">目次</p>
+          <ol>
+            {tocItems.map((t) => (
+              <li key={t.id}>
+                <a href={`#${t.id}`}>{t.label}</a>
+              </li>
+            ))}
+          </ol>
+        </nav>
+      )}
+
       <div className="dm-article-body" style={{ marginTop: 24 }}>
-        {linkifyPrefectures(article.body).map((nodes, i) => (
-          <p key={i}>{nodes}</p>
+        {parsedBody.map((x, i) => (
+          <div key={i}>
+            {x.heading && <h2 id={`sec-${i}`}>{x.heading}</h2>}
+            <p>{linkedBody[i]}</p>
+          </div>
         ))}
       </div>
 
       {article.faq && article.faq.length > 0 && (
-        <section className="dm-faq">
+        <section className="dm-faq" id="faq">
           <h2>よくある質問</h2>
           <dl>
             {article.faq.map((f, i) => (
@@ -163,7 +203,7 @@ export default async function ArticlePage({ params }: { params: { slug: string }
       )}
 
       {article.analysisNote && article.analysisNote.length > 0 && (
-        <section className="dm-note">
+        <section className="dm-note" id="analysis">
           <h2>データみっけの分析メモ</h2>
           {article.analysisNote.map((t, i) => (
             <p key={i}>{t}</p>
@@ -172,7 +212,7 @@ export default async function ArticlePage({ params }: { params: { slug: string }
       )}
 
       {article.operatorNote && article.operatorNote.length > 0 && (
-        <section className="dm-note dm-note-operator">
+        <section className="dm-note dm-note-operator" id="operator">
           <h2>運営者の視点</h2>
           {article.operatorNote.map((t, i) => (
             <p key={i}>{t}</p>
@@ -180,7 +220,7 @@ export default async function ArticlePage({ params }: { params: { slug: string }
         </section>
       )}
 
-      <section className="dm-source-box" aria-label="データの出典と訂正について">
+      <section className="dm-source-box" id="sources" aria-label="データの出典と訂正について">
         {sourceDatasets.length > 0 && (
           <>
             <h2>この記事で使ったデータの出典</h2>
@@ -200,6 +240,24 @@ export default async function ArticlePage({ params }: { params: { slug: string }
           記事の内容に誤りや疑問を見つけた場合は、<Link href="/contact">お問い合わせ</Link>からご連絡ください。確認のうえ、修正して更新日に反映します。
         </p>
       </section>
+
+      {topic && topicPeers.length > 0 && (
+        <section className="dm-topic-box" aria-label="同じテーマの記事">
+          <p className="dm-topic-box-label">
+            テーマ別ガイド「<Link href={`/topics/${topic.slug}`}>{topic.title}</Link>」の、次に読む記事
+          </p>
+          <ul>
+            {topicPeers.map((a) => (
+              <li key={a.slug}>
+                <Link href={`/articles/${a.slug}`}>{a.title}</Link>
+              </li>
+            ))}
+          </ul>
+          <p>
+            <Link href={`/topics/${topic.slug}`}>このテーマの記事を、すべて見る →</Link>
+          </p>
+        </section>
+      )}
 
       <AdSlot slotId={SITE.adsenseSlots.articleMid} clientId={SITE.adsenseClientId} />
 
