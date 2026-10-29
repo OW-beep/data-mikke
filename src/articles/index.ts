@@ -60,6 +60,7 @@ import { suitDryCleaningPriceNiigataKumamoto } from "./suit-dry-cleaning-price-n
 import { temperatureSaltParkHomeownershipCorrelation } from "./temperature-salt-park-homeownership-correlation";
 import { minimumWageUrbanizationAxisSalaryRentCar } from "./minimum-wage-urbanization-axis-salary-rent-car";
 import { lifestyleVsLifeExpectancyNoStrongLink } from "./lifestyle-vs-life-expectancy-no-strong-link";
+import { whatILearnedComparingPrefectureData } from "./what-i-learned-comparing-prefecture-data";
 import { ruralInfrastructureAreaCorrelation } from "./rural-infrastructure-area-correlation-onsen-michinoeki-craft";
 import { prefectureArchetypesPcaClusteringAnalysis } from "./prefecture-archetypes-pca-clustering-analysis";
 import { prefectureNearestNeighborStatisticalTwin } from "./prefecture-nearest-neighbor-statistical-twin";
@@ -174,7 +175,8 @@ export const ARTICLE_LIST: Article[] = [
   suitDryCleaningPriceNiigataKumamoto,
   temperatureSaltParkHomeownershipCorrelation,
   minimumWageUrbanizationAxisSalaryRentCar,
-  lifestyleVsLifeExpectancyNoStrongLink
+  lifestyleVsLifeExpectancyNoStrongLink,
+  whatILearnedComparingPrefectureData
 ].sort((a, b) => (a.publishedAt < b.publishedAt ? 1 : -1));
 
 export function getArticle(slug: string): Article | undefined {

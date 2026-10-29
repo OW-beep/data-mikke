@@ -152,6 +152,7 @@ export const TOPICS: Topic[] = [
     lead: "都道府県のデータを正しく比べるための考え方と、相関・総合スコア・クラスター分析など、当サイトの分析方法をまとめたテーマです。ランキングを読む前に、まずこちらをご覧ください。",
     slugs: [
       "how-to-compare-prefecture-data",
+      "what-i-learned-comparing-prefecture-data",
       "correlation-not-found-is-also-a-discovery",
       "spurious-correlation-library-university-population",
       "prefecture-livability-ranking-five-metrics",
