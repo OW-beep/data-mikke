@@ -87,6 +87,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <nav className="dm-nav">
               <Link href="/articles">解説記事</Link>
               <Link href="/topics">テーマ別</Link>
+              <Link href="/glossary">用語集</Link>
               <Link href="/guide">使い方</Link>
               <Link href="/compare">比較</Link>
               <Link href="/tools/kurashi">くらしツール</Link>
@@ -103,7 +104,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <div className="dm-footer-inner">
             <nav className="dm-footer-nav">
               <Link href="/topics">テーマ別ガイド</Link>
+              <Link href="/glossary">統計用語集</Link>
               <Link href="/sitemap">サイトマップ</Link>
+              <Link href="/resources">無料資料</Link>
+              <Link href="/consulting">ご相談</Link>
               <Link href="/about">運営者情報</Link>
               <Link href="/editorial-policy">編集方針</Link>
               <Link href="/terms">利用規約</Link>

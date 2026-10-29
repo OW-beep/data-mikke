@@ -15,6 +15,8 @@ import { AdSlot } from "@/components/AdSlot";
 import { OPERATOR_BIO, NOTES_ADDED_DATE, FAQ_ADDED_DATE } from "@/lib/operator";
 import { renderSourceWithLinks } from "@/lib/sourceLinks";
 import { findTopicForArticle, getTopicArticles } from "@/lib/topics";
+import { findTermsInText, termHref } from "@/lib/glossary";
+import { StaticRankFigure } from "@/components/StaticRankFigure";
 
 export function generateStaticParams() {
   return ARTICLE_LIST.map((a) => ({ slug: a.slug }));
@@ -46,6 +48,10 @@ export default async function ArticlePage({ params }: { params: { slug: string }
   const rankedRows = embedDataset
     ? rankDescending(latestByArea(await loadDataset(embedDataset.id)))
     : null;
+
+  // 静的な図（SVG）: ランキングのグラフがない記事に、上位5県・下位5県の図を出す
+  const figureRows =
+    relatedDataset && !article.embedRanking ? rankDescending(latestByArea(await loadDataset(relatedDataset.id))) : null;
 
   // 散布図の埋め込み: 2つのデータセットの最新値を都道府県コードで突き合わせる
   let scatterData: { areaName: string; x: number; y: number }[] | null = null;
@@ -102,7 +108,7 @@ export default async function ArticlePage({ params }: { params: { slug: string }
 
   // 本文の「【見出し】本文」形式の段落を、見出し（h2）と本文に分ける。目次（TOC）にも使う
   const parsedBody = article.body.map((p) => {
-    const m = p.match(/^【([^】]{1,24})】([\s\S]*)$/);
+    const m = p.match(/^【([^】]{1,40})】([\s\S]*)$/);
     return m ? { heading: m[1], text: m[2].trim() } : { heading: undefined as string | undefined, text: p };
   });
   const linkedBody = linkifyPrefectures(parsedBody.map((x) => x.text));
@@ -117,6 +123,10 @@ export default async function ArticlePage({ params }: { params: { slug: string }
   // 同じテーマの、ほかの記事（記事末尾の導線）
   const topic = findTopicForArticle(article.slug);
   const topicPeers = topic ? getTopicArticles(topic).filter((a) => a.slug !== article.slug).slice(0, 4) : [];
+
+  // 記事に出てくる統計用語（用語集へのリンク）
+  const termText = [article.title, ...article.body, ...(article.analysisNote ?? []), ...(article.faq ?? []).map((f) => f.q + f.a)].join("\n");
+  const articleTerms = findTermsInText(termText, 5);
 
   const articleJsonLd = {
     "@context": "https://schema.org",
@@ -188,6 +198,10 @@ export default async function ArticlePage({ params }: { params: { slug: string }
         ))}
       </div>
 
+      {relatedDataset && figureRows && figureRows.length >= 10 && (
+        <StaticRankFigure title={relatedDataset.title} unit={relatedDataset.unit} rows={figureRows} />
+      )}
+
       {article.faq && article.faq.length > 0 && (
         <section className="dm-faq" id="faq">
           <h2>よくある質問</h2>
@@ -240,6 +254,22 @@ export default async function ArticlePage({ params }: { params: { slug: string }
           記事の内容に誤りや疑問を見つけた場合は、<Link href="/contact">お問い合わせ</Link>からご連絡ください。確認のうえ、修正して更新日に反映します。
         </p>
       </section>
+
+      {articleTerms.length > 0 && (
+        <section className="dm-source-box" aria-label="この記事に出てくる用語">
+          <h2>この記事に出てくる用語</h2>
+          <ul>
+            {articleTerms.map((t) => (
+              <li key={t.slug}>
+                <Link href={termHref(t)}>{t.term}</Link>：{t.summary}
+              </li>
+            ))}
+          </ul>
+          <p>
+            ほかの用語は、<Link href="/glossary">統計用語集</Link>で確認できます。
+          </p>
+        </section>
+      )}
 
       {topic && topicPeers.length > 0 && (
         <section className="dm-topic-box" aria-label="同じテーマの記事">

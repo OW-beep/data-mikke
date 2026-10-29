@@ -19,6 +19,7 @@ export default function SitemapPage() {
         <li><Link href="/">トップページ</Link></li>
         <li><Link href="/articles">解説記事（新着順）</Link></li>
         <li><Link href="/topics">テーマ別ガイド</Link></li>
+        <li><Link href="/glossary">統計用語集</Link></li>
         <li><Link href="/datasets">データ一覧</Link></li>
         <li><Link href="/compare">都道府県の比較</Link></li>
         <li><Link href="/analysis">分析（相関・変動係数）</Link></li>
@@ -26,6 +27,8 @@ export default function SitemapPage() {
         <li><Link href="/guide">使い方</Link></li>
         <li><Link href="/methodology">統計の読み方ガイド</Link></li>
         <li><Link href="/search">サイト内検索</Link></li>
+        <li><Link href="/resources">無料の資料・ダウンロード</Link></li>
+        <li><Link href="/consulting">データ分析・可視化のご相談</Link></li>
       </ul>
 
       {TOPICS.map((t) => (

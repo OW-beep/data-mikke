@@ -163,3 +163,18 @@
   text-decoration: underline;
   text-underline-offset: 3px;
 }
+
+/* 記事内の静的な図（SVG） */
+.dm-figure {
+  margin: 28px 0;
+  padding: 12px 14px;
+  background: var(--dm-bg-card);
+  border: 1px solid var(--dm-line);
+  border-radius: 8px;
+  color: var(--dm-ink);
+}
+.dm-figure figcaption {
+  margin-top: 6px;
+  font-size: 0.85rem;
+  color: var(--dm-muted);
+}
