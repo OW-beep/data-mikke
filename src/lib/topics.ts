@@ -153,6 +153,7 @@ export const TOPICS: Topic[] = [
     slugs: [
       "how-to-compare-prefecture-data",
       "what-i-learned-comparing-prefecture-data",
+      "east-west-japan-37-indicators-comparison",
       "correlation-not-found-is-also-a-discovery",
       "spurious-correlation-library-university-population",
       "prefecture-livability-ranking-five-metrics",

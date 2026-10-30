@@ -61,6 +61,7 @@ import { temperatureSaltParkHomeownershipCorrelation } from "./temperature-salt-
 import { minimumWageUrbanizationAxisSalaryRentCar } from "./minimum-wage-urbanization-axis-salary-rent-car";
 import { lifestyleVsLifeExpectancyNoStrongLink } from "./lifestyle-vs-life-expectancy-no-strong-link";
 import { whatILearnedComparingPrefectureData } from "./what-i-learned-comparing-prefecture-data";
+import { eastWestJapan37IndicatorsComparison } from "./east-west-japan-37-indicators-comparison";
 import { ruralInfrastructureAreaCorrelation } from "./rural-infrastructure-area-correlation-onsen-michinoeki-craft";
 import { prefectureArchetypesPcaClusteringAnalysis } from "./prefecture-archetypes-pca-clustering-analysis";
 import { prefectureNearestNeighborStatisticalTwin } from "./prefecture-nearest-neighbor-statistical-twin";
@@ -176,7 +177,8 @@ export const ARTICLE_LIST: Article[] = [
   temperatureSaltParkHomeownershipCorrelation,
   minimumWageUrbanizationAxisSalaryRentCar,
   lifestyleVsLifeExpectancyNoStrongLink,
-  whatILearnedComparingPrefectureData
+  whatILearnedComparingPrefectureData,
+  eastWestJapan37IndicatorsComparison
 ].sort((a, b) => (a.publishedAt < b.publishedAt ? 1 : -1));
 
 export function getArticle(slug: string): Article | undefined {
