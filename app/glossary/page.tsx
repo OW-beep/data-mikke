@@ -4,7 +4,7 @@ import { GLOSSARY, GLOSSARY_CATEGORIES, getTerm, termHref } from "@/lib/glossary
 import { getArticle } from "@/articles";
 
 export const metadata = {
-  title: "統計用語集｜平均・中央値・相関係数・人口密度など31語",
+  title: `統計用語集｜平均・中央値・相関係数・人口密度など${GLOSSARY.length}語`,
   description: `${SITE.name}の記事に出てくる統計用語を、例つきで解説。平均値と中央値、変動係数、相関係数、外れ値、実数と割合、人口密度、合計特殊出生率、県民所得、最低賃金などを、都道府県データの実例で説明します。`
 };
 
@@ -114,7 +114,7 @@ export default function GlossaryPage() {
         </section>
       ))}
 
-      <p className="dm-doc-updated">最終更新: 2026-10-27</p>
+      <p className="dm-doc-updated">最終更新: 2026-10-29</p>
     </div>
   );
 }
