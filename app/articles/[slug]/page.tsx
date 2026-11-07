@@ -10,7 +10,7 @@ import { RankingBarChart } from "@/components/RankingBarChart";
 import { pearsonCorrelation, describeCorrelationStrength } from "@/lib/stats";
 import { linkifyPrefectures } from "@/lib/linkifyPrefectures";
 import { searchRakutenItems } from "@/lib/rakuten";
-import { RakutenProductCard } from "@/components/RakutenProductCard";
+import { AffiliateLinks } from "@/components/AffiliateLinks";
 import { AdSlot } from "@/components/AdSlot";
 import { OPERATOR_BIO, NOTES_ADDED_DATE, FAQ_ADDED_DATE } from "@/lib/operator";
 import { renderSourceWithLinks } from "@/lib/sourceLinks";
@@ -114,6 +114,7 @@ export default async function ArticlePage({ params }: { params: { slug: string }
   const linkedBody = linkifyPrefectures(parsedBody.map((x) => x.text));
   const tocItems: { id: string; label: string }[] = [
     ...parsedBody.flatMap((x, i) => (x.heading ? [{ id: `sec-${i}`, label: x.heading }] : [])),
+    ...(article.howToUse && article.howToUse.length ? [{ id: "howto", label: "この数字を、自分の判断にどう使うか" }] : []),
     ...(article.faq && article.faq.length ? [{ id: "faq", label: "よくある質問" }] : []),
     ...(article.analysisNote && article.analysisNote.length ? [{ id: "analysis", label: "データみっけの分析メモ" }] : []),
     ...(article.operatorNote && article.operatorNote.length ? [{ id: "operator", label: "運営者の視点" }] : []),
@@ -160,6 +161,15 @@ export default async function ArticlePage({ params }: { params: { slug: string }
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
       />
+      <nav aria-label="パンくずリスト" className="dm-doc-updated" style={{ marginBottom: 8 }}>
+        <Link href="/">ホーム</Link> ＞ <Link href="/articles">解説記事</Link>
+        {topic && (
+          <>
+            {" "}＞ <Link href={`/topics/${topic.slug}`}>{topic.title}</Link>
+          </>
+        )}{" "}
+        ＞ この記事
+      </nav>
       <p className="dm-eyebrow">Articles</p>
       <h1>{article.title}</h1>
       <p className="dm-article-meta">
@@ -172,7 +182,17 @@ export default async function ArticlePage({ params }: { params: { slug: string }
       </p>
 
       <section className="dm-keypoints" aria-label="この記事のポイント">
-        <p className="dm-keypoints-label">この記事のポイント</p>
+        {article.worries && article.worries.length > 0 && (
+          <>
+            <p className="dm-keypoints-label">こんな疑問・悩みに答えます</p>
+            <ul style={{ margin: "0 0 14px", paddingLeft: "1.3em" }}>
+              {article.worries.map((wq, i) => (
+                <li key={i}>{wq}</li>
+              ))}
+            </ul>
+          </>
+        )}
+        <p className="dm-keypoints-label">{article.worries && article.worries.length > 0 ? "先に結論" : "この記事のポイント"}</p>
         <p>{article.excerpt}</p>
       </section>
 
@@ -200,6 +220,19 @@ export default async function ArticlePage({ params }: { params: { slug: string }
 
       {relatedDataset && figureRows && figureRows.length >= 10 && (
         <StaticRankFigure title={relatedDataset.title} unit={relatedDataset.unit} rows={figureRows} />
+      )}
+
+      {article.howToUse && article.howToUse.length > 0 && (
+        <section className="dm-note" id="howto">
+          <h2>この数字を、自分の判断にどう使うか</h2>
+          <ol style={{ paddingLeft: "1.3em", margin: 0 }}>
+            {article.howToUse.map((h, i) => (
+              <li key={i} style={{ marginBottom: 8 }}>
+                {h}
+              </li>
+            ))}
+          </ol>
+        </section>
       )}
 
       {article.faq && article.faq.length > 0 && (
@@ -402,8 +435,8 @@ export default async function ArticlePage({ params }: { params: { slug: string }
         </div>
       )}
 
-      {rakutenItems && rakutenItems.length > 0 && (
-        <RakutenProductCard heading={`「${article.affiliateKeyword}」を探す`} items={rakutenItems} />
+      {article.affiliateKeyword && (
+        <AffiliateLinks keyword={article.affiliateKeyword} note={article.affiliateNote} items={rakutenItems ?? []} />
       )}
 
       <div className="dm-cta-box">

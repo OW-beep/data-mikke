@@ -1,7 +1,7 @@
 import { PREFECTURES } from "@/lib/prefectures";
 import { KurashiToolClient } from "@/components/KurashiToolClient";
 import { searchRakutenItems } from "@/lib/rakuten";
-import { RakutenProductCard } from "@/components/RakutenProductCard";
+import { AffiliateLinks } from "@/components/AffiliateLinks";
 
 export const metadata = {
   title: "くらしデータツール｜生活費比較・健康スコア診断",
@@ -23,9 +23,11 @@ export default async function KurashiToolPage() {
 
       <KurashiToolClient prefectures={PREFECTURES} />
 
-      {rakutenItems && rakutenItems.length > 0 && (
-        <RakutenProductCard heading="生活費を比べたあとの引っ越し準備に" items={rakutenItems} />
-      )}
+      <AffiliateLinks
+        keyword="引っ越し ダンボール"
+        note="生活費を比べて引っ越し先が決まったら、荷造りの準備として、ダンボールなどの商品を載せています。"
+        items={rakutenItems ?? []}
+      />
     </div>
   );
 }

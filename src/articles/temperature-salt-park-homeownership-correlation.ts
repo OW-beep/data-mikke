@@ -11,6 +11,8 @@ export const temperatureSaltParkHomeownershipCorrelation: Article = {
   publishedAt: "2026-10-22",
   relatedDataset: "temperature",
   affiliateKeyword: "減塩 しょうゆ",
+  affiliateNote:
+    "塩分摂取量の高さが気になる方向けに、減塩タイプのしょうゆの商品を載せています。",
   embedScatter: {
     a: "temperature",
     b: "saltIntake",

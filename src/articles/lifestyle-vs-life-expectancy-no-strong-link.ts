@@ -11,6 +11,8 @@ export const lifestyleVsLifeExpectancyNoStrongLink: Article = {
   publishedAt: "2026-10-26",
   relatedDataset: "lifeExpectancyMale",
   affiliateKeyword: "体組成計",
+  affiliateNote:
+    "歩数や体重など、自分の生活習慣の数値を自分で把握するための道具として、体組成計の商品を載せています。",
   embedScatter: {
     a: "vegetableIntake",
     b: "lifeExpectancyMale",

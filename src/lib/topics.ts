@@ -70,6 +70,7 @@ export const TOPICS: Topic[] = [
     short: "家賃・電気・ガス・ガソリン・自動車",
     lead: "家賃、電気代、ガス代、ガソリン価格、自動車の保有など、暮らしの固定費にまつわる地域差のテーマです。料金が県ではなく事業者の区域で決まる場合など、数字の背景も確認します。",
     slugs: [
+      "relocation-compare-two-prefectures-3-steps",
       "rent-affordability-regression-residual-ranking",
       "rent-vs-car-ownership",
       "electricity-bill-by-utility-company-not-prefecture",

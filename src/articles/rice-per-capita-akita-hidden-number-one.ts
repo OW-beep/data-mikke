@@ -8,6 +8,8 @@ export const riceAkitaHiddenNumberOne: Article = {
   publishedAt: "2026-07-24",
   relatedDataset: "ricePerCapita",
   affiliateKeyword: "米",
+  affiliateNote:
+    "人口あたりの収穫量で首位に出た産地のお米に関心が出た方向けに、米の商品を載せています。",
   embedRanking: "ricePerCapita",
   relatedArticles: ["population-density-meaning", "milk-production-hokkaido-half-of-japan"],
   body: [

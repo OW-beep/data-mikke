@@ -4,6 +4,7 @@ import { ARTICLE_LIST } from "@/articles";
 import { getCategoryColor, getCategoryEmoji } from "@/lib/categoryColors";
 import { OperatorStrip } from "@/components/OperatorStrip";
 import { TOPICS } from "@/lib/topics";
+import { WORRIES } from "@/lib/worries";
 
 export default function HomePage() {
   const latestArticles = ARTICLE_LIST.slice(0, 8);
@@ -28,6 +29,19 @@ export default function HomePage() {
       </p>
 
       <OperatorStrip />
+
+      <h2 style={{ marginTop: 32 }}>こんな悩み・疑問から探す</h2>
+      <p className="dm-doc-updated" style={{ marginTop: 4 }}>
+        数字そのものより「知りたいこと」から入りたい方へ。答えになる記事・ツールを案内します。
+      </p>
+      <div className="dm-usecase-grid" style={{ marginTop: 12 }}>
+        {WORRIES.map((w) => (
+          <Link key={w.href} href={w.href} className="dm-usecase-card">
+            <p className="dm-usecase-title">{w.worry}</p>
+            <p className="dm-usecase-desc">{w.answer}</p>
+          </Link>
+        ))}
+      </div>
 
       <div className="dm-usecase-grid" style={{ marginTop: 24 }}>
         <Link href="/compare" className="dm-usecase-card">

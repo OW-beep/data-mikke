@@ -13,12 +13,20 @@ export function generateStaticParams() {
   return PREFECTURES.map((p) => ({ pref: p.slug }));
 }
 
-export function generateMetadata({ params }: { params: { pref: string } }) {
+export async function generateMetadata({ params }: { params: { pref: string } }) {
   const prefecture = findPrefectureBySlug(params.pref);
   if (!prefecture) return {};
+
+  // 検索結果のスニペットに「全国◯位」の具体的な数字を出して、クリックされやすくする（CTR改善）。
+  // 順位は、固定値（内閣府の県民経済計算・2022年度）の県民所得だけを使う。
+  // 人口・人口密度はsyncのたびに値が更新されるため、スニペットには入れない。
+  const rankedIncome = rankDescending(latestByArea(await loadDataset("income")));
+  const incomeIdx = rankedIncome.findIndex((p) => p.areaCode === prefecture.code);
+  const incomeText = incomeIdx === -1 ? "" : `1人当たり県民所得は全国${incomeIdx + 1}位（2022年度）。`;
+
   return {
-    title: `${prefecture.name}の統計データまとめ｜物価・家賃・年収・人口`,
-    description: `${prefecture.name}の物価・家賃・生活費・平均年収・人口・医療などの統計データを、全国順位つきで一覧できます。出典・参照年つき。`
+    title: `${prefecture.name}の統計データ一覧｜人口・年収・物価・家賃を全国順位で比較`,
+    description: `${prefecture.name}の統計データを一覧で確認。${incomeText}物価・家賃・平均年収・人口・医療など全指標を、全国順位・出典・参照年つきで掲載しています。`
   };
 }
 

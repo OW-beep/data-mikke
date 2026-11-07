@@ -46,7 +46,9 @@ export const metadata = {
   },
   verification: {
     google: "KYZp6leIoJkmXQipodIUtUhXTopgEfgqFiQ7eJZuRZA"
-  }
+  },
+  // AdSenseのサイト確認用メタタグ（スクリプトと併用）
+  other: SITE.adsenseClientId ? { "google-adsense-account": SITE.adsenseClientId } : undefined
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
@@ -54,6 +56,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     "@context": "https://schema.org",
     "@type": "WebSite",
     name: SITE.name,
+    alternateName: ["データみっけ", "datamikke", "data-mikke"],
     url: SITE.url,
     description: SITE.description,
     potentialAction: {
