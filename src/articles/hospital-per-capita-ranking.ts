@@ -9,6 +9,10 @@ export const hospitalPerCapitaRanking: Article = {
   relatedDataset: "hospitalPerCapita",
   embedRanking: "hospitalPerCapita",
   relatedArticles: ["hospital-count-reading-guide", "doctor-count-west-high-east-low-mystery", "nurse-count-income-inverse-relationship", "population-does-not-equal-convenience-per-capita-lesson"],
+  operatorNote: [
+    "【暮らしの実感】統計と実際の暮らしの違いを感じるのは、子どもの体調が急に悪くなったときです。近くに小児科があるか、今日診てもらえるか、何時まで受け付けているかを調べることになります。地図上では近くに複数の医療機関が見つかっても、実際に選べるところは限られます。診療時間が合わない、予約が埋まっている、希望する診療科に対応していない、といった理由があるからです。",
+    "特に印象的なのは、距離が近いことと、受診しやすいことは別だという点です。小さい子どもを連れていくなら、徒歩で行ける距離か、ベビーカーで入りやすいか、駐車場があるかも大きく影響します。大人一人で受診する場合と、子どもを連れて受診する場合では、同じ距離でも負担が違います。子育て世帯にとっては、医療機関が何軒あるかよりも、困ったときに実際に診てもらえる場所があるかどうかのほうが切実です。"
+  ],
   body: [
     "単純な病院数は、人口規模に比例して増える性質があります。つまり、地域医療の充実度を測るには、人口で調整した指標のほうが実態に近いはずです。そこで実際に計算したのが、「人口10万人あたり病院数」というランキングです。",
 
