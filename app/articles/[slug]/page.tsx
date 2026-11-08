@@ -195,6 +195,12 @@ export default async function ArticlePage({ params }: { params: { slug: string }
         <p className="dm-keypoints-label">{article.worries && article.worries.length > 0 ? "先に結論" : "この記事のポイント"}</p>
         <p>{article.excerpt}</p>
       </section>
+      {article.dataNote && (
+        <section className="dm-note" aria-label="データの年について">
+          <h2>データの年について</h2>
+          <p>{article.dataNote}</p>
+        </section>
+      )}
 
       {tocItems.length >= 3 && (
         <nav className="dm-toc" aria-label="目次">
