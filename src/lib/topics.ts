@@ -98,7 +98,8 @@ export const TOPICS: Topic[] = [
       "hospital-count-reading-guide",
       "salt-intake-tohoku-concentration",
       "steps-income-urbanization-link",
-      "health-score-explained"
+      "health-score-explained",
+      "relocation-children-medical-access-checklist"
     ]
   },
   {
@@ -130,7 +131,8 @@ export const TOPICS: Topic[] = [
       "library-count-access-and-per-capita-trap",
       "university-count-tokyo-concentration-history",
       "convenience-store-tokyo-vs-tottori-28-times",
-      "school-lunch-facility-count-tokyo-vs-tottori"
+      "school-lunch-facility-count-tokyo-vs-tottori",
+      "kids-friendly-library-park-check-before-moving"
     ]
   },
   {

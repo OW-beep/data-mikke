@@ -63,6 +63,8 @@ import { lifestyleVsLifeExpectancyNoStrongLink } from "./lifestyle-vs-life-expec
 import { whatILearnedComparingPrefectureData } from "./what-i-learned-comparing-prefecture-data";
 import { eastWestJapan37IndicatorsComparison } from "./east-west-japan-37-indicators-comparison";
 import { relocationCompareTwoPrefectures3Steps } from "./relocation-compare-two-prefectures-3-steps";
+import { relocationChildrenMedicalAccessChecklist } from "./relocation-children-medical-access-checklist";
+import { kidsFriendlyLibraryParkCheckBeforeMoving } from "./kids-friendly-library-park-check-before-moving";
 import { ruralInfrastructureAreaCorrelation } from "./rural-infrastructure-area-correlation-onsen-michinoeki-craft";
 import { prefectureArchetypesPcaClusteringAnalysis } from "./prefecture-archetypes-pca-clustering-analysis";
 import { prefectureNearestNeighborStatisticalTwin } from "./prefecture-nearest-neighbor-statistical-twin";
@@ -180,7 +182,9 @@ export const ARTICLE_LIST: Article[] = [
   lifestyleVsLifeExpectancyNoStrongLink,
   whatILearnedComparingPrefectureData,
   eastWestJapan37IndicatorsComparison,
-  relocationCompareTwoPrefectures3Steps
+  relocationCompareTwoPrefectures3Steps,
+  relocationChildrenMedicalAccessChecklist,
+  kidsFriendlyLibraryParkCheckBeforeMoving
 ].sort((a, b) => (a.publishedAt < b.publishedAt ? 1 : -1));
 
 export function getArticle(slug: string): Article | undefined {

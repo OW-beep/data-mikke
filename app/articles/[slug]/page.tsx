@@ -115,6 +115,7 @@ export default async function ArticlePage({ params }: { params: { slug: string }
   const tocItems: { id: string; label: string }[] = [
     ...parsedBody.flatMap((x, i) => (x.heading ? [{ id: `sec-${i}`, label: x.heading }] : [])),
     ...(article.howToUse && article.howToUse.length ? [{ id: "howto", label: "この数字を、自分の判断にどう使うか" }] : []),
+    ...(article.insight && article.insight.length ? [{ id: "insight", label: "データから考えられること（運営者の見解）" }] : []),
     ...(article.faq && article.faq.length ? [{ id: "faq", label: "よくある質問" }] : []),
     ...(article.analysisNote && article.analysisNote.length ? [{ id: "analysis", label: "データみっけの分析メモ" }] : []),
     ...(article.operatorNote && article.operatorNote.length ? [{ id: "operator", label: "運営者の視点" }] : []),
@@ -238,6 +239,15 @@ export default async function ArticlePage({ params }: { params: { slug: string }
               </li>
             ))}
           </ol>
+        </section>
+      )}
+
+      {article.insight && article.insight.length > 0 && (
+        <section className="dm-note" id="insight">
+          <h2>データから考えられること（運営者の見解）</h2>
+          {article.insight.map((s, i) => (
+            <p key={i}>{s}</p>
+          ))}
         </section>
       )}
 

@@ -5,6 +5,7 @@ import { loadDataset, latestByArea, seriesForArea, rankDescending } from "@/lib/
 import { PREFECTURES, findPrefectureBySlug } from "@/lib/prefectures";
 import { COMPOSITE_METRICS, compositeComment } from "@/lib/composite";
 import { median } from "@/lib/stats";
+import { buildPrefectureGuide, type GuideDatum } from "@/lib/prefectureGuide";
 import { TrendChart } from "@/components/TrendChart";
 import { searchRakutenItems } from "@/lib/rakuten";
 import { RakutenProductCard } from "@/components/RakutenProductCard";
@@ -100,6 +101,13 @@ export default async function PrefecturePage({ params }: { params: { pref: strin
     })
     .filter((v): v is { title: string; unit: string; value: number } => v !== null);
 
+  // 引っ越し・暮らしを考える人向けの案内（この県の実データから組み立てる）
+  const guide = buildPrefectureGuide(prefecture.name, (id): GuideDatum | null => {
+    const row = rowByDatasetId.get(id);
+    if (!row?.latest || row.benchmark === null || row.rank === null) return null;
+    return { value: row.latest.value, benchmark: row.benchmark, rank: row.rank, year: row.latest.year };
+  });
+
   return (
     <div>
       <p className="dm-eyebrow">都道府県ページ</p>
@@ -175,6 +183,31 @@ export default async function PrefecturePage({ params }: { params: { pref: strin
             <Link href="/ranking/costIndex">物価が安い県ランキング</Link>で全国の並びを確認できます。
           </p>
         </>
+      )}
+
+      {guide.length > 0 && (
+        <section style={{ marginTop: 32 }} id="guide">
+          <h2>{prefecture.name}への引っ越し・暮らしを考える人へ</h2>
+          <p className="dm-doc-updated" style={{ marginTop: 4 }}>
+            下の数字は、県単位の目安です。決める前に、候補の市区町村で確かめてください。2つの県を並べて比べたいときは、
+            <Link href="/tools/kurashi">くらしデータツール</Link>が使えます。
+          </p>
+          {guide.map((g) => (
+            <div key={g.heading} className="dm-card" style={{ marginTop: 12 }}>
+              <h3 style={{ marginTop: 0 }}>{g.heading}</h3>
+              <p>{g.text}</p>
+              <p className="dm-doc-updated" style={{ marginTop: 8 }}>
+                関連：
+                {g.links.map((l, i) => (
+                  <span key={l.href}>
+                    {i > 0 && "、"}
+                    <Link href={l.href}>{l.label}</Link>
+                  </span>
+                ))}
+              </p>
+            </div>
+          ))}
+        </section>
       )}
 
       {categories.map((category) => (
