@@ -9,6 +9,19 @@ export const manufacturingPerCapitaPowerhouse: Article = {
   relatedDataset: "manufacturingPerCapita",
   embedRanking: "manufacturingPerCapita",
   relatedArticles: ["income-ranking-caution", "shipment-per-factory-scale-yamaguchi-vs-tokyo", "savings-income-gap-aichi-beats-tokyo", "manufacturing-three-ways-tokyo-aichi-yamaguchi"],
+  worries: [
+    "愛知県は、本当にものづくりが強いの？",
+    "総額ではなく、1人あたりで見ると、順位は変わる？",
+    "「ものづくりの県」は、どこ？"
+  ],
+  howToUse: [
+    "総額で1位の愛知県は、人口で割った1人あたりでも、高い水準を保っています。規模の影響を取り除いても強い、ということです。",
+    "総額と1人あたりの両方を見ると、「大きい県」と「濃い県」を区別できます。",
+    "製造業の「強さ」は、数・金額・規模・1人あたりなど、物差しで変わります（製造業の3つの1位の記事も参照してください）。"
+  ],
+  insight: [
+    "【見解】総額で強い県が、1人あたりでも強い場合は、「工場が多いだけ」ではなく、産業の構成そのものが製造業に傾いている、と読めると思います。ただし、この記事のデータでは、その内訳（業種や雇用）までは確かめられません。"
+  ],
   body: [
     "製造品出荷額等の総額ランキングでは、愛知県が2位以下を大きく引き離してトップに立っています。自動車産業を中心とした巨大な製造業の集積があるためで、これ自体はよく知られた事実です。ここで気になるのは、この強さが単に「人口が多いから」なのか、それとも「人口あたりで見ても本当に強い」のかという点です。",
 
