@@ -39,6 +39,7 @@ export const TOPICS: Topic[] = [
     short: "県民所得・平均年収・最低賃金・貯蓄",
     lead: "県民所得と平均年収の違い、最低賃金、貯蓄額など、お金にまつわる地域差のテーマです。似た言葉でも統計上の定義が異なるため、何を測った数字なのかを確かめながら読みます。",
     slugs: [
+      "compare-work-locations-beyond-minimum-wage",
       "income-ranking-caution",
       "salary-vs-income-nara-commuter-effect",
       "kinki-salary-income-comparison-nara-osaka-shiga",
@@ -54,6 +55,7 @@ export const TOPICS: Topic[] = [
     short: "米・肉・パン・卵・牛乳・ラーメン・コーヒー",
     lead: "米や肉、パン、卵、牛乳、外食のラーメンやコーヒーなど、身近な食品の価格の地域差を集めたテーマです。調査店舗の範囲や単位に注意しながら、県ごとの違いを見ます。",
     slugs: [
+      "food-cost-check-steps-when-prices-rise",
       "food-price-hike-september-2026-cost-index-gap",
       "rice-price-producing-region-gap",
       "rice-price-reversal-2026-oversupply",
@@ -70,6 +72,7 @@ export const TOPICS: Topic[] = [
     short: "家賃・電気・ガス・ガソリン・自動車",
     lead: "家賃、電気代、ガス代、ガソリン価格、自動車の保有など、暮らしの固定費にまつわる地域差のテーマです。料金が県ではなく事業者の区域で決まる場合など、数字の背景も確認します。",
     slugs: [
+      "electricity-cost-review-steps-check-before-switching",
       "relocation-compare-two-prefectures-3-steps",
       "rent-affordability-regression-residual-ranking",
       "rent-vs-car-ownership",

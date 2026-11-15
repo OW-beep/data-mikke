@@ -65,6 +65,9 @@ import { eastWestJapan37IndicatorsComparison } from "./east-west-japan-37-indica
 import { relocationCompareTwoPrefectures3Steps } from "./relocation-compare-two-prefectures-3-steps";
 import { relocationChildrenMedicalAccessChecklist } from "./relocation-children-medical-access-checklist";
 import { kidsFriendlyLibraryParkCheckBeforeMoving } from "./kids-friendly-library-park-check-before-moving";
+import { foodCostCheckStepsWhenPricesRise } from "./food-cost-check-steps-when-prices-rise";
+import { compareWorkLocationsBeyondMinimumWage } from "./compare-work-locations-beyond-minimum-wage";
+import { electricityCostReviewStepsCheckBeforeSwitching } from "./electricity-cost-review-steps-check-before-switching";
 import { ruralInfrastructureAreaCorrelation } from "./rural-infrastructure-area-correlation-onsen-michinoeki-craft";
 import { prefectureArchetypesPcaClusteringAnalysis } from "./prefecture-archetypes-pca-clustering-analysis";
 import { prefectureNearestNeighborStatisticalTwin } from "./prefecture-nearest-neighbor-statistical-twin";
@@ -184,7 +187,10 @@ export const ARTICLE_LIST: Article[] = [
   eastWestJapan37IndicatorsComparison,
   relocationCompareTwoPrefectures3Steps,
   relocationChildrenMedicalAccessChecklist,
-  kidsFriendlyLibraryParkCheckBeforeMoving
+  kidsFriendlyLibraryParkCheckBeforeMoving,
+  foodCostCheckStepsWhenPricesRise,
+  compareWorkLocationsBeyondMinimumWage,
+  electricityCostReviewStepsCheckBeforeSwitching
 ].sort((a, b) => (a.publishedAt < b.publishedAt ? 1 : -1));
 
 export function getArticle(slug: string): Article | undefined {

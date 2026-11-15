@@ -10,6 +10,31 @@ export type Worry = {
 
 export const WORRIES: Worry[] = [
   {
+    worry: "食品の値上げが続く。食費は、どこから見直せばいい？",
+    answer: "自分の家の品目と量を書き出し、単価に直して、地域の価格と比べる5つの手順です",
+    href: "/articles/food-cost-check-steps-when-prices-rise"
+  },
+  {
+    worry: "転職や引っ越しで、働く場所を比べたい。何を見ればいい？",
+    answer: "最低賃金や年収の額面だけでなく、家賃や車の費用も並べて確かめる4つの手順です",
+    href: "/articles/compare-work-locations-beyond-minimum-wage"
+  },
+  {
+    worry: "電気代が高い。まず何を確認すればいい？",
+    answer: "地域差・使用量・契約内容を分けて確認する手順です。年間の差額の目安もあります",
+    href: "/articles/electricity-cost-review-steps-check-before-switching"
+  },
+  {
+    worry: "引っ越し先で、子どもが急に体調を崩したら不安",
+    answer: "小児科の診療時間、休日・夜間の受け皿、電話相談#8000を、事前に確認する手順です",
+    href: "/articles/relocation-children-medical-access-checklist"
+  },
+  {
+    worry: "子連れで、図書館や公園は使いやすい？",
+    answer: "数や面積では分からない使いやすさを、引っ越し前に確かめる5つのポイントです",
+    href: "/articles/kids-friendly-library-park-check-before-moving"
+  },
+  {
     worry: "引っ越し先で迷っている。生活費は、どれくらい違う？",
     answer: "家賃・電気代・ガソリン代など7品目を、2つの都道府県で並べて比べられます",
     href: "/tools/kurashi"
