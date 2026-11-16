@@ -1377,3 +1377,10 @@ export function findTermsInText(text: string, limit = 5): GlossaryTerm[] {
   }
   return hits.sort((a, b) => a.pos - b.pos).slice(0, limit).map((h) => h.t);
 }
+
+/**
+ * 検索結果に出さない用語ページ。「標準化」「平均値」のような一般的な統計用語は、大手サイトとの競争で90位台になり、
+ * 都道府県データを探す人の役に立たない表示ばかりが増えて、サイト全体の平均掲載順位を押し下げるため。
+ * ページ自体は残し、記事からのリンクも維持する（検索結果と、サイトマップから外すだけ）。
+ */
+export const GLOSSARY_NOINDEX = new Set<string>(["standardization", "mean"]);

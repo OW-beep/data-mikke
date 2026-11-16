@@ -3,7 +3,7 @@ import { SITE } from "@/lib/site";
 import { PREFECTURES } from "@/lib/prefectures";
 import { ARTICLE_LIST } from "@/articles";
 import { TOPICS } from "@/lib/topics";
-import { GLOSSARY } from "@/lib/glossary";
+import { GLOSSARY, GLOSSARY_NOINDEX } from "@/lib/glossary";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const staticPages: MetadataRoute.Sitemap = [
@@ -24,7 +24,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE.url}/sitemap`, changeFrequency: "monthly", priority: 0.2 },
     { url: `${SITE.url}/resources`, changeFrequency: "monthly", priority: 0.5 },
     { url: `${SITE.url}/glossary`, changeFrequency: "monthly", priority: 0.6 },
-    ...GLOSSARY.filter((g) => g.page).map((g) => ({ url: `${SITE.url}/glossary/${g.slug}`, changeFrequency: "monthly" as const, priority: 0.5 })),
+    ...GLOSSARY.filter((g) => g.page && !GLOSSARY_NOINDEX.has(g.slug)).map((g) => ({ url: `${SITE.url}/glossary/${g.slug}`, changeFrequency: "monthly" as const, priority: 0.5 })),
     { url: `${SITE.url}/consulting`, changeFrequency: "monthly", priority: 0.4 },
     ...TOPICS.map((t) => ({ url: `${SITE.url}/topics/${t.slug}`, changeFrequency: "weekly" as const, priority: 0.6 })),
     { url: `${SITE.url}/privacy`, changeFrequency: "yearly", priority: 0.2 },

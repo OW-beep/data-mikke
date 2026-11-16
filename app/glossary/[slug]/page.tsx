@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { SITE } from "@/lib/site";
-import { GLOSSARY, getTerm, termHref } from "@/lib/glossary";
+import { GLOSSARY, GLOSSARY_NOINDEX, getTerm, termHref } from "@/lib/glossary";
 import { getArticle } from "@/articles";
 
 export function generateStaticParams() {
@@ -14,7 +14,8 @@ export function generateMetadata({ params }: { params: { slug: string } }) {
   const name = t.term.replace(/（.*$/, "");
   return {
     title: `${name}とは？意味・計算のしかた・読み方（${SITE.name}）`.slice(0, 60),
-    description: `${t.summary} ${t.example}`.slice(0, 118)
+    description: `${t.summary} ${t.example}`.slice(0, 118),
+    ...(GLOSSARY_NOINDEX.has(t.slug) ? { robots: { index: false, follow: true } } : {})
   };
 }
 
