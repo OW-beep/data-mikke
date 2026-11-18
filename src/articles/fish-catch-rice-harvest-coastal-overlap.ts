@@ -6,6 +6,9 @@ export const fishRiceCoastalOverlap: Article = {
   excerpt:
     "海の幸と稲作、一見無関係に見える2つの一次産業データですが、相関係数を計算すると r=0.413 という無視できない関係が見えてきます。",
   publishedAt: "2026-07-27",
+  seoTitle: "漁獲量と米収穫量の関係｜相関係数r=0.413のゆるやかな関係",
+  metaDescription:
+    "海の幸と稲作、一見無関係に見える2つの一次産業データですが、相関係数を計算するとr=0.413という無視できない関係が見えてきます。",
   relatedDataset: "fish",
   affiliateKeyword: "海鮮 詰め合わせ",
   affiliateNote:

@@ -8,7 +8,7 @@ export const populationDensityRankingAll47Prefectures2020: Article = {
   publishedAt: "2026-10-08",
   seoTitle: "人口密度ランキング 都道府県別｜1位東京都6,403人/km²、最下位は北海道",
   metaDescription:
-    "全47都道府県の人口密度ランキング（令和2年国勢調査）。1位東京都6,402.6人/km²、2位大阪府、3位神奈川県。最下位は北海道66.6人。全国平均338.2人を上回るのは15都府県。全順位表つき。",
+    "全47都道府県の人口密度ランキング（令和2年国勢調査）。1位東京都6,402.6人/km²、2位大阪府、3位神奈川県。最下位は北海道66.6人。全国平均338.2人を上回るのは15都府県。2024年推計の全順位表も掲載しています。",
   relatedDataset: "density",
   embedRanking: "density",
   relatedArticles: [

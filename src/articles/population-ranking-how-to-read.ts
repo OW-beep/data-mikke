@@ -6,6 +6,9 @@ export const populationRankingHowToRead: Article = {
   excerpt:
     "東京都が1位なのは当たり前として、そこから何を読み取るべきか。人口ランキングを「順位」だけで終わらせない読み方を整理しました。",
   publishedAt: "2026-06-22",
+  seoTitle: "都道府県の人口ランキングの読み方｜順位だけで終わらせない",
+  metaDescription:
+    "東京都が1位なのは当たり前として、そこから何を読み取るべきか。人口ランキングを「順位」だけで終わらせない読み方を整理しました。",
   featured: true,
   relatedDataset: "population",
   embedRanking: "population",

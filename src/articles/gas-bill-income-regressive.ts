@@ -6,6 +6,9 @@ export const gasBillIncomeRegressive: Article = {
   excerpt:
     "都市ガス代の都道府県差は月3,400円、年間では4万円を超えます。しかも高い料金を払っているのは、平均年収が低い県のほうでした。",
   publishedAt: "2026-09-18",
+  seoTitle: "都市ガス代が高い県は年収が低い県だった｜月3,400円の差",
+  metaDescription:
+    "都市ガス代の都道府県差は月3,400円、年間では4万円を超えます。しかも高い料金を払っているのは、平均年収が低い県のほうでした。",
   relatedDataset: "gasBill",
   affiliateKeyword: "ガス代 節約",
   affiliateNote:

@@ -11,8 +11,8 @@ export function generateMetadata({ params }: { params: { slug: string } }) {
   const topic = TOPICS.find((t) => t.slug === params.slug);
   if (!topic) return {};
   return {
-    title: `${topic.title}のテーマ別ガイド`,
-    description: `${topic.lead}`.slice(0, 120)
+    title: `${topic.title}｜${topic.short}`,
+    description: `${topic.lead}`.slice(0, 155)
   };
 }
 

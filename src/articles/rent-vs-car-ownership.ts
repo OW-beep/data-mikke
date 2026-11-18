@@ -6,6 +6,9 @@ export const rentVsCarOwnership: Article = {
   excerpt:
     "家賃と自動車所有数の相関係数は-0.80。当サイトが扱う指標の組み合わせの中でも、群を抜いて強い関係でした。住居費と移動費のトレードオフを数字で見ます。",
   publishedAt: "2026-09-19",
+  seoTitle: "家賃と車の保有率の関係｜相関-0.80、高い県ほど車を持たない",
+  metaDescription:
+    "家賃と自動車所有数の相関係数は-0.80。当サイトが扱う指標の組み合わせの中でも、群を抜いて強い関係でした。住居費と移動費のトレードオフを数字で見ます。",
   relatedDataset: "rent",
   relatedArticles: ["barber-fee-ranking-kagawa-highest-okinawa-lowest", "coffee-price-ranking-miyazaki-highest-kagawa-lowest", "gasoline-price-ranking-2026-tax-cut"],
   analysisNote: [

@@ -6,6 +6,9 @@ export const nurseCountIncomeInverse: Article = {
   excerpt:
     "人口10万人あたり看護師数は医師数との相関がr=0.684と強い一方、県民所得との相関はr=-0.461と、逆方向に働いていました。",
   publishedAt: "2026-07-28",
+  seoTitle: "看護師数の都道府県ランキング｜医師数と連動、所得とは逆相関",
+  metaDescription:
+    "人口10万人あたり看護師数は医師数との相関がr=0.684と強い一方、県民所得との相関はr=-0.461と逆方向でした。47都道府県のデータを比べます。",
   relatedDataset: "nurse",
   embedScatter: {
     a: "nurse",

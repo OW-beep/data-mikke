@@ -6,6 +6,9 @@ export const sunshineHoursSaitamaTopOkinawaLow: Article = {
   excerpt:
     "年間日照時間ランキングの1位は埼玉県2,366時間。常夏のイメージが強い沖縄県は42位の1,760時間にとどまり、気温との相関係数もr=0.13とほぼ無関係でした。",
   publishedAt: "2026-07-24",
+  seoTitle: "日照時間ランキング｜1位は埼玉県2,366時間、沖縄県は42位",
+  metaDescription:
+    "年間日照時間ランキングの1位は埼玉県2,366時間。常夏のイメージが強い沖縄県は42位の1,760時間にとどまり、気温との相関係数もr=0.13とほぼ無関係でした。",
   relatedDataset: "sunshine",
   embedScatter: {
     a: "sunshine",

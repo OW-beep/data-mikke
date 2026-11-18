@@ -6,6 +6,9 @@ export const howToComparePrefectureData: Article = {
   excerpt:
     "「A県はB県より数字が大きいから優れている」と結論づける前に確認しておきたい、統計データ比較の基本的な注意点をまとめました。",
   publishedAt: "2026-06-23",
+  seoTitle: "都道府県データを比べるときの4つのポイント",
+  metaDescription:
+    "「A県はB県より数字が大きいから優れている」と結論づける前に確認しておきたい、統計データ比較の基本的な注意点をまとめました。",
   relatedArticles: [
     "population-ranking-how-to-read",
     "income-ranking-caution",

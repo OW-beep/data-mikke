@@ -6,6 +6,9 @@ export const stepsIncomeUrbanizationLink: Article = {
   excerpt:
     "歩数と年収の相関係数は+0.68。一見「稼いでいる人ほど健康に気を遣っている」ように見えますが、実際に効いているのは都市化と車依存度でした。",
   publishedAt: "2026-09-22",
+  seoTitle: "歩数が多い県は年収も高い？｜相関+0.68の裏にある都市化",
+  metaDescription:
+    "歩数と年収の相関係数は+0.68。一見「稼いでいる人ほど健康に気を遣っている」ように見えますが、実際に効いているのは都市化と車依存度でした。",
   relatedDataset: "steps",
   affiliateKeyword: "ウォーキングシューズ",
   affiliateNote:

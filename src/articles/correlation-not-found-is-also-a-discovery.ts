@@ -6,6 +6,9 @@ export const correlationNotFoundIsAlsoADiscovery: Article = {
   excerpt:
     "データ分析は「正解を当てること」ではなく、新しい気づきを得ることだと思っています。小さな疑問をデータで確かめてみると、予想と違う結果になることも、それ自体が発見です。",
   publishedAt: "2026-08-02",
+  seoTitle: "相関が見つからないのも発見｜都道府県データ分析の始め方",
+  metaDescription:
+    "データ分析は「正解を当てること」ではなく、新しい気づきを得ることです。小さな疑問をデータで確かめてみると、予想と違う結果になることも、それ自体が発見です。",
   relatedArticles: [
     "spurious-correlation-library-university-population",
     "forest-rate-crime-rate-correlation",

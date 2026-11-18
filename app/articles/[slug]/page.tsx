@@ -152,6 +152,21 @@ export default async function ArticlePage({ params }: { params: { slug: string }
     ]
   };
 
+  // FAQがある記事は FAQPage の構造化データも出す（リッチリザルト対象）。
+  // 以前は FAQ が画面表示のみで、構造化データが無かった。
+  const faqJsonLd =
+    article.faq && article.faq.length > 0
+      ? {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: article.faq.map((f) => ({
+            "@type": "Question",
+            name: f.q,
+            acceptedAnswer: { "@type": "Answer", text: f.a }
+          }))
+        }
+      : null;
+
   return (
     <div>
       <script
@@ -162,6 +177,12 @@ export default async function ArticlePage({ params }: { params: { slug: string }
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
       />
+      {faqJsonLd && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+        />
+      )}
       <nav aria-label="パンくずリスト" className="dm-doc-updated" style={{ marginBottom: 8 }}>
         <Link href="/">ホーム</Link> ＞ <Link href="/articles">解説記事</Link>
         {topic && (
