@@ -93,6 +93,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <Link href="/glossary">用語集</Link>
               <Link href="/guide">使い方</Link>
               <Link href="/compare">比較</Link>
+              <Link href="/map">地図</Link>
               <Link href="/tools/kurashi">くらしツール</Link>
               <Link href="/analysis">分析</Link>
               <Link href="/datasets">データ一覧</Link>

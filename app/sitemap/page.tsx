@@ -22,6 +22,8 @@ export default function SitemapPage() {
         <li><Link href="/glossary">統計用語集</Link></li>
         <li><Link href="/datasets">データ一覧</Link></li>
         <li><Link href="/compare">都道府県の比較</Link></li>
+        <li><Link href="/map">都道府県マップ（一番の強み一覧）</Link></li>
+        <li><Link href="/map-3d">3D棒グラフ地図（ランキングを高さで比べる）</Link></li>
         <li><Link href="/analysis">分析（相関・変動係数）</Link></li>
         <li><Link href="/tools/kurashi">くらしツール</Link></li>
         <li><Link href="/guide">使い方</Link></li>

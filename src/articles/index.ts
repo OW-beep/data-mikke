@@ -91,6 +91,7 @@ import { coffeePriceRankingMiyazakiHighestKagawaLowest } from "./coffee-price-ra
 import { electricityBillByUtilityCompanyNotPrefecture } from "./electricity-bill-by-utility-company-not-prefecture";
 import { waterBillRankingNagasakiHighestAichiLowest } from "./water-bill-ranking-nagasaki-highest-aichi-lowest";
 import { gasolinePriceRanking2026TaxCut } from "./gasoline-price-ranking-2026-tax-cut";
+import { femaleLifeExpectancyRankingOkayamaTop } from "./female-life-expectancy-ranking-okayama-top";
 
 /**
  * ★記事追加手順★
@@ -190,7 +191,8 @@ export const ARTICLE_LIST: Article[] = [
   kidsFriendlyLibraryParkCheckBeforeMoving,
   foodCostCheckStepsWhenPricesRise,
   compareWorkLocationsBeyondMinimumWage,
-  electricityCostReviewStepsCheckBeforeSwitching
+  electricityCostReviewStepsCheckBeforeSwitching,
+  femaleLifeExpectancyRankingOkayamaTop
 ].sort((a, b) => (a.publishedAt < b.publishedAt ? 1 : -1));
 
 export function getArticle(slug: string): Article | undefined {

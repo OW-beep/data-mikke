@@ -16,6 +16,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE.url}/feature/tourism-culture`, changeFrequency: "monthly", priority: 0.6 },
     { url: `${SITE.url}/updates`, changeFrequency: "weekly", priority: 0.5 },
     { url: `${SITE.url}/compare`, changeFrequency: "monthly", priority: 0.6 },
+    { url: `${SITE.url}/map`, changeFrequency: "monthly", priority: 0.6 },
+    { url: `${SITE.url}/map-3d`, changeFrequency: "monthly", priority: 0.5 },
     { url: `${SITE.url}/articles`, changeFrequency: "weekly", priority: 0.7 },
     { url: `${SITE.url}/about`, changeFrequency: "yearly", priority: 0.3 },
     { url: `${SITE.url}/editorial-policy`, changeFrequency: "yearly", priority: 0.3 },
