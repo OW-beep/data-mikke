@@ -16,7 +16,7 @@ export const hospitalPerCapitaRanking: Article = {
   ],
   relatedDataset: "hospitalPerCapita",
   dataNote:
-    "病院数は厚生労働省「平成25年医療施設（動態）調査」（2013年10月1日現在）のものです。人口10万人あたりの値は、2013年の病院数を、その年に最も近い2021年の人口で割って算出しています。最新の病院数は、厚生労働省「医療施設調査」で確認できます。",
+    "病院数は厚生労働省「平成25年医療施設（動態）調査」（2013年10月1日現在）のものです。人口10万人あたりの値は、2013年の病院数を、その年に最も近い2021年の人口で割って算出しています。最新の病院数は、厚生労働省「医療施設調査」で確認できます。なお、8県（埼玉・神奈川・石川・福井・静岡・兵庫・高知・福岡）の値は、厚生労働省の公表する「活動中の施設」の都道府県表（統計表8）より1〜2施設多くなっています。休止中の施設を含んだ集計の可能性がありますが、都道府県別の休止施設数（e-Stat・平成25年医療施設調査・下巻G21表）の確認がまだできていないため、値はそのままにしています。",
   embedRanking: "hospitalPerCapita",
   relatedArticles: ["hospital-count-reading-guide", "doctor-count-west-high-east-low-mystery", "nurse-count-income-inverse-relationship", "population-does-not-equal-convenience-per-capita-lesson"],
   operatorNote: [
