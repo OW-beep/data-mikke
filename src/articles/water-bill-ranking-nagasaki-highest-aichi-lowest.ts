@@ -6,6 +6,7 @@ export const waterBillRankingNagasakiHighestAichiLowest: Article = {
   excerpt:
     "総務省の小売物価統計調査によると、水道料金（20立方メートル利用時の月額）は長崎県4,355円が全国トップ、最下位の愛知県1,982円との差は2,373円、率にすると2.2倍です。電気代のような電力会社単位のきれいな境界はなく、人口密度との相関もゆるやかでした。",
   publishedAt: "2026-09-26",
+  seoTitle: "水道料金は長崎県4,355円が最高｜最下位の愛知県1,982円と2.2倍の差",
   relatedDataset: "waterBill",
   embedRanking: "waterBill",
   affiliateKeyword: "節水シャワーヘッド",

@@ -104,7 +104,13 @@ export default async function ArticlePage({ params }: { params: { slug: string }
   // 分析メモ・運営者の視点を追記した記事は、追記日を最終更新日とする
   const hasAddedNotes = Boolean((article.analysisNote && article.analysisNote.length) || (article.operatorNote && article.operatorNote.length));
   const hasFaq = Boolean(article.faq && article.faq.length);
-  const updatedAt = hasFaq && article.publishedAt < FAQ_ADDED_DATE ? FAQ_ADDED_DATE : hasAddedNotes && article.publishedAt < NOTES_ADDED_DATE ? NOTES_ADDED_DATE : article.publishedAt;
+  const updatedAt =
+    article.updatedAt ??
+    (hasFaq && article.publishedAt < FAQ_ADDED_DATE
+      ? FAQ_ADDED_DATE
+      : hasAddedNotes && article.publishedAt < NOTES_ADDED_DATE
+        ? NOTES_ADDED_DATE
+        : article.publishedAt);
 
   // 本文の「【見出し】本文」形式の段落を、見出し（h2）と本文に分ける。目次（TOC）にも使う
   const parsedBody = article.body.map((p) => {
@@ -319,8 +325,8 @@ export default async function ArticlePage({ params }: { params: { slug: string }
           </>
         )}
         <p>
-          数値の扱い方（分母・年次・加工の方法）は<Link href="/editorial-policy">編集方針</Link>に、
-          運営者の経歴は<Link href="/about">運営者情報</Link>にまとめています。
+          数値の扱い方（分母・年次・加工の方法）は<Link href="/editorial-policy">編集方針</Link>に、統計用語の意味や計算方法は
+          <Link href="/methodology">統計の読み方ガイド</Link>に、運営者の経歴は<Link href="/about">運営者情報</Link>にまとめています。
           記事の内容に誤りや疑問を見つけた場合は、<Link href="/contact">お問い合わせ</Link>からご連絡ください。確認のうえ、修正して更新日に反映します。
         </p>
       </section>
@@ -412,6 +418,14 @@ export default async function ArticlePage({ params }: { params: { slug: string }
               </tbody>
             </table>
           </details>
+          {embedDataset.ranking && (
+            <p style={{ marginTop: 12 }}>
+              <Link href={`/map-3d?dataset=${embedDataset.id}`}>
+                {embedDataset.title}を3D棒グラフ地図で高さで比べる →
+              </Link>{" "}
+              ／ <Link href="/map">都道府県マップで見る →</Link>
+            </p>
+          )}
         </div>
       )}
 

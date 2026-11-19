@@ -9,6 +9,7 @@ export const lifestyleVsLifeExpectancyNoStrongLink: Article = {
   excerpt:
     "平均寿命（男性・女性）と、野菜摂取量、食塩摂取量、歩数、喫煙率、BMIの関係を、47都道府県のデータで調べました。最も関係が強かったBMIでも相関係数は-0.41で、野菜や塩分はほぼ無関係でした。「長野県は野菜で長寿」といった分かりやすい説明が、都道府県のデータでは裏付けられるのか、1県を除いた結果とあわせて整理しました。",
   publishedAt: "2026-10-26",
+  dataNote: "平均寿命のデータは2020年（厚生労働省「都道府県別生命表」）のものです。都道府県別生命表は5年ごとに作成されるため、2020年が最新の都道府県別データです。",
   relatedDataset: "lifeExpectancyMale",
   affiliateKeyword: "体組成計",
   affiliateNote:

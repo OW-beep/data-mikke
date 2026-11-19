@@ -6,6 +6,8 @@ export const universityTokyoConcentration: Article = {
   excerpt:
     "大学数ランキングは東京都が2位以下を大きく引き離す圧勝です。この集中は自然にできたものではなく、政策の歴史が関わっています。",
   publishedAt: "2026-07-10",
+  dataNote: "大学数のデータは2014年のものです。その後、大学の数は変わっている可能性があります。最新の数字は、文部科学省「学校基本調査」で確認できます。",
+  seoTitle: "大学数は東京都139校で最多｜2位の大阪府57校の2倍以上",
   relatedDataset: "university",
   embedRanking: "university",
   relatedArticles: [

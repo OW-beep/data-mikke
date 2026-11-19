@@ -6,6 +6,7 @@ export const traditionalCraftsTokyoNiigataKyoto: Article = {
   excerpt:
     "経済産業大臣が指定する「伝統的工芸品」の数は、京都でも金沢でもなく、東京都が全国最多です。江戸時代から続く職人文化が、今も都内に数多く息づいています。",
   publishedAt: "2026-08-04",
+  seoTitle: "伝統的工芸品は東京都が最多23品目｜2位は新潟県・京都府17品目",
   relatedDataset: "craft",
   affiliateKeyword: "伝統工芸品",
   affiliateNote:

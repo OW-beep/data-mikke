@@ -8,6 +8,11 @@ export const livingCostDatasetsIntro: Article = {
   publishedAt: "2026-09-13",
   noindex: true,
   relatedDataset: "rent",
+  relatedArticles: [
+    "rent-vs-car-ownership",
+    "electricity-bill-annual-gap-hokkaido-kansai",
+    "gasoline-price-ranking-2026-tax-cut"
+  ],
   affiliateKeyword: "引っ越し ダンボール",
   analysisNote: [
     "「家賃（1ヶ月・1坪あたり）」の都道府県間のばらつき（標準偏差÷平均＝変動係数）は約23%で、中程度で、県によって差があります。最高の東京都と最低の青森県の差は5,643円です。",

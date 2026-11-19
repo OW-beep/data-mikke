@@ -6,6 +6,7 @@ export const coffeePriceRankingMiyazakiHighestKagawaLowest: Article = {
   excerpt:
     "総務省の小売物価統計調査によると、喫茶店等のコーヒー（外食）価格は宮崎県610円が全国トップ、最下位の香川県367円との差は243円、率にすると約1.7倍です。値上げが続く今、コーヒー1杯の相場を都道府県別に比べました。",
   publishedAt: "2026-09-26",
+  seoTitle: "喫茶店コーヒー価格ランキング｜1位は宮崎県610円、最下位は香川県367円",
   relatedDataset: "coffeePrice",
   embedRanking: "coffeePrice",
   affiliateKeyword: "コーヒー豆",

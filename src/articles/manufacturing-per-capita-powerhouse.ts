@@ -6,6 +6,14 @@ export const manufacturingPerCapitaPowerhouse: Article = {
   excerpt:
     "製造品出荷額の総額では愛知県が圧倒的1位ですが、人口で割ってもなお高い水準を保っているのは、単に工場が多いからではありません。",
   publishedAt: "2026-07-08",
+  dataNote: "この記事の数字は2013年（経済産業省「工業統計調査」）のものです。工場の数や出荷額は、その後変わっている可能性があります。最新の数字は、経済産業省の統計で確認できます。",
+  seoTitle: "1人あたり製造品出荷額｜愛知県の強さは総額だけではなかった",
+  faq: [
+    { q: "製造品出荷額の総額で1位の県は、どこですか？", a: "愛知県が2位以下を大きく引き離してトップに立っています。自動車産業を中心とした巨大な製造業の集積があるためです。" },
+    { q: "1人あたりで見ると、順位はどう変わりますか？", a: "愛知県は依然として上位に位置しますが、三重県・静岡県・滋賀県・栃木県・山口県といった、総額では中位にとどまる県が上位に浮上してきます。" },
+    { q: "愛知県と山口県では、製造業の強さの仕組みが違うのですか？", a: "違います。愛知県の強さは「自動車産業の裾野の広さ（多くの関連事業所）」、山口県のような県の強さは「少数の巨大工場への集中」という、異なるメカニズムによるものです。" },
+    { q: "1事業所あたりの出荷額で、山口県と東京都の差はどれくらいですか？", a: "山口県は1事業所あたり約18億円と、東京都（約1.6億円）の11倍以上にのぼります。" },
+  ],
   relatedDataset: "manufacturingPerCapita",
   embedRanking: "manufacturingPerCapita",
   relatedArticles: ["income-ranking-caution", "shipment-per-factory-scale-yamaguchi-vs-tokyo", "savings-income-gap-aichi-beats-tokyo", "manufacturing-three-ways-tokyo-aichi-yamaguchi"],

@@ -10,6 +10,11 @@ export const saltIntakeTohokuConcentration: Article = {
   metaDescription:
     "都道府県別の食塩摂取量（令和6年国民健康・栄養調査）。1位秋田県10.8g/日、2位山梨県10.7g、3位宮城県10.6g、最少は沖縄県8.6g。北海道だけ例外になる理由も解説。",
   relatedDataset: "saltIntake",
+  relatedArticles: [
+    "temperature-salt-park-homeownership-correlation",
+    "vegetable-price-and-intake",
+    "health-score-explained"
+  ],
   analysisNote: [
     "47都道府県の「食塩摂取量」は、平均が9.73g/日、中央値が9.7g/日です。最高の秋田県（10.8g/日）は中央値の約1.11倍、最低の沖縄県（8.6g/日）は中央値の約0.89倍にあたります。平均と中央値が近く、極端に偏った分布ではありません。",
     "人口規模の影響を受けにくい当サイトの他の約37指標と総当たりで比べると、関係が比較的強かったのは「野菜摂取量」（相関係数+0.64）と「年平均気温」（相関係数-0.52）です。ただし、多数の指標から選んでいるため偶然の一致が含まれる可能性があり、相関は因果関係を意味しません。"

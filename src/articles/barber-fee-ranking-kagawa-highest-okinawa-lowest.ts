@@ -6,6 +6,7 @@ export const barberFeeRankingKagawaHighestOkinawaLowest: Article = {
   excerpt:
     "総務省の小売物価統計調査によると、理容代（散髪）の都道府県平均は香川県4,556円が全国トップ、最下位の沖縄県2,801円との差は1,755円。同じ「散髪」でも、住む場所で1回あたり6割近く変わります。",
   publishedAt: "2026-09-26",
+  seoTitle: "理容代ランキング｜1位は香川県4,556円、最下位は沖縄県2,801円",
   relatedDataset: "barberFee",
   embedRanking: "barberFee",
   affiliateKeyword: "バリカン",

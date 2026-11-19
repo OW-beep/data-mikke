@@ -6,6 +6,7 @@ export const michinoekiHokkaidoVsTokyoOneStation: Article = {
   excerpt:
     "国土交通省の登録データによると、道の駅の数は北海道が128駅で全国トップ。一方、東京都にはわずか1駅しかありません。この差の背景には、単純な面積の大小では説明しきれない理由があります。",
   publishedAt: "2026-08-05",
+  seoTitle: "道の駅の数は北海道128駅が全国トップ｜東京都はたった1駅",
   relatedDataset: "michinoeki",
   affiliateKeyword: "道の駅 お取り寄せ",
   affiliateNote:

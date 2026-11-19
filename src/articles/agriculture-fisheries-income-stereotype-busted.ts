@@ -6,6 +6,8 @@ export const agricultureFisheriesIncomeStereotype: Article = {
   excerpt:
     "農業県・漁業県は経済的に厳しいというイメージがありますが、米収穫量・漁獲量と県民所得の相関係数はどちらもほぼゼロ。イメージと実データは違いました。",
   publishedAt: "2026-08-01",
+  dataNote: "米の収穫量は2022年、漁獲量は2013年、県民所得は2022年のデータです。年が異なる指標同士の相関のため、読み取りには注意が必要です。最新の数字は、農林水産省・内閣府の統計で確認できます。",
+  seoTitle: "米どころ・漁業県は所得が低い？｜相関係数はほぼゼロで不成立",
   relatedDataset: "rice",
   embedScatter: {
     a: "rice",

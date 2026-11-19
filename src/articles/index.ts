@@ -92,6 +92,14 @@ import { electricityBillByUtilityCompanyNotPrefecture } from "./electricity-bill
 import { waterBillRankingNagasakiHighestAichiLowest } from "./water-bill-ranking-nagasaki-highest-aichi-lowest";
 import { gasolinePriceRanking2026TaxCut } from "./gasoline-price-ranking-2026-tax-cut";
 import { femaleLifeExpectancyRankingOkayamaTop } from "./female-life-expectancy-ranking-okayama-top";
+import { convenienceStoreIncomeCorrelationNotArea } from "./convenience-store-income-correlation-not-area";
+import { densityIncomeRelation } from "./density-and-income-relation";
+import { electricityHouseholdSectorPrecision } from "./electricity-household-sector-more-precise-view";
+import { hospitalPerCapitaRanking } from "./hospital-per-capita-ranking";
+import { manufacturingPerCapitaPowerhouse } from "./manufacturing-per-capita-powerhouse";
+import { shipmentPerFactoryScaleDifference } from "./shipment-per-factory-scale-yamaguchi-vs-tokyo";
+import { universityDensityIncomeMyth } from "./university-density-income-myth";
+import { universityPerCapitaKyotoTop } from "./university-per-capita-kyoto-student-city";
 
 /**
  * ★記事追加手順★
@@ -192,6 +200,14 @@ export const ARTICLE_LIST: Article[] = [
   foodCostCheckStepsWhenPricesRise,
   compareWorkLocationsBeyondMinimumWage,
   electricityCostReviewStepsCheckBeforeSwitching,
+  convenienceStoreIncomeCorrelationNotArea,
+  densityIncomeRelation,
+  electricityHouseholdSectorPrecision,
+  hospitalPerCapitaRanking,
+  manufacturingPerCapitaPowerhouse,
+  shipmentPerFactoryScaleDifference,
+  universityDensityIncomeMyth,
+  universityPerCapitaKyotoTop,
   femaleLifeExpectancyRankingOkayamaTop
 ].sort((a, b) => (a.publishedAt < b.publishedAt ? 1 : -1));
 

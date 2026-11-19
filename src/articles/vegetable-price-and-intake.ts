@@ -6,7 +6,13 @@ export const vegetablePriceAndIntake: Article = {
   excerpt:
     "「生活費」カテゴリの野菜価格と、「健康」カテゴリの野菜摂取量。異なる省庁の2つの統計を都道府県単位で突き合わせてみると、ゆるやかだが確かにつながりのある結果が出ました。",
   publishedAt: "2026-09-13",
+  seoTitle: "野菜が安い県ほどよく食べる？相関は-0.34｜最多は福島県326.6g",
   relatedDataset: "vegetableIntake",
+  relatedArticles: [
+    "salt-intake-tohoku-concentration",
+    "health-score-explained",
+    "steps-income-urbanization-link"
+  ],
   affiliateKeyword: "産直野菜 定期便",
   affiliateNote:
     "野菜の摂取量を増やしたい方向けに、産地から届く野菜の定期便の商品を載せています。",

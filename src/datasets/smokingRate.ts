@@ -11,5 +11,5 @@ export const smokingRate: DatasetConfig = {
   ranking: true,
   compare: true,
   providerId: "manual-smoking-rate",
-  description: "20歳以上男性の、現在習慣的に喫煙している者の割合（年齢調整値、都道府県別）。"
+  description: "20歳以上男性の、現在習慣的に喫煙している者の割合（年齢調整値、都道府県別）。厚生労働省は誤差の変動を考慮し、都道府県の順位を示していません。順位は参考としてご覧ください。"
 };

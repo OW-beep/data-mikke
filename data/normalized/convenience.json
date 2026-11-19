@@ -3,329 +3,1645 @@
     "dataset": "convenience",
     "areaCode": "01",
     "areaName": "北海道",
-    "year": 2025,
-    "value": 840
+    "year": 2015,
+    "value": 2886
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "01",
+    "areaName": "北海道",
+    "year": 2016,
+    "value": 2906
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "01",
+    "areaName": "北海道",
+    "year": 2017,
+    "value": 2976
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "01",
+    "areaName": "北海道",
+    "year": 2018,
+    "value": 3019
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "01",
+    "areaName": "北海道",
+    "year": 2019,
+    "value": 3007
   },
   {
     "dataset": "convenience",
     "areaCode": "02",
     "areaName": "青森県",
-    "year": 2025,
-    "value": 880
+    "year": 2015,
+    "value": 537
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "02",
+    "areaName": "青森県",
+    "year": 2016,
+    "value": 573
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "02",
+    "areaName": "青森県",
+    "year": 2017,
+    "value": 587
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "02",
+    "areaName": "青森県",
+    "year": 2018,
+    "value": 594
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "02",
+    "areaName": "青森県",
+    "year": 2019,
+    "value": 604
   },
   {
     "dataset": "convenience",
     "areaCode": "03",
     "areaName": "岩手県",
-    "year": 2025,
-    "value": 920
+    "year": 2015,
+    "value": 514
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "03",
+    "areaName": "岩手県",
+    "year": 2016,
+    "value": 523
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "03",
+    "areaName": "岩手県",
+    "year": 2017,
+    "value": 535
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "03",
+    "areaName": "岩手県",
+    "year": 2018,
+    "value": 544
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "03",
+    "areaName": "岩手県",
+    "year": 2019,
+    "value": 544
   },
   {
     "dataset": "convenience",
     "areaCode": "04",
     "areaName": "宮城県",
-    "year": 2025,
-    "value": 960
+    "year": 2015,
+    "value": 1114
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "04",
+    "areaName": "宮城県",
+    "year": 2016,
+    "value": 1140
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "04",
+    "areaName": "宮城県",
+    "year": 2017,
+    "value": 1156
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "04",
+    "areaName": "宮城県",
+    "year": 2018,
+    "value": 1163
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "04",
+    "areaName": "宮城県",
+    "year": 2019,
+    "value": 1155
   },
   {
     "dataset": "convenience",
     "areaCode": "05",
     "areaName": "秋田県",
-    "year": 2025,
-    "value": 1000
+    "year": 2015,
+    "value": 457
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "05",
+    "areaName": "秋田県",
+    "year": 2016,
+    "value": 466
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "05",
+    "areaName": "秋田県",
+    "year": 2017,
+    "value": 466
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "05",
+    "areaName": "秋田県",
+    "year": 2018,
+    "value": 467
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "05",
+    "areaName": "秋田県",
+    "year": 2019,
+    "value": 460
   },
   {
     "dataset": "convenience",
     "areaCode": "06",
     "areaName": "山形県",
-    "year": 2025,
-    "value": 1040
+    "year": 2015,
+    "value": 454
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "06",
+    "areaName": "山形県",
+    "year": 2016,
+    "value": 442
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "06",
+    "areaName": "山形県",
+    "year": 2017,
+    "value": 447
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "06",
+    "areaName": "山形県",
+    "year": 2018,
+    "value": 450
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "06",
+    "areaName": "山形県",
+    "year": 2019,
+    "value": 448
   },
   {
     "dataset": "convenience",
     "areaCode": "07",
     "areaName": "福島県",
-    "year": 2025,
-    "value": 1080
+    "year": 2015,
+    "value": 809
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "07",
+    "areaName": "福島県",
+    "year": 2016,
+    "value": 827
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "07",
+    "areaName": "福島県",
+    "year": 2017,
+    "value": 858
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "07",
+    "areaName": "福島県",
+    "year": 2018,
+    "value": 880
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "07",
+    "areaName": "福島県",
+    "year": 2019,
+    "value": 897
   },
   {
     "dataset": "convenience",
     "areaCode": "08",
     "areaName": "茨城県",
-    "year": 2025,
-    "value": 1120
+    "year": 2015,
+    "value": 1410
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "08",
+    "areaName": "茨城県",
+    "year": 2016,
+    "value": 1397
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "08",
+    "areaName": "茨城県",
+    "year": 2017,
+    "value": 1430
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "08",
+    "areaName": "茨城県",
+    "year": 2018,
+    "value": 1434
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "08",
+    "areaName": "茨城県",
+    "year": 2019,
+    "value": 1434
   },
   {
     "dataset": "convenience",
     "areaCode": "09",
     "areaName": "栃木県",
-    "year": 2025,
-    "value": 1160
+    "year": 2015,
+    "value": 892
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "09",
+    "areaName": "栃木県",
+    "year": 2016,
+    "value": 917
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "09",
+    "areaName": "栃木県",
+    "year": 2017,
+    "value": 906
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "09",
+    "areaName": "栃木県",
+    "year": 2018,
+    "value": 919
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "09",
+    "areaName": "栃木県",
+    "year": 2019,
+    "value": 920
   },
   {
     "dataset": "convenience",
     "areaCode": "10",
     "areaName": "群馬県",
-    "year": 2025,
-    "value": 1200
+    "year": 2015,
+    "value": 949
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "10",
+    "areaName": "群馬県",
+    "year": 2016,
+    "value": 961
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "10",
+    "areaName": "群馬県",
+    "year": 2017,
+    "value": 960
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "10",
+    "areaName": "群馬県",
+    "year": 2018,
+    "value": 912
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "10",
+    "areaName": "群馬県",
+    "year": 2019,
+    "value": 919
   },
   {
     "dataset": "convenience",
     "areaCode": "11",
     "areaName": "埼玉県",
-    "year": 2025,
-    "value": 1240
+    "year": 2015,
+    "value": 2763
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "11",
+    "areaName": "埼玉県",
+    "year": 2016,
+    "value": 2819
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "11",
+    "areaName": "埼玉県",
+    "year": 2017,
+    "value": 2854
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "11",
+    "areaName": "埼玉県",
+    "year": 2018,
+    "value": 2909
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "11",
+    "areaName": "埼玉県",
+    "year": 2019,
+    "value": 2886
   },
   {
     "dataset": "convenience",
     "areaCode": "12",
     "areaName": "千葉県",
-    "year": 2025,
-    "value": 1280
+    "year": 2015,
+    "value": 2599
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "12",
+    "areaName": "千葉県",
+    "year": 2016,
+    "value": 2642
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "12",
+    "areaName": "千葉県",
+    "year": 2017,
+    "value": 2651
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "12",
+    "areaName": "千葉県",
+    "year": 2018,
+    "value": 2669
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "12",
+    "areaName": "千葉県",
+    "year": 2019,
+    "value": 2654
   },
   {
     "dataset": "convenience",
     "areaCode": "13",
     "areaName": "東京都",
-    "year": 2025,
-    "value": 7233
+    "year": 2015,
+    "value": 6874
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "13",
+    "areaName": "東京都",
+    "year": 2016,
+    "value": 7003
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "13",
+    "areaName": "東京都",
+    "year": 2017,
+    "value": 7067
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "13",
+    "areaName": "東京都",
+    "year": 2018,
+    "value": 7120
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "13",
+    "areaName": "東京都",
+    "year": 2019,
+    "value": 7154
   },
   {
     "dataset": "convenience",
     "areaCode": "14",
     "areaName": "神奈川県",
-    "year": 2025,
-    "value": 3695
+    "year": 2015,
+    "value": 3652
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "14",
+    "areaName": "神奈川県",
+    "year": 2016,
+    "value": 3670
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "14",
+    "areaName": "神奈川県",
+    "year": 2017,
+    "value": 3621
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "14",
+    "areaName": "神奈川県",
+    "year": 2018,
+    "value": 3670
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "14",
+    "areaName": "神奈川県",
+    "year": 2019,
+    "value": 3675
   },
   {
     "dataset": "convenience",
     "areaCode": "15",
     "areaName": "新潟県",
-    "year": 2025,
-    "value": 1400
+    "year": 2015,
+    "value": 918
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "15",
+    "areaName": "新潟県",
+    "year": 2016,
+    "value": 931
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "15",
+    "areaName": "新潟県",
+    "year": 2017,
+    "value": 937
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "15",
+    "areaName": "新潟県",
+    "year": 2018,
+    "value": 900
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "15",
+    "areaName": "新潟県",
+    "year": 2019,
+    "value": 894
   },
   {
     "dataset": "convenience",
     "areaCode": "16",
     "areaName": "富山県",
-    "year": 2025,
-    "value": 1440
+    "year": 2015,
+    "value": 517
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "16",
+    "areaName": "富山県",
+    "year": 2016,
+    "value": 520
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "16",
+    "areaName": "富山県",
+    "year": 2017,
+    "value": 510
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "16",
+    "areaName": "富山県",
+    "year": 2018,
+    "value": 503
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "16",
+    "areaName": "富山県",
+    "year": 2019,
+    "value": 500
   },
   {
     "dataset": "convenience",
     "areaCode": "17",
     "areaName": "石川県",
-    "year": 2025,
-    "value": 1480
+    "year": 2015,
+    "value": 550
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "17",
+    "areaName": "石川県",
+    "year": 2016,
+    "value": 550
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "17",
+    "areaName": "石川県",
+    "year": 2017,
+    "value": 533
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "17",
+    "areaName": "石川県",
+    "year": 2018,
+    "value": 508
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "17",
+    "areaName": "石川県",
+    "year": 2019,
+    "value": 513
   },
   {
     "dataset": "convenience",
     "areaCode": "18",
     "areaName": "福井県",
-    "year": 2025,
-    "value": 1520
+    "year": 2015,
+    "value": 349
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "18",
+    "areaName": "福井県",
+    "year": 2016,
+    "value": 349
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "18",
+    "areaName": "福井県",
+    "year": 2017,
+    "value": 349
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "18",
+    "areaName": "福井県",
+    "year": 2018,
+    "value": 341
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "18",
+    "areaName": "福井県",
+    "year": 2019,
+    "value": 340
   },
   {
     "dataset": "convenience",
     "areaCode": "19",
     "areaName": "山梨県",
-    "year": 2025,
-    "value": 1560
+    "year": 2015,
+    "value": 439
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "19",
+    "areaName": "山梨県",
+    "year": 2016,
+    "value": 452
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "19",
+    "areaName": "山梨県",
+    "year": 2017,
+    "value": 457
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "19",
+    "areaName": "山梨県",
+    "year": 2018,
+    "value": 463
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "19",
+    "areaName": "山梨県",
+    "year": 2019,
+    "value": 458
   },
   {
     "dataset": "convenience",
     "areaCode": "20",
     "areaName": "長野県",
-    "year": 2025,
-    "value": 800
+    "year": 2015,
+    "value": 931
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "20",
+    "areaName": "長野県",
+    "year": 2016,
+    "value": 934
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "20",
+    "areaName": "長野県",
+    "year": 2017,
+    "value": 949
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "20",
+    "areaName": "長野県",
+    "year": 2018,
+    "value": 947
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "20",
+    "areaName": "長野県",
+    "year": 2019,
+    "value": 935
   },
   {
     "dataset": "convenience",
     "areaCode": "21",
     "areaName": "岐阜県",
-    "year": 2025,
-    "value": 840
+    "year": 2015,
+    "value": 890
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "21",
+    "areaName": "岐阜県",
+    "year": 2016,
+    "value": 896
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "21",
+    "areaName": "岐阜県",
+    "year": 2017,
+    "value": 891
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "21",
+    "areaName": "岐阜県",
+    "year": 2018,
+    "value": 852
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "21",
+    "areaName": "岐阜県",
+    "year": 2019,
+    "value": 848
   },
   {
     "dataset": "convenience",
     "areaCode": "22",
     "areaName": "静岡県",
-    "year": 2025,
-    "value": 880
+    "year": 2015,
+    "value": 1721
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "22",
+    "areaName": "静岡県",
+    "year": 2016,
+    "value": 1759
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "22",
+    "areaName": "静岡県",
+    "year": 2017,
+    "value": 1736
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "22",
+    "areaName": "静岡県",
+    "year": 2018,
+    "value": 1696
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "22",
+    "areaName": "静岡県",
+    "year": 2019,
+    "value": 1685
   },
   {
     "dataset": "convenience",
     "areaCode": "23",
     "areaName": "愛知県",
-    "year": 2025,
-    "value": 920
+    "year": 2015,
+    "value": 3558
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "23",
+    "areaName": "愛知県",
+    "year": 2016,
+    "value": 3663
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "23",
+    "areaName": "愛知県",
+    "year": 2017,
+    "value": 3621
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "23",
+    "areaName": "愛知県",
+    "year": 2018,
+    "value": 3558
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "23",
+    "areaName": "愛知県",
+    "year": 2019,
+    "value": 3531
   },
   {
     "dataset": "convenience",
     "areaCode": "24",
     "areaName": "三重県",
-    "year": 2025,
-    "value": 960
+    "year": 2015,
+    "value": 784
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "24",
+    "areaName": "三重県",
+    "year": 2016,
+    "value": 805
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "24",
+    "areaName": "三重県",
+    "year": 2017,
+    "value": 815
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "24",
+    "areaName": "三重県",
+    "year": 2018,
+    "value": 801
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "24",
+    "areaName": "三重県",
+    "year": 2019,
+    "value": 791
   },
   {
     "dataset": "convenience",
     "areaCode": "25",
     "areaName": "滋賀県",
-    "year": 2025,
-    "value": 1000
+    "year": 2015,
+    "value": 548
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "25",
+    "areaName": "滋賀県",
+    "year": 2016,
+    "value": 559
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "25",
+    "areaName": "滋賀県",
+    "year": 2017,
+    "value": 565
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "25",
+    "areaName": "滋賀県",
+    "year": 2018,
+    "value": 567
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "25",
+    "areaName": "滋賀県",
+    "year": 2019,
+    "value": 566
   },
   {
     "dataset": "convenience",
     "areaCode": "26",
     "areaName": "京都府",
-    "year": 2025,
-    "value": 1040
+    "year": 2015,
+    "value": 1018
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "26",
+    "areaName": "京都府",
+    "year": 2016,
+    "value": 1049
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "26",
+    "areaName": "京都府",
+    "year": 2017,
+    "value": 1064
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "26",
+    "areaName": "京都府",
+    "year": 2018,
+    "value": 1065
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "26",
+    "areaName": "京都府",
+    "year": 2019,
+    "value": 1065
   },
   {
     "dataset": "convenience",
     "areaCode": "27",
     "areaName": "大阪府",
-    "year": 2025,
-    "value": 3908
+    "year": 2015,
+    "value": 3651
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "27",
+    "areaName": "大阪府",
+    "year": 2016,
+    "value": 3801
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "27",
+    "areaName": "大阪府",
+    "year": 2017,
+    "value": 3873
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "27",
+    "areaName": "大阪府",
+    "year": 2018,
+    "value": 3896
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "27",
+    "areaName": "大阪府",
+    "year": 2019,
+    "value": 3891
   },
   {
     "dataset": "convenience",
     "areaCode": "28",
     "areaName": "兵庫県",
-    "year": 2025,
-    "value": 1120
+    "year": 2015,
+    "value": 1882
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "28",
+    "areaName": "兵庫県",
+    "year": 2016,
+    "value": 1990
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "28",
+    "areaName": "兵庫県",
+    "year": 2017,
+    "value": 2027
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "28",
+    "areaName": "兵庫県",
+    "year": 2018,
+    "value": 2013
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "28",
+    "areaName": "兵庫県",
+    "year": 2019,
+    "value": 1977
   },
   {
     "dataset": "convenience",
     "areaCode": "29",
     "areaName": "奈良県",
-    "year": 2025,
-    "value": 1160
+    "year": 2015,
+    "value": 439
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "29",
+    "areaName": "奈良県",
+    "year": 2016,
+    "value": 452
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "29",
+    "areaName": "奈良県",
+    "year": 2017,
+    "value": 467
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "29",
+    "areaName": "奈良県",
+    "year": 2018,
+    "value": 463
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "29",
+    "areaName": "奈良県",
+    "year": 2019,
+    "value": 458
   },
   {
     "dataset": "convenience",
     "areaCode": "30",
     "areaName": "和歌山県",
-    "year": 2025,
-    "value": 1200
+    "year": 2015,
+    "value": 338
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "30",
+    "areaName": "和歌山県",
+    "year": 2016,
+    "value": 359
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "30",
+    "areaName": "和歌山県",
+    "year": 2017,
+    "value": 365
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "30",
+    "areaName": "和歌山県",
+    "year": 2018,
+    "value": 369
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "30",
+    "areaName": "和歌山県",
+    "year": 2019,
+    "value": 370
   },
   {
     "dataset": "convenience",
     "areaCode": "31",
     "areaName": "鳥取県",
-    "year": 2025,
+    "year": 2015,
+    "value": 230
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "31",
+    "areaName": "鳥取県",
+    "year": 2016,
+    "value": 230
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "31",
+    "areaName": "鳥取県",
+    "year": 2017,
+    "value": 246
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "31",
+    "areaName": "鳥取県",
+    "year": 2018,
+    "value": 252
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "31",
+    "areaName": "鳥取県",
+    "year": 2019,
+    "value": 257
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "32",
+    "areaName": "島根県",
+    "year": 2015,
     "value": 258
   },
   {
     "dataset": "convenience",
     "areaCode": "32",
     "areaName": "島根県",
-    "year": 2025,
-    "value": 270
+    "year": 2016,
+    "value": 268
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "32",
+    "areaName": "島根県",
+    "year": 2017,
+    "value": 283
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "32",
+    "areaName": "島根県",
+    "year": 2018,
+    "value": 288
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "32",
+    "areaName": "島根県",
+    "year": 2019,
+    "value": 287
   },
   {
     "dataset": "convenience",
     "areaCode": "33",
     "areaName": "岡山県",
-    "year": 2025,
-    "value": 1320
+    "year": 2015,
+    "value": 738
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "33",
+    "areaName": "岡山県",
+    "year": 2016,
+    "value": 761
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "33",
+    "areaName": "岡山県",
+    "year": 2017,
+    "value": 774
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "33",
+    "areaName": "岡山県",
+    "year": 2018,
+    "value": 785
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "33",
+    "areaName": "岡山県",
+    "year": 2019,
+    "value": 788
   },
   {
     "dataset": "convenience",
     "areaCode": "34",
     "areaName": "広島県",
-    "year": 2025,
-    "value": 1360
+    "year": 2015,
+    "value": 1119
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "34",
+    "areaName": "広島県",
+    "year": 2016,
+    "value": 1158
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "34",
+    "areaName": "広島県",
+    "year": 2017,
+    "value": 1187
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "34",
+    "areaName": "広島県",
+    "year": 2018,
+    "value": 1214
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "34",
+    "areaName": "広島県",
+    "year": 2019,
+    "value": 1221
   },
   {
     "dataset": "convenience",
     "areaCode": "35",
     "areaName": "山口県",
-    "year": 2025,
-    "value": 1400
+    "year": 2015,
+    "value": 535
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "35",
+    "areaName": "山口県",
+    "year": 2016,
+    "value": 555
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "35",
+    "areaName": "山口県",
+    "year": 2017,
+    "value": 558
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "35",
+    "areaName": "山口県",
+    "year": 2018,
+    "value": 566
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "35",
+    "areaName": "山口県",
+    "year": 2019,
+    "value": 572
   },
   {
     "dataset": "convenience",
     "areaCode": "36",
     "areaName": "徳島県",
-    "year": 2025,
-    "value": 1440
+    "year": 2015,
+    "value": 342
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "36",
+    "areaName": "徳島県",
+    "year": 2016,
+    "value": 342
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "36",
+    "areaName": "徳島県",
+    "year": 2017,
+    "value": 335
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "36",
+    "areaName": "徳島県",
+    "year": 2018,
+    "value": 335
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "36",
+    "areaName": "徳島県",
+    "year": 2019,
+    "value": 326
   },
   {
     "dataset": "convenience",
     "areaCode": "37",
     "areaName": "香川県",
-    "year": 2025,
-    "value": 1480
+    "year": 2015,
+    "value": 425
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "37",
+    "areaName": "香川県",
+    "year": 2016,
+    "value": 428
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "37",
+    "areaName": "香川県",
+    "year": 2017,
+    "value": 419
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "37",
+    "areaName": "香川県",
+    "year": 2018,
+    "value": 410
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "37",
+    "areaName": "香川県",
+    "year": 2019,
+    "value": 405
   },
   {
     "dataset": "convenience",
     "areaCode": "38",
     "areaName": "愛媛県",
-    "year": 2025,
-    "value": 1520
+    "year": 2015,
+    "value": 575
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "38",
+    "areaName": "愛媛県",
+    "year": 2016,
+    "value": 593
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "38",
+    "areaName": "愛媛県",
+    "year": 2017,
+    "value": 588
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "38",
+    "areaName": "愛媛県",
+    "year": 2018,
+    "value": 587
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "38",
+    "areaName": "愛媛県",
+    "year": 2019,
+    "value": 586
   },
   {
     "dataset": "convenience",
     "areaCode": "39",
     "areaName": "高知県",
-    "year": 2025,
-    "value": 1560
+    "year": 2015,
+    "value": 262
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "39",
+    "areaName": "高知県",
+    "year": 2016,
+    "value": 279
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "39",
+    "areaName": "高知県",
+    "year": 2017,
+    "value": 281
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "39",
+    "areaName": "高知県",
+    "year": 2018,
+    "value": 283
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "39",
+    "areaName": "高知県",
+    "year": 2019,
+    "value": 283
   },
   {
     "dataset": "convenience",
     "areaCode": "40",
     "areaName": "福岡県",
-    "year": 2025,
-    "value": 800
+    "year": 2015,
+    "value": 2137
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "40",
+    "areaName": "福岡県",
+    "year": 2016,
+    "value": 2219
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "40",
+    "areaName": "福岡県",
+    "year": 2017,
+    "value": 2281
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "40",
+    "areaName": "福岡県",
+    "year": 2018,
+    "value": 2328
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "40",
+    "areaName": "福岡県",
+    "year": 2019,
+    "value": 2313
   },
   {
     "dataset": "convenience",
     "areaCode": "41",
     "areaName": "佐賀県",
-    "year": 2025,
-    "value": 840
+    "year": 2015,
+    "value": 356
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "41",
+    "areaName": "佐賀県",
+    "year": 2016,
+    "value": 367
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "41",
+    "areaName": "佐賀県",
+    "year": 2017,
+    "value": 371
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "41",
+    "areaName": "佐賀県",
+    "year": 2018,
+    "value": 376
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "41",
+    "areaName": "佐賀県",
+    "year": 2019,
+    "value": 365
   },
   {
     "dataset": "convenience",
     "areaCode": "42",
     "areaName": "長崎県",
-    "year": 2025,
-    "value": 880
+    "year": 2015,
+    "value": 478
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "42",
+    "areaName": "長崎県",
+    "year": 2016,
+    "value": 497
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "42",
+    "areaName": "長崎県",
+    "year": 2017,
+    "value": 519
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "42",
+    "areaName": "長崎県",
+    "year": 2018,
+    "value": 532
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "42",
+    "areaName": "長崎県",
+    "year": 2019,
+    "value": 532
   },
   {
     "dataset": "convenience",
     "areaCode": "43",
     "areaName": "熊本県",
-    "year": 2025,
-    "value": 920
+    "year": 2015,
+    "value": 700
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "43",
+    "areaName": "熊本県",
+    "year": 2016,
+    "value": 708
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "43",
+    "areaName": "熊本県",
+    "year": 2017,
+    "value": 740
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "43",
+    "areaName": "熊本県",
+    "year": 2018,
+    "value": 765
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "43",
+    "areaName": "熊本県",
+    "year": 2019,
+    "value": 781
   },
   {
     "dataset": "convenience",
     "areaCode": "44",
     "areaName": "大分県",
-    "year": 2025,
-    "value": 960
+    "year": 2015,
+    "value": 470
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "44",
+    "areaName": "大分県",
+    "year": 2016,
+    "value": 478
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "44",
+    "areaName": "大分県",
+    "year": 2017,
+    "value": 492
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "44",
+    "areaName": "大分県",
+    "year": 2018,
+    "value": 502
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "44",
+    "areaName": "大分県",
+    "year": 2019,
+    "value": 514
   },
   {
     "dataset": "convenience",
     "areaCode": "45",
     "areaName": "宮崎県",
-    "year": 2025,
-    "value": 1000
+    "year": 2015,
+    "value": 409
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "45",
+    "areaName": "宮崎県",
+    "year": 2016,
+    "value": 409
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "45",
+    "areaName": "宮崎県",
+    "year": 2017,
+    "value": 421
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "45",
+    "areaName": "宮崎県",
+    "year": 2018,
+    "value": 430
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "45",
+    "areaName": "宮崎県",
+    "year": 2019,
+    "value": 424
   },
   {
     "dataset": "convenience",
     "areaCode": "46",
     "areaName": "鹿児島県",
-    "year": 2025,
-    "value": 1040
+    "year": 2015,
+    "value": 474
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "46",
+    "areaName": "鹿児島県",
+    "year": 2016,
+    "value": 465
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "46",
+    "areaName": "鹿児島県",
+    "year": 2017,
+    "value": 664
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "46",
+    "areaName": "鹿児島県",
+    "year": 2018,
+    "value": 672
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "46",
+    "areaName": "鹿児島県",
+    "year": 2019,
+    "value": 675
   },
   {
     "dataset": "convenience",
     "areaCode": "47",
     "areaName": "沖縄県",
-    "year": 2025,
-    "value": 1080
+    "year": 2015,
+    "value": 554
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "47",
+    "areaName": "沖縄県",
+    "year": 2016,
+    "value": 524
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "47",
+    "areaName": "沖縄県",
+    "year": 2017,
+    "value": 542
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "47",
+    "areaName": "沖縄県",
+    "year": 2018,
+    "value": 557
+  },
+  {
+    "dataset": "convenience",
+    "areaCode": "47",
+    "areaName": "沖縄県",
+    "year": 2019,
+    "value": 594
   }
 ]

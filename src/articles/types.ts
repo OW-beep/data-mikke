@@ -10,6 +10,12 @@ export interface Article {
   /** 検索結果のスニペット（meta description）。未指定ならexcerptを使う。全角110文字以内を目安に、答え（数字）を先に書く */
   metaDescription?: string;
   publishedAt: string; // "2026-07-17"
+  /**
+   * 記事単位の最終更新日（"2026-11-19"）。指定がある場合、記事ページの
+   * 「最終更新日」表示と構造化データの dateModified に使う。未指定なら
+   * 従来どおり FAQ/分析メモ追記日から自動算出する。
+   */
+  updatedAt?: string;
   relatedDataset?: string; // 関連するdatasets/のid（あれば内部リンクを自動生成）
   /** 記事本文の末尾に、このdataset idの47都道府県ランキング表を自動生成して埋め込む */
   embedRanking?: string;

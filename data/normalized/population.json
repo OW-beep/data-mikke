@@ -3,1645 +3,1316 @@
     "dataset": "population",
     "areaCode": "01",
     "areaName": "北海道",
-    "year": 2020,
-    "value": 5057805
-  },
-  {
-    "dataset": "population",
-    "areaCode": "01",
-    "areaName": "北海道",
     "year": 2021,
-    "value": 5078365
+    "value": 5183000
   },
   {
     "dataset": "population",
     "areaCode": "01",
     "areaName": "北海道",
     "year": 2022,
-    "value": 5098926
+    "value": 5140000
   },
   {
     "dataset": "population",
     "areaCode": "01",
     "areaName": "北海道",
     "year": 2023,
-    "value": 5119486
+    "value": 5092000
   },
   {
     "dataset": "population",
     "areaCode": "01",
     "areaName": "北海道",
     "year": 2024,
-    "value": 5140046
-  },
-  {
-    "dataset": "population",
-    "areaCode": "02",
-    "areaName": "青森県",
-    "year": 2020,
-    "value": 564816
+    "value": 5043000
   },
   {
     "dataset": "population",
     "areaCode": "02",
     "areaName": "青森県",
     "year": 2021,
-    "value": 567112
+    "value": 1221000
   },
   {
     "dataset": "population",
     "areaCode": "02",
     "areaName": "青森県",
     "year": 2022,
-    "value": 569408
+    "value": 1204000
   },
   {
     "dataset": "population",
     "areaCode": "02",
     "areaName": "青森県",
     "year": 2023,
-    "value": 571704
+    "value": 1184000
   },
   {
     "dataset": "population",
     "areaCode": "02",
     "areaName": "青森県",
     "year": 2024,
-    "value": 574000
-  },
-  {
-    "dataset": "population",
-    "areaCode": "03",
-    "areaName": "岩手県",
-    "year": 2020,
-    "value": 601224
+    "value": 1165000
   },
   {
     "dataset": "population",
     "areaCode": "03",
     "areaName": "岩手県",
     "year": 2021,
-    "value": 603668
+    "value": 1196000
   },
   {
     "dataset": "population",
     "areaCode": "03",
     "areaName": "岩手県",
     "year": 2022,
-    "value": 606112
+    "value": 1181000
   },
   {
     "dataset": "population",
     "areaCode": "03",
     "areaName": "岩手県",
     "year": 2023,
-    "value": 608556
+    "value": 1163000
   },
   {
     "dataset": "population",
     "areaCode": "03",
     "areaName": "岩手県",
     "year": 2024,
-    "value": 611000
-  },
-  {
-    "dataset": "population",
-    "areaCode": "04",
-    "areaName": "宮城県",
-    "year": 2020,
-    "value": 637632
+    "value": 1145000
   },
   {
     "dataset": "population",
     "areaCode": "04",
     "areaName": "宮城県",
     "year": 2021,
-    "value": 640224
+    "value": 2290000
   },
   {
     "dataset": "population",
     "areaCode": "04",
     "areaName": "宮城県",
     "year": 2022,
-    "value": 642816
+    "value": 2280000
   },
   {
     "dataset": "population",
     "areaCode": "04",
     "areaName": "宮城県",
     "year": 2023,
-    "value": 645408
+    "value": 2264000
   },
   {
     "dataset": "population",
     "areaCode": "04",
     "areaName": "宮城県",
     "year": 2024,
-    "value": 648000
-  },
-  {
-    "dataset": "population",
-    "areaCode": "05",
-    "areaName": "秋田県",
-    "year": 2020,
-    "value": 674040
+    "value": 2248000
   },
   {
     "dataset": "population",
     "areaCode": "05",
     "areaName": "秋田県",
     "year": 2021,
-    "value": 676780
+    "value": 945000
   },
   {
     "dataset": "population",
     "areaCode": "05",
     "areaName": "秋田県",
     "year": 2022,
-    "value": 679520
+    "value": 930000
   },
   {
     "dataset": "population",
     "areaCode": "05",
     "areaName": "秋田県",
     "year": 2023,
-    "value": 682260
+    "value": 914000
   },
   {
     "dataset": "population",
     "areaCode": "05",
     "areaName": "秋田県",
+    "year": 2024,
+    "value": 897000
+  },
+  {
+    "dataset": "population",
+    "areaCode": "06",
+    "areaName": "山形県",
+    "year": 2021,
+    "value": 1055000
+  },
+  {
+    "dataset": "population",
+    "areaCode": "06",
+    "areaName": "山形県",
+    "year": 2022,
+    "value": 1041000
+  },
+  {
+    "dataset": "population",
+    "areaCode": "06",
+    "areaName": "山形県",
+    "year": 2023,
+    "value": 1026000
+  },
+  {
+    "dataset": "population",
+    "areaCode": "06",
+    "areaName": "山形県",
+    "year": 2024,
+    "value": 1011000
+  },
+  {
+    "dataset": "population",
+    "areaCode": "07",
+    "areaName": "福島県",
+    "year": 2021,
+    "value": 1812000
+  },
+  {
+    "dataset": "population",
+    "areaCode": "07",
+    "areaName": "福島県",
+    "year": 2022,
+    "value": 1790000
+  },
+  {
+    "dataset": "population",
+    "areaCode": "07",
+    "areaName": "福島県",
+    "year": 2023,
+    "value": 1767000
+  },
+  {
+    "dataset": "population",
+    "areaCode": "07",
+    "areaName": "福島県",
+    "year": 2024,
+    "value": 1743000
+  },
+  {
+    "dataset": "population",
+    "areaCode": "08",
+    "areaName": "茨城県",
+    "year": 2021,
+    "value": 2852000
+  },
+  {
+    "dataset": "population",
+    "areaCode": "08",
+    "areaName": "茨城県",
+    "year": 2022,
+    "value": 2840000
+  },
+  {
+    "dataset": "population",
+    "areaCode": "08",
+    "areaName": "茨城県",
+    "year": 2023,
+    "value": 2825000
+  },
+  {
+    "dataset": "population",
+    "areaCode": "08",
+    "areaName": "茨城県",
+    "year": 2024,
+    "value": 2806000
+  },
+  {
+    "dataset": "population",
+    "areaCode": "09",
+    "areaName": "栃木県",
+    "year": 2021,
+    "value": 1921000
+  },
+  {
+    "dataset": "population",
+    "areaCode": "09",
+    "areaName": "栃木県",
+    "year": 2022,
+    "value": 1909000
+  },
+  {
+    "dataset": "population",
+    "areaCode": "09",
+    "areaName": "栃木県",
+    "year": 2023,
+    "value": 1897000
+  },
+  {
+    "dataset": "population",
+    "areaCode": "09",
+    "areaName": "栃木県",
+    "year": 2024,
+    "value": 1885000
+  },
+  {
+    "dataset": "population",
+    "areaCode": "10",
+    "areaName": "群馬県",
+    "year": 2021,
+    "value": 1927000
+  },
+  {
+    "dataset": "population",
+    "areaCode": "10",
+    "areaName": "群馬県",
+    "year": 2022,
+    "value": 1913000
+  },
+  {
+    "dataset": "population",
+    "areaCode": "10",
+    "areaName": "群馬県",
+    "year": 2023,
+    "value": 1902000
+  },
+  {
+    "dataset": "population",
+    "areaCode": "10",
+    "areaName": "群馬県",
+    "year": 2024,
+    "value": 1890000
+  },
+  {
+    "dataset": "population",
+    "areaCode": "11",
+    "areaName": "埼玉県",
+    "year": 2021,
+    "value": 7340000
+  },
+  {
+    "dataset": "population",
+    "areaCode": "11",
+    "areaName": "埼玉県",
+    "year": 2022,
+    "value": 7337000
+  },
+  {
+    "dataset": "population",
+    "areaCode": "11",
+    "areaName": "埼玉県",
+    "year": 2023,
+    "value": 7331000
+  },
+  {
+    "dataset": "population",
+    "areaCode": "11",
+    "areaName": "埼玉県",
+    "year": 2024,
+    "value": 7332000
+  },
+  {
+    "dataset": "population",
+    "areaCode": "12",
+    "areaName": "千葉県",
+    "year": 2021,
+    "value": 6275000
+  },
+  {
+    "dataset": "population",
+    "areaCode": "12",
+    "areaName": "千葉県",
+    "year": 2022,
+    "value": 6266000
+  },
+  {
+    "dataset": "population",
+    "areaCode": "12",
+    "areaName": "千葉県",
+    "year": 2023,
+    "value": 6257000
+  },
+  {
+    "dataset": "population",
+    "areaCode": "12",
+    "areaName": "千葉県",
+    "year": 2024,
+    "value": 6251000
+  },
+  {
+    "dataset": "population",
+    "areaCode": "13",
+    "areaName": "東京都",
+    "year": 2021,
+    "value": 14010000
+  },
+  {
+    "dataset": "population",
+    "areaCode": "13",
+    "areaName": "東京都",
+    "year": 2022,
+    "value": 14038000
+  },
+  {
+    "dataset": "population",
+    "areaCode": "13",
+    "areaName": "東京都",
+    "year": 2023,
+    "value": 14086000
+  },
+  {
+    "dataset": "population",
+    "areaCode": "13",
+    "areaName": "東京都",
+    "year": 2024,
+    "value": 14178000
+  },
+  {
+    "dataset": "population",
+    "areaCode": "14",
+    "areaName": "神奈川県",
+    "year": 2021,
+    "value": 9236000
+  },
+  {
+    "dataset": "population",
+    "areaCode": "14",
+    "areaName": "神奈川県",
+    "year": 2022,
+    "value": 9232000
+  },
+  {
+    "dataset": "population",
+    "areaCode": "14",
+    "areaName": "神奈川県",
+    "year": 2023,
+    "value": 9229000
+  },
+  {
+    "dataset": "population",
+    "areaCode": "14",
+    "areaName": "神奈川県",
+    "year": 2024,
+    "value": 9225000
+  },
+  {
+    "dataset": "population",
+    "areaCode": "15",
+    "areaName": "新潟県",
+    "year": 2021,
+    "value": 2177000
+  },
+  {
+    "dataset": "population",
+    "areaCode": "15",
+    "areaName": "新潟県",
+    "year": 2022,
+    "value": 2153000
+  },
+  {
+    "dataset": "population",
+    "areaCode": "15",
+    "areaName": "新潟県",
+    "year": 2023,
+    "value": 2126000
+  },
+  {
+    "dataset": "population",
+    "areaCode": "15",
+    "areaName": "新潟県",
+    "year": 2024,
+    "value": 2099000
+  },
+  {
+    "dataset": "population",
+    "areaCode": "16",
+    "areaName": "富山県",
+    "year": 2021,
+    "value": 1025000
+  },
+  {
+    "dataset": "population",
+    "areaCode": "16",
+    "areaName": "富山県",
+    "year": 2022,
+    "value": 1017000
+  },
+  {
+    "dataset": "population",
+    "areaCode": "16",
+    "areaName": "富山県",
+    "year": 2023,
+    "value": 1007000
+  },
+  {
+    "dataset": "population",
+    "areaCode": "16",
+    "areaName": "富山県",
+    "year": 2024,
+    "value": 997000
+  },
+  {
+    "dataset": "population",
+    "areaCode": "17",
+    "areaName": "石川県",
+    "year": 2021,
+    "value": 1125000
+  },
+  {
+    "dataset": "population",
+    "areaCode": "17",
+    "areaName": "石川県",
+    "year": 2022,
+    "value": 1118000
+  },
+  {
+    "dataset": "population",
+    "areaCode": "17",
+    "areaName": "石川県",
+    "year": 2023,
+    "value": 1109000
+  },
+  {
+    "dataset": "population",
+    "areaCode": "17",
+    "areaName": "石川県",
+    "year": 2024,
+    "value": 1098000
+  },
+  {
+    "dataset": "population",
+    "areaCode": "18",
+    "areaName": "福井県",
+    "year": 2021,
+    "value": 760000
+  },
+  {
+    "dataset": "population",
+    "areaCode": "18",
+    "areaName": "福井県",
+    "year": 2022,
+    "value": 753000
+  },
+  {
+    "dataset": "population",
+    "areaCode": "18",
+    "areaName": "福井県",
+    "year": 2023,
+    "value": 744000
+  },
+  {
+    "dataset": "population",
+    "areaCode": "18",
+    "areaName": "福井県",
+    "year": 2024,
+    "value": 739000
+  },
+  {
+    "dataset": "population",
+    "areaCode": "19",
+    "areaName": "山梨県",
+    "year": 2021,
+    "value": 805000
+  },
+  {
+    "dataset": "population",
+    "areaCode": "19",
+    "areaName": "山梨県",
+    "year": 2022,
+    "value": 802000
+  },
+  {
+    "dataset": "population",
+    "areaCode": "19",
+    "areaName": "山梨県",
+    "year": 2023,
+    "value": 796000
+  },
+  {
+    "dataset": "population",
+    "areaCode": "19",
+    "areaName": "山梨県",
+    "year": 2024,
+    "value": 791000
+  },
+  {
+    "dataset": "population",
+    "areaCode": "20",
+    "areaName": "長野県",
+    "year": 2021,
+    "value": 2033000
+  },
+  {
+    "dataset": "population",
+    "areaCode": "20",
+    "areaName": "長野県",
+    "year": 2022,
+    "value": 2020000
+  },
+  {
+    "dataset": "population",
+    "areaCode": "20",
+    "areaName": "長野県",
+    "year": 2023,
+    "value": 2004000
+  },
+  {
+    "dataset": "population",
+    "areaCode": "20",
+    "areaName": "長野県",
+    "year": 2024,
+    "value": 1987000
+  },
+  {
+    "dataset": "population",
+    "areaCode": "21",
+    "areaName": "岐阜県",
+    "year": 2021,
+    "value": 1961000
+  },
+  {
+    "dataset": "population",
+    "areaCode": "21",
+    "areaName": "岐阜県",
+    "year": 2022,
+    "value": 1946000
+  },
+  {
+    "dataset": "population",
+    "areaCode": "21",
+    "areaName": "岐阜県",
+    "year": 2023,
+    "value": 1931000
+  },
+  {
+    "dataset": "population",
+    "areaCode": "21",
+    "areaName": "岐阜県",
+    "year": 2024,
+    "value": 1916000
+  },
+  {
+    "dataset": "population",
+    "areaCode": "22",
+    "areaName": "静岡県",
+    "year": 2021,
+    "value": 3608000
+  },
+  {
+    "dataset": "population",
+    "areaCode": "22",
+    "areaName": "静岡県",
+    "year": 2022,
+    "value": 3582000
+  },
+  {
+    "dataset": "population",
+    "areaCode": "22",
+    "areaName": "静岡県",
+    "year": 2023,
+    "value": 3555000
+  },
+  {
+    "dataset": "population",
+    "areaCode": "22",
+    "areaName": "静岡県",
+    "year": 2024,
+    "value": 3527000
+  },
+  {
+    "dataset": "population",
+    "areaCode": "23",
+    "areaName": "愛知県",
+    "year": 2021,
+    "value": 7517000
+  },
+  {
+    "dataset": "population",
+    "areaCode": "23",
+    "areaName": "愛知県",
+    "year": 2022,
+    "value": 7495000
+  },
+  {
+    "dataset": "population",
+    "areaCode": "23",
+    "areaName": "愛知県",
+    "year": 2023,
+    "value": 7477000
+  },
+  {
+    "dataset": "population",
+    "areaCode": "23",
+    "areaName": "愛知県",
+    "year": 2024,
+    "value": 7460000
+  },
+  {
+    "dataset": "population",
+    "areaCode": "24",
+    "areaName": "三重県",
+    "year": 2021,
+    "value": 1756000
+  },
+  {
+    "dataset": "population",
+    "areaCode": "24",
+    "areaName": "三重県",
+    "year": 2022,
+    "value": 1742000
+  },
+  {
+    "dataset": "population",
+    "areaCode": "24",
+    "areaName": "三重県",
+    "year": 2023,
+    "value": 1727000
+  },
+  {
+    "dataset": "population",
+    "areaCode": "24",
+    "areaName": "三重県",
+    "year": 2024,
+    "value": 1711000
+  },
+  {
+    "dataset": "population",
+    "areaCode": "25",
+    "areaName": "滋賀県",
+    "year": 2021,
+    "value": 1411000
+  },
+  {
+    "dataset": "population",
+    "areaCode": "25",
+    "areaName": "滋賀県",
+    "year": 2022,
+    "value": 1409000
+  },
+  {
+    "dataset": "population",
+    "areaCode": "25",
+    "areaName": "滋賀県",
+    "year": 2023,
+    "value": 1407000
+  },
+  {
+    "dataset": "population",
+    "areaCode": "25",
+    "areaName": "滋賀県",
+    "year": 2024,
+    "value": 1402000
+  },
+  {
+    "dataset": "population",
+    "areaCode": "26",
+    "areaName": "京都府",
+    "year": 2021,
+    "value": 2561000
+  },
+  {
+    "dataset": "population",
+    "areaCode": "26",
+    "areaName": "京都府",
+    "year": 2022,
+    "value": 2550000
+  },
+  {
+    "dataset": "population",
+    "areaCode": "26",
+    "areaName": "京都府",
+    "year": 2023,
+    "value": 2535000
+  },
+  {
+    "dataset": "population",
+    "areaCode": "26",
+    "areaName": "京都府",
+    "year": 2024,
+    "value": 2520000
+  },
+  {
+    "dataset": "population",
+    "areaCode": "27",
+    "areaName": "大阪府",
+    "year": 2021,
+    "value": 8806000
+  },
+  {
+    "dataset": "population",
+    "areaCode": "27",
+    "areaName": "大阪府",
+    "year": 2022,
+    "value": 8782000
+  },
+  {
+    "dataset": "population",
+    "areaCode": "27",
+    "areaName": "大阪府",
+    "year": 2023,
+    "value": 8763000
+  },
+  {
+    "dataset": "population",
+    "areaCode": "27",
+    "areaName": "大阪府",
+    "year": 2024,
+    "value": 8757000
+  },
+  {
+    "dataset": "population",
+    "areaCode": "28",
+    "areaName": "兵庫県",
+    "year": 2021,
+    "value": 5432000
+  },
+  {
+    "dataset": "population",
+    "areaCode": "28",
+    "areaName": "兵庫県",
+    "year": 2022,
+    "value": 5402000
+  },
+  {
+    "dataset": "population",
+    "areaCode": "28",
+    "areaName": "兵庫県",
+    "year": 2023,
+    "value": 5370000
+  },
+  {
+    "dataset": "population",
+    "areaCode": "28",
+    "areaName": "兵庫県",
+    "year": 2024,
+    "value": 5337000
+  },
+  {
+    "dataset": "population",
+    "areaCode": "29",
+    "areaName": "奈良県",
+    "year": 2021,
+    "value": 1315000
+  },
+  {
+    "dataset": "population",
+    "areaCode": "29",
+    "areaName": "奈良県",
+    "year": 2022,
+    "value": 1306000
+  },
+  {
+    "dataset": "population",
+    "areaCode": "29",
+    "areaName": "奈良県",
+    "year": 2023,
+    "value": 1296000
+  },
+  {
+    "dataset": "population",
+    "areaCode": "29",
+    "areaName": "奈良県",
+    "year": 2024,
+    "value": 1285000
+  },
+  {
+    "dataset": "population",
+    "areaCode": "30",
+    "areaName": "和歌山県",
+    "year": 2021,
+    "value": 914000
+  },
+  {
+    "dataset": "population",
+    "areaCode": "30",
+    "areaName": "和歌山県",
+    "year": 2022,
+    "value": 903000
+  },
+  {
+    "dataset": "population",
+    "areaCode": "30",
+    "areaName": "和歌山県",
+    "year": 2023,
+    "value": 892000
+  },
+  {
+    "dataset": "population",
+    "areaCode": "30",
+    "areaName": "和歌山県",
+    "year": 2024,
+    "value": 880000
+  },
+  {
+    "dataset": "population",
+    "areaCode": "31",
+    "areaName": "鳥取県",
+    "year": 2021,
+    "value": 549000
+  },
+  {
+    "dataset": "population",
+    "areaCode": "31",
+    "areaName": "鳥取県",
+    "year": 2022,
+    "value": 544000
+  },
+  {
+    "dataset": "population",
+    "areaCode": "31",
+    "areaName": "鳥取県",
+    "year": 2023,
+    "value": 537000
+  },
+  {
+    "dataset": "population",
+    "areaCode": "31",
+    "areaName": "鳥取県",
+    "year": 2024,
+    "value": 531000
+  },
+  {
+    "dataset": "population",
+    "areaCode": "32",
+    "areaName": "島根県",
+    "year": 2021,
+    "value": 665000
+  },
+  {
+    "dataset": "population",
+    "areaCode": "32",
+    "areaName": "島根県",
+    "year": 2022,
+    "value": 658000
+  },
+  {
+    "dataset": "population",
+    "areaCode": "32",
+    "areaName": "島根県",
+    "year": 2023,
+    "value": 650000
+  },
+  {
+    "dataset": "population",
+    "areaCode": "32",
+    "areaName": "島根県",
+    "year": 2024,
+    "value": 642000
+  },
+  {
+    "dataset": "population",
+    "areaCode": "33",
+    "areaName": "岡山県",
+    "year": 2021,
+    "value": 1876000
+  },
+  {
+    "dataset": "population",
+    "areaCode": "33",
+    "areaName": "岡山県",
+    "year": 2022,
+    "value": 1862000
+  },
+  {
+    "dataset": "population",
+    "areaCode": "33",
+    "areaName": "岡山県",
+    "year": 2023,
+    "value": 1847000
+  },
+  {
+    "dataset": "population",
+    "areaCode": "33",
+    "areaName": "岡山県",
+    "year": 2024,
+    "value": 1831000
+  },
+  {
+    "dataset": "population",
+    "areaCode": "34",
+    "areaName": "広島県",
+    "year": 2021,
+    "value": 2780000
+  },
+  {
+    "dataset": "population",
+    "areaCode": "34",
+    "areaName": "広島県",
+    "year": 2022,
+    "value": 2760000
+  },
+  {
+    "dataset": "population",
+    "areaCode": "34",
+    "areaName": "広島県",
+    "year": 2023,
+    "value": 2738000
+  },
+  {
+    "dataset": "population",
+    "areaCode": "34",
+    "areaName": "広島県",
+    "year": 2024,
+    "value": 2714000
+  },
+  {
+    "dataset": "population",
+    "areaCode": "35",
+    "areaName": "山口県",
+    "year": 2021,
+    "value": 1328000
+  },
+  {
+    "dataset": "population",
+    "areaCode": "35",
+    "areaName": "山口県",
+    "year": 2022,
+    "value": 1313000
+  },
+  {
+    "dataset": "population",
+    "areaCode": "35",
+    "areaName": "山口県",
+    "year": 2023,
+    "value": 1298000
+  },
+  {
+    "dataset": "population",
+    "areaCode": "35",
+    "areaName": "山口県",
+    "year": 2024,
+    "value": 1281000
+  },
+  {
+    "dataset": "population",
+    "areaCode": "36",
+    "areaName": "徳島県",
+    "year": 2021,
+    "value": 712000
+  },
+  {
+    "dataset": "population",
+    "areaCode": "36",
+    "areaName": "徳島県",
+    "year": 2022,
+    "value": 704000
+  },
+  {
+    "dataset": "population",
+    "areaCode": "36",
+    "areaName": "徳島県",
+    "year": 2023,
+    "value": 695000
+  },
+  {
+    "dataset": "population",
+    "areaCode": "36",
+    "areaName": "徳島県",
     "year": 2024,
     "value": 685000
   },
   {
     "dataset": "population",
-    "areaCode": "06",
-    "areaName": "山形県",
-    "year": 2020,
-    "value": 710448
-  },
-  {
-    "dataset": "population",
-    "areaCode": "06",
-    "areaName": "山形県",
-    "year": 2021,
-    "value": 713336
-  },
-  {
-    "dataset": "population",
-    "areaCode": "06",
-    "areaName": "山形県",
-    "year": 2022,
-    "value": 716224
-  },
-  {
-    "dataset": "population",
-    "areaCode": "06",
-    "areaName": "山形県",
-    "year": 2023,
-    "value": 719112
-  },
-  {
-    "dataset": "population",
-    "areaCode": "06",
-    "areaName": "山形県",
-    "year": 2024,
-    "value": 722000
-  },
-  {
-    "dataset": "population",
-    "areaCode": "07",
-    "areaName": "福島県",
-    "year": 2020,
-    "value": 746856
-  },
-  {
-    "dataset": "population",
-    "areaCode": "07",
-    "areaName": "福島県",
-    "year": 2021,
-    "value": 749892
-  },
-  {
-    "dataset": "population",
-    "areaCode": "07",
-    "areaName": "福島県",
-    "year": 2022,
-    "value": 752928
-  },
-  {
-    "dataset": "population",
-    "areaCode": "07",
-    "areaName": "福島県",
-    "year": 2023,
-    "value": 755964
-  },
-  {
-    "dataset": "population",
-    "areaCode": "07",
-    "areaName": "福島県",
-    "year": 2024,
-    "value": 759000
-  },
-  {
-    "dataset": "population",
-    "areaCode": "08",
-    "areaName": "茨城県",
-    "year": 2020,
-    "value": 783264
-  },
-  {
-    "dataset": "population",
-    "areaCode": "08",
-    "areaName": "茨城県",
-    "year": 2021,
-    "value": 786448
-  },
-  {
-    "dataset": "population",
-    "areaCode": "08",
-    "areaName": "茨城県",
-    "year": 2022,
-    "value": 789632
-  },
-  {
-    "dataset": "population",
-    "areaCode": "08",
-    "areaName": "茨城県",
-    "year": 2023,
-    "value": 792816
-  },
-  {
-    "dataset": "population",
-    "areaCode": "08",
-    "areaName": "茨城県",
-    "year": 2024,
-    "value": 796000
-  },
-  {
-    "dataset": "population",
-    "areaCode": "09",
-    "areaName": "栃木県",
-    "year": 2020,
-    "value": 819672
-  },
-  {
-    "dataset": "population",
-    "areaCode": "09",
-    "areaName": "栃木県",
-    "year": 2021,
-    "value": 823004
-  },
-  {
-    "dataset": "population",
-    "areaCode": "09",
-    "areaName": "栃木県",
-    "year": 2022,
-    "value": 826336
-  },
-  {
-    "dataset": "population",
-    "areaCode": "09",
-    "areaName": "栃木県",
-    "year": 2023,
-    "value": 829668
-  },
-  {
-    "dataset": "population",
-    "areaCode": "09",
-    "areaName": "栃木県",
-    "year": 2024,
-    "value": 833000
-  },
-  {
-    "dataset": "population",
-    "areaCode": "10",
-    "areaName": "群馬県",
-    "year": 2020,
-    "value": 856080
-  },
-  {
-    "dataset": "population",
-    "areaCode": "10",
-    "areaName": "群馬県",
-    "year": 2021,
-    "value": 859560
-  },
-  {
-    "dataset": "population",
-    "areaCode": "10",
-    "areaName": "群馬県",
-    "year": 2022,
-    "value": 863040
-  },
-  {
-    "dataset": "population",
-    "areaCode": "10",
-    "areaName": "群馬県",
-    "year": 2023,
-    "value": 866520
-  },
-  {
-    "dataset": "population",
-    "areaCode": "10",
-    "areaName": "群馬県",
-    "year": 2024,
-    "value": 870000
-  },
-  {
-    "dataset": "population",
-    "areaCode": "11",
-    "areaName": "埼玉県",
-    "year": 2020,
-    "value": 892488
-  },
-  {
-    "dataset": "population",
-    "areaCode": "11",
-    "areaName": "埼玉県",
-    "year": 2021,
-    "value": 896116
-  },
-  {
-    "dataset": "population",
-    "areaCode": "11",
-    "areaName": "埼玉県",
-    "year": 2022,
-    "value": 899744
-  },
-  {
-    "dataset": "population",
-    "areaCode": "11",
-    "areaName": "埼玉県",
-    "year": 2023,
-    "value": 903372
-  },
-  {
-    "dataset": "population",
-    "areaCode": "11",
-    "areaName": "埼玉県",
-    "year": 2024,
-    "value": 907000
-  },
-  {
-    "dataset": "population",
-    "areaCode": "12",
-    "areaName": "千葉県",
-    "year": 2020,
-    "value": 928896
-  },
-  {
-    "dataset": "population",
-    "areaCode": "12",
-    "areaName": "千葉県",
-    "year": 2021,
-    "value": 932672
-  },
-  {
-    "dataset": "population",
-    "areaCode": "12",
-    "areaName": "千葉県",
-    "year": 2022,
-    "value": 936448
-  },
-  {
-    "dataset": "population",
-    "areaCode": "12",
-    "areaName": "千葉県",
-    "year": 2023,
-    "value": 940224
-  },
-  {
-    "dataset": "population",
-    "areaCode": "12",
-    "areaName": "千葉県",
-    "year": 2024,
-    "value": 944000
-  },
-  {
-    "dataset": "population",
-    "areaCode": "13",
-    "areaName": "東京都",
-    "year": 2020,
-    "value": 13834289
-  },
-  {
-    "dataset": "population",
-    "areaCode": "13",
-    "areaName": "東京都",
-    "year": 2021,
-    "value": 13890526
-  },
-  {
-    "dataset": "population",
-    "areaCode": "13",
-    "areaName": "東京都",
-    "year": 2022,
-    "value": 13946763
-  },
-  {
-    "dataset": "population",
-    "areaCode": "13",
-    "areaName": "東京都",
-    "year": 2023,
-    "value": 14003000
-  },
-  {
-    "dataset": "population",
-    "areaCode": "13",
-    "areaName": "東京都",
-    "year": 2024,
-    "value": 14059237
-  },
-  {
-    "dataset": "population",
-    "areaCode": "14",
-    "areaName": "神奈川県",
-    "year": 2020,
-    "value": 9089540
-  },
-  {
-    "dataset": "population",
-    "areaCode": "14",
-    "areaName": "神奈川県",
-    "year": 2021,
-    "value": 9126489
-  },
-  {
-    "dataset": "population",
-    "areaCode": "14",
-    "areaName": "神奈川県",
-    "year": 2022,
-    "value": 9163438
-  },
-  {
-    "dataset": "population",
-    "areaCode": "14",
-    "areaName": "神奈川県",
-    "year": 2023,
-    "value": 9200388
-  },
-  {
-    "dataset": "population",
-    "areaCode": "14",
-    "areaName": "神奈川県",
-    "year": 2024,
-    "value": 9237337
-  },
-  {
-    "dataset": "population",
-    "areaCode": "15",
-    "areaName": "新潟県",
-    "year": 2020,
-    "value": 1038120
-  },
-  {
-    "dataset": "population",
-    "areaCode": "15",
-    "areaName": "新潟県",
-    "year": 2021,
-    "value": 1042340
-  },
-  {
-    "dataset": "population",
-    "areaCode": "15",
-    "areaName": "新潟県",
-    "year": 2022,
-    "value": 1046560
-  },
-  {
-    "dataset": "population",
-    "areaCode": "15",
-    "areaName": "新潟県",
-    "year": 2023,
-    "value": 1050780
-  },
-  {
-    "dataset": "population",
-    "areaCode": "15",
-    "areaName": "新潟県",
-    "year": 2024,
-    "value": 1055000
-  },
-  {
-    "dataset": "population",
-    "areaCode": "16",
-    "areaName": "富山県",
-    "year": 2020,
-    "value": 1074528
-  },
-  {
-    "dataset": "population",
-    "areaCode": "16",
-    "areaName": "富山県",
-    "year": 2021,
-    "value": 1078896
-  },
-  {
-    "dataset": "population",
-    "areaCode": "16",
-    "areaName": "富山県",
-    "year": 2022,
-    "value": 1083264
-  },
-  {
-    "dataset": "population",
-    "areaCode": "16",
-    "areaName": "富山県",
-    "year": 2023,
-    "value": 1087632
-  },
-  {
-    "dataset": "population",
-    "areaCode": "16",
-    "areaName": "富山県",
-    "year": 2024,
-    "value": 1092000
-  },
-  {
-    "dataset": "population",
-    "areaCode": "17",
-    "areaName": "石川県",
-    "year": 2020,
-    "value": 1110936
-  },
-  {
-    "dataset": "population",
-    "areaCode": "17",
-    "areaName": "石川県",
-    "year": 2021,
-    "value": 1115452
-  },
-  {
-    "dataset": "population",
-    "areaCode": "17",
-    "areaName": "石川県",
-    "year": 2022,
-    "value": 1119968
-  },
-  {
-    "dataset": "population",
-    "areaCode": "17",
-    "areaName": "石川県",
-    "year": 2023,
-    "value": 1124484
-  },
-  {
-    "dataset": "population",
-    "areaCode": "17",
-    "areaName": "石川県",
-    "year": 2024,
-    "value": 1129000
-  },
-  {
-    "dataset": "population",
-    "areaCode": "18",
-    "areaName": "福井県",
-    "year": 2020,
-    "value": 1147344
-  },
-  {
-    "dataset": "population",
-    "areaCode": "18",
-    "areaName": "福井県",
-    "year": 2021,
-    "value": 1152008
-  },
-  {
-    "dataset": "population",
-    "areaCode": "18",
-    "areaName": "福井県",
-    "year": 2022,
-    "value": 1156672
-  },
-  {
-    "dataset": "population",
-    "areaCode": "18",
-    "areaName": "福井県",
-    "year": 2023,
-    "value": 1161336
-  },
-  {
-    "dataset": "population",
-    "areaCode": "18",
-    "areaName": "福井県",
-    "year": 2024,
-    "value": 1166000
-  },
-  {
-    "dataset": "population",
-    "areaCode": "19",
-    "areaName": "山梨県",
-    "year": 2020,
-    "value": 1183752
-  },
-  {
-    "dataset": "population",
-    "areaCode": "19",
-    "areaName": "山梨県",
-    "year": 2021,
-    "value": 1188564
-  },
-  {
-    "dataset": "population",
-    "areaCode": "19",
-    "areaName": "山梨県",
-    "year": 2022,
-    "value": 1193376
-  },
-  {
-    "dataset": "population",
-    "areaCode": "19",
-    "areaName": "山梨県",
-    "year": 2023,
-    "value": 1198188
-  },
-  {
-    "dataset": "population",
-    "areaCode": "19",
-    "areaName": "山梨県",
-    "year": 2024,
-    "value": 1203000
-  },
-  {
-    "dataset": "population",
-    "areaCode": "20",
-    "areaName": "長野県",
-    "year": 2020,
-    "value": 1220160
-  },
-  {
-    "dataset": "population",
-    "areaCode": "20",
-    "areaName": "長野県",
-    "year": 2021,
-    "value": 1225120
-  },
-  {
-    "dataset": "population",
-    "areaCode": "20",
-    "areaName": "長野県",
-    "year": 2022,
-    "value": 1230080
-  },
-  {
-    "dataset": "population",
-    "areaCode": "20",
-    "areaName": "長野県",
-    "year": 2023,
-    "value": 1235040
-  },
-  {
-    "dataset": "population",
-    "areaCode": "20",
-    "areaName": "長野県",
-    "year": 2024,
-    "value": 1240000
-  },
-  {
-    "dataset": "population",
-    "areaCode": "21",
-    "areaName": "岐阜県",
-    "year": 2020,
-    "value": 1256568
-  },
-  {
-    "dataset": "population",
-    "areaCode": "21",
-    "areaName": "岐阜県",
-    "year": 2021,
-    "value": 1261676
-  },
-  {
-    "dataset": "population",
-    "areaCode": "21",
-    "areaName": "岐阜県",
-    "year": 2022,
-    "value": 1266784
-  },
-  {
-    "dataset": "population",
-    "areaCode": "21",
-    "areaName": "岐阜県",
-    "year": 2023,
-    "value": 1271892
-  },
-  {
-    "dataset": "population",
-    "areaCode": "21",
-    "areaName": "岐阜県",
-    "year": 2024,
-    "value": 1277000
-  },
-  {
-    "dataset": "population",
-    "areaCode": "22",
-    "areaName": "静岡県",
-    "year": 2020,
-    "value": 1292976
-  },
-  {
-    "dataset": "population",
-    "areaCode": "22",
-    "areaName": "静岡県",
-    "year": 2021,
-    "value": 1298232
-  },
-  {
-    "dataset": "population",
-    "areaCode": "22",
-    "areaName": "静岡県",
-    "year": 2022,
-    "value": 1303488
-  },
-  {
-    "dataset": "population",
-    "areaCode": "22",
-    "areaName": "静岡県",
-    "year": 2023,
-    "value": 1308744
-  },
-  {
-    "dataset": "population",
-    "areaCode": "22",
-    "areaName": "静岡県",
-    "year": 2024,
-    "value": 1314000
-  },
-  {
-    "dataset": "population",
-    "areaCode": "23",
-    "areaName": "愛知県",
-    "year": 2020,
-    "value": 7375606
-  },
-  {
-    "dataset": "population",
-    "areaCode": "23",
-    "areaName": "愛知県",
-    "year": 2021,
-    "value": 7405589
-  },
-  {
-    "dataset": "population",
-    "areaCode": "23",
-    "areaName": "愛知県",
-    "year": 2022,
-    "value": 7435571
-  },
-  {
-    "dataset": "population",
-    "areaCode": "23",
-    "areaName": "愛知県",
-    "year": 2023,
-    "value": 7465553
-  },
-  {
-    "dataset": "population",
-    "areaCode": "23",
-    "areaName": "愛知県",
-    "year": 2024,
-    "value": 7495535
-  },
-  {
-    "dataset": "population",
-    "areaCode": "24",
-    "areaName": "三重県",
-    "year": 2020,
-    "value": 1365792
-  },
-  {
-    "dataset": "population",
-    "areaCode": "24",
-    "areaName": "三重県",
-    "year": 2021,
-    "value": 1371344
-  },
-  {
-    "dataset": "population",
-    "areaCode": "24",
-    "areaName": "三重県",
-    "year": 2022,
-    "value": 1376896
-  },
-  {
-    "dataset": "population",
-    "areaCode": "24",
-    "areaName": "三重県",
-    "year": 2023,
-    "value": 1382448
-  },
-  {
-    "dataset": "population",
-    "areaCode": "24",
-    "areaName": "三重県",
-    "year": 2024,
-    "value": 1388000
-  },
-  {
-    "dataset": "population",
-    "areaCode": "25",
-    "areaName": "滋賀県",
-    "year": 2020,
-    "value": 1402200
-  },
-  {
-    "dataset": "population",
-    "areaCode": "25",
-    "areaName": "滋賀県",
-    "year": 2021,
-    "value": 1407900
-  },
-  {
-    "dataset": "population",
-    "areaCode": "25",
-    "areaName": "滋賀県",
-    "year": 2022,
-    "value": 1413600
-  },
-  {
-    "dataset": "population",
-    "areaCode": "25",
-    "areaName": "滋賀県",
-    "year": 2023,
-    "value": 1419300
-  },
-  {
-    "dataset": "population",
-    "areaCode": "25",
-    "areaName": "滋賀県",
-    "year": 2024,
-    "value": 1425000
-  },
-  {
-    "dataset": "population",
-    "areaCode": "26",
-    "areaName": "京都府",
-    "year": 2020,
-    "value": 1438608
-  },
-  {
-    "dataset": "population",
-    "areaCode": "26",
-    "areaName": "京都府",
-    "year": 2021,
-    "value": 1444456
-  },
-  {
-    "dataset": "population",
-    "areaCode": "26",
-    "areaName": "京都府",
-    "year": 2022,
-    "value": 1450304
-  },
-  {
-    "dataset": "population",
-    "areaCode": "26",
-    "areaName": "京都府",
-    "year": 2023,
-    "value": 1456152
-  },
-  {
-    "dataset": "population",
-    "areaCode": "26",
-    "areaName": "京都府",
-    "year": 2024,
-    "value": 1462000
-  },
-  {
-    "dataset": "population",
-    "areaCode": "27",
-    "areaName": "大阪府",
-    "year": 2020,
-    "value": 8637586
-  },
-  {
-    "dataset": "population",
-    "areaCode": "27",
-    "areaName": "大阪府",
-    "year": 2021,
-    "value": 8672699
-  },
-  {
-    "dataset": "population",
-    "areaCode": "27",
-    "areaName": "大阪府",
-    "year": 2022,
-    "value": 8707811
-  },
-  {
-    "dataset": "population",
-    "areaCode": "27",
-    "areaName": "大阪府",
-    "year": 2023,
-    "value": 8742923
-  },
-  {
-    "dataset": "population",
-    "areaCode": "27",
-    "areaName": "大阪府",
-    "year": 2024,
-    "value": 8778035
-  },
-  {
-    "dataset": "population",
-    "areaCode": "28",
-    "areaName": "兵庫県",
-    "year": 2020,
-    "value": 1511424
-  },
-  {
-    "dataset": "population",
-    "areaCode": "28",
-    "areaName": "兵庫県",
-    "year": 2021,
-    "value": 1517568
-  },
-  {
-    "dataset": "population",
-    "areaCode": "28",
-    "areaName": "兵庫県",
-    "year": 2022,
-    "value": 1523712
-  },
-  {
-    "dataset": "population",
-    "areaCode": "28",
-    "areaName": "兵庫県",
-    "year": 2023,
-    "value": 1529856
-  },
-  {
-    "dataset": "population",
-    "areaCode": "28",
-    "areaName": "兵庫県",
-    "year": 2024,
-    "value": 1536000
-  },
-  {
-    "dataset": "population",
-    "areaCode": "29",
-    "areaName": "奈良県",
-    "year": 2020,
-    "value": 1547832
-  },
-  {
-    "dataset": "population",
-    "areaCode": "29",
-    "areaName": "奈良県",
-    "year": 2021,
-    "value": 1554124
-  },
-  {
-    "dataset": "population",
-    "areaCode": "29",
-    "areaName": "奈良県",
-    "year": 2022,
-    "value": 1560416
-  },
-  {
-    "dataset": "population",
-    "areaCode": "29",
-    "areaName": "奈良県",
-    "year": 2023,
-    "value": 1566708
-  },
-  {
-    "dataset": "population",
-    "areaCode": "29",
-    "areaName": "奈良県",
-    "year": 2024,
-    "value": 1573000
-  },
-  {
-    "dataset": "population",
-    "areaCode": "30",
-    "areaName": "和歌山県",
-    "year": 2020,
-    "value": 1584240
-  },
-  {
-    "dataset": "population",
-    "areaCode": "30",
-    "areaName": "和歌山県",
-    "year": 2021,
-    "value": 1590680
-  },
-  {
-    "dataset": "population",
-    "areaCode": "30",
-    "areaName": "和歌山県",
-    "year": 2022,
-    "value": 1597120
-  },
-  {
-    "dataset": "population",
-    "areaCode": "30",
-    "areaName": "和歌山県",
-    "year": 2023,
-    "value": 1603560
-  },
-  {
-    "dataset": "population",
-    "areaCode": "30",
-    "areaName": "和歌山県",
-    "year": 2024,
-    "value": 1610000
-  },
-  {
-    "dataset": "population",
-    "areaCode": "31",
-    "areaName": "鳥取県",
-    "year": 2020,
-    "value": 1620648
-  },
-  {
-    "dataset": "population",
-    "areaCode": "31",
-    "areaName": "鳥取県",
-    "year": 2021,
-    "value": 1627236
-  },
-  {
-    "dataset": "population",
-    "areaCode": "31",
-    "areaName": "鳥取県",
-    "year": 2022,
-    "value": 1633824
-  },
-  {
-    "dataset": "population",
-    "areaCode": "31",
-    "areaName": "鳥取県",
-    "year": 2023,
-    "value": 1640412
-  },
-  {
-    "dataset": "population",
-    "areaCode": "31",
-    "areaName": "鳥取県",
-    "year": 2024,
-    "value": 1647000
-  },
-  {
-    "dataset": "population",
-    "areaCode": "32",
-    "areaName": "島根県",
-    "year": 2020,
-    "value": 1657056
-  },
-  {
-    "dataset": "population",
-    "areaCode": "32",
-    "areaName": "島根県",
-    "year": 2021,
-    "value": 1663792
-  },
-  {
-    "dataset": "population",
-    "areaCode": "32",
-    "areaName": "島根県",
-    "year": 2022,
-    "value": 1670528
-  },
-  {
-    "dataset": "population",
-    "areaCode": "32",
-    "areaName": "島根県",
-    "year": 2023,
-    "value": 1677264
-  },
-  {
-    "dataset": "population",
-    "areaCode": "32",
-    "areaName": "島根県",
-    "year": 2024,
-    "value": 1684000
-  },
-  {
-    "dataset": "population",
-    "areaCode": "33",
-    "areaName": "岡山県",
-    "year": 2020,
-    "value": 1693464
-  },
-  {
-    "dataset": "population",
-    "areaCode": "33",
-    "areaName": "岡山県",
-    "year": 2021,
-    "value": 1700348
-  },
-  {
-    "dataset": "population",
-    "areaCode": "33",
-    "areaName": "岡山県",
-    "year": 2022,
-    "value": 1707232
-  },
-  {
-    "dataset": "population",
-    "areaCode": "33",
-    "areaName": "岡山県",
-    "year": 2023,
-    "value": 1714116
-  },
-  {
-    "dataset": "population",
-    "areaCode": "33",
-    "areaName": "岡山県",
-    "year": 2024,
-    "value": 1721000
-  },
-  {
-    "dataset": "population",
-    "areaCode": "34",
-    "areaName": "広島県",
-    "year": 2020,
-    "value": 1729872
-  },
-  {
-    "dataset": "population",
-    "areaCode": "34",
-    "areaName": "広島県",
-    "year": 2021,
-    "value": 1736904
-  },
-  {
-    "dataset": "population",
-    "areaCode": "34",
-    "areaName": "広島県",
-    "year": 2022,
-    "value": 1743936
-  },
-  {
-    "dataset": "population",
-    "areaCode": "34",
-    "areaName": "広島県",
-    "year": 2023,
-    "value": 1750968
-  },
-  {
-    "dataset": "population",
-    "areaCode": "34",
-    "areaName": "広島県",
-    "year": 2024,
-    "value": 1758000
-  },
-  {
-    "dataset": "population",
-    "areaCode": "35",
-    "areaName": "山口県",
-    "year": 2020,
-    "value": 1766280
-  },
-  {
-    "dataset": "population",
-    "areaCode": "35",
-    "areaName": "山口県",
-    "year": 2021,
-    "value": 1773460
-  },
-  {
-    "dataset": "population",
-    "areaCode": "35",
-    "areaName": "山口県",
-    "year": 2022,
-    "value": 1780640
-  },
-  {
-    "dataset": "population",
-    "areaCode": "35",
-    "areaName": "山口県",
-    "year": 2023,
-    "value": 1787820
-  },
-  {
-    "dataset": "population",
-    "areaCode": "35",
-    "areaName": "山口県",
-    "year": 2024,
-    "value": 1795000
-  },
-  {
-    "dataset": "population",
-    "areaCode": "36",
-    "areaName": "徳島県",
-    "year": 2020,
-    "value": 1802688
-  },
-  {
-    "dataset": "population",
-    "areaCode": "36",
-    "areaName": "徳島県",
-    "year": 2021,
-    "value": 1810016
-  },
-  {
-    "dataset": "population",
-    "areaCode": "36",
-    "areaName": "徳島県",
-    "year": 2022,
-    "value": 1817344
-  },
-  {
-    "dataset": "population",
-    "areaCode": "36",
-    "areaName": "徳島県",
-    "year": 2023,
-    "value": 1824672
-  },
-  {
-    "dataset": "population",
-    "areaCode": "36",
-    "areaName": "徳島県",
-    "year": 2024,
-    "value": 1832000
-  },
-  {
-    "dataset": "population",
-    "areaCode": "37",
-    "areaName": "香川県",
-    "year": 2020,
-    "value": 1839096
-  },
-  {
-    "dataset": "population",
     "areaCode": "37",
     "areaName": "香川県",
     "year": 2021,
-    "value": 1846572
+    "value": 942000
   },
   {
     "dataset": "population",
     "areaCode": "37",
     "areaName": "香川県",
     "year": 2022,
-    "value": 1854048
+    "value": 934000
   },
   {
     "dataset": "population",
     "areaCode": "37",
     "areaName": "香川県",
     "year": 2023,
-    "value": 1861524
+    "value": 926000
   },
   {
     "dataset": "population",
     "areaCode": "37",
     "areaName": "香川県",
     "year": 2024,
-    "value": 1869000
-  },
-  {
-    "dataset": "population",
-    "areaCode": "38",
-    "areaName": "愛媛県",
-    "year": 2020,
-    "value": 1875504
+    "value": 917000
   },
   {
     "dataset": "population",
     "areaCode": "38",
     "areaName": "愛媛県",
     "year": 2021,
-    "value": 1883128
+    "value": 1321000
   },
   {
     "dataset": "population",
     "areaCode": "38",
     "areaName": "愛媛県",
     "year": 2022,
-    "value": 1890752
+    "value": 1306000
   },
   {
     "dataset": "population",
     "areaCode": "38",
     "areaName": "愛媛県",
     "year": 2023,
-    "value": 1898376
+    "value": 1291000
   },
   {
     "dataset": "population",
     "areaCode": "38",
     "areaName": "愛媛県",
     "year": 2024,
-    "value": 1906000
-  },
-  {
-    "dataset": "population",
-    "areaCode": "39",
-    "areaName": "高知県",
-    "year": 2020,
-    "value": 1911912
+    "value": 1276000
   },
   {
     "dataset": "population",
     "areaCode": "39",
     "areaName": "高知県",
     "year": 2021,
-    "value": 1919684
+    "value": 684000
   },
   {
     "dataset": "population",
     "areaCode": "39",
     "areaName": "高知県",
     "year": 2022,
-    "value": 1927456
+    "value": 676000
   },
   {
     "dataset": "population",
     "areaCode": "39",
     "areaName": "高知県",
     "year": 2023,
-    "value": 1935228
+    "value": 666000
   },
   {
     "dataset": "population",
     "areaCode": "39",
     "areaName": "高知県",
     "year": 2024,
-    "value": 1943000
-  },
-  {
-    "dataset": "population",
-    "areaCode": "40",
-    "areaName": "福岡県",
-    "year": 2020,
-    "value": 1948320
+    "value": 656000
   },
   {
     "dataset": "population",
     "areaCode": "40",
     "areaName": "福岡県",
     "year": 2021,
-    "value": 1956240
+    "value": 5124000
   },
   {
     "dataset": "population",
     "areaCode": "40",
     "areaName": "福岡県",
     "year": 2022,
-    "value": 1964160
+    "value": 5116000
   },
   {
     "dataset": "population",
     "areaCode": "40",
     "areaName": "福岡県",
     "year": 2023,
-    "value": 1972080
+    "value": 5103000
   },
   {
     "dataset": "population",
     "areaCode": "40",
     "areaName": "福岡県",
     "year": 2024,
-    "value": 1980000
-  },
-  {
-    "dataset": "population",
-    "areaCode": "41",
-    "areaName": "佐賀県",
-    "year": 2020,
-    "value": 1984728
+    "value": 5092000
   },
   {
     "dataset": "population",
     "areaCode": "41",
     "areaName": "佐賀県",
     "year": 2021,
-    "value": 1992796
+    "value": 806000
   },
   {
     "dataset": "population",
     "areaCode": "41",
     "areaName": "佐賀県",
     "year": 2022,
-    "value": 2000864
+    "value": 801000
   },
   {
     "dataset": "population",
     "areaCode": "41",
     "areaName": "佐賀県",
     "year": 2023,
-    "value": 2008932
+    "value": 795000
   },
   {
     "dataset": "population",
     "areaCode": "41",
     "areaName": "佐賀県",
     "year": 2024,
-    "value": 2017000
-  },
-  {
-    "dataset": "population",
-    "areaCode": "42",
-    "areaName": "長崎県",
-    "year": 2020,
-    "value": 2021136
+    "value": 788000
   },
   {
     "dataset": "population",
     "areaCode": "42",
     "areaName": "長崎県",
     "year": 2021,
-    "value": 2029352
+    "value": 1297000
   },
   {
     "dataset": "population",
     "areaCode": "42",
     "areaName": "長崎県",
     "year": 2022,
-    "value": 2037568
+    "value": 1283000
   },
   {
     "dataset": "population",
     "areaCode": "42",
     "areaName": "長崎県",
     "year": 2023,
-    "value": 2045784
+    "value": 1267000
   },
   {
     "dataset": "population",
     "areaCode": "42",
     "areaName": "長崎県",
     "year": 2024,
-    "value": 2054000
-  },
-  {
-    "dataset": "population",
-    "areaCode": "43",
-    "areaName": "熊本県",
-    "year": 2020,
-    "value": 2057544
+    "value": 1252000
   },
   {
     "dataset": "population",
     "areaCode": "43",
     "areaName": "熊本県",
     "year": 2021,
-    "value": 2065908
+    "value": 1728000
   },
   {
     "dataset": "population",
     "areaCode": "43",
     "areaName": "熊本県",
     "year": 2022,
-    "value": 2074272
+    "value": 1718000
   },
   {
     "dataset": "population",
     "areaCode": "43",
     "areaName": "熊本県",
     "year": 2023,
-    "value": 2082636
+    "value": 1709000
   },
   {
     "dataset": "population",
     "areaCode": "43",
     "areaName": "熊本県",
     "year": 2024,
-    "value": 2091000
-  },
-  {
-    "dataset": "population",
-    "areaCode": "44",
-    "areaName": "大分県",
-    "year": 2020,
-    "value": 2093952
+    "value": 1697000
   },
   {
     "dataset": "population",
     "areaCode": "44",
     "areaName": "大分県",
     "year": 2021,
-    "value": 2102464
+    "value": 1114000
   },
   {
     "dataset": "population",
     "areaCode": "44",
     "areaName": "大分県",
     "year": 2022,
-    "value": 2110976
+    "value": 1107000
   },
   {
     "dataset": "population",
     "areaCode": "44",
     "areaName": "大分県",
     "year": 2023,
-    "value": 2119488
+    "value": 1096000
   },
   {
     "dataset": "population",
     "areaCode": "44",
     "areaName": "大分県",
     "year": 2024,
-    "value": 2128000
-  },
-  {
-    "dataset": "population",
-    "areaCode": "45",
-    "areaName": "宮崎県",
-    "year": 2020,
-    "value": 2130360
+    "value": 1085000
   },
   {
     "dataset": "population",
     "areaCode": "45",
     "areaName": "宮崎県",
     "year": 2021,
-    "value": 2139020
+    "value": 1061000
   },
   {
     "dataset": "population",
     "areaCode": "45",
     "areaName": "宮崎県",
     "year": 2022,
-    "value": 2147680
+    "value": 1052000
   },
   {
     "dataset": "population",
     "areaCode": "45",
     "areaName": "宮崎県",
     "year": 2023,
-    "value": 2156340
+    "value": 1042000
   },
   {
     "dataset": "population",
     "areaCode": "45",
     "areaName": "宮崎県",
     "year": 2024,
-    "value": 2165000
-  },
-  {
-    "dataset": "population",
-    "areaCode": "46",
-    "areaName": "鹿児島県",
-    "year": 2020,
-    "value": 2166768
+    "value": 1033000
   },
   {
     "dataset": "population",
     "areaCode": "46",
     "areaName": "鹿児島県",
     "year": 2021,
-    "value": 2175576
+    "value": 1576000
   },
   {
     "dataset": "population",
     "areaCode": "46",
     "areaName": "鹿児島県",
     "year": 2022,
-    "value": 2184384
+    "value": 1563000
   },
   {
     "dataset": "population",
     "areaCode": "46",
     "areaName": "鹿児島県",
     "year": 2023,
-    "value": 2193192
+    "value": 1549000
   },
   {
     "dataset": "population",
     "areaCode": "46",
     "areaName": "鹿児島県",
     "year": 2024,
-    "value": 2202000
-  },
-  {
-    "dataset": "population",
-    "areaCode": "47",
-    "areaName": "沖縄県",
-    "year": 2020,
-    "value": 2203176
+    "value": 1532000
   },
   {
     "dataset": "population",
     "areaCode": "47",
     "areaName": "沖縄県",
     "year": 2021,
-    "value": 2212132
+    "value": 1468000
   },
   {
     "dataset": "population",
     "areaCode": "47",
     "areaName": "沖縄県",
     "year": 2022,
-    "value": 2221088
+    "value": 1468000
   },
   {
     "dataset": "population",
     "areaCode": "47",
     "areaName": "沖縄県",
     "year": 2023,
-    "value": 2230044
+    "value": 1468000
   },
   {
     "dataset": "population",
     "areaCode": "47",
     "areaName": "沖縄県",
     "year": 2024,
-    "value": 2239000
+    "value": 1466000
   }
 ]

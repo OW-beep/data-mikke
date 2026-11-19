@@ -16,6 +16,6 @@ export const lifeExpectancyFemale: DatasetConfig = {
     dashboardTitle: "平均寿命ランキング(女性)｜都道府県別の長寿県",
     dashboardDescription: "女性の平均寿命で見る都道府県ランキング。岡山県がトップ、青森県が最下位です。",
     rankingTitle: "女性の平均寿命が長い都道府県ランキング",
-    rankingDescription: "都道府県別の女性平均寿命ランキング。岡山県・京都府・島根県が上位です。"
+    rankingDescription: "都道府県別の女性平均寿命ランキング。岡山県・滋賀県・京都府が上位です。"
   }
 };

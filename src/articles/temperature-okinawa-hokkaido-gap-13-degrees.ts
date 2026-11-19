@@ -6,6 +6,7 @@ export const temperatureOkinawaHokkaidoGap: Article = {
   excerpt:
     "都道府県庁所在地の年平均気温は沖縄県23.7℃、北海道10.2℃と13.5℃もの開きがあります。この差は暮らしに影響しても、寿命や所得には表れませんでした。",
   publishedAt: "2026-07-31",
+  seoTitle: "沖縄と北海道の気温差は13.5℃｜寿命・所得とはほぼ無関係",
   relatedDataset: "temperature",
   embedRanking: "temperature",
   relatedArticles: [

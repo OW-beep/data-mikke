@@ -6,6 +6,7 @@ export const incomeRankingCaution: Article = {
   excerpt:
     "1人当たり県民所得のランキングを見て「この県は給料が高い」と早合点する前に知っておきたい、指標の中身の話です。",
   publishedAt: "2026-06-24",
+  seoTitle: "県民所得ランキングは給料のランキングではない｜1位は東京都5,214千円",
   relatedDataset: "income",
   embedRanking: "income",
   relatedArticles: [

@@ -3,1645 +3,1316 @@
     "dataset": "density",
     "areaCode": "01",
     "areaName": "北海道",
-    "year": 2020,
-    "value": 60.6
-  },
-  {
-    "dataset": "density",
-    "areaCode": "01",
-    "areaName": "北海道",
     "year": 2021,
-    "value": 60.9
+    "value": 62.1
   },
   {
     "dataset": "density",
     "areaCode": "01",
     "areaName": "北海道",
     "year": 2022,
-    "value": 61.1
-  },
-  {
-    "dataset": "density",
-    "areaCode": "01",
-    "areaName": "北海道",
-    "year": 2023,
-    "value": 61.4
-  },
-  {
-    "dataset": "density",
-    "areaCode": "01",
-    "areaName": "北海道",
-    "year": 2024,
     "value": 61.6
   },
   {
     "dataset": "density",
-    "areaCode": "02",
-    "areaName": "青森県",
-    "year": 2020,
-    "value": 58.6
+    "areaCode": "01",
+    "areaName": "北海道",
+    "year": 2023,
+    "value": 61.0
+  },
+  {
+    "dataset": "density",
+    "areaCode": "01",
+    "areaName": "北海道",
+    "year": 2024,
+    "value": 60.5
   },
   {
     "dataset": "density",
     "areaCode": "02",
     "areaName": "青森県",
     "year": 2021,
-    "value": 58.8
+    "value": 126.6
   },
   {
     "dataset": "density",
     "areaCode": "02",
     "areaName": "青森県",
     "year": 2022,
-    "value": 59
+    "value": 124.8
   },
   {
     "dataset": "density",
     "areaCode": "02",
     "areaName": "青森県",
     "year": 2023,
-    "value": 59.3
+    "value": 122.8
   },
   {
     "dataset": "density",
     "areaCode": "02",
     "areaName": "青森県",
     "year": 2024,
-    "value": 59.5
-  },
-  {
-    "dataset": "density",
-    "areaCode": "03",
-    "areaName": "岩手県",
-    "year": 2020,
-    "value": 39.4
+    "value": 120.8
   },
   {
     "dataset": "density",
     "areaCode": "03",
     "areaName": "岩手県",
     "year": 2021,
-    "value": 39.5
+    "value": 78.3
   },
   {
     "dataset": "density",
     "areaCode": "03",
     "areaName": "岩手県",
     "year": 2022,
-    "value": 39.7
+    "value": 77.3
   },
   {
     "dataset": "density",
     "areaCode": "03",
     "areaName": "岩手県",
     "year": 2023,
-    "value": 39.8
+    "value": 76.1
   },
   {
     "dataset": "density",
     "areaCode": "03",
     "areaName": "岩手県",
     "year": 2024,
-    "value": 40
-  },
-  {
-    "dataset": "density",
-    "areaCode": "04",
-    "areaName": "宮城県",
-    "year": 2020,
-    "value": 87.6
+    "value": 75.0
   },
   {
     "dataset": "density",
     "areaCode": "04",
     "areaName": "宮城県",
     "year": 2021,
-    "value": 87.9
+    "value": 314.5
   },
   {
     "dataset": "density",
     "areaCode": "04",
     "areaName": "宮城県",
     "year": 2022,
-    "value": 88.3
+    "value": 313.1
   },
   {
     "dataset": "density",
     "areaCode": "04",
     "areaName": "宮城県",
     "year": 2023,
-    "value": 88.6
+    "value": 310.9
   },
   {
     "dataset": "density",
     "areaCode": "04",
     "areaName": "宮城県",
     "year": 2024,
-    "value": 89
-  },
-  {
-    "dataset": "density",
-    "areaCode": "05",
-    "areaName": "秋田県",
-    "year": 2020,
-    "value": 57.9
+    "value": 308.7
   },
   {
     "dataset": "density",
     "areaCode": "05",
     "areaName": "秋田県",
     "year": 2021,
-    "value": 58.2
+    "value": 81.2
   },
   {
     "dataset": "density",
     "areaCode": "05",
     "areaName": "秋田県",
     "year": 2022,
-    "value": 58.4
+    "value": 79.9
   },
   {
     "dataset": "density",
     "areaCode": "05",
     "areaName": "秋田県",
     "year": 2023,
-    "value": 58.6
+    "value": 78.5
   },
   {
     "dataset": "density",
     "areaCode": "05",
     "areaName": "秋田県",
     "year": 2024,
-    "value": 58.9
-  },
-  {
-    "dataset": "density",
-    "areaCode": "06",
-    "areaName": "山形県",
-    "year": 2020,
-    "value": 76.2
-  },
-  {
-    "dataset": "density",
-    "areaCode": "06",
-    "areaName": "山形県",
-    "year": 2021,
-    "value": 76.5
-  },
-  {
-    "dataset": "density",
-    "areaCode": "06",
-    "areaName": "山形県",
-    "year": 2022,
-    "value": 76.8
-  },
-  {
-    "dataset": "density",
-    "areaCode": "06",
-    "areaName": "山形県",
-    "year": 2023,
     "value": 77.1
   },
   {
     "dataset": "density",
     "areaCode": "06",
     "areaName": "山形県",
-    "year": 2024,
-    "value": 77.4
+    "year": 2021,
+    "value": 113.2
   },
   {
     "dataset": "density",
-    "areaCode": "07",
-    "areaName": "福島県",
-    "year": 2020,
-    "value": 54.2
+    "areaCode": "06",
+    "areaName": "山形県",
+    "year": 2022,
+    "value": 111.7
+  },
+  {
+    "dataset": "density",
+    "areaCode": "06",
+    "areaName": "山形県",
+    "year": 2023,
+    "value": 110.1
+  },
+  {
+    "dataset": "density",
+    "areaCode": "06",
+    "areaName": "山形県",
+    "year": 2024,
+    "value": 108.4
   },
   {
     "dataset": "density",
     "areaCode": "07",
     "areaName": "福島県",
     "year": 2021,
-    "value": 54.4
+    "value": 131.5
   },
   {
     "dataset": "density",
     "areaCode": "07",
     "areaName": "福島県",
     "year": 2022,
-    "value": 54.6
+    "value": 129.9
   },
   {
     "dataset": "density",
     "areaCode": "07",
     "areaName": "福島県",
     "year": 2023,
-    "value": 54.8
+    "value": 128.2
   },
   {
     "dataset": "density",
     "areaCode": "07",
     "areaName": "福島県",
     "year": 2024,
-    "value": 55.1
-  },
-  {
-    "dataset": "density",
-    "areaCode": "08",
-    "areaName": "茨城県",
-    "year": 2020,
-    "value": 128.4
+    "value": 126.5
   },
   {
     "dataset": "density",
     "areaCode": "08",
     "areaName": "茨城県",
     "year": 2021,
-    "value": 129
+    "value": 467.7
   },
   {
     "dataset": "density",
     "areaCode": "08",
     "areaName": "茨城県",
     "year": 2022,
-    "value": 129.5
+    "value": 465.7
   },
   {
     "dataset": "density",
     "areaCode": "08",
     "areaName": "茨城県",
     "year": 2023,
-    "value": 130
+    "value": 463.2
   },
   {
     "dataset": "density",
     "areaCode": "08",
     "areaName": "茨城県",
     "year": 2024,
-    "value": 130.5
-  },
-  {
-    "dataset": "density",
-    "areaCode": "09",
-    "areaName": "栃木県",
-    "year": 2020,
-    "value": 127.9
+    "value": 460.1
   },
   {
     "dataset": "density",
     "areaCode": "09",
     "areaName": "栃木県",
     "year": 2021,
-    "value": 128.4
+    "value": 299.8
   },
   {
     "dataset": "density",
     "areaCode": "09",
     "areaName": "栃木県",
     "year": 2022,
-    "value": 129
+    "value": 297.9
   },
   {
     "dataset": "density",
     "areaCode": "09",
     "areaName": "栃木県",
     "year": 2023,
-    "value": 129.5
+    "value": 296.0
   },
   {
     "dataset": "density",
     "areaCode": "09",
     "areaName": "栃木県",
     "year": 2024,
-    "value": 130
-  },
-  {
-    "dataset": "density",
-    "areaCode": "10",
-    "areaName": "群馬県",
-    "year": 2020,
-    "value": 134.6
+    "value": 294.2
   },
   {
     "dataset": "density",
     "areaCode": "10",
     "areaName": "群馬県",
     "year": 2021,
-    "value": 135.1
+    "value": 302.9
   },
   {
     "dataset": "density",
     "areaCode": "10",
     "areaName": "群馬県",
     "year": 2022,
-    "value": 135.6
+    "value": 300.7
   },
   {
     "dataset": "density",
     "areaCode": "10",
     "areaName": "群馬県",
     "year": 2023,
-    "value": 136.2
+    "value": 298.9
   },
   {
     "dataset": "density",
     "areaCode": "10",
     "areaName": "群馬県",
     "year": 2024,
-    "value": 136.7
-  },
-  {
-    "dataset": "density",
-    "areaCode": "11",
-    "areaName": "埼玉県",
-    "year": 2020,
-    "value": 235
+    "value": 297.1
   },
   {
     "dataset": "density",
     "areaCode": "11",
     "areaName": "埼玉県",
     "year": 2021,
-    "value": 236
+    "value": 1932.7
   },
   {
     "dataset": "density",
     "areaCode": "11",
     "areaName": "埼玉県",
     "year": 2022,
-    "value": 236.9
+    "value": 1931.9
   },
   {
     "dataset": "density",
     "areaCode": "11",
     "areaName": "埼玉県",
     "year": 2023,
-    "value": 237.9
+    "value": 1930.4
   },
   {
     "dataset": "density",
     "areaCode": "11",
     "areaName": "埼玉県",
     "year": 2024,
-    "value": 238.8
-  },
-  {
-    "dataset": "density",
-    "areaCode": "12",
-    "areaName": "千葉県",
-    "year": 2020,
-    "value": 180.1
+    "value": 1930.6
   },
   {
     "dataset": "density",
     "areaCode": "12",
     "areaName": "千葉県",
     "year": 2021,
-    "value": 180.9
+    "value": 1216.9
   },
   {
     "dataset": "density",
     "areaCode": "12",
     "areaName": "千葉県",
     "year": 2022,
-    "value": 181.6
+    "value": 1215.2
   },
   {
     "dataset": "density",
     "areaCode": "12",
     "areaName": "千葉県",
     "year": 2023,
-    "value": 182.3
+    "value": 1213.4
   },
   {
     "dataset": "density",
     "areaCode": "12",
     "areaName": "千葉県",
     "year": 2024,
-    "value": 183.1
-  },
-  {
-    "dataset": "density",
-    "areaCode": "13",
-    "areaName": "東京都",
-    "year": 2020,
-    "value": 6288.5
+    "value": 1212.3
   },
   {
     "dataset": "density",
     "areaCode": "13",
     "areaName": "東京都",
     "year": 2021,
-    "value": 6314
+    "value": 6368.4
   },
   {
     "dataset": "density",
     "areaCode": "13",
     "areaName": "東京都",
     "year": 2022,
-    "value": 6339.6
+    "value": 6381.1
   },
   {
     "dataset": "density",
     "areaCode": "13",
     "areaName": "東京都",
     "year": 2023,
-    "value": 6365.2
+    "value": 6402.9
   },
   {
     "dataset": "density",
     "areaCode": "13",
     "areaName": "東京都",
     "year": 2024,
-    "value": 6390.7
-  },
-  {
-    "dataset": "density",
-    "areaCode": "14",
-    "areaName": "神奈川県",
-    "year": 2020,
-    "value": 3761.4
+    "value": 6444.7
   },
   {
     "dataset": "density",
     "areaCode": "14",
     "areaName": "神奈川県",
     "year": 2021,
-    "value": 3776.7
+    "value": 3822.0
   },
   {
     "dataset": "density",
     "areaCode": "14",
     "areaName": "神奈川県",
     "year": 2022,
-    "value": 3792
+    "value": 3820.3
   },
   {
     "dataset": "density",
     "areaCode": "14",
     "areaName": "神奈川県",
     "year": 2023,
-    "value": 3807.2
+    "value": 3819.1
   },
   {
     "dataset": "density",
     "areaCode": "14",
     "areaName": "神奈川県",
     "year": 2024,
-    "value": 3822.5
-  },
-  {
-    "dataset": "density",
-    "areaCode": "15",
-    "areaName": "新潟県",
-    "year": 2020,
-    "value": 82.5
+    "value": 3817.4
   },
   {
     "dataset": "density",
     "areaCode": "15",
     "areaName": "新潟県",
     "year": 2021,
-    "value": 82.8
+    "value": 173.0
   },
   {
     "dataset": "density",
     "areaCode": "15",
     "areaName": "新潟県",
     "year": 2022,
-    "value": 83.2
+    "value": 171.1
   },
   {
     "dataset": "density",
     "areaCode": "15",
     "areaName": "新潟県",
     "year": 2023,
-    "value": 83.5
+    "value": 168.9
   },
   {
     "dataset": "density",
     "areaCode": "15",
     "areaName": "新潟県",
     "year": 2024,
-    "value": 83.8
-  },
-  {
-    "dataset": "density",
-    "areaCode": "16",
-    "areaName": "富山県",
-    "year": 2020,
-    "value": 253
+    "value": 166.8
   },
   {
     "dataset": "density",
     "areaCode": "16",
     "areaName": "富山県",
     "year": 2021,
-    "value": 254
+    "value": 241.3
   },
   {
     "dataset": "density",
     "areaCode": "16",
     "areaName": "富山県",
     "year": 2022,
-    "value": 255
-  },
-  {
-    "dataset": "density",
-    "areaCode": "16",
-    "areaName": "富山県",
-    "year": 2023,
-    "value": 256.1
-  },
-  {
-    "dataset": "density",
-    "areaCode": "16",
-    "areaName": "富山県",
-    "year": 2024,
-    "value": 257.1
-  },
-  {
-    "dataset": "density",
-    "areaCode": "17",
-    "areaName": "石川県",
-    "year": 2020,
-    "value": 265.1
-  },
-  {
-    "dataset": "density",
-    "areaCode": "17",
-    "areaName": "石川県",
-    "year": 2021,
-    "value": 266.2
-  },
-  {
-    "dataset": "density",
-    "areaCode": "17",
-    "areaName": "石川県",
-    "year": 2022,
-    "value": 267.2
-  },
-  {
-    "dataset": "density",
-    "areaCode": "17",
-    "areaName": "石川県",
-    "year": 2023,
-    "value": 268.3
-  },
-  {
-    "dataset": "density",
-    "areaCode": "17",
-    "areaName": "石川県",
-    "year": 2024,
-    "value": 269.4
-  },
-  {
-    "dataset": "density",
-    "areaCode": "18",
-    "areaName": "福井県",
-    "year": 2020,
-    "value": 273.8
-  },
-  {
-    "dataset": "density",
-    "areaCode": "18",
-    "areaName": "福井県",
-    "year": 2021,
-    "value": 274.9
-  },
-  {
-    "dataset": "density",
-    "areaCode": "18",
-    "areaName": "福井県",
-    "year": 2022,
-    "value": 276
-  },
-  {
-    "dataset": "density",
-    "areaCode": "18",
-    "areaName": "福井県",
-    "year": 2023,
-    "value": 277.1
-  },
-  {
-    "dataset": "density",
-    "areaCode": "18",
-    "areaName": "福井県",
-    "year": 2024,
-    "value": 278.2
-  },
-  {
-    "dataset": "density",
-    "areaCode": "19",
-    "areaName": "山梨県",
-    "year": 2020,
-    "value": 265.1
-  },
-  {
-    "dataset": "density",
-    "areaCode": "19",
-    "areaName": "山梨県",
-    "year": 2021,
-    "value": 266.2
-  },
-  {
-    "dataset": "density",
-    "areaCode": "19",
-    "areaName": "山梨県",
-    "year": 2022,
-    "value": 267.3
-  },
-  {
-    "dataset": "density",
-    "areaCode": "19",
-    "areaName": "山梨県",
-    "year": 2023,
-    "value": 268.3
-  },
-  {
-    "dataset": "density",
-    "areaCode": "19",
-    "areaName": "山梨県",
-    "year": 2024,
-    "value": 269.4
-  },
-  {
-    "dataset": "density",
-    "areaCode": "20",
-    "areaName": "長野県",
-    "year": 2020,
-    "value": 90
-  },
-  {
-    "dataset": "density",
-    "areaCode": "20",
-    "areaName": "長野県",
-    "year": 2021,
-    "value": 90.3
-  },
-  {
-    "dataset": "density",
-    "areaCode": "20",
-    "areaName": "長野県",
-    "year": 2022,
-    "value": 90.7
-  },
-  {
-    "dataset": "density",
-    "areaCode": "20",
-    "areaName": "長野県",
-    "year": 2023,
-    "value": 91.1
-  },
-  {
-    "dataset": "density",
-    "areaCode": "20",
-    "areaName": "長野県",
-    "year": 2024,
-    "value": 91.4
-  },
-  {
-    "dataset": "density",
-    "areaCode": "21",
-    "areaName": "岐阜県",
-    "year": 2020,
-    "value": 118.3
-  },
-  {
-    "dataset": "density",
-    "areaCode": "21",
-    "areaName": "岐阜県",
-    "year": 2021,
-    "value": 118.8
-  },
-  {
-    "dataset": "density",
-    "areaCode": "21",
-    "areaName": "岐阜県",
-    "year": 2022,
-    "value": 119.3
-  },
-  {
-    "dataset": "density",
-    "areaCode": "21",
-    "areaName": "岐阜県",
-    "year": 2023,
-    "value": 119.7
-  },
-  {
-    "dataset": "density",
-    "areaCode": "21",
-    "areaName": "岐阜県",
-    "year": 2024,
-    "value": 120.2
-  },
-  {
-    "dataset": "density",
-    "areaCode": "22",
-    "areaName": "静岡県",
-    "year": 2020,
-    "value": 166.3
-  },
-  {
-    "dataset": "density",
-    "areaCode": "22",
-    "areaName": "静岡県",
-    "year": 2021,
-    "value": 166.9
-  },
-  {
-    "dataset": "density",
-    "areaCode": "22",
-    "areaName": "静岡県",
-    "year": 2022,
-    "value": 167.6
-  },
-  {
-    "dataset": "density",
-    "areaCode": "22",
-    "areaName": "静岡県",
-    "year": 2023,
-    "value": 168.3
-  },
-  {
-    "dataset": "density",
-    "areaCode": "22",
-    "areaName": "静岡県",
-    "year": 2024,
-    "value": 169
-  },
-  {
-    "dataset": "density",
-    "areaCode": "23",
-    "areaName": "愛知県",
-    "year": 2020,
-    "value": 1425.7
-  },
-  {
-    "dataset": "density",
-    "areaCode": "23",
-    "areaName": "愛知県",
-    "year": 2021,
-    "value": 1431.5
-  },
-  {
-    "dataset": "density",
-    "areaCode": "23",
-    "areaName": "愛知県",
-    "year": 2022,
-    "value": 1437.3
-  },
-  {
-    "dataset": "density",
-    "areaCode": "23",
-    "areaName": "愛知県",
-    "year": 2023,
-    "value": 1443.1
-  },
-  {
-    "dataset": "density",
-    "areaCode": "23",
-    "areaName": "愛知県",
-    "year": 2024,
-    "value": 1448.9
-  },
-  {
-    "dataset": "density",
-    "areaCode": "24",
-    "areaName": "三重県",
-    "year": 2020,
-    "value": 236.5
-  },
-  {
-    "dataset": "density",
-    "areaCode": "24",
-    "areaName": "三重県",
-    "year": 2021,
-    "value": 237.5
-  },
-  {
-    "dataset": "density",
-    "areaCode": "24",
-    "areaName": "三重県",
-    "year": 2022,
-    "value": 238.4
-  },
-  {
-    "dataset": "density",
-    "areaCode": "24",
-    "areaName": "三重県",
-    "year": 2023,
     "value": 239.4
   },
   {
     "dataset": "density",
-    "areaCode": "24",
-    "areaName": "三重県",
-    "year": 2024,
-    "value": 240.4
-  },
-  {
-    "dataset": "density",
-    "areaCode": "25",
-    "areaName": "滋賀県",
-    "year": 2020,
-    "value": 349
-  },
-  {
-    "dataset": "density",
-    "areaCode": "25",
-    "areaName": "滋賀県",
-    "year": 2021,
-    "value": 350.5
-  },
-  {
-    "dataset": "density",
-    "areaCode": "25",
-    "areaName": "滋賀県",
-    "year": 2022,
-    "value": 351.9
-  },
-  {
-    "dataset": "density",
-    "areaCode": "25",
-    "areaName": "滋賀県",
+    "areaCode": "16",
+    "areaName": "富山県",
     "year": 2023,
-    "value": 353.3
+    "value": 237.1
   },
   {
     "dataset": "density",
-    "areaCode": "25",
-    "areaName": "滋賀県",
+    "areaCode": "16",
+    "areaName": "富山県",
     "year": 2024,
-    "value": 354.7
+    "value": 234.7
   },
   {
     "dataset": "density",
-    "areaCode": "26",
-    "areaName": "京都府",
-    "year": 2020,
-    "value": 311.9
-  },
-  {
-    "dataset": "density",
-    "areaCode": "26",
-    "areaName": "京都府",
+    "areaCode": "17",
+    "areaName": "石川県",
     "year": 2021,
-    "value": 313.2
+    "value": 268.4
   },
   {
     "dataset": "density",
-    "areaCode": "26",
-    "areaName": "京都府",
+    "areaCode": "17",
+    "areaName": "石川県",
     "year": 2022,
-    "value": 314.5
+    "value": 266.8
   },
   {
     "dataset": "density",
-    "areaCode": "26",
-    "areaName": "京都府",
+    "areaCode": "17",
+    "areaName": "石川県",
     "year": 2023,
-    "value": 315.7
+    "value": 264.6
   },
   {
     "dataset": "density",
-    "areaCode": "26",
-    "areaName": "京都府",
+    "areaCode": "17",
+    "areaName": "石川県",
     "year": 2024,
-    "value": 317
+    "value": 262.0
   },
   {
     "dataset": "density",
-    "areaCode": "27",
-    "areaName": "大阪府",
-    "year": 2020,
-    "value": 4533.5
-  },
-  {
-    "dataset": "density",
-    "areaCode": "27",
-    "areaName": "大阪府",
+    "areaCode": "18",
+    "areaName": "福井県",
     "year": 2021,
-    "value": 4552
-  },
-  {
-    "dataset": "density",
-    "areaCode": "27",
-    "areaName": "大阪府",
-    "year": 2022,
-    "value": 4570.4
-  },
-  {
-    "dataset": "density",
-    "areaCode": "27",
-    "areaName": "大阪府",
-    "year": 2023,
-    "value": 4588.8
-  },
-  {
-    "dataset": "density",
-    "areaCode": "27",
-    "areaName": "大阪府",
-    "year": 2024,
-    "value": 4607.3
-  },
-  {
-    "dataset": "density",
-    "areaCode": "28",
-    "areaName": "兵庫県",
-    "year": 2020,
-    "value": 179.9
-  },
-  {
-    "dataset": "density",
-    "areaCode": "28",
-    "areaName": "兵庫県",
-    "year": 2021,
-    "value": 180.6
-  },
-  {
-    "dataset": "density",
-    "areaCode": "28",
-    "areaName": "兵庫県",
-    "year": 2022,
     "value": 181.4
   },
   {
     "dataset": "density",
+    "areaCode": "18",
+    "areaName": "福井県",
+    "year": 2022,
+    "value": 179.7
+  },
+  {
+    "dataset": "density",
+    "areaCode": "18",
+    "areaName": "福井県",
+    "year": 2023,
+    "value": 177.5
+  },
+  {
+    "dataset": "density",
+    "areaCode": "18",
+    "areaName": "福井県",
+    "year": 2024,
+    "value": 176.3
+  },
+  {
+    "dataset": "density",
+    "areaCode": "19",
+    "areaName": "山梨県",
+    "year": 2021,
+    "value": 180.3
+  },
+  {
+    "dataset": "density",
+    "areaCode": "19",
+    "areaName": "山梨県",
+    "year": 2022,
+    "value": 179.6
+  },
+  {
+    "dataset": "density",
+    "areaCode": "19",
+    "areaName": "山梨県",
+    "year": 2023,
+    "value": 178.3
+  },
+  {
+    "dataset": "density",
+    "areaCode": "19",
+    "areaName": "山梨県",
+    "year": 2024,
+    "value": 177.1
+  },
+  {
+    "dataset": "density",
+    "areaCode": "20",
+    "areaName": "長野県",
+    "year": 2021,
+    "value": 149.9
+  },
+  {
+    "dataset": "density",
+    "areaCode": "20",
+    "areaName": "長野県",
+    "year": 2022,
+    "value": 149.0
+  },
+  {
+    "dataset": "density",
+    "areaCode": "20",
+    "areaName": "長野県",
+    "year": 2023,
+    "value": 147.8
+  },
+  {
+    "dataset": "density",
+    "areaCode": "20",
+    "areaName": "長野県",
+    "year": 2024,
+    "value": 146.5
+  },
+  {
+    "dataset": "density",
+    "areaCode": "21",
+    "areaName": "岐阜県",
+    "year": 2021,
+    "value": 184.6
+  },
+  {
+    "dataset": "density",
+    "areaCode": "21",
+    "areaName": "岐阜県",
+    "year": 2022,
+    "value": 183.2
+  },
+  {
+    "dataset": "density",
+    "areaCode": "21",
+    "areaName": "岐阜県",
+    "year": 2023,
+    "value": 181.8
+  },
+  {
+    "dataset": "density",
+    "areaCode": "21",
+    "areaName": "岐阜県",
+    "year": 2024,
+    "value": 180.4
+  },
+  {
+    "dataset": "density",
+    "areaCode": "22",
+    "areaName": "静岡県",
+    "year": 2021,
+    "value": 464.0
+  },
+  {
+    "dataset": "density",
+    "areaCode": "22",
+    "areaName": "静岡県",
+    "year": 2022,
+    "value": 460.6
+  },
+  {
+    "dataset": "density",
+    "areaCode": "22",
+    "areaName": "静岡県",
+    "year": 2023,
+    "value": 457.1
+  },
+  {
+    "dataset": "density",
+    "areaCode": "22",
+    "areaName": "静岡県",
+    "year": 2024,
+    "value": 453.5
+  },
+  {
+    "dataset": "density",
+    "areaCode": "23",
+    "areaName": "愛知県",
+    "year": 2021,
+    "value": 1453.0
+  },
+  {
+    "dataset": "density",
+    "areaCode": "23",
+    "areaName": "愛知県",
+    "year": 2022,
+    "value": 1448.8
+  },
+  {
+    "dataset": "density",
+    "areaCode": "23",
+    "areaName": "愛知県",
+    "year": 2023,
+    "value": 1445.3
+  },
+  {
+    "dataset": "density",
+    "areaCode": "23",
+    "areaName": "愛知県",
+    "year": 2024,
+    "value": 1442.0
+  },
+  {
+    "dataset": "density",
+    "areaCode": "24",
+    "areaName": "三重県",
+    "year": 2021,
+    "value": 304.1
+  },
+  {
+    "dataset": "density",
+    "areaCode": "24",
+    "areaName": "三重県",
+    "year": 2022,
+    "value": 301.7
+  },
+  {
+    "dataset": "density",
+    "areaCode": "24",
+    "areaName": "三重県",
+    "year": 2023,
+    "value": 299.1
+  },
+  {
+    "dataset": "density",
+    "areaCode": "24",
+    "areaName": "三重県",
+    "year": 2024,
+    "value": 296.3
+  },
+  {
+    "dataset": "density",
+    "areaCode": "25",
+    "areaName": "滋賀県",
+    "year": 2021,
+    "value": 351.2
+  },
+  {
+    "dataset": "density",
+    "areaCode": "25",
+    "areaName": "滋賀県",
+    "year": 2022,
+    "value": 350.7
+  },
+  {
+    "dataset": "density",
+    "areaCode": "25",
+    "areaName": "滋賀県",
+    "year": 2023,
+    "value": 350.2
+  },
+  {
+    "dataset": "density",
+    "areaCode": "25",
+    "areaName": "滋賀県",
+    "year": 2024,
+    "value": 349.0
+  },
+  {
+    "dataset": "density",
+    "areaCode": "26",
+    "areaName": "京都府",
+    "year": 2021,
+    "value": 555.3
+  },
+  {
+    "dataset": "density",
+    "areaCode": "26",
+    "areaName": "京都府",
+    "year": 2022,
+    "value": 552.9
+  },
+  {
+    "dataset": "density",
+    "areaCode": "26",
+    "areaName": "京都府",
+    "year": 2023,
+    "value": 549.6
+  },
+  {
+    "dataset": "density",
+    "areaCode": "26",
+    "areaName": "京都府",
+    "year": 2024,
+    "value": 546.4
+  },
+  {
+    "dataset": "density",
+    "areaCode": "27",
+    "areaName": "大阪府",
+    "year": 2021,
+    "value": 4621.9
+  },
+  {
+    "dataset": "density",
+    "areaCode": "27",
+    "areaName": "大阪府",
+    "year": 2022,
+    "value": 4609.3
+  },
+  {
+    "dataset": "density",
+    "areaCode": "27",
+    "areaName": "大阪府",
+    "year": 2023,
+    "value": 4599.4
+  },
+  {
+    "dataset": "density",
+    "areaCode": "27",
+    "areaName": "大阪府",
+    "year": 2024,
+    "value": 4596.2
+  },
+  {
+    "dataset": "density",
+    "areaCode": "28",
+    "areaName": "兵庫県",
+    "year": 2021,
+    "value": 646.6
+  },
+  {
+    "dataset": "density",
+    "areaCode": "28",
+    "areaName": "兵庫県",
+    "year": 2022,
+    "value": 643.0
+  },
+  {
+    "dataset": "density",
     "areaCode": "28",
     "areaName": "兵庫県",
     "year": 2023,
-    "value": 182.1
+    "value": 639.2
   },
   {
     "dataset": "density",
     "areaCode": "28",
     "areaName": "兵庫県",
     "year": 2024,
-    "value": 182.8
-  },
-  {
-    "dataset": "density",
-    "areaCode": "29",
-    "areaName": "奈良県",
-    "year": 2020,
-    "value": 419.4
+    "value": 635.3
   },
   {
     "dataset": "density",
     "areaCode": "29",
     "areaName": "奈良県",
     "year": 2021,
-    "value": 421.1
+    "value": 356.3
   },
   {
     "dataset": "density",
     "areaCode": "29",
     "areaName": "奈良県",
     "year": 2022,
-    "value": 422.8
+    "value": 353.8
   },
   {
     "dataset": "density",
     "areaCode": "29",
     "areaName": "奈良県",
     "year": 2023,
-    "value": 424.5
+    "value": 351.1
   },
   {
     "dataset": "density",
     "areaCode": "29",
     "areaName": "奈良県",
     "year": 2024,
-    "value": 426.2
-  },
-  {
-    "dataset": "density",
-    "areaCode": "30",
-    "areaName": "和歌山県",
-    "year": 2020,
-    "value": 335.3
+    "value": 348.1
   },
   {
     "dataset": "density",
     "areaCode": "30",
     "areaName": "和歌山県",
     "year": 2021,
-    "value": 336.7
+    "value": 193.5
   },
   {
     "dataset": "density",
     "areaCode": "30",
     "areaName": "和歌山県",
     "year": 2022,
-    "value": 338
+    "value": 191.1
   },
   {
     "dataset": "density",
     "areaCode": "30",
     "areaName": "和歌山県",
     "year": 2023,
-    "value": 339.4
+    "value": 188.8
   },
   {
     "dataset": "density",
     "areaCode": "30",
     "areaName": "和歌山県",
     "year": 2024,
-    "value": 340.8
-  },
-  {
-    "dataset": "density",
-    "areaCode": "31",
-    "areaName": "鳥取県",
-    "year": 2020,
-    "value": 462.1
+    "value": 186.3
   },
   {
     "dataset": "density",
     "areaCode": "31",
     "areaName": "鳥取県",
     "year": 2021,
-    "value": 464
+    "value": 156.5
   },
   {
     "dataset": "density",
     "areaCode": "31",
     "areaName": "鳥取県",
     "year": 2022,
-    "value": 465.9
+    "value": 155.1
   },
   {
     "dataset": "density",
     "areaCode": "31",
     "areaName": "鳥取県",
     "year": 2023,
-    "value": 467.8
+    "value": 153.1
   },
   {
     "dataset": "density",
     "areaCode": "31",
     "areaName": "鳥取県",
     "year": 2024,
-    "value": 469.6
-  },
-  {
-    "dataset": "density",
-    "areaCode": "32",
-    "areaName": "島根県",
-    "year": 2020,
-    "value": 247
+    "value": 151.4
   },
   {
     "dataset": "density",
     "areaCode": "32",
     "areaName": "島根県",
     "year": 2021,
-    "value": 248
+    "value": 99.1
   },
   {
     "dataset": "density",
     "areaCode": "32",
     "areaName": "島根県",
     "year": 2022,
-    "value": 249
+    "value": 98.1
   },
   {
     "dataset": "density",
     "areaCode": "32",
     "areaName": "島根県",
     "year": 2023,
-    "value": 250
+    "value": 96.9
   },
   {
     "dataset": "density",
     "areaCode": "32",
     "areaName": "島根県",
     "year": 2024,
-    "value": 251.1
-  },
-  {
-    "dataset": "density",
-    "areaCode": "33",
-    "areaName": "岡山県",
-    "year": 2020,
-    "value": 238
+    "value": 95.7
   },
   {
     "dataset": "density",
     "areaCode": "33",
     "areaName": "岡山県",
     "year": 2021,
-    "value": 239
+    "value": 263.7
   },
   {
     "dataset": "density",
     "areaCode": "33",
     "areaName": "岡山県",
     "year": 2022,
-    "value": 240
+    "value": 261.7
   },
   {
     "dataset": "density",
     "areaCode": "33",
     "areaName": "岡山県",
     "year": 2023,
-    "value": 240.9
+    "value": 259.6
   },
   {
     "dataset": "density",
     "areaCode": "33",
     "areaName": "岡山県",
     "year": 2024,
-    "value": 241.9
-  },
-  {
-    "dataset": "density",
-    "areaCode": "34",
-    "areaName": "広島県",
-    "year": 2020,
-    "value": 204
+    "value": 257.4
   },
   {
     "dataset": "density",
     "areaCode": "34",
     "areaName": "広島県",
     "year": 2021,
-    "value": 204.9
+    "value": 327.9
   },
   {
     "dataset": "density",
     "areaCode": "34",
     "areaName": "広島県",
     "year": 2022,
-    "value": 205.7
+    "value": 325.5
   },
   {
     "dataset": "density",
     "areaCode": "34",
     "areaName": "広島県",
     "year": 2023,
-    "value": 206.5
+    "value": 322.9
   },
   {
     "dataset": "density",
     "areaCode": "34",
     "areaName": "広島県",
     "year": 2024,
-    "value": 207.4
-  },
-  {
-    "dataset": "density",
-    "areaCode": "35",
-    "areaName": "山口県",
-    "year": 2020,
-    "value": 288.9
+    "value": 320.1
   },
   {
     "dataset": "density",
     "areaCode": "35",
     "areaName": "山口県",
     "year": 2021,
-    "value": 290.1
+    "value": 217.2
   },
   {
     "dataset": "density",
     "areaCode": "35",
     "areaName": "山口県",
     "year": 2022,
-    "value": 291.3
+    "value": 214.8
   },
   {
     "dataset": "density",
     "areaCode": "35",
     "areaName": "山口県",
     "year": 2023,
-    "value": 292.5
+    "value": 212.3
   },
   {
     "dataset": "density",
     "areaCode": "35",
     "areaName": "山口県",
     "year": 2024,
-    "value": 293.6
-  },
-  {
-    "dataset": "density",
-    "areaCode": "36",
-    "areaName": "徳島県",
-    "year": 2020,
-    "value": 434.7
+    "value": 209.6
   },
   {
     "dataset": "density",
     "areaCode": "36",
     "areaName": "徳島県",
     "year": 2021,
-    "value": 436.5
+    "value": 171.7
   },
   {
     "dataset": "density",
     "areaCode": "36",
     "areaName": "徳島県",
     "year": 2022,
-    "value": 438.2
+    "value": 169.8
   },
   {
     "dataset": "density",
     "areaCode": "36",
     "areaName": "徳島県",
     "year": 2023,
-    "value": 440
+    "value": 167.6
   },
   {
     "dataset": "density",
     "areaCode": "36",
     "areaName": "徳島県",
     "year": 2024,
-    "value": 441.8
-  },
-  {
-    "dataset": "density",
-    "areaCode": "37",
-    "areaName": "香川県",
-    "year": 2020,
-    "value": 979.9
+    "value": 165.2
   },
   {
     "dataset": "density",
     "areaCode": "37",
     "areaName": "香川県",
     "year": 2021,
-    "value": 983.9
+    "value": 501.9
   },
   {
     "dataset": "density",
     "areaCode": "37",
     "areaName": "香川県",
     "year": 2022,
-    "value": 987.9
+    "value": 497.6
   },
   {
     "dataset": "density",
     "areaCode": "37",
     "areaName": "香川県",
     "year": 2023,
-    "value": 991.8
+    "value": 493.4
   },
   {
     "dataset": "density",
     "areaCode": "37",
     "areaName": "香川県",
     "year": 2024,
-    "value": 995.8
-  },
-  {
-    "dataset": "density",
-    "areaCode": "38",
-    "areaName": "愛媛県",
-    "year": 2020,
-    "value": 330.4
+    "value": 488.6
   },
   {
     "dataset": "density",
     "areaCode": "38",
     "areaName": "愛媛県",
     "year": 2021,
-    "value": 331.8
+    "value": 232.7
   },
   {
     "dataset": "density",
     "areaCode": "38",
     "areaName": "愛媛県",
     "year": 2022,
-    "value": 333.1
+    "value": 230.1
   },
   {
     "dataset": "density",
     "areaCode": "38",
     "areaName": "愛媛県",
     "year": 2023,
-    "value": 334.5
+    "value": 227.5
   },
   {
     "dataset": "density",
     "areaCode": "38",
     "areaName": "愛媛県",
     "year": 2024,
-    "value": 335.8
-  },
-  {
-    "dataset": "density",
-    "areaCode": "39",
-    "areaName": "高知県",
-    "year": 2020,
-    "value": 269.2
+    "value": 224.8
   },
   {
     "dataset": "density",
     "areaCode": "39",
     "areaName": "高知県",
     "year": 2021,
-    "value": 270.3
+    "value": 96.3
   },
   {
     "dataset": "density",
     "areaCode": "39",
     "areaName": "高知県",
     "year": 2022,
-    "value": 271.4
+    "value": 95.2
   },
   {
     "dataset": "density",
     "areaCode": "39",
     "areaName": "高知県",
     "year": 2023,
-    "value": 272.5
+    "value": 93.8
   },
   {
     "dataset": "density",
     "areaCode": "39",
     "areaName": "高知県",
     "year": 2024,
-    "value": 273.6
-  },
-  {
-    "dataset": "density",
-    "areaCode": "40",
-    "areaName": "福岡県",
-    "year": 2020,
-    "value": 390.7
+    "value": 92.4
   },
   {
     "dataset": "density",
     "areaCode": "40",
     "areaName": "福岡県",
     "year": 2021,
-    "value": 392.2
+    "value": 1027.4
   },
   {
     "dataset": "density",
     "areaCode": "40",
     "areaName": "福岡県",
     "year": 2022,
-    "value": 393.8
+    "value": 1025.8
   },
   {
     "dataset": "density",
     "areaCode": "40",
     "areaName": "福岡県",
     "year": 2023,
-    "value": 395.4
+    "value": 1023.2
   },
   {
     "dataset": "density",
     "areaCode": "40",
     "areaName": "福岡県",
     "year": 2024,
-    "value": 397
-  },
-  {
-    "dataset": "density",
-    "areaCode": "41",
-    "areaName": "佐賀県",
-    "year": 2020,
-    "value": 813.2
+    "value": 1021.0
   },
   {
     "dataset": "density",
     "areaCode": "41",
     "areaName": "佐賀県",
     "year": 2021,
-    "value": 816.5
-  },
-  {
-    "dataset": "density",
-    "areaCode": "41",
-    "areaName": "佐賀県",
-    "year": 2022,
-    "value": 819.8
-  },
-  {
-    "dataset": "density",
-    "areaCode": "41",
-    "areaName": "佐賀県",
-    "year": 2023,
-    "value": 823.1
-  },
-  {
-    "dataset": "density",
-    "areaCode": "41",
-    "areaName": "佐賀県",
-    "year": 2024,
-    "value": 826.4
-  },
-  {
-    "dataset": "density",
-    "areaCode": "42",
-    "areaName": "長崎県",
-    "year": 2020,
-    "value": 489.2
-  },
-  {
-    "dataset": "density",
-    "areaCode": "42",
-    "areaName": "長崎県",
-    "year": 2021,
-    "value": 491.2
-  },
-  {
-    "dataset": "density",
-    "areaCode": "42",
-    "areaName": "長崎県",
-    "year": 2022,
-    "value": 493.2
-  },
-  {
-    "dataset": "density",
-    "areaCode": "42",
-    "areaName": "長崎県",
-    "year": 2023,
-    "value": 495.2
-  },
-  {
-    "dataset": "density",
-    "areaCode": "42",
-    "areaName": "長崎県",
-    "year": 2024,
-    "value": 497.2
-  },
-  {
-    "dataset": "density",
-    "areaCode": "43",
-    "areaName": "熊本県",
-    "year": 2020,
-    "value": 277.7
-  },
-  {
-    "dataset": "density",
-    "areaCode": "43",
-    "areaName": "熊本県",
-    "year": 2021,
-    "value": 278.8
-  },
-  {
-    "dataset": "density",
-    "areaCode": "43",
-    "areaName": "熊本県",
-    "year": 2022,
-    "value": 280
-  },
-  {
-    "dataset": "density",
-    "areaCode": "43",
-    "areaName": "熊本県",
-    "year": 2023,
-    "value": 281.1
-  },
-  {
-    "dataset": "density",
-    "areaCode": "43",
-    "areaName": "熊本県",
-    "year": 2024,
-    "value": 282.2
-  },
-  {
-    "dataset": "density",
-    "areaCode": "44",
-    "areaName": "大分県",
-    "year": 2020,
     "value": 330.2
   },
   {
     "dataset": "density",
+    "areaCode": "41",
+    "areaName": "佐賀県",
+    "year": 2022,
+    "value": 328.2
+  },
+  {
+    "dataset": "density",
+    "areaCode": "41",
+    "areaName": "佐賀県",
+    "year": 2023,
+    "value": 325.7
+  },
+  {
+    "dataset": "density",
+    "areaCode": "41",
+    "areaName": "佐賀県",
+    "year": 2024,
+    "value": 322.9
+  },
+  {
+    "dataset": "density",
+    "areaCode": "42",
+    "areaName": "長崎県",
+    "year": 2021,
+    "value": 314.0
+  },
+  {
+    "dataset": "density",
+    "areaCode": "42",
+    "areaName": "長崎県",
+    "year": 2022,
+    "value": 310.6
+  },
+  {
+    "dataset": "density",
+    "areaCode": "42",
+    "areaName": "長崎県",
+    "year": 2023,
+    "value": 306.7
+  },
+  {
+    "dataset": "density",
+    "areaCode": "42",
+    "areaName": "長崎県",
+    "year": 2024,
+    "value": 303.1
+  },
+  {
+    "dataset": "density",
+    "areaCode": "43",
+    "areaName": "熊本県",
+    "year": 2021,
+    "value": 233.2
+  },
+  {
+    "dataset": "density",
+    "areaCode": "43",
+    "areaName": "熊本県",
+    "year": 2022,
+    "value": 231.9
+  },
+  {
+    "dataset": "density",
+    "areaCode": "43",
+    "areaName": "熊本県",
+    "year": 2023,
+    "value": 230.7
+  },
+  {
+    "dataset": "density",
+    "areaCode": "43",
+    "areaName": "熊本県",
+    "year": 2024,
+    "value": 229.0
+  },
+  {
+    "dataset": "density",
     "areaCode": "44",
     "areaName": "大分県",
     "year": 2021,
-    "value": 331.6
+    "value": 175.7
   },
   {
     "dataset": "density",
     "areaCode": "44",
     "areaName": "大分県",
     "year": 2022,
-    "value": 332.9
+    "value": 174.6
   },
   {
     "dataset": "density",
     "areaCode": "44",
     "areaName": "大分県",
     "year": 2023,
-    "value": 334.3
+    "value": 172.9
   },
   {
     "dataset": "density",
     "areaCode": "44",
     "areaName": "大分県",
     "year": 2024,
-    "value": 335.6
-  },
-  {
-    "dataset": "density",
-    "areaCode": "45",
-    "areaName": "宮崎県",
-    "year": 2020,
-    "value": 275.5
+    "value": 171.1
   },
   {
     "dataset": "density",
     "areaCode": "45",
     "areaName": "宮崎県",
     "year": 2021,
-    "value": 276.6
+    "value": 137.2
   },
   {
     "dataset": "density",
     "areaCode": "45",
     "areaName": "宮崎県",
     "year": 2022,
-    "value": 277.7
+    "value": 136.0
   },
   {
     "dataset": "density",
     "areaCode": "45",
     "areaName": "宮崎県",
     "year": 2023,
-    "value": 278.8
+    "value": 134.7
   },
   {
     "dataset": "density",
     "areaCode": "45",
     "areaName": "宮崎県",
     "year": 2024,
-    "value": 279.9
-  },
-  {
-    "dataset": "density",
-    "areaCode": "46",
-    "areaName": "鹿児島県",
-    "year": 2020,
-    "value": 235.9
+    "value": 133.6
   },
   {
     "dataset": "density",
     "areaCode": "46",
     "areaName": "鹿児島県",
     "year": 2021,
-    "value": 236.8
+    "value": 171.6
   },
   {
     "dataset": "density",
     "areaCode": "46",
     "areaName": "鹿児島県",
     "year": 2022,
-    "value": 237.8
+    "value": 170.1
   },
   {
     "dataset": "density",
     "areaCode": "46",
     "areaName": "鹿児島県",
     "year": 2023,
-    "value": 238.8
+    "value": 168.6
   },
   {
     "dataset": "density",
     "areaCode": "46",
     "areaName": "鹿児島県",
     "year": 2024,
-    "value": 239.7
-  },
-  {
-    "dataset": "density",
-    "areaCode": "47",
-    "areaName": "沖縄県",
-    "year": 2020,
-    "value": 965.4
+    "value": 166.8
   },
   {
     "dataset": "density",
     "areaCode": "47",
     "areaName": "沖縄県",
     "year": 2021,
-    "value": 969.3
+    "value": 643.3
   },
   {
     "dataset": "density",
     "areaCode": "47",
     "areaName": "沖縄県",
     "year": 2022,
-    "value": 973.2
+    "value": 643.3
   },
   {
     "dataset": "density",
     "areaCode": "47",
     "areaName": "沖縄県",
     "year": 2023,
-    "value": 977.2
+    "value": 643.3
   },
   {
     "dataset": "density",
     "areaCode": "47",
     "areaName": "沖縄県",
     "year": 2024,
-    "value": 981.1
+    "value": 642.4
   }
 ]

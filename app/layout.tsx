@@ -114,6 +114,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <Link href="/consulting">ご相談</Link>
               <Link href="/about">運営者情報</Link>
               <Link href="/editorial-policy">編集方針</Link>
+              <Link href="/methodology">データの扱い方</Link>
               <Link href="/terms">利用規約</Link>
               <Link href="/updates">更新履歴</Link>
               <Link href="/privacy">プライバシーポリシー</Link>

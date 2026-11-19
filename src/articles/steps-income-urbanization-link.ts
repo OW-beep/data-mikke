@@ -10,6 +10,11 @@ export const stepsIncomeUrbanizationLink: Article = {
   metaDescription:
     "歩数と年収の相関係数は+0.68。一見「稼いでいる人ほど健康に気を遣っている」ように見えますが、実際に効いているのは都市化と車依存度でした。",
   relatedDataset: "steps",
+  relatedArticles: [
+    "minimum-wage-urbanization-axis-salary-rent-car",
+    "car-ownership-tokyo-lowest-rural-highest",
+    "health-score-explained"
+  ],
   affiliateKeyword: "ウォーキングシューズ",
   affiliateNote:
     "歩数を増やしたい方向けに、歩きやすいウォーキングシューズの商品を載せています。",

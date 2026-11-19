@@ -10,6 +10,11 @@ export const minimumWageRealValueRanking: Article = {
   metaDescription:
     "令和8年度の地域別最低賃金を47都道府県で比較。最高は東京都1,280円、最低は宮崎県1,085円。生活費指数で割った実質では東京は11位に後退し、1位は大阪府でした。",
   relatedDataset: "minimumWage",
+  relatedArticles: [
+    "minimum-wage-urbanization-axis-salary-rent-car",
+    "compare-work-locations-beyond-minimum-wage",
+    "salary-vs-income-nara-commuter-effect"
+  ],
   analysisNote: [
     "47都道府県の「最低賃金（2026年度答申額）」は、平均が1,125円/時、中央値が1,108円/時です。最高の東京都（1,280円/時）は中央値の約1.16倍、最低の宮崎県（1,085円/時）は中央値の約0.98倍にあたります。平均と中央値が近く、極端に偏った分布ではありません。",
     "人口規模の影響を受けにくい当サイトの他の約37指標と総当たりで比べると、関係が比較的強かったのは「平均年収（賃金構造基本統計調査）」（相関係数+0.86）と「家賃（1ヶ月・1坪あたり）」（相関係数+0.83）です。ただし、多数の指標から選んでいるため偶然の一致が含まれる可能性があり、相関は因果関係を意味しません。"
