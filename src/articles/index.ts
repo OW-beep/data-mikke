@@ -92,6 +92,7 @@ import { electricityBillByUtilityCompanyNotPrefecture } from "./electricity-bill
 import { waterBillRankingNagasakiHighestAichiLowest } from "./water-bill-ranking-nagasaki-highest-aichi-lowest";
 import { gasolinePriceRanking2026TaxCut } from "./gasoline-price-ranking-2026-tax-cut";
 import { femaleLifeExpectancyRankingOkayamaTop } from "./female-life-expectancy-ranking-okayama-top";
+import { bmiRankingNagasakiTopOsakaLowest } from "./bmi-ranking-nagasaki-top-osaka-lowest";
 import { convenienceStoreIncomeCorrelationNotArea } from "./convenience-store-income-correlation-not-area";
 import { densityIncomeRelation } from "./density-and-income-relation";
 import { electricityHouseholdSectorPrecision } from "./electricity-household-sector-more-precise-view";
@@ -208,7 +209,8 @@ export const ARTICLE_LIST: Article[] = [
   shipmentPerFactoryScaleDifference,
   universityDensityIncomeMyth,
   universityPerCapitaKyotoTop,
-  femaleLifeExpectancyRankingOkayamaTop
+  femaleLifeExpectancyRankingOkayamaTop,
+  bmiRankingNagasakiTopOsakaLowest
 ].sort((a, b) => (a.publishedAt < b.publishedAt ? 1 : -1));
 
 export function getArticle(slug: string): Article | undefined {
