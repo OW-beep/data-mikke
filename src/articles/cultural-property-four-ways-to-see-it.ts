@@ -6,10 +6,11 @@ export const culturalPropertyFourWaysToSeeIt: Article = {
   excerpt:
     "都道府県別の国宝・重要文化財数ランキングは、総数なら東京都(2,729件)・京都府(2,144件)、建造物だけなら京都府、人口あたりなら奈良県・滋賀県が1位に浮かび上がります。同じ統計でも数え方次第で1位が変わる理由を、実際の件数で解説します。",
   publishedAt: "2026-08-04",
-  dataNote: "文化財の件数のデータは2013年のものです。その後、指定件数は変わっている可能性があります。最新の件数は、文化庁のデータベースで確認できます。",
-  seoTitle: "国宝・重要文化財ランキング｜総数1位は東京都2,729件、数え方で1位が変わる",
+  updatedAt: "2026-11-21",
+  dataNote: "文化財の件数のデータは2013年のものです。その後、指定件数は変わっている可能性があります。国宝だけの最新のランキング（文化庁、2026年11月1日現在）は、別記事「国宝の数ランキング｜1位は東京都293件、2位京都府242件、3位奈良県208件」でまとめています。",
+  seoTitle: "国宝・重要文化財ランキング｜東京2,729件、建造物は京都が1位",
   metaDescription:
-    "都道府県別の国宝・重要文化財の件数ランキング。総数は東京都(2,729件)・京都府(2,144件)、建造物は京都府、人口あたりは奈良県・滋賀県が1位に。",
+    "国宝と重要文化財を合わせた都道府県ランキング（2013年データ）。総数は東京都2,729件、京都府2,144件、奈良県1,311件。建造物だけでは京都府、人口あたりでは奈良県・滋賀県が1位に。",
   featured: true,
   relatedDataset: "culturalProperty",
   affiliateKeyword: "御朱印帳",
@@ -17,6 +18,7 @@ export const culturalPropertyFourWaysToSeeIt: Article = {
     "国宝や重要文化財のある寺社をめぐる旅の記録用に、御朱印帳の商品を載せています。",
   embedRanking: "culturalProperty",
   relatedArticles: [
+    "national-treasure-ranking-tokyo-top",
     "university-count-tokyo-concentration-history",
     "cafe-count-nagano-hidden-kingdom",
     "population-does-not-equal-convenience-per-capita-lesson"
